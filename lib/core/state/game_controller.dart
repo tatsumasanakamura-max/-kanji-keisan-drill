@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import '../data/question_repository.dart';
 import '../models/progress_models.dart';
 import '../models/question_models.dart';
+import '../services/question_picker.dart';
 import '../storage/app_storage.dart';
 
 class QuizResult {
@@ -28,26 +29,45 @@ class GameController extends ChangeNotifier {
 
   static final GameController instance = GameController._();
 
+  final QuestionPicker _questionPicker = QuestionPicker();
   AppProfile _profile = AppProfile.defaultProfile();
   ProgressState _progressState = ProgressState.defaultState();
   bool _initialized = false;
+  int _currentDifficulty = 1;
+  StudyMode _studyMode = StudyMode.normal;
 
   AppProfile get profile => _profile;
   ProgressState get progressState => _progressState;
   bool get isInitialized => _initialized;
+  int get currentDifficulty => _currentDifficulty;
+  StudyMode get studyMode => _studyMode;
+
+  StudyCourse get selectedCourse {
+    return _profile.useKankenMode
+        ? StudyCourse.kanken(_profile.selectedKanken)
+        : StudyCourse.grade(_profile.selectedGrade);
+  }
 
   Future<GradeQuestionSet> loadGradeQuestions(int grade) {
     return QuestionRepository.instance.loadGrade(grade);
   }
 
-  String gradeLabelFor(int grade) {
-    if (grade <= 6) {
-      return '小学 $grade 年生';
-    }
-    return '中学 ${grade - 6} 年生';
+  Future<GradeQuestionSet> loadSelectedCourseQuestions() {
+    return QuestionRepository.instance.loadCourse(selectedCourse);
   }
 
-  String get selectedGradeLabel => gradeLabelFor(_profile.selectedGrade);
+  DrillQuestion pickQuestion(List<DrillQuestion> questions) {
+    return _questionPicker.pick(
+      questions: questions,
+      history: _progressState.weakItems,
+      currentDifficulty: _currentDifficulty,
+      mode: _studyMode,
+    );
+  }
+
+  String gradeLabelFor(int grade) => '小学 $grade 年';
+  String kankenLabelFor(int level) => '漢検 $level 級';
+  String get selectedCourseLabel => selectedCourse.label;
 
   List<DailyChallenge> get dailyChallenges {
     if (_progressState.dailyChallenges.isNotEmpty) {
@@ -94,16 +114,49 @@ class GameController extends ChangeNotifier {
           .toList(),
       results: <ResultSummary>[],
     );
+    _currentDifficulty = 1;
     await _persist();
   }
 
   Future<void> setGrade(int grade) async {
-    _profile = _profile.copyWith(selectedGrade: grade);
+    _profile = _profile.copyWith(selectedGrade: grade, useKankenMode: false);
     await _persistProfile();
   }
 
+  Future<void> setKanken(int level) async {
+    _profile = _profile.copyWith(selectedKanken: level, useKankenMode: true);
+    await _persistProfile();
+  }
+
+  Future<void> setStudyMode(StudyMode mode) async {
+    _studyMode = mode;
+    notifyListeners();
+  }
+
+  Future<QuizResult> answerDrill(
+    DrillQuestion question,
+    int selectedIndex, {
+    int answerMillis = 0,
+  }) {
+    final correct = selectedIndex == question.answer;
+    return _applyAnswer(
+      subject: 'kanji_${question.type.code}',
+      questionId: question.id,
+      label: question.question,
+      correct: correct,
+      correctAnswerLabel: question.answerLabel,
+      category: question.type.code,
+      grade: question.grade,
+      kanken: question.kanken,
+      answerMillis: answerMillis,
+    );
+  }
+
   Future<QuizResult> answerReading(
-      KanjiReadingQuestion question, int selectedIndex) {
+    KanjiReadingQuestion question,
+    int selectedIndex, {
+    int answerMillis = 0,
+  }) {
     final correct = selectedIndex == question.answerIndex;
     return _applyAnswer(
       subject: 'kanji_reading',
@@ -111,6 +164,10 @@ class GameController extends ChangeNotifier {
       label: '${question.kanji} (${question.reading})',
       correct: correct,
       correctAnswerLabel: question.options[question.answerIndex],
+      category: question.source.type.code,
+      grade: question.source.grade,
+      kanken: question.source.kanken,
+      answerMillis: answerMillis,
     );
   }
 
@@ -126,6 +183,9 @@ class GameController extends ChangeNotifier {
       label: question.expression,
       correct: correct,
       correctAnswerLabel: question.answer.toString(),
+      category: question.operation,
+      grade: question.grade,
+      kanken: 0,
     );
   }
 
@@ -145,7 +205,13 @@ class GameController extends ChangeNotifier {
     required String label,
     required bool correct,
     required String correctAnswerLabel,
+    required String category,
+    required int grade,
+    required int kanken,
+    int answerMillis = 0,
   }) async {
+    final now = DateTime.now();
+    final nextStudyStreakDays = _nextStudyStreakDays(now);
     int pointsEarned = 0;
     int experienceEarned = 0;
     int comboForResult = 0;
@@ -165,32 +231,46 @@ class GameController extends ChangeNotifier {
         totalSolved: _profile.totalSolved + 1,
         correctCount: _profile.correctCount + 1,
         currentStreak: _profile.currentStreak + 1,
-        lastPlayedAt: DateTime.now(),
+        studyStreakDays: nextStudyStreakDays,
+        lastPlayedAt: now,
       );
       _profile = _applyLevelUp(_profile);
-      _incrementDailyProgress(const <String>['mixed', 'reading_math']);
+      _incrementDailyProgress(<String>['mixed', category]);
     } else {
       _profile = _profile.copyWith(
         combo: 0,
         totalSolved: _profile.totalSolved + 1,
         currentStreak: 0,
-        lastPlayedAt: DateTime.now(),
+        studyStreakDays: nextStudyStreakDays,
+        lastPlayedAt: now,
       );
-      _upsertWeakItem(subject: subject, questionId: questionId, label: label);
     }
 
+    _upsertQuestionHistory(
+      subject: subject,
+      questionId: questionId,
+      label: label,
+      correct: correct,
+      answerMillis: answerMillis,
+      now: now,
+    );
+    _adjustDifficulty(correct);
     _appendResult(
       subject: subject,
       correct: correct,
       pointsEarned: pointsEarned,
       experienceEarned: experienceEarned,
       comboMax: comboForResult,
+      category: category,
+      grade: grade,
+      kanken: kanken,
+      answerMillis: answerMillis,
     );
     await _persist();
 
     return QuizResult(
       correct: correct,
-      message: correct ? '正解です！' : 'また挑戦してね。',
+      message: correct ? '正解です' : 'もう一度挑戦しよう',
       pointsEarned: pointsEarned,
       experienceEarned: experienceEarned,
       combo: _profile.combo,
@@ -205,6 +285,7 @@ class GameController extends ChangeNotifier {
     required List<String> dailyTags,
     required String correctAnswerLabel,
   }) async {
+    final now = DateTime.now();
     final comboForResult = _profile.combo + 1;
     _profile = _profile.copyWith(
       points: _profile.points + rewardPoints,
@@ -217,7 +298,8 @@ class GameController extends ChangeNotifier {
       correctCount: _profile.correctCount + 1,
       writingPracticeCount: _profile.writingPracticeCount + 1,
       currentStreak: _profile.currentStreak + 1,
-      lastPlayedAt: DateTime.now(),
+      studyStreakDays: _nextStudyStreakDays(now),
+      lastPlayedAt: now,
     );
     _profile = _applyLevelUp(_profile);
     _incrementDailyProgress(dailyTags);
@@ -227,12 +309,16 @@ class GameController extends ChangeNotifier {
       pointsEarned: rewardPoints,
       experienceEarned: rewardExperience,
       comboMax: comboForResult,
+      category: 'writing',
+      grade: _profile.selectedGrade,
+      kanken: _profile.useKankenMode ? _profile.selectedKanken : 0,
+      answerMillis: 0,
     );
     await _persist();
 
     return QuizResult(
       correct: true,
-      message: 'よくできました！',
+      message: 'よくできました',
       pointsEarned: rewardPoints,
       experienceEarned: rewardExperience,
       combo: _profile.combo,
@@ -246,24 +332,21 @@ class GameController extends ChangeNotifier {
       final shouldCount = challenge.tags.any(matchedTags.contains) ||
           challenge.tags.contains('mixed') ||
           challenge.tags.contains('reading_math');
-      if (shouldCount) {
-        final progress = challenge.progress + 1;
-        updated.add(
-          DailyChallenge(
-            id: challenge.id,
-            title: challenge.title,
-            description: challenge.description,
-            target: challenge.target,
-            rewardPoints: challenge.rewardPoints,
-            rewardExp: challenge.rewardExp,
-            tags: challenge.tags,
-            progress: progress,
-            cleared: progress >= challenge.target,
-          ),
-        );
-      } else {
-        updated.add(challenge);
-      }
+      updated.add(
+        shouldCount
+            ? DailyChallenge(
+                id: challenge.id,
+                title: challenge.title,
+                description: challenge.description,
+                target: challenge.target,
+                rewardPoints: challenge.rewardPoints,
+                rewardExp: challenge.rewardExp,
+                tags: challenge.tags,
+                progress: challenge.progress + 1,
+                cleared: challenge.progress + 1 >= challenge.target,
+              )
+            : challenge,
+      );
     }
     _progressState = ProgressState(
       weakItems: _progressState.weakItems,
@@ -273,34 +356,35 @@ class GameController extends ChangeNotifier {
     );
   }
 
-  void _upsertWeakItem({
+  void _upsertQuestionHistory({
     required String subject,
     required String questionId,
     required String label,
+    required bool correct,
+    required int answerMillis,
+    required DateTime now,
   }) {
     final items = [..._progressState.weakItems];
     final index = items.indexWhere(
-      (item) => item.subject == subject && item.questionId == questionId,
+        (item) => item.subject == subject && item.questionId == questionId);
+    final existing = index >= 0 ? items[index] : null;
+    final updated = WeakItem(
+      subject: subject,
+      questionId: questionId,
+      label: label,
+      mistakeCount: (existing?.mistakeCount ?? 0) + (correct ? 0 : 1),
+      correctCount: (existing?.correctCount ?? 0) + (correct ? 1 : 0),
+      totalCount: (existing?.totalCount ?? 0) + 1,
+      totalAnswerMillis: (existing?.totalAnswerMillis ?? 0) + answerMillis,
+      consecutiveWrong: correct ? 0 : (existing?.consecutiveWrong ?? 0) + 1,
+      consecutiveCorrect: correct ? (existing?.consecutiveCorrect ?? 0) + 1 : 0,
+      lastMistakenAt: correct ? existing?.lastMistakenAt : now,
+      lastAnsweredAt: now,
     );
     if (index >= 0) {
-      final existing = items[index];
-      items[index] = WeakItem(
-        subject: existing.subject,
-        questionId: existing.questionId,
-        label: existing.label,
-        mistakeCount: existing.mistakeCount + 1,
-        lastMistakenAt: DateTime.now(),
-      );
+      items[index] = updated;
     } else {
-      items.add(
-        WeakItem(
-          subject: subject,
-          questionId: questionId,
-          label: label,
-          mistakeCount: 1,
-          lastMistakenAt: DateTime.now(),
-        ),
-      );
+      items.add(updated);
     }
     _progressState = ProgressState(
       weakItems: items,
@@ -316,6 +400,10 @@ class GameController extends ChangeNotifier {
     required int pointsEarned,
     required int experienceEarned,
     required int comboMax,
+    required String category,
+    required int grade,
+    required int kanken,
+    required int answerMillis,
   }) {
     final results = [..._progressState.results];
     results.insert(
@@ -327,10 +415,14 @@ class GameController extends ChangeNotifier {
         pointsEarned: pointsEarned,
         experienceEarned: experienceEarned,
         comboMax: comboMax,
+        category: category,
+        grade: grade,
+        kanken: kanken,
+        answerMillis: answerMillis,
       ),
     );
-    if (results.length > 100) {
-      results.removeRange(100, results.length);
+    if (results.length > 500) {
+      results.removeRange(500, results.length);
     }
     _progressState = ProgressState(
       weakItems: _progressState.weakItems,
@@ -338,6 +430,39 @@ class GameController extends ChangeNotifier {
       dailyChallenges: _progressState.dailyChallenges,
       results: results,
     );
+  }
+
+  void _adjustDifficulty(bool correct) {
+    if (correct &&
+        _profile.currentStreak > 0 &&
+        _profile.currentStreak % 5 == 0) {
+      _currentDifficulty = (_currentDifficulty + 1).clamp(1, 5);
+      return;
+    }
+    final recentWrong = _progressState.results
+        .take(2)
+        .where((result) => result.correctCount == 0)
+        .length;
+    if (!correct && recentWrong >= 2) {
+      _currentDifficulty = (_currentDifficulty - 1).clamp(1, 5);
+    }
+  }
+
+  int _nextStudyStreakDays(DateTime now) {
+    final last = _profile.lastPlayedAt;
+    if (last == null) {
+      return 1;
+    }
+    final today = DateTime(now.year, now.month, now.day);
+    final lastDay = DateTime(last.year, last.month, last.day);
+    final diff = today.difference(lastDay).inDays;
+    if (diff == 0) {
+      return _profile.studyStreakDays == 0 ? 1 : _profile.studyStreakDays;
+    }
+    if (diff == 1) {
+      return _profile.studyStreakDays + 1;
+    }
+    return 1;
   }
 
   AppProfile _applyLevelUp(AppProfile profile) {
