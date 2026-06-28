@@ -96,3 +96,11 @@ flutter build windows
 - Updated the math question model so decimal answers can be parsed and displayed
 - Verified `flutter run -d chrome` after the fix and confirmed the home screen, writing screen, and math screen render with the larger dataset
 - Re-ran `flutter build web` after the data expansion and the build still succeeded
+
+## GitHub Pages Session
+
+- Added `.github/workflows/deploy.yml` for GitHub Actions Pages deployment
+- Configured web build with `--base-href "/kanji-keisan-drill/"`
+- Added `web/404.html` so GitHub Pages can fall back to the Flutter app on direct route access
+- Updated `web/index.html` title and description to the app name
+- Documented the Pages URL in `README.md`

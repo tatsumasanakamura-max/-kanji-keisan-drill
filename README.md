@@ -72,6 +72,17 @@
 - Web build: `build/web`
 - Chrome run: `http://127.0.0.1:5000`
 - Windows build: この環境では Visual Studio 未導入のため未完了
+- GitHub Pages: `.github/workflows/deploy.yml` を追加
+
+## GitHub Pages
+
+GitHub リポジトリの `Settings > Pages` で `Source` を `GitHub Actions` に設定してください。
+
+Pages 公開時の URL は次の形式です。
+
+- `https://tatsumasanakamura-max.github.io/kanji-keisan-drill/`
+
+GitHub Actions 側では `flutter build web --base-href "/kanji-keisan-drill/"` でビルドします。
 
 ## セットアップログ
 
