@@ -1,0 +1,17 @@
+.dart_tool/
+.packages
+.pub/
+build/
+.idea/
+.vscode/
+*.iml
+*.log
+.tools/
+.pub-cache/
+.flutter-profile/
+.flutter-run-*.log
+windows/flutter/ephemeral/
+android/.gradle/
+ios/Pods/
+web/.dart_tool/
+assets/**/.DS_Store
