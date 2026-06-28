@@ -162,8 +162,7 @@ class _KanjiWritingScreenState extends State<KanjiWritingScreen> {
           final items = data.kanjiWritingPrompts;
           if (items.isEmpty) {
             return _ErrorState(
-              message:
-                  '${data.label} の漢字書き練習がありません。別の学年を選ぶか、データを確認してください。',
+              message: '${data.label} の漢字書き練習がありません。別の学年を選ぶか、データを確認してください。',
               onRetry: () {
                 setState(() {
                   _loadedGrade = null;
@@ -190,7 +189,8 @@ class _KanjiWritingScreenState extends State<KanjiWritingScreen> {
                 strokeCount: prompt.strokeCount,
                 submitted: _submitted,
                 feedback: _feedback,
-                gradeLabel: controller.gradeLabelFor(controller.profile.selectedGrade),
+                gradeLabel:
+                    controller.gradeLabelFor(controller.profile.selectedGrade),
                 questionNumber: _cursor + 1,
                 totalCount: items.length,
               ),

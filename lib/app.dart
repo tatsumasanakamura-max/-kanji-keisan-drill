@@ -10,7 +10,7 @@ class KanjiQuestApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      title: '漢字・計算クエスト Ver1.0',
+      title: '漢字・計算ドリル Ver2.0',
       theme: AppTheme.light(),
       routerConfig: appRouter,
     );

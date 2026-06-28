@@ -146,7 +146,8 @@ class _MathDrillScreenState extends State<MathDrillScreen> {
   @override
   Widget build(BuildContext context) {
     final controller = GameScope.of(context);
-    final gradeLabel = controller.gradeLabelFor(controller.profile.selectedGrade);
+    final gradeLabel =
+        controller.gradeLabelFor(controller.profile.selectedGrade);
 
     return AppScaffold(
       title: '計算ドリル',
@@ -174,8 +175,7 @@ class _MathDrillScreenState extends State<MathDrillScreen> {
           final items = data.mathQuestions;
           if (items.isEmpty) {
             return _ErrorState(
-              message:
-                  '${data.label} の計算問題がありません。別の学年を選ぶか、データを確認してください。',
+              message: '${data.label} の計算問題がありません。別の学年を選ぶか、データを確認してください。',
               onRetry: () {
                 setState(() {
                   _loadedGrade = null;
@@ -222,9 +222,10 @@ class _MathDrillScreenState extends State<MathDrillScreen> {
                       const SizedBox(height: 12),
                       Text(
                         question.expression,
-                        style: Theme.of(context).textTheme.displayMedium?.copyWith(
-                              fontWeight: FontWeight.bold,
-                            ),
+                        style:
+                            Theme.of(context).textTheme.displayMedium?.copyWith(
+                                  fontWeight: FontWeight.bold,
+                                ),
                       ),
                       const SizedBox(height: 12),
                       _ResultBanner(

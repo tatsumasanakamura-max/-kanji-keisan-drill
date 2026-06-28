@@ -19,7 +19,8 @@ class EncyclopediaScreen extends StatelessWidget {
           return Card(
             child: ExpansionTile(
               title: Text(item.title),
-              subtitle: Text(item.category == 'system' ? 'システム' : item.category),
+              subtitle:
+                  Text(item.category == 'system' ? 'システム' : item.category),
               childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
               children: [
                 Text(item.body),

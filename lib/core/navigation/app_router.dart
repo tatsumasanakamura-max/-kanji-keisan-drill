@@ -18,47 +18,58 @@ final GoRouter appRouter = GoRouter(
   routes: <RouteBase>[
     GoRoute(
       path: '/',
-      builder: (BuildContext context, GoRouterState state) => const HomeScreen(),
+      builder: (BuildContext context, GoRouterState state) =>
+          const HomeScreen(),
     ),
     GoRoute(
       path: '/grade',
-      builder: (BuildContext context, GoRouterState state) => const GradeSelectScreen(),
+      builder: (BuildContext context, GoRouterState state) =>
+          const GradeSelectScreen(),
     ),
     GoRoute(
       path: '/kanji-reading',
-      builder: (BuildContext context, GoRouterState state) => const KanjiReadingScreen(),
+      builder: (BuildContext context, GoRouterState state) =>
+          const KanjiReadingScreen(),
     ),
     GoRoute(
       path: '/kanji-writing',
-      builder: (BuildContext context, GoRouterState state) => const KanjiWritingScreen(),
+      builder: (BuildContext context, GoRouterState state) =>
+          const KanjiWritingScreen(),
     ),
     GoRoute(
       path: '/math-drill',
-      builder: (BuildContext context, GoRouterState state) => const MathDrillScreen(),
+      builder: (BuildContext context, GoRouterState state) =>
+          const MathDrillScreen(),
     ),
     GoRoute(
       path: '/challenge',
-      builder: (BuildContext context, GoRouterState state) => const DailyChallengeScreen(),
+      builder: (BuildContext context, GoRouterState state) =>
+          const DailyChallengeScreen(),
     ),
     GoRoute(
       path: '/gacha',
-      builder: (BuildContext context, GoRouterState state) => const GachaScreen(),
+      builder: (BuildContext context, GoRouterState state) =>
+          const GachaScreen(),
     ),
     GoRoute(
       path: '/encyclopedia',
-      builder: (BuildContext context, GoRouterState state) => const EncyclopediaScreen(),
+      builder: (BuildContext context, GoRouterState state) =>
+          const EncyclopediaScreen(),
     ),
     GoRoute(
       path: '/weakness',
-      builder: (BuildContext context, GoRouterState state) => const WeaknessScreen(),
+      builder: (BuildContext context, GoRouterState state) =>
+          const WeaknessScreen(),
     ),
     GoRoute(
       path: '/results',
-      builder: (BuildContext context, GoRouterState state) => const ResultsScreen(),
+      builder: (BuildContext context, GoRouterState state) =>
+          const ResultsScreen(),
     ),
     GoRoute(
       path: '/settings',
-      builder: (BuildContext context, GoRouterState state) => const SettingsScreen(),
+      builder: (BuildContext context, GoRouterState state) =>
+          const SettingsScreen(),
     ),
   ],
 );
