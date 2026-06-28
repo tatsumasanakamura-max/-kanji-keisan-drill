@@ -3,534 +3,2545 @@
   "label": "小学2年",
   "questions": [
     {
-      "id": "g2-reading-1",
+      "id": "grade2-reading-001",
       "grade": 2,
       "kanken": 9,
-      "difficulty": 2,
+      "difficulty": 1,
       "type": "reading",
-      "question": "計算",
+      "question": "小学2年：計算の答えを確かめる。 の「計算」",
       "choices": [
         "けいさん",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
+        "けさん",
+        "けいざん",
+        "けいせん"
       ],
       "answer": 0,
       "meaning": "数を使って答えを出すこと。",
-      "example": "計算をたしかめる。",
+      "example": "計算の答えを確かめる。 小学2年の読み問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "reading"
+        "読み",
+        "漢検9級",
+        "小学2年"
       ]
     },
     {
-      "id": "g2-writing-1",
+      "id": "grade2-reading-002",
       "grade": 2,
       "kanken": 9,
-      "difficulty": 2,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "小学2年：集合の時間を守る。 の「時間」",
+      "choices": [
+        "しかん",
+        "じげん",
+        "ちかん",
+        "じかん"
+      ],
+      "answer": 3,
+      "meaning": "時の長さや時刻。",
+      "example": "集合の時間を守る。 小学2年の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-reading-003",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "小学2年：月曜日に図書室へ行く。 の「曜日」",
+      "choices": [
+        "ようひ",
+        "よおび",
+        "ようび",
+        "よび"
+      ],
+      "answer": 2,
+      "meaning": "一週間の日の名前。",
+      "example": "月曜日に図書室へ行く。 小学2年の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-reading-004",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "小学2年：国語の本を音読する。 の「国語」",
+      "choices": [
+        "こくこ",
+        "こくご",
+        "ごくご",
+        "こぐご"
+      ],
+      "answer": 1,
+      "meaning": "日本語を学ぶ教科。",
+      "example": "国語の本を音読する。 小学2年の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-reading-005",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "小学2年：図画の時間に花をかく。 の「図画」",
+      "choices": [
+        "ずが",
+        "とが",
+        "ずかく",
+        "ずえ"
+      ],
+      "answer": 0,
+      "meaning": "絵や図をかくこと。",
+      "example": "図画の時間に花をかく。 小学2年の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-reading-006",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "小学2年：教室をきれいにする。 の「教室」",
+      "choices": [
+        "きょうじつ",
+        "きょしつ",
+        "こうしつ",
+        "きょうしつ"
+      ],
+      "answer": 3,
+      "meaning": "学校で授業を受ける部屋。",
+      "example": "教室をきれいにする。 小学2年の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-reading-007",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "小学2年：毎日少しずつ練習する。 の「毎日」",
+      "choices": [
+        "まいじつ",
+        "まえにち",
+        "まいにち",
+        "まいひ"
+      ],
+      "answer": 2,
+      "meaning": "一日一日ずっと。",
+      "example": "毎日少しずつ練習する。 小学2年の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-reading-008",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "小学2年：春風が校庭を通る。 の「春風」",
+      "choices": [
+        "はしかぜ",
+        "はるかぜ",
+        "しゅんぷう",
+        "はるがぜ"
+      ],
+      "answer": 1,
+      "meaning": "春に吹く風。",
+      "example": "春風が校庭を通る。 小学2年の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-reading-009",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "小学2年：友だちと通学する。 の「通学」",
+      "choices": [
+        "つうがく",
+        "つがく",
+        "とうがく",
+        "つうかく"
+      ],
+      "answer": 0,
+      "meaning": "学校へ通うこと。",
+      "example": "友だちと通学する。 小学2年の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-reading-010",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "小学2年：少年が川で遊ぶ。 の「少年」",
+      "choices": [
+        "しょうれん",
+        "しょねん",
+        "しょうなん",
+        "しょうねん"
+      ],
+      "answer": 3,
+      "meaning": "年の若い男の子。",
+      "example": "少年が川で遊ぶ。 小学2年の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-writing-001",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
       "type": "writing",
-      "question": "けいさん",
+      "question": "小学2年：「けいさん」を漢字で書く",
       "choices": [
         "計算",
-        "計算う",
-        "同算",
-        "計学"
+        "計祘",
+        "言算",
+        "計筭"
       ],
       "answer": 0,
       "meaning": "数を使って答えを出すこと。",
-      "example": "計算をたしかめる。",
+      "example": "計算の答えを確かめる。 小学2年の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検9級",
+        "小学2年"
       ]
     },
     {
-      "id": "g2-reading-2",
+      "id": "grade2-writing-002",
       "grade": 2,
       "kanken": 9,
-      "difficulty": 2,
-      "type": "reading",
-      "question": "曜日",
-      "choices": [
-        "ようび",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "一週間の日の名前。",
-      "example": "月曜日に学校へ行く。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "g2-writing-2",
-      "grade": 2,
-      "kanken": 9,
-      "difficulty": 2,
+      "difficulty": 1,
       "type": "writing",
-      "question": "ようび",
+      "question": "小学2年：「じかん」を漢字で書く",
       "choices": [
+        "時問",
+        "寺間",
+        "時間ん",
+        "時間"
+      ],
+      "answer": 3,
+      "meaning": "時の長さや時刻。",
+      "example": "集合の時間を守る。 小学2年の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-writing-003",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "小学2年：「ようび」を漢字で書く",
+      "choices": [
+        "曜日日",
+        "陽日",
         "曜日",
-        "曜日う",
-        "同日",
-        "曜学"
+        "曜目"
       ],
-      "answer": 0,
+      "answer": 2,
       "meaning": "一週間の日の名前。",
-      "example": "月曜日に学校へ行く。",
+      "example": "月曜日に図書室へ行く。 小学2年の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検9級",
+        "小学2年"
       ]
     },
     {
-      "id": "g2-reading-3",
+      "id": "grade2-writing-004",
       "grade": 2,
       "kanken": 9,
-      "difficulty": 2,
-      "type": "reading",
-      "question": "親切",
-      "choices": [
-        "しんせつ",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "人にやさしくすること。",
-      "example": "親切に道を教える。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "g2-writing-3",
-      "grade": 2,
-      "kanken": 9,
-      "difficulty": 2,
+      "difficulty": 1,
       "type": "writing",
-      "question": "しんせつ",
+      "question": "小学2年：「こくご」を漢字で書く",
       "choices": [
-        "親切",
-        "親切う",
-        "同切",
-        "親学"
+        "国吾",
+        "国語",
+        "国話",
+        "固語"
       ],
-      "answer": 0,
-      "meaning": "人にやさしくすること。",
-      "example": "親切に道を教える。",
+      "answer": 1,
+      "meaning": "日本語を学ぶ教科。",
+      "example": "国語の本を音読する。 小学2年の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検9級",
+        "小学2年"
       ]
     },
     {
-      "id": "g2-reading-4",
+      "id": "grade2-writing-005",
       "grade": 2,
       "kanken": 9,
-      "difficulty": 2,
-      "type": "reading",
-      "question": "強い",
-      "choices": [
-        "つよい",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "力や気持ちがしっかりしていること。",
-      "example": "強い風がふく。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "g2-writing-4",
-      "grade": 2,
-      "kanken": 9,
-      "difficulty": 2,
+      "difficulty": 1,
       "type": "writing",
-      "question": "つよい",
+      "question": "小学2年：「ずが」を漢字で書く",
       "choices": [
-        "強い",
-        "強いう",
-        "同い",
-        "強学"
+        "図画",
+        "図書",
+        "図面",
+        "図賀"
       ],
       "answer": 0,
-      "meaning": "力や気持ちがしっかりしていること。",
-      "example": "強い風がふく。",
+      "meaning": "絵や図をかくこと。",
+      "example": "図画の時間に花をかく。 小学2年の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検9級",
+        "小学2年"
       ]
     },
     {
-      "id": "g2-compound-1",
+      "id": "grade2-writing-006",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "小学2年：「きょうしつ」を漢字で書く",
+      "choices": [
+        "教学",
+        "教屋",
+        "教室つ",
+        "教室"
+      ],
+      "answer": 3,
+      "meaning": "学校で授業を受ける部屋。",
+      "example": "教室をきれいにする。 小学2年の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-writing-007",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "小学2年：「まいにち」を漢字で書く",
+      "choices": [
+        "海日",
+        "毎曰",
+        "毎日",
+        "毎目"
+      ],
+      "answer": 2,
+      "meaning": "一日一日ずっと。",
+      "example": "毎日少しずつ練習する。 小学2年の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-writing-008",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "小学2年：「はるかぜ」を漢字で書く",
+      "choices": [
+        "春凡",
+        "春風",
+        "春凪",
+        "春雨"
+      ],
+      "answer": 1,
+      "meaning": "春に吹く風。",
+      "example": "春風が校庭を通る。 小学2年の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-writing-009",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "小学2年：「つうがく」を漢字で書く",
+      "choices": [
+        "通学",
+        "週学",
+        "通字",
+        "通楽"
+      ],
+      "answer": 0,
+      "meaning": "学校へ通うこと。",
+      "example": "友だちと通学する。 小学2年の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-writing-010",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "小学2年：「しょうねん」を漢字で書く",
+      "choices": [
+        "小年",
+        "少午",
+        "少年ん",
+        "少年"
+      ],
+      "answer": 3,
+      "meaning": "年の若い男の子。",
+      "example": "少年が川で遊ぶ。 小学2年の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-compound-001",
       "grade": 2,
       "kanken": 9,
       "difficulty": 2,
       "type": "compound",
-      "question": "計算",
+      "question": "小学2年：熟語「山□」に入る漢字",
       "choices": [
-        "計算",
-        "計算力",
-        "大計算",
-        "計算語"
+        "道",
+        "川",
+        "火",
+        "手"
       ],
       "answer": 0,
-      "meaning": "数を使って答えを出すこと。",
-      "example": "計算をたしかめる。",
+      "meaning": "山の中を通る道。",
+      "example": "山道をゆっくり歩く。 小学2年の熟語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "compound"
+        "熟語",
+        "漢検9級",
+        "小学2年"
       ]
     },
     {
-      "id": "g2-sentence-1",
+      "id": "grade2-compound-002",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "小学2年：熟語「水□」に入る漢字",
+      "choices": [
+        "火",
+        "犬",
+        "目",
+        "田"
+      ],
+      "answer": 3,
+      "meaning": "水を入れて米を育てる田。",
+      "example": "水田に苗を植える。 小学2年の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-compound-003",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "小学2年：熟語「火□」に入る漢字",
+      "choices": [
+        "雨",
+        "木",
+        "山",
+        "川"
+      ],
+      "answer": 2,
+      "meaning": "地下の熱い物が出る山。",
+      "example": "火山の写真を見る。 小学2年の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-compound-004",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "小学2年：熟語「木□」に入る漢字",
+      "choices": [
+        "目",
+        "立",
+        "水",
+        "口"
+      ],
+      "answer": 1,
+      "meaning": "木が何本も立っている場所。",
+      "example": "木立の中を歩く。 小学2年の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-compound-005",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "小学2年：熟語「雨□」に入る漢字",
+      "choices": [
+        "水",
+        "火",
+        "耳",
+        "足"
+      ],
+      "answer": 0,
+      "meaning": "雨として降った水。",
+      "example": "雨水をためる。 小学2年の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-compound-006",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "小学2年：熟語「空□」に入る漢字",
+      "choices": [
+        "校",
+        "花",
+        "犬",
+        "気"
+      ],
+      "answer": 3,
+      "meaning": "まわりにある見えない気体。",
+      "example": "空気を入れ替える。 小学2年の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-compound-007",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "小学2年：熟語「手□」に入る漢字",
+      "choices": [
+        "山",
+        "犬",
+        "紙",
+        "水"
+      ],
+      "answer": 2,
+      "meaning": "用件を書いて送る紙。",
+      "example": "友だちに手紙を書く。 小学2年の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-compound-008",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "小学2年：熟語「先□」に入る漢字",
+      "choices": [
+        "右",
+        "生",
+        "校",
+        "本"
+      ],
+      "answer": 1,
+      "meaning": "学習を教える人。",
+      "example": "先生に質問する。 小学2年の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-compound-009",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "小学2年：熟語「学□」に入る漢字",
+      "choices": [
+        "校",
+        "交",
+        "考",
+        "高"
+      ],
+      "answer": 0,
+      "meaning": "学ぶために通う場所。",
+      "example": "学校で友だちと学ぶ。 小学2年の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-compound-010",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "小学2年：熟語「草□」に入る漢字",
+      "choices": [
+        "火",
+        "口",
+        "足",
+        "木"
+      ],
+      "answer": 3,
+      "meaning": "草と木などの植物。",
+      "example": "草木に水をやる。 小学2年の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-sentence-001",
       "grade": 2,
       "kanken": 9,
       "difficulty": 2,
       "type": "sentence",
-      "question": "計算",
-      "choices": [
-        "計算をたしかめる。",
-        "けいさんを読む。",
-        "音だけを聞く。",
-        "答えを消す。"
-      ],
-      "answer": 0,
-      "meaning": "数を使って答えを出すこと。",
-      "example": "計算をたしかめる。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "sentence"
-      ]
-    },
-    {
-      "id": "g2-homophone-1",
-      "grade": 2,
-      "kanken": 9,
-      "difficulty": 3,
-      "type": "homophone",
-      "question": "計算",
+      "question": "小学2年：文に合う語を選ぶ「○○の答えを確かめる。」",
       "choices": [
         "計算",
-        "感例",
-        "官例",
-        "完例"
+        "けさん",
+        "けいざん",
+        "けいせん"
       ],
       "answer": 0,
       "meaning": "数を使って答えを出すこと。",
-      "example": "計算をたしかめる。",
+      "example": "計算の答えを確かめる。 小学2年の文脈問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "homophone"
+        "文脈",
+        "漢検9級",
+        "小学2年"
       ]
     },
     {
-      "id": "g2-opposite-1",
+      "id": "grade2-sentence-002",
       "grade": 2,
       "kanken": 9,
-      "difficulty": 3,
-      "type": "opposite",
-      "question": "計算",
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "小学2年：文に合う語を選ぶ「集合の○○を守る。」",
       "choices": [
-        "反対語を選ぶ",
-        "類義語を選ぶ",
-        "読みを選ぶ",
-        "部首を選ぶ"
+        "しかん",
+        "じげん",
+        "ちかん",
+        "時間"
+      ],
+      "answer": 3,
+      "meaning": "時の長さや時刻。",
+      "example": "集合の時間を守る。 小学2年の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-sentence-003",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "小学2年：文に合う語を選ぶ「月○○に図書室へ行く。」",
+      "choices": [
+        "ようひ",
+        "よおび",
+        "曜日",
+        "よび"
+      ],
+      "answer": 2,
+      "meaning": "一週間の日の名前。",
+      "example": "月曜日に図書室へ行く。 小学2年の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-sentence-004",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "小学2年：文に合う語を選ぶ「○○の本を音読する。」",
+      "choices": [
+        "こくこ",
+        "国語",
+        "ごくご",
+        "こぐご"
+      ],
+      "answer": 1,
+      "meaning": "日本語を学ぶ教科。",
+      "example": "国語の本を音読する。 小学2年の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-sentence-005",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "小学2年：文に合う語を選ぶ「○○の時間に花をかく。」",
+      "choices": [
+        "図画",
+        "とが",
+        "ずかく",
+        "ずえ"
       ],
       "answer": 0,
-      "meaning": "数を使って答えを出すこと。",
-      "example": "計算をたしかめる。",
+      "meaning": "絵や図をかくこと。",
+      "example": "図画の時間に花をかく。 小学2年の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-sentence-006",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "小学2年：文に合う語を選ぶ「○○をきれいにする。」",
+      "choices": [
+        "きょうじつ",
+        "きょしつ",
+        "こうしつ",
+        "教室"
+      ],
+      "answer": 3,
+      "meaning": "学校で授業を受ける部屋。",
+      "example": "教室をきれいにする。 小学2年の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-sentence-007",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "小学2年：文に合う語を選ぶ「○○少しずつ練習する。」",
+      "choices": [
+        "まいじつ",
+        "まえにち",
+        "毎日",
+        "まいひ"
+      ],
+      "answer": 2,
+      "meaning": "一日一日ずっと。",
+      "example": "毎日少しずつ練習する。 小学2年の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-sentence-008",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "小学2年：文に合う語を選ぶ「○○が校庭を通る。」",
+      "choices": [
+        "はしかぜ",
+        "春風",
+        "しゅんぷう",
+        "はるがぜ"
+      ],
+      "answer": 1,
+      "meaning": "春に吹く風。",
+      "example": "春風が校庭を通る。 小学2年の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-sentence-009",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "小学2年：文に合う語を選ぶ「友だちと○○する。」",
+      "choices": [
+        "通学",
+        "つがく",
+        "とうがく",
+        "つうかく"
+      ],
+      "answer": 0,
+      "meaning": "学校へ通うこと。",
+      "example": "友だちと通学する。 小学2年の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-sentence-010",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "小学2年：文に合う語を選ぶ「○○が川で遊ぶ。」",
+      "choices": [
+        "しょうれん",
+        "しょねん",
+        "しょうなん",
+        "少年"
+      ],
+      "answer": 3,
+      "meaning": "年の若い男の子。",
+      "example": "少年が川で遊ぶ。 小学2年の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-homophone-001",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "homophone",
+      "question": "小学2年：「ひ」に合う漢字。○○を安全に使う。",
+      "choices": [
+        "火",
+        "日",
+        "非",
+        "灯"
+      ],
+      "answer": 0,
+      "meaning": "熱く明るく燃えるもの。",
+      "example": "火を安全に使う。 小学2年の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-homophone-002",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "homophone",
+      "question": "小学2年：「はな」に合う漢字。○○を花びんに入れる。",
+      "choices": [
+        "鼻",
+        "華",
+        "端",
+        "花"
+      ],
+      "answer": 3,
+      "meaning": "草や木に咲く部分。",
+      "example": "花を花びんに入れる。 小学2年の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-homophone-003",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "homophone",
+      "question": "小学2年：「き」に合う漢字。○○の下で休む。",
+      "choices": [
+        "機",
+        "期",
+        "木",
+        "気"
+      ],
+      "answer": 2,
+      "meaning": "幹や枝を持つ植物。",
+      "example": "木の下で休む。 小学2年の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-homophone-004",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "homophone",
+      "question": "小学2年：「め」に合う漢字。○○を大切にする。",
+      "choices": [
+        "眼",
+        "目",
+        "芽",
+        "女"
+      ],
+      "answer": 1,
+      "meaning": "ものを見る体の部分。",
+      "example": "目を大切にする。 小学2年の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-homophone-005",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "homophone",
+      "question": "小学2年：「あし」に合う漢字。○○で地面をける。",
+      "choices": [
+        "足",
+        "脚",
+        "葦",
+        "悪し"
+      ],
+      "answer": 0,
+      "meaning": "歩くときに使う体の部分。",
+      "example": "足で地面をける。 小学2年の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-homophone-006",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "homophone",
+      "question": "小学2年：「かわ」に合う漢字。○○で魚を見る。",
+      "choices": [
+        "皮",
+        "河",
+        "側",
+        "川"
+      ],
+      "answer": 3,
+      "meaning": "水が流れるところ。",
+      "example": "川で魚を見る。 小学2年の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-homophone-007",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "homophone",
+      "question": "小学2年：「いし」に合う漢字。○○を拾う。",
+      "choices": [
+        "医師",
+        "意志",
+        "石",
+        "意思"
+      ],
+      "answer": 2,
+      "meaning": "かたい岩の小さなかたまり。",
+      "example": "石を拾う。 小学2年の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-homophone-008",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "homophone",
+      "question": "小学2年：「せんせい」に合う漢字。○○にあいさつする。",
+      "choices": [
+        "専制",
+        "先生",
+        "先制",
+        "宣誓"
+      ],
+      "answer": 1,
+      "meaning": "学習を教える人。",
+      "example": "先生にあいさつする。 小学2年の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-homophone-009",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "homophone",
+      "question": "小学2年：「こう」に合う漢字。○○門の前に立つ。",
+      "choices": [
+        "校",
+        "交",
+        "高",
+        "考"
+      ],
+      "answer": 0,
+      "meaning": "学校を表す漢字。",
+      "example": "校門の前に立つ。 小学2年の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-homophone-010",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "homophone",
+      "question": "小学2年：「ほん」に合う漢字。○○を読む。",
+      "choices": [
+        "元",
+        "奔",
+        "品",
+        "本"
+      ],
+      "answer": 3,
+      "meaning": "文字や絵をまとめた読み物。",
+      "example": "本を読む。 小学2年の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-opposite-001",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "opposite",
+      "question": "小学2年：「上」の対義語",
+      "choices": [
+        "下",
+        "右",
+        "左",
+        "中"
+      ],
+      "answer": 0,
+      "meaning": "高い方の位置。",
+      "example": "上の棚を見る。 小学2年の対義語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [
-        "反対"
+        "下"
       ],
       "tags": [
-        "opposite"
+        "対義語",
+        "漢検9級",
+        "小学2年"
       ]
     },
     {
-      "id": "g2-synonym-1",
+      "id": "grade2-opposite-002",
       "grade": 2,
       "kanken": 9,
-      "difficulty": 3,
-      "type": "synonym",
-      "question": "計算",
+      "difficulty": 2,
+      "type": "opposite",
+      "question": "小学2年：「下」の対義語",
       "choices": [
-        "似た意味の語",
-        "反対の語",
-        "送りがな",
-        "画数"
+        "左",
+        "右",
+        "外",
+        "上"
+      ],
+      "answer": 3,
+      "meaning": "低い方の位置。",
+      "example": "下の段に置く。 小学2年の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "上"
+      ],
+      "tags": [
+        "対義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-opposite-003",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "opposite",
+      "question": "小学2年：「右」の対義語",
+      "choices": [
+        "下",
+        "中",
+        "左",
+        "上"
+      ],
+      "answer": 2,
+      "meaning": "片側の方向。",
+      "example": "右の手を上げる。 小学2年の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "左"
+      ],
+      "tags": [
+        "対義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-opposite-004",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "opposite",
+      "question": "小学2年：「左」の対義語",
+      "choices": [
+        "中",
+        "右",
+        "上",
+        "下"
+      ],
+      "answer": 1,
+      "meaning": "片側の方向。",
+      "example": "左の道へ進む。 小学2年の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "右"
+      ],
+      "tags": [
+        "対義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-opposite-005",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "opposite",
+      "question": "小学2年：「大きい」の対義語",
+      "choices": [
+        "小さい",
+        "多い",
+        "白い",
+        "早い"
       ],
       "answer": 0,
-      "meaning": "数を使って答えを出すこと。",
-      "example": "計算をたしかめる。",
+      "meaning": "形や量が大きいこと。",
+      "example": "大きい箱を運ぶ。 小学2年の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "小さい"
+      ],
+      "tags": [
+        "対義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-opposite-006",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "opposite",
+      "question": "小学2年：「多い」の対義語",
+      "choices": [
+        "大きい",
+        "白い",
+        "丸い",
+        "少ない"
+      ],
+      "answer": 3,
+      "meaning": "数や量がたくさんあること。",
+      "example": "人が多い。 小学2年の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "少ない"
+      ],
+      "tags": [
+        "対義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-opposite-007",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "opposite",
+      "question": "小学2年：「早い」の対義語",
+      "choices": [
+        "白い",
+        "近い",
+        "遅い",
+        "高い"
+      ],
+      "answer": 2,
+      "meaning": "時刻や動きが前であること。",
+      "example": "朝早い時間に出る。 小学2年の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "遅い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-opposite-008",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "opposite",
+      "question": "小学2年：「白い」の対義語",
+      "choices": [
+        "丸い",
+        "黒い",
+        "赤い",
+        "青い"
+      ],
+      "answer": 1,
+      "meaning": "白の色であること。",
+      "example": "白い雲を見る。 小学2年の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "黒い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-opposite-009",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "opposite",
+      "question": "小学2年：「入口」の対義語",
+      "choices": [
+        "出口",
+        "門口",
+        "窓口",
+        "校門"
+      ],
+      "answer": 0,
+      "meaning": "入るための場所。",
+      "example": "入口から入る。 小学2年の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "出口"
+      ],
+      "tags": [
+        "対義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-opposite-010",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "opposite",
+      "question": "小学2年：「前」の対義語",
+      "choices": [
+        "右",
+        "左",
+        "中",
+        "後"
+      ],
+      "answer": 3,
+      "meaning": "進む方向に近い側。",
+      "example": "前を見る。 小学2年の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "後"
+      ],
+      "tags": [
+        "対義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-synonym-001",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "synonym",
+      "question": "小学2年：「大きい」と意味が近い言葉",
+      "choices": [
+        "サイズが大きい",
+        "小さい",
+        "暗い",
+        "遠い"
+      ],
+      "answer": 0,
+      "meaning": "形や量が大きいこと。",
+      "example": "大きい声で読む。 小学2年の類義語問題で確認する。",
       "mnemonic": "",
       "synonyms": [
-        "類義"
+        "サイズが大きい"
       ],
       "antonyms": [],
       "tags": [
-        "synonym"
+        "類義語",
+        "漢検9級",
+        "小学2年"
       ]
     },
     {
-      "id": "g2-yojijukugo-1",
+      "id": "grade2-synonym-002",
       "grade": 2,
       "kanken": 9,
-      "difficulty": 4,
-      "type": "yojijukugo",
-      "question": "計算",
+      "difficulty": 2,
+      "type": "synonym",
+      "question": "小学2年：「小さい」と意味が近い言葉",
       "choices": [
-        "一日一善",
-        "一石二鳥",
-        "十人十色",
-        "七転八起"
+        "大きい",
+        "高い",
+        "新しい",
+        "サイズが小さい"
+      ],
+      "answer": 3,
+      "meaning": "形や量が小さいこと。",
+      "example": "小さい石を拾う。 小学2年の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "サイズが小さい"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-synonym-003",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "synonym",
+      "question": "小学2年：「上」と意味が近い言葉",
+      "choices": [
+        "左の方",
+        "後ろ",
+        "高い方",
+        "低い方"
       ],
       "answer": 2,
-      "meaning": "数を使って答えを出すこと。",
-      "example": "計算をたしかめる。",
+      "meaning": "位置が高い方。",
+      "example": "上を見る。 小学2年の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "高い方"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-synonym-004",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "synonym",
+      "question": "小学2年：「下」と意味が近い言葉",
+      "choices": [
+        "前",
+        "低い方",
+        "高い方",
+        "右の方"
+      ],
+      "answer": 1,
+      "meaning": "位置が低い方。",
+      "example": "下に本を置く。 小学2年の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "低い方"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-synonym-005",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "synonym",
+      "question": "小学2年：「入口」と意味が近い言葉",
+      "choices": [
+        "入る所",
+        "出る所",
+        "高い所",
+        "読む物"
+      ],
+      "answer": 0,
+      "meaning": "中へ入るための場所。",
+      "example": "入口で待つ。 小学2年の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "入る所"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-synonym-006",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "synonym",
+      "question": "小学2年：「出口」と意味が近い言葉",
+      "choices": [
+        "入る所",
+        "流れる所",
+        "書く物",
+        "出る所"
+      ],
+      "answer": 3,
+      "meaning": "外へ出るための場所。",
+      "example": "出口へ進む。 小学2年の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "出る所"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-synonym-007",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "synonym",
+      "question": "小学2年：「早い」と意味が近い言葉",
+      "choices": [
+        "暗い",
+        "細い",
+        "時間が前",
+        "遅い"
+      ],
+      "answer": 2,
+      "meaning": "時刻や動きが前であること。",
+      "example": "早い時間に着く。 小学2年の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "時間が前"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-synonym-008",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "synonym",
+      "question": "小学2年：「白い」と意味が近い言葉",
+      "choices": [
+        "近い",
+        "白の色",
+        "黒い",
+        "多い"
+      ],
+      "answer": 1,
+      "meaning": "雪のような色。",
+      "example": "白い紙に書く。 小学2年の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "白の色"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-synonym-009",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "synonym",
+      "question": "小学2年：「見る」と意味が近い言葉",
+      "choices": [
+        "目で確かめる",
+        "聞く",
+        "走る",
+        "食べる"
+      ],
+      "answer": 0,
+      "meaning": "目で物をとらえること。",
+      "example": "空を見る。 小学2年の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "目で確かめる"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-synonym-010",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "synonym",
+      "question": "小学2年：「読む」と意味が近い言葉",
+      "choices": [
+        "書く",
+        "走る",
+        "洗う",
+        "文字を声や心でたどる"
+      ],
+      "answer": 3,
+      "meaning": "文字の意味を取ること。",
+      "example": "本を読む。 小学2年の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "文字を声や心でたどる"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-yojijukugo-001",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "yojijukugo",
+      "question": "小学2年：四字熟語「一日一字」の意味",
+      "choices": [
+        "一日に一つの字を学ぶこと。",
+        "一日に一回休むこと。",
+        "一字を消すこと。",
+        "一日中遊ぶこと。"
+      ],
+      "answer": 0,
+      "meaning": "一日に一つの字を学ぶこと。",
+      "example": "一日一字を目標に漢字を覚える。 小学2年の四字熟語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "yojijukugo"
+        "四字熟語",
+        "漢検9級",
+        "小学2年"
       ]
     },
     {
-      "id": "g2-radical-1",
+      "id": "grade2-yojijukugo-002",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "yojijukugo",
+      "question": "小学2年：四字熟語「一人一人」の意味",
+      "choices": [
+        "一人だけで走ること。",
+        "同じ字を書くこと。",
+        "日にちを数えること。",
+        "それぞれの人を大切に見ること。"
+      ],
+      "answer": 3,
+      "meaning": "それぞれの人を大切に見ること。",
+      "example": "一人一人の考えを聞く。 小学2年の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-yojijukugo-003",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "yojijukugo",
+      "question": "小学2年：四字熟語「上下左右」の意味",
+      "choices": [
+        "同じ場所に立つこと。",
+        "色を分けること。",
+        "上・下・左・右の方向。",
+        "前だけを見ること。"
+      ],
+      "answer": 2,
+      "meaning": "上・下・左・右の方向。",
+      "example": "地図で上下左右を確かめる。 小学2年の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-yojijukugo-004",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "yojijukugo",
+      "question": "小学2年：四字熟語「山川草木」の意味",
+      "choices": [
+        "数を数えること。",
+        "山や川、草や木など自然のもの。",
+        "町の建物だけを表すこと。",
+        "人の名前を並べること。"
+      ],
+      "answer": 1,
+      "meaning": "山や川、草や木など自然のもの。",
+      "example": "山川草木を大切にする。 小学2年の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-yojijukugo-005",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "yojijukugo",
+      "question": "小学2年：四字熟語「日月火水」の意味",
+      "choices": [
+        "曜日名にも使う基本の漢字。",
+        "動物の名前だけを集めた語。",
+        "体の部分を表す語。",
+        "数だけを並べた語。"
+      ],
+      "answer": 0,
+      "meaning": "曜日名にも使う基本の漢字。",
+      "example": "日月火水の漢字を読む。 小学2年の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-yojijukugo-006",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "yojijukugo",
+      "question": "小学2年：四字熟語「木金土日」の意味",
+      "choices": [
+        "学校の部屋の名前。",
+        "春の花の名前。",
+        "体の動きを表す語。",
+        "曜日名にも使う基本の漢字。"
+      ],
+      "answer": 3,
+      "meaning": "曜日名にも使う基本の漢字。",
+      "example": "木金土日の字を練習する。 小学2年の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-yojijukugo-007",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "yojijukugo",
+      "question": "小学2年：四字熟語「一二三四」の意味",
+      "choices": [
+        "四つの季節のこと。",
+        "四人の名前のこと。",
+        "一から四までの数。",
+        "四つの方向のこと。"
+      ],
+      "answer": 2,
+      "meaning": "一から四までの数。",
+      "example": "一二三四を順に書く。 小学2年の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-yojijukugo-008",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "yojijukugo",
+      "question": "小学2年：四字熟語「五六七八」の意味",
+      "choices": [
+        "学校の教科名。",
+        "五から八までの数。",
+        "八つの花の名前。",
+        "朝のあいさつ。"
+      ],
+      "answer": 1,
+      "meaning": "五から八までの数。",
+      "example": "五六七八を正しく読む。 小学2年の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-yojijukugo-009",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "yojijukugo",
+      "question": "小学2年：四字熟語「九十一百」の意味",
+      "choices": [
+        "数を表す基本の漢字。",
+        "色を表す漢字。",
+        "動物を表す漢字。",
+        "道具を表す漢字。"
+      ],
+      "answer": 0,
+      "meaning": "数を表す基本の漢字。",
+      "example": "九十一百の読みを覚える。 小学2年の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-yojijukugo-010",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "yojijukugo",
+      "question": "小学2年：四字熟語「大小上下」の意味",
+      "choices": [
+        "雨の強さだけを表すこと。",
+        "学校の名前のこと。",
+        "本の数え方のこと。",
+        "大きさと上下の方向。"
+      ],
+      "answer": 3,
+      "meaning": "大きさと上下の方向。",
+      "example": "大小上下を使って位置を説明する。 小学2年の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-radical-001",
       "grade": 2,
       "kanken": 9,
       "difficulty": 2,
       "type": "radical",
-      "question": "計算",
+      "question": "小学2年：「山」の部首",
       "choices": [
-        "部首",
-        "音読み",
-        "訓読み",
-        "例文"
+        "やま",
+        "さんずい",
+        "くち",
+        "き"
       ],
       "answer": 0,
-      "meaning": "数を使って答えを出すこと。",
-      "example": "計算をたしかめる。",
+      "meaning": "山に関係する部首。",
+      "example": "山の部首はやま。 小学2年の部首問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "radical"
+        "部首",
+        "漢検9級",
+        "小学2年"
       ]
     },
     {
-      "id": "g2-correction-1",
+      "id": "grade2-radical-002",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "小学2年：「川」の部首",
+      "choices": [
+        "さんずい",
+        "やま",
+        "くち",
+        "かわ"
+      ],
+      "answer": 3,
+      "meaning": "川を表す部首。",
+      "example": "川の部首はかわ。 小学2年の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-radical-003",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "小学2年：「木」の部首",
+      "choices": [
+        "ひ",
+        "みず",
+        "き",
+        "ほん"
+      ],
+      "answer": 2,
+      "meaning": "木を表す部首。",
+      "example": "木の部首はき。 小学2年の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-radical-004",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "小学2年：「火」の部首",
+      "choices": [
+        "やま",
+        "ひ",
+        "みず",
+        "き"
+      ],
+      "answer": 1,
+      "meaning": "火を表す部首。",
+      "example": "火の部首はひ。 小学2年の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-radical-005",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "小学2年：「水」の部首",
+      "choices": [
+        "みず",
+        "ひ",
+        "き",
+        "くち"
+      ],
+      "answer": 0,
+      "meaning": "水を表す部首。",
+      "example": "水の部首はみず。 小学2年の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-radical-006",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "小学2年：「口」の部首",
+      "choices": [
+        "め",
+        "みみ",
+        "ひ",
+        "くち"
+      ],
+      "answer": 3,
+      "meaning": "口に関係する部首。",
+      "example": "口の部首はくち。 小学2年の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-radical-007",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "小学2年：「目」の部首",
+      "choices": [
+        "みみ",
+        "ひ",
+        "め",
+        "くち"
+      ],
+      "answer": 2,
+      "meaning": "目に関係する部首。",
+      "example": "目の部首はめ。 小学2年の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-radical-008",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "小学2年：「耳」の部首",
+      "choices": [
+        "て",
+        "みみ",
+        "め",
+        "くち"
+      ],
+      "answer": 1,
+      "meaning": "耳に関係する部首。",
+      "example": "耳の部首はみみ。 小学2年の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-radical-009",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "小学2年：「手」の部首",
+      "choices": [
+        "て",
+        "あし",
+        "みみ",
+        "め"
+      ],
+      "answer": 0,
+      "meaning": "手に関係する部首。",
+      "example": "手の部首はて。 小学2年の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-radical-010",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "小学2年：「足」の部首",
+      "choices": [
+        "て",
+        "くち",
+        "め",
+        "あし"
+      ],
+      "answer": 3,
+      "meaning": "足に関係する部首。",
+      "example": "足の部首はあし。 小学2年の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-correction-001",
       "grade": 2,
       "kanken": 9,
       "difficulty": 4,
       "type": "correction",
-      "question": "計算",
+      "question": "小学2年：「けいさん」の正しい表記",
       "choices": [
-        "計算",
-        "誤字をふくむ語",
-        "送りがななし",
-        "読みちがい"
+        "計祘",
+        "言算",
+        "計筭",
+        "計算"
       ],
-      "answer": 0,
+      "answer": 3,
       "meaning": "数を使って答えを出すこと。",
-      "example": "計算をたしかめる。",
+      "example": "計算の答えを確かめる。 小学2年の誤字訂正問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "correction"
+        "誤字訂正",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-correction-002",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "小学2年：「じかん」の正しい表記",
+      "choices": [
+        "寺間",
+        "時間ん",
+        "時間",
+        "時問"
+      ],
+      "answer": 2,
+      "meaning": "時の長さや時刻。",
+      "example": "集合の時間を守る。 小学2年の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-correction-003",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "小学2年：「ようび」の正しい表記",
+      "choices": [
+        "陽日",
+        "曜日",
+        "曜目",
+        "曜日日"
+      ],
+      "answer": 1,
+      "meaning": "一週間の日の名前。",
+      "example": "月曜日に図書室へ行く。 小学2年の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-correction-004",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "小学2年：「こくご」の正しい表記",
+      "choices": [
+        "国語",
+        "国話",
+        "固語",
+        "国吾"
+      ],
+      "answer": 0,
+      "meaning": "日本語を学ぶ教科。",
+      "example": "国語の本を音読する。 小学2年の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-correction-005",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "小学2年：「ずが」の正しい表記",
+      "choices": [
+        "図書",
+        "図面",
+        "図賀",
+        "図画"
+      ],
+      "answer": 3,
+      "meaning": "絵や図をかくこと。",
+      "example": "図画の時間に花をかく。 小学2年の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-correction-006",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "小学2年：「きょうしつ」の正しい表記",
+      "choices": [
+        "教屋",
+        "教室つ",
+        "教室",
+        "教学"
+      ],
+      "answer": 2,
+      "meaning": "学校で授業を受ける部屋。",
+      "example": "教室をきれいにする。 小学2年の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-correction-007",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "小学2年：「まいにち」の正しい表記",
+      "choices": [
+        "毎曰",
+        "毎日",
+        "毎目",
+        "海日"
+      ],
+      "answer": 1,
+      "meaning": "一日一日ずっと。",
+      "example": "毎日少しずつ練習する。 小学2年の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-correction-008",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "小学2年：「はるかぜ」の正しい表記",
+      "choices": [
+        "春風",
+        "春凪",
+        "春雨",
+        "春凡"
+      ],
+      "answer": 0,
+      "meaning": "春に吹く風。",
+      "example": "春風が校庭を通る。 小学2年の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-correction-009",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "小学2年：「つうがく」の正しい表記",
+      "choices": [
+        "週学",
+        "通字",
+        "通楽",
+        "通学"
+      ],
+      "answer": 3,
+      "meaning": "学校へ通うこと。",
+      "example": "友だちと通学する。 小学2年の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検9級",
+        "小学2年"
+      ]
+    },
+    {
+      "id": "grade2-correction-010",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "小学2年：「しょうねん」の正しい表記",
+      "choices": [
+        "少午",
+        "少年ん",
+        "少年",
+        "小年"
+      ],
+      "answer": 2,
+      "meaning": "年の若い男の子。",
+      "example": "少年が川で遊ぶ。 小学2年の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検9級",
+        "小学2年"
       ]
     }
   ],
-  "mathQuestions": [
-    {
-      "id": "math-2-1",
-      "grade": 2,
-      "expression": "8 + 1",
-      "answer": 9,
-      "options": [
-        9,
-        10,
-        8,
-        12
-      ],
-      "operation": "addition",
-      "explanation": "8 + 1 = 9",
-      "tags": [
-        "math",
-        "grade:2"
-      ]
-    },
-    {
-      "id": "math-2-2",
-      "grade": 2,
-      "expression": "9 + 2",
-      "answer": 11,
-      "options": [
-        11,
-        12,
-        10,
-        14
-      ],
-      "operation": "addition",
-      "explanation": "9 + 2 = 11",
-      "tags": [
-        "math",
-        "grade:2"
-      ]
-    },
-    {
-      "id": "math-2-3",
-      "grade": 2,
-      "expression": "10 + 3",
-      "answer": 13,
-      "options": [
-        13,
-        14,
-        12,
-        16
-      ],
-      "operation": "addition",
-      "explanation": "10 + 3 = 13",
-      "tags": [
-        "math",
-        "grade:2"
-      ]
-    },
-    {
-      "id": "math-2-4",
-      "grade": 2,
-      "expression": "11 + 4",
-      "answer": 15,
-      "options": [
-        15,
-        16,
-        14,
-        18
-      ],
-      "operation": "addition",
-      "explanation": "11 + 4 = 15",
-      "tags": [
-        "math",
-        "grade:2"
-      ]
-    },
-    {
-      "id": "math-2-5",
-      "grade": 2,
-      "expression": "12 + 5",
-      "answer": 17,
-      "options": [
-        17,
-        18,
-        16,
-        20
-      ],
-      "operation": "addition",
-      "explanation": "12 + 5 = 17",
-      "tags": [
-        "math",
-        "grade:2"
-      ]
-    },
-    {
-      "id": "math-2-6",
-      "grade": 2,
-      "expression": "13 + 6",
-      "answer": 19,
-      "options": [
-        19,
-        20,
-        18,
-        22
-      ],
-      "operation": "addition",
-      "explanation": "13 + 6 = 19",
-      "tags": [
-        "math",
-        "grade:2"
-      ]
-    },
-    {
-      "id": "math-2-7",
-      "grade": 2,
-      "expression": "14 + 7",
-      "answer": 21,
-      "options": [
-        21,
-        22,
-        20,
-        24
-      ],
-      "operation": "addition",
-      "explanation": "14 + 7 = 21",
-      "tags": [
-        "math",
-        "grade:2"
-      ]
-    },
-    {
-      "id": "math-2-8",
-      "grade": 2,
-      "expression": "15 + 8",
-      "answer": 23,
-      "options": [
-        23,
-        24,
-        22,
-        26
-      ],
-      "operation": "addition",
-      "explanation": "15 + 8 = 23",
-      "tags": [
-        "math",
-        "grade:2"
-      ]
-    }
-  ]
+  "mathQuestions": []
 }

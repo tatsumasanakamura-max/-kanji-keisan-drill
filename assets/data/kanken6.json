@@ -3,387 +3,3813 @@
   "label": "漢検6級",
   "questions": [
     {
-      "id": "k6-reading-1",
+      "id": "kanken6-reading-001",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 5,
+      "difficulty": 1,
       "type": "reading",
-      "question": "精密",
+      "question": "漢検6級：精密な部品を作る。 の「精密」",
       "choices": [
         "せいみつ",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
+        "せいひつ",
+        "しょうみつ",
+        "せいみち"
       ],
       "answer": 0,
       "meaning": "細かいところまで正確なこと。",
-      "example": "精密な機械を作る。",
+      "example": "精密な部品を作る。 漢検6級の読み問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "reading"
+        "読み",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-writing-1",
+      "id": "kanken6-reading-002",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 5,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：係の責任を果たす。 の「責任」",
+      "choices": [
+        "せきねん",
+        "せっきん",
+        "せきじん",
+        "せきにん"
+      ],
+      "answer": 3,
+      "meaning": "引き受けて果たすべきつとめ。",
+      "example": "係の責任を果たす。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-003",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：快適な部屋で勉強する。 の「快適」",
+      "choices": [
+        "かいせき",
+        "かいて",
+        "かいてき",
+        "がいてき"
+      ],
+      "answer": 2,
+      "meaning": "気持ちよく過ごせること。",
+      "example": "快適な部屋で勉強する。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：先生の許可を得る。 の「許可」",
+      "choices": [
+        "きょこ",
+        "きょか",
+        "きょうか",
+        "きょが"
+      ],
+      "answer": 1,
+      "meaning": "してよいと認めること。",
+      "example": "先生の許可を得る。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：文章の構成を考える。 の「構成」",
+      "choices": [
+        "こうせい",
+        "こうぜい",
+        "ごうせい",
+        "こうしょう"
+      ],
+      "answer": 0,
+      "meaning": "いくつかの部分を組み立てること。",
+      "example": "文章の構成を考える。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-006",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：駅前が混雑する。 の「混雑」",
+      "choices": [
+        "こんさつ",
+        "こんだつ",
+        "こんざ",
+        "こんざつ"
+      ],
+      "answer": 3,
+      "meaning": "人や物が多く入り乱れること。",
+      "example": "駅前が混雑する。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-007",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：計画が承認される。 の「承認」",
+      "choices": [
+        "じょうにん",
+        "しょうねん",
+        "しょうにん",
+        "しょうじん"
+      ],
+      "answer": 2,
+      "meaning": "よいと認めること。",
+      "example": "計画が承認される。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-008",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：落ち着いた態度で話す。 の「態度」",
+      "choices": [
+        "たいどく",
+        "たいど",
+        "だいど",
+        "たいと"
+      ],
+      "answer": 1,
+      "meaning": "人や物事に向かう様子。",
+      "example": "落ち着いた態度で話す。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-009",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：水質を検査する。 の「検査」",
+      "choices": [
+        "けんさ",
+        "けんざ",
+        "けんし",
+        "げんさ"
+      ],
+      "answer": 0,
+      "meaning": "調べて確かめること。",
+      "example": "水質を検査する。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-010",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：荷物を輸送する。 の「輸送」",
+      "choices": [
+        "ゆぞう",
+        "ゆしょう",
+        "しゅそう",
+        "ゆそう"
+      ],
+      "answer": 3,
+      "meaning": "物を運び送ること。",
+      "example": "荷物を輸送する。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-011",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：よい案を採用する。 の「採用」",
+      "choices": [
+        "さいゆう",
+        "さいよ",
+        "さいよう",
+        "ざいよう"
+      ],
+      "answer": 2,
+      "meaning": "取り上げて使うこと。",
+      "example": "よい案を採用する。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-012",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：学校の規則を守る。 の「規則」",
+      "choices": [
+        "きそ",
+        "きそく",
+        "ぎそく",
+        "きぞく"
+      ],
+      "answer": 1,
+      "meaning": "守るべき決まり。",
+      "example": "学校の規則を守る。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-013",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：多くの人の利益を考える。 の「利益」",
+      "choices": [
+        "りえき",
+        "りいき",
+        "りやく",
+        "りえ"
+      ],
+      "answer": 0,
+      "meaning": "得になること。",
+      "example": "多くの人の利益を考える。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-014",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：日本の貿易を調べる。 の「貿易」",
+      "choices": [
+        "ぼういき",
+        "もうえき",
+        "ぼうやく",
+        "ぼうえき"
+      ],
+      "answer": 3,
+      "meaning": "国どうしで品物を売買すること。",
+      "example": "日本の貿易を調べる。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-reading-015",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検6級：統計を表にする。 の「統計」",
+      "choices": [
+        "とうげい",
+        "とうけ",
+        "とうけい",
+        "どうけい"
+      ],
+      "answer": 2,
+      "meaning": "数を集めてまとめたもの。",
+      "example": "統計を表にする。 漢検6級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-writing-001",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
       "type": "writing",
-      "question": "せいみつ",
+      "question": "漢検6級：「せいみつ」を漢字で書く",
       "choices": [
         "精密",
-        "精密う",
-        "同密",
-        "精学"
+        "精蜜",
+        "清密",
+        "精密つ"
       ],
       "answer": 0,
       "meaning": "細かいところまで正確なこと。",
-      "example": "精密な機械を作る。",
+      "example": "精密な部品を作る。 漢検6級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-reading-2",
+      "id": "kanken6-writing-002",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 5,
-      "type": "reading",
-      "question": "責任",
-      "choices": [
-        "せきにん",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "自分が引き受けるべきつとめ。",
-      "example": "係の責任を果たす。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "k6-writing-2",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 5,
+      "difficulty": 1,
       "type": "writing",
-      "question": "せきにん",
+      "question": "漢検6級：「せきにん」を漢字で書く",
       "choices": [
-        "責任",
-        "責任う",
-        "同任",
-        "責学"
+        "責任ん",
+        "積任",
+        "責仁",
+        "責任"
       ],
-      "answer": 0,
-      "meaning": "自分が引き受けるべきつとめ。",
-      "example": "係の責任を果たす。",
+      "answer": 3,
+      "meaning": "引き受けて果たすべきつとめ。",
+      "example": "係の責任を果たす。 漢検6級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-reading-3",
+      "id": "kanken6-writing-003",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 5,
-      "type": "reading",
-      "question": "快適",
-      "choices": [
-        "かいてき",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "気持ちよく過ごせること。",
-      "example": "快適な部屋で勉強する。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "k6-writing-3",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 5,
+      "difficulty": 1,
       "type": "writing",
-      "question": "かいてき",
+      "question": "漢検6級：「かいてき」を漢字で書く",
       "choices": [
+        "改適",
+        "快適き",
         "快適",
-        "快適う",
-        "同適",
-        "快学"
+        "快的"
       ],
-      "answer": 0,
+      "answer": 2,
       "meaning": "気持ちよく過ごせること。",
-      "example": "快適な部屋で勉強する。",
+      "example": "快適な部屋で勉強する。 漢検6級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-reading-4",
+      "id": "kanken6-writing-004",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 5,
-      "type": "reading",
-      "question": "許可",
-      "choices": [
-        "きょか",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "してよいと認めること。",
-      "example": "先生の許可をもらう。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "k6-writing-4",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 5,
+      "difficulty": 1,
       "type": "writing",
-      "question": "きょか",
+      "question": "漢検6級：「きょか」を漢字で書く",
       "choices": [
+        "計可",
         "許可",
-        "許可う",
-        "同可",
-        "許学"
+        "許加",
+        "許可か"
       ],
-      "answer": 0,
+      "answer": 1,
       "meaning": "してよいと認めること。",
-      "example": "先生の許可をもらう。",
+      "example": "先生の許可を得る。 漢検6級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-compound-1",
+      "id": "kanken6-writing-005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検6級：「こうせい」を漢字で書く",
+      "choices": [
+        "構成",
+        "構正",
+        "講成",
+        "構成い"
+      ],
+      "answer": 0,
+      "meaning": "いくつかの部分を組み立てること。",
+      "example": "文章の構成を考える。 漢検6級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-writing-006",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検6級：「こんざつ」を漢字で書く",
+      "choices": [
+        "混在",
+        "困雑",
+        "混雑つ",
+        "混雑"
+      ],
+      "answer": 3,
+      "meaning": "人や物が多く入り乱れること。",
+      "example": "駅前が混雑する。 漢検6級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-writing-007",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検6級：「しょうにん」を漢字で書く",
+      "choices": [
+        "承任",
+        "承認ん",
+        "承認",
+        "証認"
+      ],
+      "answer": 2,
+      "meaning": "よいと認めること。",
+      "example": "計画が承認される。 漢検6級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-writing-008",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検6級：「たいど」を漢字で書く",
+      "choices": [
+        "態度ど",
+        "態度",
+        "態渡",
+        "体度"
+      ],
+      "answer": 1,
+      "meaning": "人や物事に向かう様子。",
+      "example": "落ち着いた態度で話す。 漢検6級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-writing-009",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検6級：「けんさ」を漢字で書く",
+      "choices": [
+        "検査",
+        "検査さ",
+        "倹査",
+        "検相"
+      ],
+      "answer": 0,
+      "meaning": "調べて確かめること。",
+      "example": "水質を検査する。 漢検6級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-writing-010",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検6級：「ゆそう」を漢字で書く",
+      "choices": [
+        "輸走",
+        "輪送",
+        "輸送う",
+        "輸送"
+      ],
+      "answer": 3,
+      "meaning": "物を運び送ること。",
+      "example": "荷物を輸送する。 漢検6級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-writing-011",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検6級：「さいよう」を漢字で書く",
+      "choices": [
+        "採用う",
+        "菜用",
+        "採用",
+        "採要"
+      ],
+      "answer": 2,
+      "meaning": "取り上げて使うこと。",
+      "example": "よい案を採用する。 漢検6級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-writing-012",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検6級：「きそく」を漢字で書く",
+      "choices": [
+        "記則",
+        "規則",
+        "規測",
+        "規則く"
+      ],
+      "answer": 1,
+      "meaning": "守るべき決まり。",
+      "example": "学校の規則を守る。 漢検6級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-writing-013",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検6級：「りえき」を漢字で書く",
+      "choices": [
+        "利益",
+        "利液",
+        "理益",
+        "利益き"
+      ],
+      "answer": 0,
+      "meaning": "得になること。",
+      "example": "多くの人の利益を考える。 漢検6級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-writing-014",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検6級：「ぼうえき」を漢字で書く",
+      "choices": [
+        "貿駅",
+        "貿易き",
+        "買易",
+        "貿易"
+      ],
+      "answer": 3,
+      "meaning": "国どうしで品物を売買すること。",
+      "example": "日本の貿易を調べる。 漢検6級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-writing-015",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検6級：「とうけい」を漢字で書く",
+      "choices": [
+        "統形",
+        "総計",
+        "統計",
+        "統計い"
+      ],
+      "answer": 2,
+      "meaning": "数を集めてまとめたもの。",
+      "example": "統計を表にする。 漢検6級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-001",
       "grade": 5,
       "kanken": 6,
       "difficulty": 2,
       "type": "compound",
-      "question": "精密",
+      "question": "漢検6級：熟語「山□」に入る漢字",
       "choices": [
-        "精密",
-        "精密力",
-        "大精密",
-        "精密語"
+        "道",
+        "川",
+        "火",
+        "手"
       ],
       "answer": 0,
-      "meaning": "細かいところまで正確なこと。",
-      "example": "精密な機械を作る。",
+      "meaning": "山の中を通る道。",
+      "example": "山道をゆっくり歩く。 漢検6級の熟語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "compound"
+        "熟語",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-sentence-1",
+      "id": "kanken6-compound-002",
       "grade": 5,
       "kanken": 6,
       "difficulty": 2,
-      "type": "sentence",
-      "question": "精密",
+      "type": "compound",
+      "question": "漢検6級：熟語「水□」に入る漢字",
       "choices": [
-        "精密な機械を作る。",
-        "せいみつを読む。",
-        "音だけを聞く。",
-        "答えを消す。"
+        "火",
+        "犬",
+        "目",
+        "田"
       ],
-      "answer": 0,
-      "meaning": "細かいところまで正確なこと。",
-      "example": "精密な機械を作る。",
+      "answer": 3,
+      "meaning": "水を入れて米を育てる田。",
+      "example": "水田に苗を植える。 漢検6級の熟語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "sentence"
+        "熟語",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-homophone-1",
+      "id": "kanken6-compound-003",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「火□」に入る漢字",
+      "choices": [
+        "雨",
+        "木",
+        "山",
+        "川"
+      ],
+      "answer": 2,
+      "meaning": "地下の熱い物が出る山。",
+      "example": "火山の写真を見る。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「木□」に入る漢字",
+      "choices": [
+        "目",
+        "立",
+        "水",
+        "口"
+      ],
+      "answer": 1,
+      "meaning": "木が何本も立っている場所。",
+      "example": "木立の中を歩く。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「雨□」に入る漢字",
+      "choices": [
+        "水",
+        "火",
+        "耳",
+        "足"
+      ],
+      "answer": 0,
+      "meaning": "雨として降った水。",
+      "example": "雨水をためる。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-006",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「空□」に入る漢字",
+      "choices": [
+        "校",
+        "花",
+        "犬",
+        "気"
+      ],
+      "answer": 3,
+      "meaning": "まわりにある見えない気体。",
+      "example": "空気を入れ替える。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-007",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「手□」に入る漢字",
+      "choices": [
+        "山",
+        "犬",
+        "紙",
+        "水"
+      ],
+      "answer": 2,
+      "meaning": "用件を書いて送る紙。",
+      "example": "友だちに手紙を書く。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-008",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「先□」に入る漢字",
+      "choices": [
+        "右",
+        "生",
+        "校",
+        "本"
+      ],
+      "answer": 1,
+      "meaning": "学習を教える人。",
+      "example": "先生に質問する。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-009",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「学□」に入る漢字",
+      "choices": [
+        "校",
+        "交",
+        "考",
+        "高"
+      ],
+      "answer": 0,
+      "meaning": "学ぶために通う場所。",
+      "example": "学校で友だちと学ぶ。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-010",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「草□」に入る漢字",
+      "choices": [
+        "火",
+        "口",
+        "足",
+        "木"
+      ],
+      "answer": 3,
+      "meaning": "草と木などの植物。",
+      "example": "草木に水をやる。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-011",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「日□」に入る漢字",
+      "choices": [
+        "川",
+        "火",
+        "本",
+        "山"
+      ],
+      "answer": 2,
+      "meaning": "日本という国の名前。",
+      "example": "日本の地図を見る。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-012",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「人□」に入る漢字",
+      "choices": [
+        "手",
+        "口",
+        "目",
+        "耳"
+      ],
+      "answer": 1,
+      "meaning": "ある場所に住む人の数。",
+      "example": "町の人口を知る。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-013",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「名□」に入る漢字",
+      "choices": [
+        "前",
+        "右",
+        "左",
+        "下"
+      ],
+      "answer": 0,
+      "meaning": "人や物を呼ぶ言葉。",
+      "example": "自分の名前を書く。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-014",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「白□」に入る漢字",
+      "choices": [
+        "木",
+        "山",
+        "川",
+        "紙"
+      ],
+      "answer": 3,
+      "meaning": "何も書いていない紙。",
+      "example": "白紙に絵をかく。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-compound-015",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検6級：熟語「赤□」に入る漢字",
+      "choices": [
+        "空",
+        "耳",
+        "土",
+        "水"
+      ],
+      "answer": 2,
+      "meaning": "赤みのある土。",
+      "example": "赤土の道を歩く。 漢検6級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-001",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「○○な部品を作る。」",
+      "choices": [
+        "精密",
+        "せいひつ",
+        "しょうみつ",
+        "せいみち"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な部品を作る。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-002",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「係の○○を果たす。」",
+      "choices": [
+        "せきねん",
+        "せっきん",
+        "せきじん",
+        "責任"
+      ],
+      "answer": 3,
+      "meaning": "引き受けて果たすべきつとめ。",
+      "example": "係の責任を果たす。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-003",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「○○な部屋で勉強する。」",
+      "choices": [
+        "かいせき",
+        "かいて",
+        "快適",
+        "がいてき"
+      ],
+      "answer": 2,
+      "meaning": "気持ちよく過ごせること。",
+      "example": "快適な部屋で勉強する。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「先生の○○を得る。」",
+      "choices": [
+        "きょこ",
+        "許可",
+        "きょうか",
+        "きょが"
+      ],
+      "answer": 1,
+      "meaning": "してよいと認めること。",
+      "example": "先生の許可を得る。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「文章の○○を考える。」",
+      "choices": [
+        "構成",
+        "こうぜい",
+        "ごうせい",
+        "こうしょう"
+      ],
+      "answer": 0,
+      "meaning": "いくつかの部分を組み立てること。",
+      "example": "文章の構成を考える。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-006",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「駅前が○○する。」",
+      "choices": [
+        "こんさつ",
+        "こんだつ",
+        "こんざ",
+        "混雑"
+      ],
+      "answer": 3,
+      "meaning": "人や物が多く入り乱れること。",
+      "example": "駅前が混雑する。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-007",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「計画が○○される。」",
+      "choices": [
+        "じょうにん",
+        "しょうねん",
+        "承認",
+        "しょうじん"
+      ],
+      "answer": 2,
+      "meaning": "よいと認めること。",
+      "example": "計画が承認される。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-008",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「落ち着いた○○で話す。」",
+      "choices": [
+        "たいどく",
+        "態度",
+        "だいど",
+        "たいと"
+      ],
+      "answer": 1,
+      "meaning": "人や物事に向かう様子。",
+      "example": "落ち着いた態度で話す。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-009",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「水質を○○する。」",
+      "choices": [
+        "検査",
+        "けんざ",
+        "けんし",
+        "げんさ"
+      ],
+      "answer": 0,
+      "meaning": "調べて確かめること。",
+      "example": "水質を検査する。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-010",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「荷物を○○する。」",
+      "choices": [
+        "ゆぞう",
+        "ゆしょう",
+        "しゅそう",
+        "輸送"
+      ],
+      "answer": 3,
+      "meaning": "物を運び送ること。",
+      "example": "荷物を輸送する。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-011",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「よい案を○○する。」",
+      "choices": [
+        "さいゆう",
+        "さいよ",
+        "採用",
+        "ざいよう"
+      ],
+      "answer": 2,
+      "meaning": "取り上げて使うこと。",
+      "example": "よい案を採用する。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-012",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「学校の○○を守る。」",
+      "choices": [
+        "きそ",
+        "規則",
+        "ぎそく",
+        "きぞく"
+      ],
+      "answer": 1,
+      "meaning": "守るべき決まり。",
+      "example": "学校の規則を守る。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-013",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「多くの人の○○を考える。」",
+      "choices": [
+        "利益",
+        "りいき",
+        "りやく",
+        "りえ"
+      ],
+      "answer": 0,
+      "meaning": "得になること。",
+      "example": "多くの人の利益を考える。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-014",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「日本の○○を調べる。」",
+      "choices": [
+        "ぼういき",
+        "もうえき",
+        "ぼうやく",
+        "貿易"
+      ],
+      "answer": 3,
+      "meaning": "国どうしで品物を売買すること。",
+      "example": "日本の貿易を調べる。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-sentence-015",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検6級：文に合う語を選ぶ「○○を表にする。」",
+      "choices": [
+        "とうげい",
+        "とうけ",
+        "統計",
+        "どうけい"
+      ],
+      "answer": 2,
+      "meaning": "数を集めてまとめたもの。",
+      "example": "統計を表にする。 漢検6級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-001",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "homophone",
-      "question": "精密",
+      "question": "漢検6級：「ひ」に合う漢字。○○を安全に使う。",
       "choices": [
-        "精密",
-        "感例",
-        "官例",
-        "完例"
+        "火",
+        "日",
+        "非",
+        "灯"
       ],
       "answer": 0,
-      "meaning": "細かいところまで正確なこと。",
-      "example": "精密な機械を作る。",
+      "meaning": "熱く明るく燃えるもの。",
+      "example": "火を安全に使う。 漢検6級の同音異義語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "homophone"
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-opposite-1",
+      "id": "kanken6-homophone-002",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「はな」に合う漢字。○○を花びんに入れる。",
+      "choices": [
+        "鼻",
+        "華",
+        "端",
+        "花"
+      ],
+      "answer": 3,
+      "meaning": "草や木に咲く部分。",
+      "example": "花を花びんに入れる。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-003",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「き」に合う漢字。○○の下で休む。",
+      "choices": [
+        "機",
+        "期",
+        "木",
+        "気"
+      ],
+      "answer": 2,
+      "meaning": "幹や枝を持つ植物。",
+      "example": "木の下で休む。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「め」に合う漢字。○○を大切にする。",
+      "choices": [
+        "眼",
+        "目",
+        "芽",
+        "女"
+      ],
+      "answer": 1,
+      "meaning": "ものを見る体の部分。",
+      "example": "目を大切にする。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「あし」に合う漢字。○○で地面をける。",
+      "choices": [
+        "足",
+        "脚",
+        "葦",
+        "悪し"
+      ],
+      "answer": 0,
+      "meaning": "歩くときに使う体の部分。",
+      "example": "足で地面をける。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-006",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「かわ」に合う漢字。○○で魚を見る。",
+      "choices": [
+        "皮",
+        "河",
+        "側",
+        "川"
+      ],
+      "answer": 3,
+      "meaning": "水が流れるところ。",
+      "example": "川で魚を見る。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-007",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「いし」に合う漢字。○○を拾う。",
+      "choices": [
+        "医師",
+        "意志",
+        "石",
+        "意思"
+      ],
+      "answer": 2,
+      "meaning": "かたい岩の小さなかたまり。",
+      "example": "石を拾う。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-008",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「せんせい」に合う漢字。○○にあいさつする。",
+      "choices": [
+        "専制",
+        "先生",
+        "先制",
+        "宣誓"
+      ],
+      "answer": 1,
+      "meaning": "学習を教える人。",
+      "example": "先生にあいさつする。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-009",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「こう」に合う漢字。○○門の前に立つ。",
+      "choices": [
+        "校",
+        "交",
+        "高",
+        "考"
+      ],
+      "answer": 0,
+      "meaning": "学校を表す漢字。",
+      "example": "校門の前に立つ。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-010",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「ほん」に合う漢字。○○を読む。",
+      "choices": [
+        "元",
+        "奔",
+        "品",
+        "本"
+      ],
+      "answer": 3,
+      "meaning": "文字や絵をまとめた読み物。",
+      "example": "本を読む。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-011",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「あか」に合う漢字。○○の色えんぴつを使う。",
+      "choices": [
+        "明",
+        "朱",
+        "赤",
+        "垢"
+      ],
+      "answer": 2,
+      "meaning": "赤い色。",
+      "example": "赤の色えんぴつを使う。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-012",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「しろ」に合う漢字。○○い紙を配る。",
+      "choices": [
+        "皿",
+        "白",
+        "城",
+        "代"
+      ],
+      "answer": 1,
+      "meaning": "白い色。",
+      "example": "白い紙を配る。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-013",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「な」に合う漢字。○○札をつける。",
+      "choices": [
+        "名",
+        "菜",
+        "奈",
+        "無"
+      ],
+      "answer": 0,
+      "meaning": "名前を表す漢字。",
+      "example": "名札をつける。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-014",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「こ」に合う漢字。○○犬を見る。",
+      "choices": [
+        "小",
+        "個",
+        "粉",
+        "子"
+      ],
+      "answer": 3,
+      "meaning": "子どもを表す漢字。",
+      "example": "子犬を見る。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-homophone-015",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検6級：「そら」に合う漢字。○○を見上げる。",
+      "choices": [
+        "空き",
+        "殻",
+        "空",
+        "宙"
+      ],
+      "answer": 2,
+      "meaning": "地上の上に広がるところ。",
+      "example": "空を見上げる。 漢検6級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-001",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "opposite",
-      "question": "精密",
+      "question": "漢検6級：「上」の対義語",
       "choices": [
-        "反対語を選ぶ",
-        "類義語を選ぶ",
-        "読みを選ぶ",
-        "部首を選ぶ"
+        "下",
+        "右",
+        "左",
+        "中"
       ],
       "answer": 0,
-      "meaning": "細かいところまで正確なこと。",
-      "example": "精密な機械を作る。",
+      "meaning": "高い方の位置。",
+      "example": "上の棚を見る。 漢検6級の対義語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [
-        "反対"
+        "下"
       ],
       "tags": [
-        "opposite"
+        "対義語",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-synonym-1",
+      "id": "kanken6-opposite-002",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「下」の対義語",
+      "choices": [
+        "左",
+        "右",
+        "外",
+        "上"
+      ],
+      "answer": 3,
+      "meaning": "低い方の位置。",
+      "example": "下の段に置く。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "上"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-003",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「右」の対義語",
+      "choices": [
+        "下",
+        "中",
+        "左",
+        "上"
+      ],
+      "answer": 2,
+      "meaning": "片側の方向。",
+      "example": "右の手を上げる。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "左"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「左」の対義語",
+      "choices": [
+        "中",
+        "右",
+        "上",
+        "下"
+      ],
+      "answer": 1,
+      "meaning": "片側の方向。",
+      "example": "左の道へ進む。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "右"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「大きい」の対義語",
+      "choices": [
+        "小さい",
+        "多い",
+        "白い",
+        "早い"
+      ],
+      "answer": 0,
+      "meaning": "形や量が大きいこと。",
+      "example": "大きい箱を運ぶ。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "小さい"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-006",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「多い」の対義語",
+      "choices": [
+        "大きい",
+        "白い",
+        "丸い",
+        "少ない"
+      ],
+      "answer": 3,
+      "meaning": "数や量がたくさんあること。",
+      "example": "人が多い。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "少ない"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-007",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「早い」の対義語",
+      "choices": [
+        "白い",
+        "近い",
+        "遅い",
+        "高い"
+      ],
+      "answer": 2,
+      "meaning": "時刻や動きが前であること。",
+      "example": "朝早い時間に出る。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "遅い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-008",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「白い」の対義語",
+      "choices": [
+        "丸い",
+        "黒い",
+        "赤い",
+        "青い"
+      ],
+      "answer": 1,
+      "meaning": "白の色であること。",
+      "example": "白い雲を見る。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "黒い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-009",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「入口」の対義語",
+      "choices": [
+        "出口",
+        "門口",
+        "窓口",
+        "校門"
+      ],
+      "answer": 0,
+      "meaning": "入るための場所。",
+      "example": "入口から入る。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "出口"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-010",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「前」の対義語",
+      "choices": [
+        "右",
+        "左",
+        "中",
+        "後"
+      ],
+      "answer": 3,
+      "meaning": "進む方向に近い側。",
+      "example": "前を見る。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "後"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-011",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「赤い」の対義語",
+      "choices": [
+        "早い",
+        "近い",
+        "白い",
+        "大きい"
+      ],
+      "answer": 2,
+      "meaning": "赤の色であること。",
+      "example": "赤い実を見つける。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "白い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-012",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「高い」の対義語",
+      "choices": [
+        "多い",
+        "低い",
+        "長い",
+        "丸い"
+      ],
+      "answer": 1,
+      "meaning": "位置が上であること。",
+      "example": "高い木を見る。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "低い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-013",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「近い」の対義語",
+      "choices": [
+        "遠い",
+        "早い",
+        "白い",
+        "大きい"
+      ],
+      "answer": 0,
+      "meaning": "距離が短いこと。",
+      "example": "家が近い。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "遠い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-014",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「長い」の対義語",
+      "choices": [
+        "赤い",
+        "多い",
+        "高い",
+        "短い"
+      ],
+      "answer": 3,
+      "meaning": "長さがあること。",
+      "example": "長い川を見る。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "短い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-opposite-015",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検6級：「入る」の対義語",
+      "choices": [
+        "読む",
+        "書く",
+        "出る",
+        "見る"
+      ],
+      "answer": 2,
+      "meaning": "中へ進むこと。",
+      "example": "教室に入る。 漢検6級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "出る"
+      ],
+      "tags": [
+        "対義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-001",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "synonym",
-      "question": "精密",
+      "question": "漢検6級：「大きい」と意味が近い言葉",
       "choices": [
-        "似た意味の語",
-        "反対の語",
-        "送りがな",
-        "画数"
+        "サイズが大きい",
+        "小さい",
+        "暗い",
+        "遠い"
       ],
       "answer": 0,
-      "meaning": "細かいところまで正確なこと。",
-      "example": "精密な機械を作る。",
+      "meaning": "形や量が大きいこと。",
+      "example": "大きい声で読む。 漢検6級の類義語問題で確認する。",
       "mnemonic": "",
       "synonyms": [
-        "類義"
+        "サイズが大きい"
       ],
       "antonyms": [],
       "tags": [
-        "synonym"
+        "類義語",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-yojijukugo-1",
+      "id": "kanken6-synonym-002",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「小さい」と意味が近い言葉",
+      "choices": [
+        "大きい",
+        "高い",
+        "新しい",
+        "サイズが小さい"
+      ],
+      "answer": 3,
+      "meaning": "形や量が小さいこと。",
+      "example": "小さい石を拾う。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "サイズが小さい"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-003",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「上」と意味が近い言葉",
+      "choices": [
+        "左の方",
+        "後ろ",
+        "高い方",
+        "低い方"
+      ],
+      "answer": 2,
+      "meaning": "位置が高い方。",
+      "example": "上を見る。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "高い方"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「下」と意味が近い言葉",
+      "choices": [
+        "前",
+        "低い方",
+        "高い方",
+        "右の方"
+      ],
+      "answer": 1,
+      "meaning": "位置が低い方。",
+      "example": "下に本を置く。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "低い方"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「入口」と意味が近い言葉",
+      "choices": [
+        "入る所",
+        "出る所",
+        "高い所",
+        "読む物"
+      ],
+      "answer": 0,
+      "meaning": "中へ入るための場所。",
+      "example": "入口で待つ。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "入る所"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-006",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「出口」と意味が近い言葉",
+      "choices": [
+        "入る所",
+        "流れる所",
+        "書く物",
+        "出る所"
+      ],
+      "answer": 3,
+      "meaning": "外へ出るための場所。",
+      "example": "出口へ進む。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "出る所"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-007",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「早い」と意味が近い言葉",
+      "choices": [
+        "暗い",
+        "細い",
+        "時間が前",
+        "遅い"
+      ],
+      "answer": 2,
+      "meaning": "時刻や動きが前であること。",
+      "example": "早い時間に着く。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "時間が前"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-008",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「白い」と意味が近い言葉",
+      "choices": [
+        "近い",
+        "白の色",
+        "黒い",
+        "多い"
+      ],
+      "answer": 1,
+      "meaning": "雪のような色。",
+      "example": "白い紙に書く。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "白の色"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-009",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「見る」と意味が近い言葉",
+      "choices": [
+        "目で確かめる",
+        "聞く",
+        "走る",
+        "食べる"
+      ],
+      "answer": 0,
+      "meaning": "目で物をとらえること。",
+      "example": "空を見る。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "目で確かめる"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-010",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「読む」と意味が近い言葉",
+      "choices": [
+        "書く",
+        "走る",
+        "洗う",
+        "文字を声や心でたどる"
+      ],
+      "answer": 3,
+      "meaning": "文字の意味を取ること。",
+      "example": "本を読む。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "文字を声や心でたどる"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-011",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「赤い」と意味が近い言葉",
+      "choices": [
+        "大きい",
+        "早い",
+        "赤の色",
+        "白い"
+      ],
+      "answer": 2,
+      "meaning": "赤の色であること。",
+      "example": "赤い花が咲く。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "赤の色"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-012",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「少ない」と意味が近い言葉",
+      "choices": [
+        "丸い",
+        "数が少し",
+        "多い",
+        "高い"
+      ],
+      "answer": 1,
+      "meaning": "数や量が少しであること。",
+      "example": "水が少ない。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "数が少し"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-013",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「高い」と意味が近い言葉",
+      "choices": [
+        "上にある",
+        "低い",
+        "白い",
+        "近い"
+      ],
+      "answer": 0,
+      "meaning": "位置や値段が上であること。",
+      "example": "高い山を見る。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "上にある"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-014",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「近い」と意味が近い言葉",
+      "choices": [
+        "遠い",
+        "大きい",
+        "暗い",
+        "距離が短い"
+      ],
+      "answer": 3,
+      "meaning": "距離が短いこと。",
+      "example": "学校が近い。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "距離が短い"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-synonym-015",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検6級：「長い」と意味が近い言葉",
+      "choices": [
+        "多い",
+        "黒い",
+        "端から端まで遠い",
+        "短い"
+      ],
+      "answer": 2,
+      "meaning": "長さがあること。",
+      "example": "長い道を歩く。 漢検6級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "端から端まで遠い"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-001",
       "grade": 5,
       "kanken": 6,
       "difficulty": 4,
       "type": "yojijukugo",
-      "question": "精密",
+      "question": "漢検6級：四字熟語「一日一字」の意味",
       "choices": [
-        "一日一善",
-        "一石二鳥",
-        "十人十色",
-        "七転八起"
+        "一日に一つの字を学ぶこと。",
+        "一日に一回休むこと。",
+        "一字を消すこと。",
+        "一日中遊ぶこと。"
       ],
-      "answer": 1,
-      "meaning": "細かいところまで正確なこと。",
-      "example": "精密な機械を作る。",
+      "answer": 0,
+      "meaning": "一日に一つの字を学ぶこと。",
+      "example": "一日一字を目標に漢字を覚える。 漢検6級の四字熟語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "yojijukugo"
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-radical-1",
+      "id": "kanken6-yojijukugo-002",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「一人一人」の意味",
+      "choices": [
+        "一人だけで走ること。",
+        "同じ字を書くこと。",
+        "日にちを数えること。",
+        "それぞれの人を大切に見ること。"
+      ],
+      "answer": 3,
+      "meaning": "それぞれの人を大切に見ること。",
+      "example": "一人一人の考えを聞く。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-003",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「上下左右」の意味",
+      "choices": [
+        "同じ場所に立つこと。",
+        "色を分けること。",
+        "上・下・左・右の方向。",
+        "前だけを見ること。"
+      ],
+      "answer": 2,
+      "meaning": "上・下・左・右の方向。",
+      "example": "地図で上下左右を確かめる。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「山川草木」の意味",
+      "choices": [
+        "数を数えること。",
+        "山や川、草や木など自然のもの。",
+        "町の建物だけを表すこと。",
+        "人の名前を並べること。"
+      ],
+      "answer": 1,
+      "meaning": "山や川、草や木など自然のもの。",
+      "example": "山川草木を大切にする。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「日月火水」の意味",
+      "choices": [
+        "曜日名にも使う基本の漢字。",
+        "動物の名前だけを集めた語。",
+        "体の部分を表す語。",
+        "数だけを並べた語。"
+      ],
+      "answer": 0,
+      "meaning": "曜日名にも使う基本の漢字。",
+      "example": "日月火水の漢字を読む。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-006",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「木金土日」の意味",
+      "choices": [
+        "学校の部屋の名前。",
+        "春の花の名前。",
+        "体の動きを表す語。",
+        "曜日名にも使う基本の漢字。"
+      ],
+      "answer": 3,
+      "meaning": "曜日名にも使う基本の漢字。",
+      "example": "木金土日の字を練習する。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-007",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「一二三四」の意味",
+      "choices": [
+        "四つの季節のこと。",
+        "四人の名前のこと。",
+        "一から四までの数。",
+        "四つの方向のこと。"
+      ],
+      "answer": 2,
+      "meaning": "一から四までの数。",
+      "example": "一二三四を順に書く。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-008",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「五六七八」の意味",
+      "choices": [
+        "学校の教科名。",
+        "五から八までの数。",
+        "八つの花の名前。",
+        "朝のあいさつ。"
+      ],
+      "answer": 1,
+      "meaning": "五から八までの数。",
+      "example": "五六七八を正しく読む。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-009",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「九十一百」の意味",
+      "choices": [
+        "数を表す基本の漢字。",
+        "色を表す漢字。",
+        "動物を表す漢字。",
+        "道具を表す漢字。"
+      ],
+      "answer": 0,
+      "meaning": "数を表す基本の漢字。",
+      "example": "九十一百の読みを覚える。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-010",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「大小上下」の意味",
+      "choices": [
+        "雨の強さだけを表すこと。",
+        "学校の名前のこと。",
+        "本の数え方のこと。",
+        "大きさと上下の方向。"
+      ],
+      "answer": 3,
+      "meaning": "大きさと上下の方向。",
+      "example": "大小上下を使って位置を説明する。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-011",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「左右前後」の意味",
+      "choices": [
+        "動物の名前の語。",
+        "一週間の曜日。",
+        "左右と前後の方向。",
+        "色の名前を並べた語。"
+      ],
+      "answer": 2,
+      "meaning": "左右と前後の方向。",
+      "example": "左右前後を確かめて歩く。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-012",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「山上山下」の意味",
+      "choices": [
+        "人の名前のこと。",
+        "山の上と下を表す言い方。",
+        "海の深さを表すこと。",
+        "本の読み方のこと。"
+      ],
+      "answer": 1,
+      "meaning": "山の上と下を表す言い方。",
+      "example": "山上山下の気温を比べる。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-013",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「人口大小」の意味",
+      "choices": [
+        "人口の多さを比べる言い方。",
+        "花の色だけを表すこと。",
+        "学校の時間割のこと。",
+        "川の名前のこと。"
+      ],
+      "answer": 0,
+      "meaning": "人口の多さを比べる言い方。",
+      "example": "町の人口大小を表で見る。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-014",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「赤白青黒」の意味",
+      "choices": [
+        "数を表す漢字だけの並び。",
+        "方向を表す言葉。",
+        "動物の名前の並び。",
+        "色を表す漢字の並び。"
+      ],
+      "answer": 3,
+      "meaning": "色を表す漢字の並び。",
+      "example": "赤白青黒のカードを分ける。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-yojijukugo-015",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検6級：四字熟語「手足口目」の意味",
+      "choices": [
+        "町の名前のこと。",
+        "数を表す漢字。",
+        "体の部分を表す漢字。",
+        "季節を表す言葉。"
+      ],
+      "answer": 2,
+      "meaning": "体の部分を表す漢字。",
+      "example": "手足口目の漢字を練習する。 漢検6級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-001",
       "grade": 5,
       "kanken": 6,
       "difficulty": 2,
       "type": "radical",
-      "question": "精密",
+      "question": "漢検6級：「山」の部首",
       "choices": [
-        "部首",
-        "音読み",
-        "訓読み",
-        "例文"
+        "やま",
+        "さんずい",
+        "くち",
+        "き"
       ],
       "answer": 0,
-      "meaning": "細かいところまで正確なこと。",
-      "example": "精密な機械を作る。",
+      "meaning": "山に関係する部首。",
+      "example": "山の部首はやま。 漢検6級の部首問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "radical"
+        "部首",
+        "漢検6級",
+        "小学5年"
       ]
     },
     {
-      "id": "k6-correction-1",
+      "id": "kanken6-radical-002",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 4,
-      "type": "correction",
-      "question": "精密",
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「川」の部首",
       "choices": [
-        "精密",
-        "誤字をふくむ語",
-        "送りがななし",
-        "読みちがい"
+        "さんずい",
+        "やま",
+        "くち",
+        "かわ"
       ],
-      "answer": 0,
-      "meaning": "細かいところまで正確なこと。",
-      "example": "精密な機械を作る。",
+      "answer": 3,
+      "meaning": "川を表す部首。",
+      "example": "川の部首はかわ。 漢検6級の部首問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "correction"
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-003",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「木」の部首",
+      "choices": [
+        "ひ",
+        "みず",
+        "き",
+        "ほん"
+      ],
+      "answer": 2,
+      "meaning": "木を表す部首。",
+      "example": "木の部首はき。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「火」の部首",
+      "choices": [
+        "やま",
+        "ひ",
+        "みず",
+        "き"
+      ],
+      "answer": 1,
+      "meaning": "火を表す部首。",
+      "example": "火の部首はひ。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「水」の部首",
+      "choices": [
+        "みず",
+        "ひ",
+        "き",
+        "くち"
+      ],
+      "answer": 0,
+      "meaning": "水を表す部首。",
+      "example": "水の部首はみず。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-006",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「口」の部首",
+      "choices": [
+        "め",
+        "みみ",
+        "ひ",
+        "くち"
+      ],
+      "answer": 3,
+      "meaning": "口に関係する部首。",
+      "example": "口の部首はくち。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-007",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「目」の部首",
+      "choices": [
+        "みみ",
+        "ひ",
+        "め",
+        "くち"
+      ],
+      "answer": 2,
+      "meaning": "目に関係する部首。",
+      "example": "目の部首はめ。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-008",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「耳」の部首",
+      "choices": [
+        "て",
+        "みみ",
+        "め",
+        "くち"
+      ],
+      "answer": 1,
+      "meaning": "耳に関係する部首。",
+      "example": "耳の部首はみみ。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-009",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「手」の部首",
+      "choices": [
+        "て",
+        "あし",
+        "みみ",
+        "め"
+      ],
+      "answer": 0,
+      "meaning": "手に関係する部首。",
+      "example": "手の部首はて。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-010",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「足」の部首",
+      "choices": [
+        "て",
+        "くち",
+        "め",
+        "あし"
+      ],
+      "answer": 3,
+      "meaning": "足に関係する部首。",
+      "example": "足の部首はあし。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-011",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「日」の部首",
+      "choices": [
+        "め",
+        "くち",
+        "ひ",
+        "つき"
+      ],
+      "answer": 2,
+      "meaning": "日を表す部首。",
+      "example": "日の部首はひ。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-012",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「月」の部首",
+      "choices": [
+        "き",
+        "つき",
+        "ひ",
+        "みず"
+      ],
+      "answer": 1,
+      "meaning": "月を表す部首。",
+      "example": "月の部首はつき。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-013",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「石」の部首",
+      "choices": [
+        "いし",
+        "やま",
+        "くち",
+        "ひ"
+      ],
+      "answer": 0,
+      "meaning": "石に関係する部首。",
+      "example": "石の部首はいし。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-014",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「田」の部首",
+      "choices": [
+        "くち",
+        "め",
+        "ひ",
+        "た"
+      ],
+      "answer": 3,
+      "meaning": "田を表す部首。",
+      "example": "田の部首はた。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-radical-015",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検6級：「雨」の部首",
+      "choices": [
+        "つき",
+        "ひ",
+        "あめ",
+        "みず"
+      ],
+      "answer": 2,
+      "meaning": "雨に関係する部首。",
+      "example": "雨の部首はあめ。 漢検6級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-001",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「せいみつ」の正しい表記",
+      "choices": [
+        "精蜜",
+        "清密",
+        "精密つ",
+        "精密"
+      ],
+      "answer": 3,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な部品を作る。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-002",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「せきにん」の正しい表記",
+      "choices": [
+        "積任",
+        "責仁",
+        "責任",
+        "責任ん"
+      ],
+      "answer": 2,
+      "meaning": "引き受けて果たすべきつとめ。",
+      "example": "係の責任を果たす。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-003",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「かいてき」の正しい表記",
+      "choices": [
+        "快適き",
+        "快適",
+        "快的",
+        "改適"
+      ],
+      "answer": 1,
+      "meaning": "気持ちよく過ごせること。",
+      "example": "快適な部屋で勉強する。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「きょか」の正しい表記",
+      "choices": [
+        "許可",
+        "許加",
+        "許可か",
+        "計可"
+      ],
+      "answer": 0,
+      "meaning": "してよいと認めること。",
+      "example": "先生の許可を得る。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「こうせい」の正しい表記",
+      "choices": [
+        "構正",
+        "講成",
+        "構成い",
+        "構成"
+      ],
+      "answer": 3,
+      "meaning": "いくつかの部分を組み立てること。",
+      "example": "文章の構成を考える。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-006",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「こんざつ」の正しい表記",
+      "choices": [
+        "困雑",
+        "混雑つ",
+        "混雑",
+        "混在"
+      ],
+      "answer": 2,
+      "meaning": "人や物が多く入り乱れること。",
+      "example": "駅前が混雑する。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-007",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「しょうにん」の正しい表記",
+      "choices": [
+        "承認ん",
+        "承認",
+        "証認",
+        "承任"
+      ],
+      "answer": 1,
+      "meaning": "よいと認めること。",
+      "example": "計画が承認される。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-008",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「たいど」の正しい表記",
+      "choices": [
+        "態度",
+        "態渡",
+        "体度",
+        "態度ど"
+      ],
+      "answer": 0,
+      "meaning": "人や物事に向かう様子。",
+      "example": "落ち着いた態度で話す。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-009",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「けんさ」の正しい表記",
+      "choices": [
+        "検査さ",
+        "倹査",
+        "検相",
+        "検査"
+      ],
+      "answer": 3,
+      "meaning": "調べて確かめること。",
+      "example": "水質を検査する。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-010",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「ゆそう」の正しい表記",
+      "choices": [
+        "輪送",
+        "輸送う",
+        "輸送",
+        "輸走"
+      ],
+      "answer": 2,
+      "meaning": "物を運び送ること。",
+      "example": "荷物を輸送する。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-011",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「さいよう」の正しい表記",
+      "choices": [
+        "菜用",
+        "採用",
+        "採要",
+        "採用う"
+      ],
+      "answer": 1,
+      "meaning": "取り上げて使うこと。",
+      "example": "よい案を採用する。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-012",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「きそく」の正しい表記",
+      "choices": [
+        "規則",
+        "規測",
+        "規則く",
+        "記則"
+      ],
+      "answer": 0,
+      "meaning": "守るべき決まり。",
+      "example": "学校の規則を守る。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-013",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「りえき」の正しい表記",
+      "choices": [
+        "利液",
+        "理益",
+        "利益き",
+        "利益"
+      ],
+      "answer": 3,
+      "meaning": "得になること。",
+      "example": "多くの人の利益を考える。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-014",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「ぼうえき」の正しい表記",
+      "choices": [
+        "貿易き",
+        "買易",
+        "貿易",
+        "貿駅"
+      ],
+      "answer": 2,
+      "meaning": "国どうしで品物を売買すること。",
+      "example": "日本の貿易を調べる。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
+      ]
+    },
+    {
+      "id": "kanken6-correction-015",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検6級：「とうけい」の正しい表記",
+      "choices": [
+        "総計",
+        "統計",
+        "統計い",
+        "統形"
+      ],
+      "answer": 1,
+      "meaning": "数を集めてまとめたもの。",
+      "example": "統計を表にする。 漢検6級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検6級",
+        "小学5年"
       ]
     }
   ],

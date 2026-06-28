@@ -3,12 +3,12 @@
   "label": "漢検7級",
   "questions": [
     {
-      "id": "k7-reading-1",
+      "id": "kanken7-reading-001",
       "grade": 4,
       "kanken": 7,
-      "difficulty": 4,
+      "difficulty": 1,
       "type": "reading",
-      "question": "慣例",
+      "question": "漢検7級：式は慣例にしたがって進む。 の「慣例」",
       "choices": [
         "かんれい",
         "かんれつ",
@@ -16,374 +16,3800 @@
         "けんれい"
       ],
       "answer": 0,
-      "meaning": "以前からのならわし。",
-      "example": "式は慣例にしたがって進む。",
+      "meaning": "前から行われているならわし。",
+      "example": "式は慣例にしたがって進む。 漢検7級の読み問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "reading"
+        "読み",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-writing-1",
+      "id": "kanken7-reading-002",
       "grade": 4,
       "kanken": 7,
-      "difficulty": 4,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：虫の動きを観察する。 の「観察」",
+      "choices": [
+        "かんざつ",
+        "けんさつ",
+        "かんせつ",
+        "かんさつ"
+      ],
+      "answer": 3,
+      "meaning": "よく見て調べること。",
+      "example": "虫の動きを観察する。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-003",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：班で協力して発表する。 の「協力」",
+      "choices": [
+        "こうりょく",
+        "きょうろく",
+        "きょうりょく",
+        "きょうりき"
+      ],
+      "answer": 2,
+      "meaning": "力を合わせること。",
+      "example": "班で協力して発表する。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-004",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：練習が必要だ。 の「必要」",
+      "choices": [
+        "ひちよう",
+        "ひつよう",
+        "ひっよう",
+        "ひつよ"
+      ],
+      "answer": 1,
+      "meaning": "なくてはならないこと。",
+      "example": "練習が必要だ。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-005",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：明るい印象を受ける。 の「印象」",
+      "choices": [
+        "いんしょう",
+        "いんぞう",
+        "いんじょう",
+        "いしょう"
+      ],
+      "answer": 0,
+      "meaning": "心に残る感じ。",
+      "example": "明るい印象を受ける。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-006",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：道具を改良する。 の「改良」",
+      "choices": [
+        "かいれい",
+        "がいりょう",
+        "かいりゅう",
+        "かいりょう"
+      ],
+      "answer": 3,
+      "meaning": "よりよく直すこと。",
+      "example": "道具を改良する。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-007",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：天気と気温の関係を調べる。 の「関係」",
+      "choices": [
+        "けんけい",
+        "かんれい",
+        "かんけい",
+        "かんげい"
+      ],
+      "answer": 2,
+      "meaning": "つながりがあること。",
+      "example": "天気と気温の関係を調べる。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-008",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：季節の変化を感じる。 の「季節」",
+      "choices": [
+        "きしょう",
+        "きせつ",
+        "きぜつ",
+        "きせち"
+      ],
+      "answer": 1,
+      "meaning": "春夏秋冬などの時期。",
+      "example": "季節の変化を感じる。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-009",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：毎日の努力が力になる。 の「努力」",
+      "choices": [
+        "どりょく",
+        "とりょく",
+        "どりき",
+        "どろく"
+      ],
+      "answer": 0,
+      "meaning": "目標に向けて力を尽くすこと。",
+      "example": "毎日の努力が力になる。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-010",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：理由を説明する。 の「説明」",
+      "choices": [
+        "せちめい",
+        "せつみょう",
+        "せつめ",
+        "せつめい"
+      ],
+      "answer": 3,
+      "meaning": "分かるように述べること。",
+      "example": "理由を説明する。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-011",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：学級委員を選挙で決める。 の「選挙」",
+      "choices": [
+        "せんきょう",
+        "せんこ",
+        "せんきょ",
+        "せんぎょ"
+      ],
+      "answer": 2,
+      "meaning": "代表を投票で選ぶこと。",
+      "example": "学級委員を選挙で決める。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-012",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：速さを競争する。 の「競争」",
+      "choices": [
+        "きょうしょう",
+        "きょうそう",
+        "きょうぞう",
+        "けいそう"
+      ],
+      "answer": 1,
+      "meaning": "勝ち負けを争うこと。",
+      "example": "速さを競争する。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-013",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：物語の結末に驚く。 の「結末」",
+      "choices": [
+        "けつまつ",
+        "けっまつ",
+        "けつみつ",
+        "けつばつ"
+      ],
+      "answer": 0,
+      "meaning": "物語などの終わり。",
+      "example": "物語の結末に驚く。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-014",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：連絡を正しく伝達する。 の「伝達」",
+      "choices": [
+        "てんたつ",
+        "でんだつ",
+        "でんとう",
+        "でんたつ"
+      ],
+      "answer": 3,
+      "meaning": "知らせを伝えること。",
+      "example": "連絡を正しく伝達する。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-reading-015",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "漢検7級：結果に満足する。 の「満足」",
+      "choices": [
+        "ばんぞく",
+        "まんぞ",
+        "まんぞく",
+        "まんそく"
+      ],
+      "answer": 2,
+      "meaning": "十分で不満がないこと。",
+      "example": "結果に満足する。 漢検7級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-writing-001",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
       "type": "writing",
-      "question": "かんれい",
+      "question": "漢検7級：「かんれい」を漢字で書く",
       "choices": [
         "慣例",
-        "慣例う",
-        "同例",
-        "慣学"
+        "慣礼",
+        "貫例",
+        "慣令"
       ],
       "answer": 0,
-      "meaning": "以前からのならわし。",
-      "example": "式は慣例にしたがって進む。",
+      "meaning": "前から行われているならわし。",
+      "example": "式は慣例にしたがって進む。 漢検7級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-reading-2",
+      "id": "kanken7-writing-002",
       "grade": 4,
       "kanken": 7,
-      "difficulty": 4,
-      "type": "reading",
-      "question": "観察",
-      "choices": [
-        "かんさつ",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "物事をよく見て調べること。",
-      "example": "昆虫を観察する。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "k7-writing-2",
-      "grade": 4,
-      "kanken": 7,
-      "difficulty": 4,
+      "difficulty": 1,
       "type": "writing",
-      "question": "かんさつ",
+      "question": "漢検7級：「かんさつ」を漢字で書く",
       "choices": [
-        "観察",
-        "観察う",
-        "同察",
-        "観学"
+        "観測",
+        "歓察",
+        "観札",
+        "観察"
       ],
-      "answer": 0,
-      "meaning": "物事をよく見て調べること。",
-      "example": "昆虫を観察する。",
+      "answer": 3,
+      "meaning": "よく見て調べること。",
+      "example": "虫の動きを観察する。 漢検7級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-reading-3",
+      "id": "kanken7-writing-003",
       "grade": 4,
       "kanken": 7,
-      "difficulty": 4,
-      "type": "reading",
-      "question": "協力",
-      "choices": [
-        "きょうりょく",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "力を合わせること。",
-      "example": "友だちと協力する。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "k7-writing-3",
-      "grade": 4,
-      "kanken": 7,
-      "difficulty": 4,
+      "difficulty": 1,
       "type": "writing",
-      "question": "きょうりょく",
+      "question": "漢検7級：「きょうりょく」を漢字で書く",
       "choices": [
+        "協緑",
+        "協力く",
         "協力",
-        "協力う",
-        "同力",
-        "協学"
+        "強力"
       ],
-      "answer": 0,
+      "answer": 2,
       "meaning": "力を合わせること。",
-      "example": "友だちと協力する。",
+      "example": "班で協力して発表する。 漢検7級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-reading-4",
+      "id": "kanken7-writing-004",
       "grade": 4,
       "kanken": 7,
-      "difficulty": 4,
-      "type": "reading",
-      "question": "必要",
-      "choices": [
-        "ひつよう",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "なくてはならないこと。",
-      "example": "練習が必要だ。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "k7-writing-4",
-      "grade": 4,
-      "kanken": 7,
-      "difficulty": 4,
+      "difficulty": 1,
       "type": "writing",
-      "question": "ひつよう",
+      "question": "漢検7級：「ひつよう」を漢字で書く",
       "choices": [
-        "必要",
         "必要う",
-        "同要",
-        "必学"
+        "必要",
+        "必用",
+        "泌要"
       ],
-      "answer": 0,
+      "answer": 1,
       "meaning": "なくてはならないこと。",
-      "example": "練習が必要だ。",
+      "example": "練習が必要だ。 漢検7級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-compound-1",
+      "id": "kanken7-writing-005",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検7級：「いんしょう」を漢字で書く",
+      "choices": [
+        "印象",
+        "印章",
+        "印像",
+        "卬象"
+      ],
+      "answer": 0,
+      "meaning": "心に残る感じ。",
+      "example": "明るい印象を受ける。 漢検7級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-writing-006",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検7級：「かいりょう」を漢字で書く",
+      "choices": [
+        "改善",
+        "改量",
+        "改良う",
+        "改良"
+      ],
+      "answer": 3,
+      "meaning": "よりよく直すこと。",
+      "example": "道具を改良する。 漢検7級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-writing-007",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検7級：「かんけい」を漢字で書く",
+      "choices": [
+        "間係",
+        "関係い",
+        "関係",
+        "関計"
+      ],
+      "answer": 2,
+      "meaning": "つながりがあること。",
+      "example": "天気と気温の関係を調べる。 漢検7級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-writing-008",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検7級：「きせつ」を漢字で書く",
+      "choices": [
+        "季節つ",
+        "季節",
+        "李節",
+        "季折"
+      ],
+      "answer": 1,
+      "meaning": "春夏秋冬などの時期。",
+      "example": "季節の変化を感じる。 漢検7級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-writing-009",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検7級：「どりょく」を漢字で書く",
+      "choices": [
+        "努力",
+        "努刀",
+        "努力く",
+        "怒力"
+      ],
+      "answer": 0,
+      "meaning": "目標に向けて力を尽くすこと。",
+      "example": "毎日の努力が力になる。 漢検7級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-writing-010",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検7級：「せつめい」を漢字で書く",
+      "choices": [
+        "説名",
+        "設明",
+        "説明い",
+        "説明"
+      ],
+      "answer": 3,
+      "meaning": "分かるように述べること。",
+      "example": "理由を説明する。 漢検7級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-writing-011",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検7級：「せんきょ」を漢字で書く",
+      "choices": [
+        "撰挙",
+        "選拳",
+        "選挙",
+        "選学"
+      ],
+      "answer": 2,
+      "meaning": "代表を投票で選ぶこと。",
+      "example": "学級委員を選挙で決める。 漢検7級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-writing-012",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検7級：「きょうそう」を漢字で書く",
+      "choices": [
+        "竟争",
+        "競争",
+        "競走",
+        "競争う"
+      ],
+      "answer": 1,
+      "meaning": "勝ち負けを争うこと。",
+      "example": "速さを競争する。 漢検7級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-writing-013",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検7級：「けつまつ」を漢字で書く",
+      "choices": [
+        "結末",
+        "結果",
+        "結未",
+        "結末つ"
+      ],
+      "answer": 0,
+      "meaning": "物語などの終わり。",
+      "example": "物語の結末に驚く。 漢検7級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-writing-014",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検7級：「でんたつ」を漢字で書く",
+      "choices": [
+        "伝達つ",
+        "伝速",
+        "転達",
+        "伝達"
+      ],
+      "answer": 3,
+      "meaning": "知らせを伝えること。",
+      "example": "連絡を正しく伝達する。 漢検7級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-writing-015",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "漢検7級：「まんぞく」を漢字で書く",
+      "choices": [
+        "満族",
+        "満足く",
+        "満足",
+        "満速"
+      ],
+      "answer": 2,
+      "meaning": "十分で不満がないこと。",
+      "example": "結果に満足する。 漢検7級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-001",
       "grade": 4,
       "kanken": 7,
       "difficulty": 2,
       "type": "compound",
-      "question": "慣例",
+      "question": "漢検7級：熟語「山□」に入る漢字",
       "choices": [
-        "慣例",
-        "慣例力",
-        "大慣例",
-        "慣例語"
+        "道",
+        "川",
+        "火",
+        "手"
       ],
       "answer": 0,
-      "meaning": "以前からのならわし。",
-      "example": "式は慣例にしたがって進む。",
+      "meaning": "山の中を通る道。",
+      "example": "山道をゆっくり歩く。 漢検7級の熟語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "compound"
+        "熟語",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-sentence-1",
+      "id": "kanken7-compound-002",
       "grade": 4,
       "kanken": 7,
       "difficulty": 2,
-      "type": "sentence",
-      "question": "慣例",
+      "type": "compound",
+      "question": "漢検7級：熟語「水□」に入る漢字",
       "choices": [
-        "式は慣例にしたがって進む。",
-        "かんれいを読む。",
-        "音だけを聞く。",
-        "答えを消す。"
+        "火",
+        "犬",
+        "目",
+        "田"
       ],
-      "answer": 0,
-      "meaning": "以前からのならわし。",
-      "example": "式は慣例にしたがって進む。",
+      "answer": 3,
+      "meaning": "水を入れて米を育てる田。",
+      "example": "水田に苗を植える。 漢検7級の熟語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "sentence"
+        "熟語",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-homophone-1",
+      "id": "kanken7-compound-003",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「火□」に入る漢字",
+      "choices": [
+        "雨",
+        "木",
+        "山",
+        "川"
+      ],
+      "answer": 2,
+      "meaning": "地下の熱い物が出る山。",
+      "example": "火山の写真を見る。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-004",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「木□」に入る漢字",
+      "choices": [
+        "目",
+        "立",
+        "水",
+        "口"
+      ],
+      "answer": 1,
+      "meaning": "木が何本も立っている場所。",
+      "example": "木立の中を歩く。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-005",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「雨□」に入る漢字",
+      "choices": [
+        "水",
+        "火",
+        "耳",
+        "足"
+      ],
+      "answer": 0,
+      "meaning": "雨として降った水。",
+      "example": "雨水をためる。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-006",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「空□」に入る漢字",
+      "choices": [
+        "校",
+        "花",
+        "犬",
+        "気"
+      ],
+      "answer": 3,
+      "meaning": "まわりにある見えない気体。",
+      "example": "空気を入れ替える。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-007",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「手□」に入る漢字",
+      "choices": [
+        "山",
+        "犬",
+        "紙",
+        "水"
+      ],
+      "answer": 2,
+      "meaning": "用件を書いて送る紙。",
+      "example": "友だちに手紙を書く。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-008",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「先□」に入る漢字",
+      "choices": [
+        "右",
+        "生",
+        "校",
+        "本"
+      ],
+      "answer": 1,
+      "meaning": "学習を教える人。",
+      "example": "先生に質問する。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-009",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「学□」に入る漢字",
+      "choices": [
+        "校",
+        "交",
+        "考",
+        "高"
+      ],
+      "answer": 0,
+      "meaning": "学ぶために通う場所。",
+      "example": "学校で友だちと学ぶ。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-010",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「草□」に入る漢字",
+      "choices": [
+        "火",
+        "口",
+        "足",
+        "木"
+      ],
+      "answer": 3,
+      "meaning": "草と木などの植物。",
+      "example": "草木に水をやる。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-011",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「日□」に入る漢字",
+      "choices": [
+        "川",
+        "火",
+        "本",
+        "山"
+      ],
+      "answer": 2,
+      "meaning": "日本という国の名前。",
+      "example": "日本の地図を見る。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-012",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「人□」に入る漢字",
+      "choices": [
+        "手",
+        "口",
+        "目",
+        "耳"
+      ],
+      "answer": 1,
+      "meaning": "ある場所に住む人の数。",
+      "example": "町の人口を知る。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-013",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「名□」に入る漢字",
+      "choices": [
+        "前",
+        "右",
+        "左",
+        "下"
+      ],
+      "answer": 0,
+      "meaning": "人や物を呼ぶ言葉。",
+      "example": "自分の名前を書く。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-014",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「白□」に入る漢字",
+      "choices": [
+        "木",
+        "山",
+        "川",
+        "紙"
+      ],
+      "answer": 3,
+      "meaning": "何も書いていない紙。",
+      "example": "白紙に絵をかく。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-compound-015",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "漢検7級：熟語「赤□」に入る漢字",
+      "choices": [
+        "空",
+        "耳",
+        "土",
+        "水"
+      ],
+      "answer": 2,
+      "meaning": "赤みのある土。",
+      "example": "赤土の道を歩く。 漢検7級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-001",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「式は○○にしたがって進む。」",
+      "choices": [
+        "慣例",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "前から行われているならわし。",
+      "example": "式は慣例にしたがって進む。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-002",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「虫の動きを○○する。」",
+      "choices": [
+        "かんざつ",
+        "けんさつ",
+        "かんせつ",
+        "観察"
+      ],
+      "answer": 3,
+      "meaning": "よく見て調べること。",
+      "example": "虫の動きを観察する。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-003",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「班で○○して発表する。」",
+      "choices": [
+        "こうりょく",
+        "きょうろく",
+        "協力",
+        "きょうりき"
+      ],
+      "answer": 2,
+      "meaning": "力を合わせること。",
+      "example": "班で協力して発表する。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-004",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「練習が○○だ。」",
+      "choices": [
+        "ひちよう",
+        "必要",
+        "ひっよう",
+        "ひつよ"
+      ],
+      "answer": 1,
+      "meaning": "なくてはならないこと。",
+      "example": "練習が必要だ。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-005",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「明るい○○を受ける。」",
+      "choices": [
+        "印象",
+        "いんぞう",
+        "いんじょう",
+        "いしょう"
+      ],
+      "answer": 0,
+      "meaning": "心に残る感じ。",
+      "example": "明るい印象を受ける。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-006",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「道具を○○する。」",
+      "choices": [
+        "かいれい",
+        "がいりょう",
+        "かいりゅう",
+        "改良"
+      ],
+      "answer": 3,
+      "meaning": "よりよく直すこと。",
+      "example": "道具を改良する。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-007",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「天気と気温の○○を調べる。」",
+      "choices": [
+        "けんけい",
+        "かんれい",
+        "関係",
+        "かんげい"
+      ],
+      "answer": 2,
+      "meaning": "つながりがあること。",
+      "example": "天気と気温の関係を調べる。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-008",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「○○の変化を感じる。」",
+      "choices": [
+        "きしょう",
+        "季節",
+        "きぜつ",
+        "きせち"
+      ],
+      "answer": 1,
+      "meaning": "春夏秋冬などの時期。",
+      "example": "季節の変化を感じる。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-009",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「毎日の○○が力になる。」",
+      "choices": [
+        "努力",
+        "とりょく",
+        "どりき",
+        "どろく"
+      ],
+      "answer": 0,
+      "meaning": "目標に向けて力を尽くすこと。",
+      "example": "毎日の努力が力になる。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-010",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「理由を○○する。」",
+      "choices": [
+        "せちめい",
+        "せつみょう",
+        "せつめ",
+        "説明"
+      ],
+      "answer": 3,
+      "meaning": "分かるように述べること。",
+      "example": "理由を説明する。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-011",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「学級委員を○○で決める。」",
+      "choices": [
+        "せんきょう",
+        "せんこ",
+        "選挙",
+        "せんぎょ"
+      ],
+      "answer": 2,
+      "meaning": "代表を投票で選ぶこと。",
+      "example": "学級委員を選挙で決める。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-012",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「速さを○○する。」",
+      "choices": [
+        "きょうしょう",
+        "競争",
+        "きょうぞう",
+        "けいそう"
+      ],
+      "answer": 1,
+      "meaning": "勝ち負けを争うこと。",
+      "example": "速さを競争する。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-013",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「物語の○○に驚く。」",
+      "choices": [
+        "結末",
+        "けっまつ",
+        "けつみつ",
+        "けつばつ"
+      ],
+      "answer": 0,
+      "meaning": "物語などの終わり。",
+      "example": "物語の結末に驚く。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-014",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「連絡を正しく○○する。」",
+      "choices": [
+        "てんたつ",
+        "でんだつ",
+        "でんとう",
+        "伝達"
+      ],
+      "answer": 3,
+      "meaning": "知らせを伝えること。",
+      "example": "連絡を正しく伝達する。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-sentence-015",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "漢検7級：文に合う語を選ぶ「結果に○○する。」",
+      "choices": [
+        "ばんぞく",
+        "まんぞ",
+        "満足",
+        "まんそく"
+      ],
+      "answer": 2,
+      "meaning": "十分で不満がないこと。",
+      "example": "結果に満足する。 漢検7級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-001",
       "grade": 4,
       "kanken": 7,
       "difficulty": 3,
       "type": "homophone",
-      "question": "慣例",
+      "question": "漢検7級：「ひ」に合う漢字。○○を安全に使う。",
       "choices": [
-        "慣例",
-        "感例",
-        "官例",
-        "完例"
+        "火",
+        "日",
+        "非",
+        "灯"
       ],
       "answer": 0,
-      "meaning": "以前からのならわし。",
-      "example": "式は慣例にしたがって進む。",
+      "meaning": "熱く明るく燃えるもの。",
+      "example": "火を安全に使う。 漢検7級の同音異義語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "homophone"
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-opposite-1",
+      "id": "kanken7-homophone-002",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「はな」に合う漢字。○○を花びんに入れる。",
+      "choices": [
+        "鼻",
+        "華",
+        "端",
+        "花"
+      ],
+      "answer": 3,
+      "meaning": "草や木に咲く部分。",
+      "example": "花を花びんに入れる。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-003",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「き」に合う漢字。○○の下で休む。",
+      "choices": [
+        "機",
+        "期",
+        "木",
+        "気"
+      ],
+      "answer": 2,
+      "meaning": "幹や枝を持つ植物。",
+      "example": "木の下で休む。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-004",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「め」に合う漢字。○○を大切にする。",
+      "choices": [
+        "眼",
+        "目",
+        "芽",
+        "女"
+      ],
+      "answer": 1,
+      "meaning": "ものを見る体の部分。",
+      "example": "目を大切にする。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-005",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「あし」に合う漢字。○○で地面をける。",
+      "choices": [
+        "足",
+        "脚",
+        "葦",
+        "悪し"
+      ],
+      "answer": 0,
+      "meaning": "歩くときに使う体の部分。",
+      "example": "足で地面をける。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-006",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「かわ」に合う漢字。○○で魚を見る。",
+      "choices": [
+        "皮",
+        "河",
+        "側",
+        "川"
+      ],
+      "answer": 3,
+      "meaning": "水が流れるところ。",
+      "example": "川で魚を見る。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-007",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「いし」に合う漢字。○○を拾う。",
+      "choices": [
+        "医師",
+        "意志",
+        "石",
+        "意思"
+      ],
+      "answer": 2,
+      "meaning": "かたい岩の小さなかたまり。",
+      "example": "石を拾う。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-008",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「せんせい」に合う漢字。○○にあいさつする。",
+      "choices": [
+        "専制",
+        "先生",
+        "先制",
+        "宣誓"
+      ],
+      "answer": 1,
+      "meaning": "学習を教える人。",
+      "example": "先生にあいさつする。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-009",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「こう」に合う漢字。○○門の前に立つ。",
+      "choices": [
+        "校",
+        "交",
+        "高",
+        "考"
+      ],
+      "answer": 0,
+      "meaning": "学校を表す漢字。",
+      "example": "校門の前に立つ。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-010",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「ほん」に合う漢字。○○を読む。",
+      "choices": [
+        "元",
+        "奔",
+        "品",
+        "本"
+      ],
+      "answer": 3,
+      "meaning": "文字や絵をまとめた読み物。",
+      "example": "本を読む。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-011",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「あか」に合う漢字。○○の色えんぴつを使う。",
+      "choices": [
+        "明",
+        "朱",
+        "赤",
+        "垢"
+      ],
+      "answer": 2,
+      "meaning": "赤い色。",
+      "example": "赤の色えんぴつを使う。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-012",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「しろ」に合う漢字。○○い紙を配る。",
+      "choices": [
+        "皿",
+        "白",
+        "城",
+        "代"
+      ],
+      "answer": 1,
+      "meaning": "白い色。",
+      "example": "白い紙を配る。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-013",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「な」に合う漢字。○○札をつける。",
+      "choices": [
+        "名",
+        "菜",
+        "奈",
+        "無"
+      ],
+      "answer": 0,
+      "meaning": "名前を表す漢字。",
+      "example": "名札をつける。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-014",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「こ」に合う漢字。○○犬を見る。",
+      "choices": [
+        "小",
+        "個",
+        "粉",
+        "子"
+      ],
+      "answer": 3,
+      "meaning": "子どもを表す漢字。",
+      "example": "子犬を見る。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-homophone-015",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "漢検7級：「そら」に合う漢字。○○を見上げる。",
+      "choices": [
+        "空き",
+        "殻",
+        "空",
+        "宙"
+      ],
+      "answer": 2,
+      "meaning": "地上の上に広がるところ。",
+      "example": "空を見上げる。 漢検7級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-001",
       "grade": 4,
       "kanken": 7,
       "difficulty": 3,
       "type": "opposite",
-      "question": "慣例",
+      "question": "漢検7級：「上」の対義語",
       "choices": [
-        "反対語を選ぶ",
-        "類義語を選ぶ",
-        "読みを選ぶ",
-        "部首を選ぶ"
+        "下",
+        "右",
+        "左",
+        "中"
       ],
       "answer": 0,
-      "meaning": "以前からのならわし。",
-      "example": "式は慣例にしたがって進む。",
+      "meaning": "高い方の位置。",
+      "example": "上の棚を見る。 漢検7級の対義語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [
-        "反対"
+        "下"
       ],
       "tags": [
-        "opposite"
+        "対義語",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-synonym-1",
+      "id": "kanken7-opposite-002",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「下」の対義語",
+      "choices": [
+        "左",
+        "右",
+        "外",
+        "上"
+      ],
+      "answer": 3,
+      "meaning": "低い方の位置。",
+      "example": "下の段に置く。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "上"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-003",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「右」の対義語",
+      "choices": [
+        "下",
+        "中",
+        "左",
+        "上"
+      ],
+      "answer": 2,
+      "meaning": "片側の方向。",
+      "example": "右の手を上げる。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "左"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-004",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「左」の対義語",
+      "choices": [
+        "中",
+        "右",
+        "上",
+        "下"
+      ],
+      "answer": 1,
+      "meaning": "片側の方向。",
+      "example": "左の道へ進む。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "右"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-005",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「大きい」の対義語",
+      "choices": [
+        "小さい",
+        "多い",
+        "白い",
+        "早い"
+      ],
+      "answer": 0,
+      "meaning": "形や量が大きいこと。",
+      "example": "大きい箱を運ぶ。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "小さい"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-006",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「多い」の対義語",
+      "choices": [
+        "大きい",
+        "白い",
+        "丸い",
+        "少ない"
+      ],
+      "answer": 3,
+      "meaning": "数や量がたくさんあること。",
+      "example": "人が多い。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "少ない"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-007",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「早い」の対義語",
+      "choices": [
+        "白い",
+        "近い",
+        "遅い",
+        "高い"
+      ],
+      "answer": 2,
+      "meaning": "時刻や動きが前であること。",
+      "example": "朝早い時間に出る。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "遅い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-008",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「白い」の対義語",
+      "choices": [
+        "丸い",
+        "黒い",
+        "赤い",
+        "青い"
+      ],
+      "answer": 1,
+      "meaning": "白の色であること。",
+      "example": "白い雲を見る。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "黒い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-009",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「入口」の対義語",
+      "choices": [
+        "出口",
+        "門口",
+        "窓口",
+        "校門"
+      ],
+      "answer": 0,
+      "meaning": "入るための場所。",
+      "example": "入口から入る。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "出口"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-010",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「前」の対義語",
+      "choices": [
+        "右",
+        "左",
+        "中",
+        "後"
+      ],
+      "answer": 3,
+      "meaning": "進む方向に近い側。",
+      "example": "前を見る。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "後"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-011",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「赤い」の対義語",
+      "choices": [
+        "早い",
+        "近い",
+        "白い",
+        "大きい"
+      ],
+      "answer": 2,
+      "meaning": "赤の色であること。",
+      "example": "赤い実を見つける。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "白い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-012",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「高い」の対義語",
+      "choices": [
+        "多い",
+        "低い",
+        "長い",
+        "丸い"
+      ],
+      "answer": 1,
+      "meaning": "位置が上であること。",
+      "example": "高い木を見る。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "低い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-013",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「近い」の対義語",
+      "choices": [
+        "遠い",
+        "早い",
+        "白い",
+        "大きい"
+      ],
+      "answer": 0,
+      "meaning": "距離が短いこと。",
+      "example": "家が近い。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "遠い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-014",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「長い」の対義語",
+      "choices": [
+        "赤い",
+        "多い",
+        "高い",
+        "短い"
+      ],
+      "answer": 3,
+      "meaning": "長さがあること。",
+      "example": "長い川を見る。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "短い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-opposite-015",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "漢検7級：「入る」の対義語",
+      "choices": [
+        "読む",
+        "書く",
+        "出る",
+        "見る"
+      ],
+      "answer": 2,
+      "meaning": "中へ進むこと。",
+      "example": "教室に入る。 漢検7級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "出る"
+      ],
+      "tags": [
+        "対義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-001",
       "grade": 4,
       "kanken": 7,
       "difficulty": 3,
       "type": "synonym",
-      "question": "慣例",
+      "question": "漢検7級：「大きい」と意味が近い言葉",
       "choices": [
-        "似た意味の語",
-        "反対の語",
-        "送りがな",
-        "画数"
+        "サイズが大きい",
+        "小さい",
+        "暗い",
+        "遠い"
       ],
       "answer": 0,
-      "meaning": "以前からのならわし。",
-      "example": "式は慣例にしたがって進む。",
+      "meaning": "形や量が大きいこと。",
+      "example": "大きい声で読む。 漢検7級の類義語問題で確認する。",
       "mnemonic": "",
       "synonyms": [
-        "類義"
+        "サイズが大きい"
       ],
       "antonyms": [],
       "tags": [
-        "synonym"
+        "類義語",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-yojijukugo-1",
+      "id": "kanken7-synonym-002",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「小さい」と意味が近い言葉",
+      "choices": [
+        "大きい",
+        "高い",
+        "新しい",
+        "サイズが小さい"
+      ],
+      "answer": 3,
+      "meaning": "形や量が小さいこと。",
+      "example": "小さい石を拾う。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "サイズが小さい"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-003",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「上」と意味が近い言葉",
+      "choices": [
+        "左の方",
+        "後ろ",
+        "高い方",
+        "低い方"
+      ],
+      "answer": 2,
+      "meaning": "位置が高い方。",
+      "example": "上を見る。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "高い方"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-004",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「下」と意味が近い言葉",
+      "choices": [
+        "前",
+        "低い方",
+        "高い方",
+        "右の方"
+      ],
+      "answer": 1,
+      "meaning": "位置が低い方。",
+      "example": "下に本を置く。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "低い方"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-005",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「入口」と意味が近い言葉",
+      "choices": [
+        "入る所",
+        "出る所",
+        "高い所",
+        "読む物"
+      ],
+      "answer": 0,
+      "meaning": "中へ入るための場所。",
+      "example": "入口で待つ。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "入る所"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-006",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「出口」と意味が近い言葉",
+      "choices": [
+        "入る所",
+        "流れる所",
+        "書く物",
+        "出る所"
+      ],
+      "answer": 3,
+      "meaning": "外へ出るための場所。",
+      "example": "出口へ進む。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "出る所"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-007",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「早い」と意味が近い言葉",
+      "choices": [
+        "暗い",
+        "細い",
+        "時間が前",
+        "遅い"
+      ],
+      "answer": 2,
+      "meaning": "時刻や動きが前であること。",
+      "example": "早い時間に着く。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "時間が前"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-008",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「白い」と意味が近い言葉",
+      "choices": [
+        "近い",
+        "白の色",
+        "黒い",
+        "多い"
+      ],
+      "answer": 1,
+      "meaning": "雪のような色。",
+      "example": "白い紙に書く。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "白の色"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-009",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「見る」と意味が近い言葉",
+      "choices": [
+        "目で確かめる",
+        "聞く",
+        "走る",
+        "食べる"
+      ],
+      "answer": 0,
+      "meaning": "目で物をとらえること。",
+      "example": "空を見る。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "目で確かめる"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-010",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「読む」と意味が近い言葉",
+      "choices": [
+        "書く",
+        "走る",
+        "洗う",
+        "文字を声や心でたどる"
+      ],
+      "answer": 3,
+      "meaning": "文字の意味を取ること。",
+      "example": "本を読む。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "文字を声や心でたどる"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-011",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「赤い」と意味が近い言葉",
+      "choices": [
+        "大きい",
+        "早い",
+        "赤の色",
+        "白い"
+      ],
+      "answer": 2,
+      "meaning": "赤の色であること。",
+      "example": "赤い花が咲く。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "赤の色"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-012",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「少ない」と意味が近い言葉",
+      "choices": [
+        "丸い",
+        "数が少し",
+        "多い",
+        "高い"
+      ],
+      "answer": 1,
+      "meaning": "数や量が少しであること。",
+      "example": "水が少ない。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "数が少し"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-013",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「高い」と意味が近い言葉",
+      "choices": [
+        "上にある",
+        "低い",
+        "白い",
+        "近い"
+      ],
+      "answer": 0,
+      "meaning": "位置や値段が上であること。",
+      "example": "高い山を見る。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "上にある"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-014",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「近い」と意味が近い言葉",
+      "choices": [
+        "遠い",
+        "大きい",
+        "暗い",
+        "距離が短い"
+      ],
+      "answer": 3,
+      "meaning": "距離が短いこと。",
+      "example": "学校が近い。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "距離が短い"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-synonym-015",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "漢検7級：「長い」と意味が近い言葉",
+      "choices": [
+        "多い",
+        "黒い",
+        "端から端まで遠い",
+        "短い"
+      ],
+      "answer": 2,
+      "meaning": "長さがあること。",
+      "example": "長い道を歩く。 漢検7級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "端から端まで遠い"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-001",
       "grade": 4,
       "kanken": 7,
       "difficulty": 4,
       "type": "yojijukugo",
-      "question": "慣例",
+      "question": "漢検7級：四字熟語「一日一字」の意味",
       "choices": [
-        "一日一善",
-        "一石二鳥",
-        "十人十色",
-        "七転八起"
+        "一日に一つの字を学ぶこと。",
+        "一日に一回休むこと。",
+        "一字を消すこと。",
+        "一日中遊ぶこと。"
       ],
       "answer": 0,
-      "meaning": "以前からのならわし。",
-      "example": "式は慣例にしたがって進む。",
+      "meaning": "一日に一つの字を学ぶこと。",
+      "example": "一日一字を目標に漢字を覚える。 漢検7級の四字熟語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "yojijukugo"
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-radical-1",
+      "id": "kanken7-yojijukugo-002",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「一人一人」の意味",
+      "choices": [
+        "一人だけで走ること。",
+        "同じ字を書くこと。",
+        "日にちを数えること。",
+        "それぞれの人を大切に見ること。"
+      ],
+      "answer": 3,
+      "meaning": "それぞれの人を大切に見ること。",
+      "example": "一人一人の考えを聞く。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-003",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「上下左右」の意味",
+      "choices": [
+        "同じ場所に立つこと。",
+        "色を分けること。",
+        "上・下・左・右の方向。",
+        "前だけを見ること。"
+      ],
+      "answer": 2,
+      "meaning": "上・下・左・右の方向。",
+      "example": "地図で上下左右を確かめる。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-004",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「山川草木」の意味",
+      "choices": [
+        "数を数えること。",
+        "山や川、草や木など自然のもの。",
+        "町の建物だけを表すこと。",
+        "人の名前を並べること。"
+      ],
+      "answer": 1,
+      "meaning": "山や川、草や木など自然のもの。",
+      "example": "山川草木を大切にする。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-005",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「日月火水」の意味",
+      "choices": [
+        "曜日名にも使う基本の漢字。",
+        "動物の名前だけを集めた語。",
+        "体の部分を表す語。",
+        "数だけを並べた語。"
+      ],
+      "answer": 0,
+      "meaning": "曜日名にも使う基本の漢字。",
+      "example": "日月火水の漢字を読む。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-006",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「木金土日」の意味",
+      "choices": [
+        "学校の部屋の名前。",
+        "春の花の名前。",
+        "体の動きを表す語。",
+        "曜日名にも使う基本の漢字。"
+      ],
+      "answer": 3,
+      "meaning": "曜日名にも使う基本の漢字。",
+      "example": "木金土日の字を練習する。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-007",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「一二三四」の意味",
+      "choices": [
+        "四つの季節のこと。",
+        "四人の名前のこと。",
+        "一から四までの数。",
+        "四つの方向のこと。"
+      ],
+      "answer": 2,
+      "meaning": "一から四までの数。",
+      "example": "一二三四を順に書く。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-008",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「五六七八」の意味",
+      "choices": [
+        "学校の教科名。",
+        "五から八までの数。",
+        "八つの花の名前。",
+        "朝のあいさつ。"
+      ],
+      "answer": 1,
+      "meaning": "五から八までの数。",
+      "example": "五六七八を正しく読む。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-009",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「九十一百」の意味",
+      "choices": [
+        "数を表す基本の漢字。",
+        "色を表す漢字。",
+        "動物を表す漢字。",
+        "道具を表す漢字。"
+      ],
+      "answer": 0,
+      "meaning": "数を表す基本の漢字。",
+      "example": "九十一百の読みを覚える。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-010",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「大小上下」の意味",
+      "choices": [
+        "雨の強さだけを表すこと。",
+        "学校の名前のこと。",
+        "本の数え方のこと。",
+        "大きさと上下の方向。"
+      ],
+      "answer": 3,
+      "meaning": "大きさと上下の方向。",
+      "example": "大小上下を使って位置を説明する。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-011",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「左右前後」の意味",
+      "choices": [
+        "動物の名前の語。",
+        "一週間の曜日。",
+        "左右と前後の方向。",
+        "色の名前を並べた語。"
+      ],
+      "answer": 2,
+      "meaning": "左右と前後の方向。",
+      "example": "左右前後を確かめて歩く。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-012",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「山上山下」の意味",
+      "choices": [
+        "人の名前のこと。",
+        "山の上と下を表す言い方。",
+        "海の深さを表すこと。",
+        "本の読み方のこと。"
+      ],
+      "answer": 1,
+      "meaning": "山の上と下を表す言い方。",
+      "example": "山上山下の気温を比べる。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-013",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「人口大小」の意味",
+      "choices": [
+        "人口の多さを比べる言い方。",
+        "花の色だけを表すこと。",
+        "学校の時間割のこと。",
+        "川の名前のこと。"
+      ],
+      "answer": 0,
+      "meaning": "人口の多さを比べる言い方。",
+      "example": "町の人口大小を表で見る。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-014",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「赤白青黒」の意味",
+      "choices": [
+        "数を表す漢字だけの並び。",
+        "方向を表す言葉。",
+        "動物の名前の並び。",
+        "色を表す漢字の並び。"
+      ],
+      "answer": 3,
+      "meaning": "色を表す漢字の並び。",
+      "example": "赤白青黒のカードを分ける。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-yojijukugo-015",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "漢検7級：四字熟語「手足口目」の意味",
+      "choices": [
+        "町の名前のこと。",
+        "数を表す漢字。",
+        "体の部分を表す漢字。",
+        "季節を表す言葉。"
+      ],
+      "answer": 2,
+      "meaning": "体の部分を表す漢字。",
+      "example": "手足口目の漢字を練習する。 漢検7級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-001",
       "grade": 4,
       "kanken": 7,
       "difficulty": 2,
       "type": "radical",
-      "question": "慣例",
+      "question": "漢検7級：「山」の部首",
       "choices": [
-        "部首",
-        "音読み",
-        "訓読み",
-        "例文"
+        "やま",
+        "さんずい",
+        "くち",
+        "き"
       ],
       "answer": 0,
-      "meaning": "以前からのならわし。",
-      "example": "式は慣例にしたがって進む。",
+      "meaning": "山に関係する部首。",
+      "example": "山の部首はやま。 漢検7級の部首問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "radical"
+        "部首",
+        "漢検7級",
+        "小学4年"
       ]
     },
     {
-      "id": "k7-correction-1",
+      "id": "kanken7-radical-002",
       "grade": 4,
       "kanken": 7,
-      "difficulty": 4,
-      "type": "correction",
-      "question": "慣例",
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「川」の部首",
       "choices": [
-        "慣例",
-        "誤字をふくむ語",
-        "送りがななし",
-        "読みちがい"
+        "さんずい",
+        "やま",
+        "くち",
+        "かわ"
       ],
-      "answer": 0,
-      "meaning": "以前からのならわし。",
-      "example": "式は慣例にしたがって進む。",
+      "answer": 3,
+      "meaning": "川を表す部首。",
+      "example": "川の部首はかわ。 漢検7級の部首問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "correction"
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-003",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「木」の部首",
+      "choices": [
+        "ひ",
+        "みず",
+        "き",
+        "ほん"
+      ],
+      "answer": 2,
+      "meaning": "木を表す部首。",
+      "example": "木の部首はき。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-004",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「火」の部首",
+      "choices": [
+        "やま",
+        "ひ",
+        "みず",
+        "き"
+      ],
+      "answer": 1,
+      "meaning": "火を表す部首。",
+      "example": "火の部首はひ。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-005",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「水」の部首",
+      "choices": [
+        "みず",
+        "ひ",
+        "き",
+        "くち"
+      ],
+      "answer": 0,
+      "meaning": "水を表す部首。",
+      "example": "水の部首はみず。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-006",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「口」の部首",
+      "choices": [
+        "め",
+        "みみ",
+        "ひ",
+        "くち"
+      ],
+      "answer": 3,
+      "meaning": "口に関係する部首。",
+      "example": "口の部首はくち。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-007",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「目」の部首",
+      "choices": [
+        "みみ",
+        "ひ",
+        "め",
+        "くち"
+      ],
+      "answer": 2,
+      "meaning": "目に関係する部首。",
+      "example": "目の部首はめ。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-008",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「耳」の部首",
+      "choices": [
+        "て",
+        "みみ",
+        "め",
+        "くち"
+      ],
+      "answer": 1,
+      "meaning": "耳に関係する部首。",
+      "example": "耳の部首はみみ。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-009",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「手」の部首",
+      "choices": [
+        "て",
+        "あし",
+        "みみ",
+        "め"
+      ],
+      "answer": 0,
+      "meaning": "手に関係する部首。",
+      "example": "手の部首はて。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-010",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「足」の部首",
+      "choices": [
+        "て",
+        "くち",
+        "め",
+        "あし"
+      ],
+      "answer": 3,
+      "meaning": "足に関係する部首。",
+      "example": "足の部首はあし。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-011",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「日」の部首",
+      "choices": [
+        "め",
+        "くち",
+        "ひ",
+        "つき"
+      ],
+      "answer": 2,
+      "meaning": "日を表す部首。",
+      "example": "日の部首はひ。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-012",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「月」の部首",
+      "choices": [
+        "き",
+        "つき",
+        "ひ",
+        "みず"
+      ],
+      "answer": 1,
+      "meaning": "月を表す部首。",
+      "example": "月の部首はつき。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-013",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「石」の部首",
+      "choices": [
+        "いし",
+        "やま",
+        "くち",
+        "ひ"
+      ],
+      "answer": 0,
+      "meaning": "石に関係する部首。",
+      "example": "石の部首はいし。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-014",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「田」の部首",
+      "choices": [
+        "くち",
+        "め",
+        "ひ",
+        "た"
+      ],
+      "answer": 3,
+      "meaning": "田を表す部首。",
+      "example": "田の部首はた。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-radical-015",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "漢検7級：「雨」の部首",
+      "choices": [
+        "つき",
+        "ひ",
+        "あめ",
+        "みず"
+      ],
+      "answer": 2,
+      "meaning": "雨に関係する部首。",
+      "example": "雨の部首はあめ。 漢検7級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-001",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「かんれい」の正しい表記",
+      "choices": [
+        "慣礼",
+        "貫例",
+        "慣令",
+        "慣例"
+      ],
+      "answer": 3,
+      "meaning": "前から行われているならわし。",
+      "example": "式は慣例にしたがって進む。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-002",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「かんさつ」の正しい表記",
+      "choices": [
+        "歓察",
+        "観札",
+        "観察",
+        "観測"
+      ],
+      "answer": 2,
+      "meaning": "よく見て調べること。",
+      "example": "虫の動きを観察する。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-003",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「きょうりょく」の正しい表記",
+      "choices": [
+        "協力く",
+        "協力",
+        "強力",
+        "協緑"
+      ],
+      "answer": 1,
+      "meaning": "力を合わせること。",
+      "example": "班で協力して発表する。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-004",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「ひつよう」の正しい表記",
+      "choices": [
+        "必要",
+        "必用",
+        "泌要",
+        "必要う"
+      ],
+      "answer": 0,
+      "meaning": "なくてはならないこと。",
+      "example": "練習が必要だ。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-005",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「いんしょう」の正しい表記",
+      "choices": [
+        "印章",
+        "印像",
+        "卬象",
+        "印象"
+      ],
+      "answer": 3,
+      "meaning": "心に残る感じ。",
+      "example": "明るい印象を受ける。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-006",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「かいりょう」の正しい表記",
+      "choices": [
+        "改量",
+        "改良う",
+        "改良",
+        "改善"
+      ],
+      "answer": 2,
+      "meaning": "よりよく直すこと。",
+      "example": "道具を改良する。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-007",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「かんけい」の正しい表記",
+      "choices": [
+        "関係い",
+        "関係",
+        "関計",
+        "間係"
+      ],
+      "answer": 1,
+      "meaning": "つながりがあること。",
+      "example": "天気と気温の関係を調べる。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-008",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「きせつ」の正しい表記",
+      "choices": [
+        "季節",
+        "李節",
+        "季折",
+        "季節つ"
+      ],
+      "answer": 0,
+      "meaning": "春夏秋冬などの時期。",
+      "example": "季節の変化を感じる。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-009",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「どりょく」の正しい表記",
+      "choices": [
+        "努刀",
+        "努力く",
+        "怒力",
+        "努力"
+      ],
+      "answer": 3,
+      "meaning": "目標に向けて力を尽くすこと。",
+      "example": "毎日の努力が力になる。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-010",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「せつめい」の正しい表記",
+      "choices": [
+        "設明",
+        "説明い",
+        "説明",
+        "説名"
+      ],
+      "answer": 2,
+      "meaning": "分かるように述べること。",
+      "example": "理由を説明する。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-011",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「せんきょ」の正しい表記",
+      "choices": [
+        "選拳",
+        "選挙",
+        "選学",
+        "撰挙"
+      ],
+      "answer": 1,
+      "meaning": "代表を投票で選ぶこと。",
+      "example": "学級委員を選挙で決める。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-012",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「きょうそう」の正しい表記",
+      "choices": [
+        "競争",
+        "競走",
+        "競争う",
+        "竟争"
+      ],
+      "answer": 0,
+      "meaning": "勝ち負けを争うこと。",
+      "example": "速さを競争する。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-013",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「けつまつ」の正しい表記",
+      "choices": [
+        "結果",
+        "結未",
+        "結末つ",
+        "結末"
+      ],
+      "answer": 3,
+      "meaning": "物語などの終わり。",
+      "example": "物語の結末に驚く。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-014",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「でんたつ」の正しい表記",
+      "choices": [
+        "伝速",
+        "転達",
+        "伝達",
+        "伝達つ"
+      ],
+      "answer": 2,
+      "meaning": "知らせを伝えること。",
+      "example": "連絡を正しく伝達する。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
+      ]
+    },
+    {
+      "id": "kanken7-correction-015",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検7級：「まんぞく」の正しい表記",
+      "choices": [
+        "満足く",
+        "満足",
+        "満速",
+        "満族"
+      ],
+      "answer": 1,
+      "meaning": "十分で不満がないこと。",
+      "example": "結果に満足する。 漢検7級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検7級",
+        "小学4年"
       ]
     }
   ],

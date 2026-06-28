@@ -3,387 +3,7623 @@
   "label": "漢検3級",
   "questions": [
     {
-      "id": "k3-reading-1",
+      "id": "kanken3-reading-001",
       "grade": 6,
       "kanken": 3,
-      "difficulty": 5,
+      "difficulty": 2,
       "type": "reading",
-      "question": "尊敬",
+      "question": "漢検3級：説明に矛盾がある。 の「矛盾」",
+      "choices": [
+        "むじゅん",
+        "むしゅん",
+        "むじゅ",
+        "ぼうじゅん"
+      ],
+      "answer": 0,
+      "meaning": "二つのことが食い違うこと。",
+      "example": "説明に矛盾がある。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-002",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：謙虚な態度で学ぶ。 の「謙虚」",
+      "choices": [
+        "けんぎょ",
+        "けんきょう",
+        "げんきょ",
+        "けんきょ"
+      ],
+      "answer": 3,
+      "meaning": "控えめで素直なこと。",
+      "example": "謙虚な態度で学ぶ。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-003",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：成果が顕著に表れる。 の「顕著」",
+      "choices": [
+        "けんちゃく",
+        "げんちょ",
+        "けんちょ",
+        "けんじょ"
+      ],
+      "answer": 2,
+      "meaning": "はっきり目立つこと。",
+      "example": "成果が顕著に表れる。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-004",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：注意を喚起する。 の「喚起」",
+      "choices": [
+        "かんきょう",
+        "かんき",
+        "かんぎ",
+        "けんき"
+      ],
+      "answer": 1,
+      "meaning": "呼び起こすこと。",
+      "example": "注意を喚起する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-005",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：曖昧な返事を避ける。 の「曖昧」",
+      "choices": [
+        "あいまい",
+        "あいめい",
+        "あんまい",
+        "あいま"
+      ],
+      "answer": 0,
+      "meaning": "はっきりしないこと。",
+      "example": "曖昧な返事を避ける。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-006",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：入会を勧誘する。 の「勧誘」",
+      "choices": [
+        "かんよう",
+        "けんゆう",
+        "かんゆ",
+        "かんゆう"
+      ],
+      "answer": 3,
+      "meaning": "人にすすめて誘うこと。",
+      "example": "入会を勧誘する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-007",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：星の軌跡を観察する。 の「軌跡」",
+      "choices": [
+        "きぜき",
+        "きせつ",
+        "きせき",
+        "ぎせき"
+      ],
+      "answer": 2,
+      "meaning": "動いたあとに残る道すじ。",
+      "example": "星の軌跡を観察する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-008",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：混雑を緩和する。 の「緩和」",
+      "choices": [
+        "かんか",
+        "かんわ",
+        "かんば",
+        "けんわ"
+      ],
+      "answer": 1,
+      "meaning": "きびしさをやわらげること。",
+      "example": "混雑を緩和する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-009",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：不正を弾劾する。 の「弾劾」",
+      "choices": [
+        "だんがい",
+        "たんがい",
+        "だんかい",
+        "だんげい"
+      ],
+      "answer": 0,
+      "meaning": "責任を問いただすこと。",
+      "example": "不正を弾劾する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-010",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：恣意的な判断を避ける。 の「恣意」",
+      "choices": [
+        "じい",
+        "しいん",
+        "しえ",
+        "しい"
+      ],
+      "answer": 3,
+      "meaning": "自分勝手な考え。",
+      "example": "恣意的な判断を避ける。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-011",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：努力を継続する。 の「継続」",
+      "choices": [
+        "けいぞ",
+        "げいぞく",
+        "けいぞく",
+        "けいそく"
+      ],
+      "answer": 2,
+      "meaning": "物事を続けること。",
+      "example": "努力を継続する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-012",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：裁判の仕組みを学ぶ。 の「裁判」",
+      "choices": [
+        "さいべん",
+        "さいばん",
+        "ざいばん",
+        "さいはん"
+      ],
+      "answer": 1,
+      "meaning": "法律に基づいて判断すること。",
+      "example": "裁判の仕組みを学ぶ。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-013",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：出題の傾向を調べる。 の「傾向」",
+      "choices": [
+        "けいこう",
+        "けいごう",
+        "けんこう",
+        "けいきょう"
+      ],
+      "answer": 0,
+      "meaning": "物事がある方向へ向かう様子。",
+      "example": "出題の傾向を調べる。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-014",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：抽象的な言葉を説明する。 の「抽象」",
+      "choices": [
+        "ちゅうそう",
+        "ちゅうじょう",
+        "ちゅしょう",
+        "ちゅうしょう"
+      ],
+      "answer": 3,
+      "meaning": "具体的でなく考えとしてまとめること。",
+      "example": "抽象的な言葉を説明する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-015",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：発表前に緊張する。 の「緊張」",
+      "choices": [
+        "きんちょ",
+        "けんちょう",
+        "きんちょう",
+        "きんじょう"
+      ],
+      "answer": 2,
+      "meaning": "心や体が張りつめること。",
+      "example": "発表前に緊張する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-016",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：潔白を証明する。 の「潔白」",
+      "choices": [
+        "けんぱく",
+        "けっぱく",
+        "けつぱく",
+        "けっぱ"
+      ],
+      "answer": 1,
+      "meaning": "心や行いが清く正しいこと。",
+      "example": "潔白を証明する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-017",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：資料を凝視する。 の「凝視」",
+      "choices": [
+        "ぎょうし",
+        "ぎょし",
+        "ごうし",
+        "ぎょうじ"
+      ],
+      "answer": 0,
+      "meaning": "じっと見つめること。",
+      "example": "資料を凝視する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-018",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：電気を倹約する。 の「倹約」",
+      "choices": [
+        "けんよく",
+        "げんやく",
+        "けんや",
+        "けんやく"
+      ],
+      "answer": 3,
+      "meaning": "むだを省いて使うこと。",
+      "example": "電気を倹約する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-019",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：話し合いで譲歩する。 の「譲歩」",
+      "choices": [
+        "しょうほ",
+        "じょうふ",
+        "じょうほ",
+        "じょうぽ"
+      ],
+      "answer": 2,
+      "meaning": "自分の考えを少しゆずること。",
+      "example": "話し合いで譲歩する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-020",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：意見を調整して妥協する。 の「妥協」",
+      "choices": [
+        "だきょ",
+        "だきょう",
+        "たきょう",
+        "だぎょう"
+      ],
+      "answer": 1,
+      "meaning": "互いにゆずって一致点を見つけること。",
+      "example": "意見を調整して妥協する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-021",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：努力する人を尊敬する。 の「尊敬」",
       "choices": [
         "そんけい",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
+        "ぞんけい",
+        "そんきょう",
+        "そんけ"
       ],
       "answer": 0,
       "meaning": "すぐれた人をうやまうこと。",
-      "example": "努力する人を尊敬する。",
+      "example": "努力する人を尊敬する。 漢検3級の読み問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "reading"
+        "読み",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-writing-1",
+      "id": "kanken3-reading-022",
       "grade": 6,
       "kanken": 3,
-      "difficulty": 5,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：課題について討論する。 の「討論」",
+      "choices": [
+        "どうろん",
+        "とうりん",
+        "とうろんん",
+        "とうろん"
+      ],
+      "answer": 3,
+      "meaning": "意見を出し合って話し合うこと。",
+      "example": "課題について討論する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-023",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：危険な場所に近づかない。 の「危険」",
+      "choices": [
+        "きげん",
+        "きけ",
+        "きけん",
+        "ぎけん"
+      ],
+      "answer": 2,
+      "meaning": "あぶないこと。",
+      "example": "危険な場所に近づかない。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-024",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：要点を簡潔に話す。 の「簡潔」",
+      "choices": [
+        "けんけつ",
+        "かんけつ",
+        "かんげつ",
+        "かんけち"
+      ],
+      "answer": 1,
+      "meaning": "短く分かりやすくまとまること。",
+      "example": "要点を簡潔に話す。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-025",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：秋に米を収穫する。 の「収穫」",
+      "choices": [
+        "しゅうかく",
+        "しゅかく",
+        "しゅうがく",
+        "しゅうこく"
+      ],
+      "answer": 0,
+      "meaning": "作物を取り入れること。",
+      "example": "秋に米を収穫する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-026",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：写真を拡大して見る。 の「拡大」",
+      "choices": [
+        "がくだい",
+        "かくたい",
+        "かくだん",
+        "かくだい"
+      ],
+      "answer": 3,
+      "meaning": "大きく広げること。",
+      "example": "写真を拡大して見る。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-027",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：迅速に連絡する。 の「迅速」",
+      "choices": [
+        "じんぞく",
+        "じんせき",
+        "じんそく",
+        "しんそく"
+      ],
+      "answer": 2,
+      "meaning": "物事が非常に速いこと。",
+      "example": "迅速に連絡する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-028",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：約束を履行する。 の「履行」",
+      "choices": [
+        "りょこう",
+        "りこう",
+        "りごう",
+        "りぎょう"
+      ],
+      "answer": 1,
+      "meaning": "約束や義務を実行すること。",
+      "example": "約束を履行する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-029",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：安全を優先する。 の「優先」",
+      "choices": [
+        "ゆうせん",
+        "ゆせん",
+        "ゆうぜん",
+        "ゆうしん"
+      ],
+      "answer": 0,
+      "meaning": "ほかより先に扱うこと。",
+      "example": "安全を優先する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-reading-030",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "漢検3級：未来の町を創造する。 の「創造」",
+      "choices": [
+        "そうそう",
+        "しょうぞう",
+        "そうどう",
+        "そうぞう"
+      ],
+      "answer": 3,
+      "meaning": "新しいものを作り出すこと。",
+      "example": "未来の町を創造する。 漢検3級の読み問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "読み",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-001",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
       "type": "writing",
-      "question": "そんけい",
+      "question": "漢検3級：「むじゅん」を漢字で書く",
+      "choices": [
+        "矛盾",
+        "矛順",
+        "予盾",
+        "矛盾ん"
+      ],
+      "answer": 0,
+      "meaning": "二つのことが食い違うこと。",
+      "example": "説明に矛盾がある。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-002",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「けんきょ」を漢字で書く",
+      "choices": [
+        "謙拠",
+        "謙虚ょ",
+        "嫌虚",
+        "謙虚"
+      ],
+      "answer": 3,
+      "meaning": "控えめで素直なこと。",
+      "example": "謙虚な態度で学ぶ。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-003",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「けんちょ」を漢字で書く",
+      "choices": [
+        "顕署",
+        "現著",
+        "顕著",
+        "顕著ょ"
+      ],
+      "answer": 2,
+      "meaning": "はっきり目立つこと。",
+      "example": "成果が顕著に表れる。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-004",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「かんき」を漢字で書く",
+      "choices": [
+        "喚起き",
+        "喚起",
+        "換気",
+        "喚記"
+      ],
+      "answer": 1,
+      "meaning": "呼び起こすこと。",
+      "example": "注意を喚起する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-005",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「あいまい」を漢字で書く",
+      "choices": [
+        "曖昧",
+        "曖昧い",
+        "愛昧",
+        "曖味"
+      ],
+      "answer": 0,
+      "meaning": "はっきりしないこと。",
+      "example": "曖昧な返事を避ける。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-006",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「かんゆう」を漢字で書く",
+      "choices": [
+        "勧友",
+        "歓誘",
+        "勧誘う",
+        "勧誘"
+      ],
+      "answer": 3,
+      "meaning": "人にすすめて誘うこと。",
+      "example": "入会を勧誘する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-007",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「きせき」を漢字で書く",
+      "choices": [
+        "軌積",
+        "軌跡き",
+        "軌跡",
+        "奇跡"
+      ],
+      "answer": 2,
+      "meaning": "動いたあとに残る道すじ。",
+      "example": "星の軌跡を観察する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-008",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「かんわ」を漢字で書く",
+      "choices": [
+        "緩和わ",
+        "緩和",
+        "緩話",
+        "寛和"
+      ],
+      "answer": 1,
+      "meaning": "きびしさをやわらげること。",
+      "example": "混雑を緩和する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-009",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「だんがい」を漢字で書く",
+      "choices": [
+        "弾劾",
+        "段階",
+        "弾刻",
+        "弾劾い"
+      ],
+      "answer": 0,
+      "meaning": "責任を問いただすこと。",
+      "example": "不正を弾劾する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-010",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「しい」を漢字で書く",
+      "choices": [
+        "思意",
+        "恣意い",
+        "姿意",
+        "恣意"
+      ],
+      "answer": 3,
+      "meaning": "自分勝手な考え。",
+      "example": "恣意的な判断を避ける。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-011",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「けいぞく」を漢字で書く",
+      "choices": [
+        "計続",
+        "継読",
+        "継続",
+        "継続く"
+      ],
+      "answer": 2,
+      "meaning": "物事を続けること。",
+      "example": "努力を継続する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-012",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「さいばん」を漢字で書く",
+      "choices": [
+        "裁判ん",
+        "裁判",
+        "栽判",
+        "裁伴"
+      ],
+      "answer": 1,
+      "meaning": "法律に基づいて判断すること。",
+      "example": "裁判の仕組みを学ぶ。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-013",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「けいこう」を漢字で書く",
+      "choices": [
+        "傾向",
+        "健康",
+        "傾行",
+        "傾向う"
+      ],
+      "answer": 0,
+      "meaning": "物事がある方向へ向かう様子。",
+      "example": "出題の傾向を調べる。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-014",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「ちゅうしょう」を漢字で書く",
+      "choices": [
+        "抽像",
+        "中象",
+        "抽象う",
+        "抽象"
+      ],
+      "answer": 3,
+      "meaning": "具体的でなく考えとしてまとめること。",
+      "example": "抽象的な言葉を説明する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-015",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「きんちょう」を漢字で書く",
+      "choices": [
+        "緊張う",
+        "近張",
+        "緊張",
+        "緊長"
+      ],
+      "answer": 2,
+      "meaning": "心や体が張りつめること。",
+      "example": "発表前に緊張する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-016",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「けっぱく」を漢字で書く",
+      "choices": [
+        "潔白く",
+        "潔白",
+        "結白",
+        "潔泊"
+      ],
+      "answer": 1,
+      "meaning": "心や行いが清く正しいこと。",
+      "example": "潔白を証明する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-017",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「ぎょうし」を漢字で書く",
+      "choices": [
+        "凝視",
+        "疑視",
+        "凝思",
+        "凝視し"
+      ],
+      "answer": 0,
+      "meaning": "じっと見つめること。",
+      "example": "資料を凝視する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-018",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「けんやく」を漢字で書く",
+      "choices": [
+        "契約",
+        "倹約く",
+        "検約",
+        "倹約"
+      ],
+      "answer": 3,
+      "meaning": "むだを省いて使うこと。",
+      "example": "電気を倹約する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-019",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「じょうほ」を漢字で書く",
+      "choices": [
+        "譲歩う",
+        "譲捕",
+        "譲歩",
+        "上歩"
+      ],
+      "answer": 2,
+      "meaning": "自分の考えを少しゆずること。",
+      "example": "話し合いで譲歩する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-020",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「だきょう」を漢字で書く",
+      "choices": [
+        "妥強",
+        "妥協",
+        "妥協う",
+        "打協"
+      ],
+      "answer": 1,
+      "meaning": "互いにゆずって一致点を見つけること。",
+      "example": "意見を調整して妥協する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-021",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「そんけい」を漢字で書く",
       "choices": [
         "尊敬",
-        "尊敬う",
-        "同敬",
-        "尊学"
+        "尊径",
+        "損敬",
+        "尊啓"
       ],
       "answer": 0,
       "meaning": "すぐれた人をうやまうこと。",
-      "example": "努力する人を尊敬する。",
+      "example": "努力する人を尊敬する。 漢検3級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-reading-2",
+      "id": "kanken3-writing-022",
       "grade": 6,
       "kanken": 3,
-      "difficulty": 5,
-      "type": "reading",
-      "question": "討論",
-      "choices": [
-        "とうろん",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "意見を出し合って話し合うこと。",
-      "example": "課題について討論する。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "k3-writing-2",
-      "grade": 6,
-      "kanken": 3,
-      "difficulty": 5,
+      "difficulty": 2,
       "type": "writing",
-      "question": "とうろん",
+      "question": "漢検3級：「とうろん」を漢字で書く",
       "choices": [
-        "討論",
-        "討論う",
-        "同論",
-        "討学"
+        "討倫",
+        "討論ん",
+        "封論",
+        "討論"
       ],
-      "answer": 0,
+      "answer": 3,
       "meaning": "意見を出し合って話し合うこと。",
-      "example": "課題について討論する。",
+      "example": "課題について討論する。 漢検3級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-reading-3",
+      "id": "kanken3-writing-023",
       "grade": 6,
       "kanken": 3,
-      "difficulty": 5,
-      "type": "reading",
-      "question": "危険",
-      "choices": [
-        "きけん",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "あぶないこと。",
-      "example": "危険な場所に近づかない。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "k3-writing-3",
-      "grade": 6,
-      "kanken": 3,
-      "difficulty": 5,
+      "difficulty": 2,
       "type": "writing",
-      "question": "きけん",
+      "question": "漢検3級：「きけん」を漢字で書く",
       "choices": [
-        "危険",
+        "危険ん",
         "危険う",
-        "同険",
-        "危学"
+        "危険",
+        "危検"
       ],
-      "answer": 0,
+      "answer": 2,
       "meaning": "あぶないこと。",
-      "example": "危険な場所に近づかない。",
+      "example": "危険な場所に近づかない。 漢検3級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-reading-4",
+      "id": "kanken3-writing-024",
       "grade": 6,
       "kanken": 3,
-      "difficulty": 5,
-      "type": "reading",
-      "question": "簡潔",
-      "choices": [
-        "かんけつ",
-        "かんれつ",
-        "かんりょう",
-        "けんれい"
-      ],
-      "answer": 0,
-      "meaning": "短くまとまっていること。",
-      "example": "簡潔に説明する。",
-      "mnemonic": "",
-      "synonyms": [],
-      "antonyms": [],
-      "tags": [
-        "kanji",
-        "reading"
-      ]
-    },
-    {
-      "id": "k3-writing-4",
-      "grade": 6,
-      "kanken": 3,
-      "difficulty": 5,
+      "difficulty": 2,
       "type": "writing",
-      "question": "かんけつ",
+      "question": "漢検3級：「かんけつ」を漢字で書く",
       "choices": [
+        "簡潔つ",
         "簡潔",
-        "簡潔う",
-        "同潔",
-        "簡学"
+        "簡決",
+        "間潔"
       ],
-      "answer": 0,
-      "meaning": "短くまとまっていること。",
-      "example": "簡潔に説明する。",
+      "answer": 1,
+      "meaning": "短く分かりやすくまとまること。",
+      "example": "要点を簡潔に話す。 漢検3級の書き問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "kanji",
-        "writing",
-        "strokes:0"
+        "書き",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-compound-1",
+      "id": "kanken3-writing-025",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「しゅうかく」を漢字で書く",
+      "choices": [
+        "収穫",
+        "収獲",
+        "集穫",
+        "集獲"
+      ],
+      "answer": 0,
+      "meaning": "作物を取り入れること。",
+      "example": "秋に米を収穫する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-026",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「かくだい」を漢字で書く",
+      "choices": [
+        "拡太",
+        "拡題",
+        "拡大い",
+        "拡大"
+      ],
+      "answer": 3,
+      "meaning": "大きく広げること。",
+      "example": "写真を拡大して見る。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-027",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「じんそく」を漢字で書く",
+      "choices": [
+        "迅速く",
+        "進速",
+        "迅速",
+        "迅足"
+      ],
+      "answer": 2,
+      "meaning": "物事が非常に速いこと。",
+      "example": "迅速に連絡する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-028",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「りこう」を漢字で書く",
+      "choices": [
+        "離行",
+        "履行",
+        "理行",
+        "裏行"
+      ],
+      "answer": 1,
+      "meaning": "約束や義務を実行すること。",
+      "example": "約束を履行する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-029",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「ゆうせん」を漢字で書く",
+      "choices": [
+        "優先",
+        "優線",
+        "優先ん",
+        "憂先"
+      ],
+      "answer": 0,
+      "meaning": "ほかより先に扱うこと。",
+      "example": "安全を優先する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-writing-030",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "漢検3級：「そうぞう」を漢字で書く",
+      "choices": [
+        "想像",
+        "創像",
+        "創造う",
+        "創造"
+      ],
+      "answer": 3,
+      "meaning": "新しいものを作り出すこと。",
+      "example": "未来の町を創造する。 漢検3級の書き問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "書き",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-001",
       "grade": 6,
       "kanken": 3,
       "difficulty": 3,
       "type": "compound",
-      "question": "尊敬",
+      "question": "漢検3級：熟語「山□」に入る漢字",
       "choices": [
-        "尊敬",
-        "尊敬力",
-        "大尊敬",
-        "尊敬語"
+        "道",
+        "川",
+        "火",
+        "手"
       ],
       "answer": 0,
-      "meaning": "すぐれた人をうやまうこと。",
-      "example": "努力する人を尊敬する。",
+      "meaning": "山の中を通る道。",
+      "example": "山道をゆっくり歩く。 漢検3級の熟語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "compound"
+        "熟語",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-sentence-1",
+      "id": "kanken3-compound-002",
       "grade": 6,
       "kanken": 3,
       "difficulty": 3,
-      "type": "sentence",
-      "question": "尊敬",
+      "type": "compound",
+      "question": "漢検3級：熟語「水□」に入る漢字",
       "choices": [
-        "努力する人を尊敬する。",
-        "そんけいを読む。",
-        "音だけを聞く。",
-        "答えを消す。"
+        "火",
+        "犬",
+        "目",
+        "田"
       ],
-      "answer": 0,
-      "meaning": "すぐれた人をうやまうこと。",
-      "example": "努力する人を尊敬する。",
+      "answer": 3,
+      "meaning": "水を入れて米を育てる田。",
+      "example": "水田に苗を植える。 漢検3級の熟語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "sentence"
+        "熟語",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-homophone-1",
+      "id": "kanken3-compound-003",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「火□」に入る漢字",
+      "choices": [
+        "雨",
+        "木",
+        "山",
+        "川"
+      ],
+      "answer": 2,
+      "meaning": "地下の熱い物が出る山。",
+      "example": "火山の写真を見る。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-004",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「木□」に入る漢字",
+      "choices": [
+        "目",
+        "立",
+        "水",
+        "口"
+      ],
+      "answer": 1,
+      "meaning": "木が何本も立っている場所。",
+      "example": "木立の中を歩く。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-005",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「雨□」に入る漢字",
+      "choices": [
+        "水",
+        "火",
+        "耳",
+        "足"
+      ],
+      "answer": 0,
+      "meaning": "雨として降った水。",
+      "example": "雨水をためる。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-006",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「空□」に入る漢字",
+      "choices": [
+        "校",
+        "花",
+        "犬",
+        "気"
+      ],
+      "answer": 3,
+      "meaning": "まわりにある見えない気体。",
+      "example": "空気を入れ替える。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-007",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「手□」に入る漢字",
+      "choices": [
+        "山",
+        "犬",
+        "紙",
+        "水"
+      ],
+      "answer": 2,
+      "meaning": "用件を書いて送る紙。",
+      "example": "友だちに手紙を書く。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-008",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「先□」に入る漢字",
+      "choices": [
+        "右",
+        "生",
+        "校",
+        "本"
+      ],
+      "answer": 1,
+      "meaning": "学習を教える人。",
+      "example": "先生に質問する。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-009",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「学□」に入る漢字",
+      "choices": [
+        "校",
+        "交",
+        "考",
+        "高"
+      ],
+      "answer": 0,
+      "meaning": "学ぶために通う場所。",
+      "example": "学校で友だちと学ぶ。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-010",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「草□」に入る漢字",
+      "choices": [
+        "火",
+        "口",
+        "足",
+        "木"
+      ],
+      "answer": 3,
+      "meaning": "草と木などの植物。",
+      "example": "草木に水をやる。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-011",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「日□」に入る漢字",
+      "choices": [
+        "川",
+        "火",
+        "本",
+        "山"
+      ],
+      "answer": 2,
+      "meaning": "日本という国の名前。",
+      "example": "日本の地図を見る。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-012",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「人□」に入る漢字",
+      "choices": [
+        "手",
+        "口",
+        "目",
+        "耳"
+      ],
+      "answer": 1,
+      "meaning": "ある場所に住む人の数。",
+      "example": "町の人口を知る。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-013",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「名□」に入る漢字",
+      "choices": [
+        "前",
+        "右",
+        "左",
+        "下"
+      ],
+      "answer": 0,
+      "meaning": "人や物を呼ぶ言葉。",
+      "example": "自分の名前を書く。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-014",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「白□」に入る漢字",
+      "choices": [
+        "木",
+        "山",
+        "川",
+        "紙"
+      ],
+      "answer": 3,
+      "meaning": "何も書いていない紙。",
+      "example": "白紙に絵をかく。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-015",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「赤□」に入る漢字",
+      "choices": [
+        "空",
+        "耳",
+        "土",
+        "水"
+      ],
+      "answer": 2,
+      "meaning": "赤みのある土。",
+      "example": "赤土の道を歩く。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-016",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「温□」に入る漢字",
+      "choices": [
+        "度",
+        "泉",
+        "室",
+        "気"
+      ],
+      "answer": 1,
+      "meaning": "地中からわき出る温かい水。",
+      "example": "旅行先で温泉に入る。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-017",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「海□」に入る漢字",
+      "choices": [
+        "岸",
+        "水",
+        "山",
+        "風"
+      ],
+      "answer": 0,
+      "meaning": "海に接する陸の場所。",
+      "example": "海岸で貝を拾う。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-018",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「森□」に入る漢字",
+      "choices": [
+        "木",
+        "村",
+        "校",
+        "林"
+      ],
+      "answer": 3,
+      "meaning": "木が多く集まった場所。",
+      "example": "森と林の違いを調べる。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-019",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「計□」に入る漢字",
+      "choices": [
+        "数",
+        "表",
+        "算",
+        "筆"
+      ],
+      "answer": 2,
+      "meaning": "数を使って答えを出すこと。",
+      "example": "計算を速く正確にする。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-020",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「図□」に入る漢字",
+      "choices": [
+        "記",
+        "書",
+        "画",
+        "語"
+      ],
+      "answer": 1,
+      "meaning": "本や資料。",
+      "example": "図書を大切に扱う。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-021",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「研□」に入る漢字",
+      "choices": [
+        "究",
+        "球",
+        "級",
+        "求"
+      ],
+      "answer": 0,
+      "meaning": "くわしく調べて考えること。",
+      "example": "自由研究をまとめる。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-022",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「発□」に入る漢字",
+      "choices": [
+        "票",
+        "評",
+        "標",
+        "表"
+      ],
+      "answer": 3,
+      "meaning": "考えを人に伝えること。",
+      "example": "調べたことを発表する。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-023",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「協□」に入る漢字",
+      "choices": [
+        "緑",
+        "陸",
+        "力",
+        "立"
+      ],
+      "answer": 2,
+      "meaning": "力を合わせること。",
+      "example": "全員で協力する。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-024",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「説□」に入る漢字",
+      "choices": [
+        "鳴",
+        "明",
+        "名",
+        "命"
+      ],
+      "answer": 1,
+      "meaning": "分かるように述べること。",
+      "example": "理由を説明する。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-025",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「責□」に入る漢字",
+      "choices": [
+        "任",
+        "仁",
+        "認",
+        "忍"
+      ],
+      "answer": 0,
+      "meaning": "果たすべきつとめ。",
+      "example": "責任を持って行動する。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-026",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「検□」に入る漢字",
+      "choices": [
+        "差",
+        "佐",
+        "砂",
+        "査"
+      ],
+      "answer": 3,
+      "meaning": "調べて確かめること。",
+      "example": "荷物を検査する。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-027",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「尊□」に入る漢字",
+      "choices": [
+        "啓",
+        "経",
+        "敬",
+        "径"
+      ],
+      "answer": 2,
+      "meaning": "うやまうこと。",
+      "example": "祖父を尊敬する。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-028",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「収□」に入る漢字",
+      "choices": [
+        "護",
+        "穫",
+        "獲",
+        "確"
+      ],
+      "answer": 1,
+      "meaning": "作物を取り入れること。",
+      "example": "野菜を収穫する。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-029",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「継□」に入る漢字",
+      "choices": [
+        "続",
+        "読",
+        "族",
+        "属"
+      ],
+      "answer": 0,
+      "meaning": "続けること。",
+      "example": "練習を継続する。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-compound-030",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "compound",
+      "question": "漢検3級：熟語「妥□」に入る漢字",
+      "choices": [
+        "強",
+        "共",
+        "況",
+        "協"
+      ],
+      "answer": 3,
+      "meaning": "互いにゆずること。",
+      "example": "話し合いで妥協する。 漢検3級の熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-001",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「説明に○○がある。」",
+      "choices": [
+        "矛盾",
+        "むしゅん",
+        "むじゅ",
+        "ぼうじゅん"
+      ],
+      "answer": 0,
+      "meaning": "二つのことが食い違うこと。",
+      "example": "説明に矛盾がある。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-002",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「○○な態度で学ぶ。」",
+      "choices": [
+        "けんぎょ",
+        "けんきょう",
+        "げんきょ",
+        "謙虚"
+      ],
+      "answer": 3,
+      "meaning": "控えめで素直なこと。",
+      "example": "謙虚な態度で学ぶ。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-003",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「成果が○○に表れる。」",
+      "choices": [
+        "けんちゃく",
+        "げんちょ",
+        "顕著",
+        "けんじょ"
+      ],
+      "answer": 2,
+      "meaning": "はっきり目立つこと。",
+      "example": "成果が顕著に表れる。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-004",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「注意を○○する。」",
+      "choices": [
+        "かんきょう",
+        "喚起",
+        "かんぎ",
+        "けんき"
+      ],
+      "answer": 1,
+      "meaning": "呼び起こすこと。",
+      "example": "注意を喚起する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-005",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「○○な返事を避ける。」",
+      "choices": [
+        "曖昧",
+        "あいめい",
+        "あんまい",
+        "あいま"
+      ],
+      "answer": 0,
+      "meaning": "はっきりしないこと。",
+      "example": "曖昧な返事を避ける。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-006",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「入会を○○する。」",
+      "choices": [
+        "かんよう",
+        "けんゆう",
+        "かんゆ",
+        "勧誘"
+      ],
+      "answer": 3,
+      "meaning": "人にすすめて誘うこと。",
+      "example": "入会を勧誘する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-007",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「星の○○を観察する。」",
+      "choices": [
+        "きぜき",
+        "きせつ",
+        "軌跡",
+        "ぎせき"
+      ],
+      "answer": 2,
+      "meaning": "動いたあとに残る道すじ。",
+      "example": "星の軌跡を観察する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-008",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「混雑を○○する。」",
+      "choices": [
+        "かんか",
+        "緩和",
+        "かんば",
+        "けんわ"
+      ],
+      "answer": 1,
+      "meaning": "きびしさをやわらげること。",
+      "example": "混雑を緩和する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-009",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「不正を○○する。」",
+      "choices": [
+        "弾劾",
+        "たんがい",
+        "だんかい",
+        "だんげい"
+      ],
+      "answer": 0,
+      "meaning": "責任を問いただすこと。",
+      "example": "不正を弾劾する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-010",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「○○的な判断を避ける。」",
+      "choices": [
+        "じい",
+        "しいん",
+        "しえ",
+        "恣意"
+      ],
+      "answer": 3,
+      "meaning": "自分勝手な考え。",
+      "example": "恣意的な判断を避ける。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-011",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「努力を○○する。」",
+      "choices": [
+        "けいぞ",
+        "げいぞく",
+        "継続",
+        "けいそく"
+      ],
+      "answer": 2,
+      "meaning": "物事を続けること。",
+      "example": "努力を継続する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-012",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「○○の仕組みを学ぶ。」",
+      "choices": [
+        "さいべん",
+        "裁判",
+        "ざいばん",
+        "さいはん"
+      ],
+      "answer": 1,
+      "meaning": "法律に基づいて判断すること。",
+      "example": "裁判の仕組みを学ぶ。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-013",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「出題の○○を調べる。」",
+      "choices": [
+        "傾向",
+        "けいごう",
+        "けんこう",
+        "けいきょう"
+      ],
+      "answer": 0,
+      "meaning": "物事がある方向へ向かう様子。",
+      "example": "出題の傾向を調べる。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-014",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「○○的な言葉を説明する。」",
+      "choices": [
+        "ちゅうそう",
+        "ちゅうじょう",
+        "ちゅしょう",
+        "抽象"
+      ],
+      "answer": 3,
+      "meaning": "具体的でなく考えとしてまとめること。",
+      "example": "抽象的な言葉を説明する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-015",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「発表前に○○する。」",
+      "choices": [
+        "きんちょ",
+        "けんちょう",
+        "緊張",
+        "きんじょう"
+      ],
+      "answer": 2,
+      "meaning": "心や体が張りつめること。",
+      "example": "発表前に緊張する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-016",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「○○を証明する。」",
+      "choices": [
+        "けんぱく",
+        "潔白",
+        "けつぱく",
+        "けっぱ"
+      ],
+      "answer": 1,
+      "meaning": "心や行いが清く正しいこと。",
+      "example": "潔白を証明する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-017",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「資料を○○する。」",
+      "choices": [
+        "凝視",
+        "ぎょし",
+        "ごうし",
+        "ぎょうじ"
+      ],
+      "answer": 0,
+      "meaning": "じっと見つめること。",
+      "example": "資料を凝視する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-018",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「電気を○○する。」",
+      "choices": [
+        "けんよく",
+        "げんやく",
+        "けんや",
+        "倹約"
+      ],
+      "answer": 3,
+      "meaning": "むだを省いて使うこと。",
+      "example": "電気を倹約する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-019",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「話し合いで○○する。」",
+      "choices": [
+        "しょうほ",
+        "じょうふ",
+        "譲歩",
+        "じょうぽ"
+      ],
+      "answer": 2,
+      "meaning": "自分の考えを少しゆずること。",
+      "example": "話し合いで譲歩する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-020",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「意見を調整して○○する。」",
+      "choices": [
+        "だきょ",
+        "妥協",
+        "たきょう",
+        "だぎょう"
+      ],
+      "answer": 1,
+      "meaning": "互いにゆずって一致点を見つけること。",
+      "example": "意見を調整して妥協する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-021",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「努力する人を○○する。」",
+      "choices": [
+        "尊敬",
+        "ぞんけい",
+        "そんきょう",
+        "そんけ"
+      ],
+      "answer": 0,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-022",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「課題について○○する。」",
+      "choices": [
+        "どうろん",
+        "とうりん",
+        "とうろんん",
+        "討論"
+      ],
+      "answer": 3,
+      "meaning": "意見を出し合って話し合うこと。",
+      "example": "課題について討論する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-023",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「○○な場所に近づかない。」",
+      "choices": [
+        "きげん",
+        "きけ",
+        "危険",
+        "ぎけん"
+      ],
+      "answer": 2,
+      "meaning": "あぶないこと。",
+      "example": "危険な場所に近づかない。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-024",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「要点を○○に話す。」",
+      "choices": [
+        "けんけつ",
+        "簡潔",
+        "かんげつ",
+        "かんけち"
+      ],
+      "answer": 1,
+      "meaning": "短く分かりやすくまとまること。",
+      "example": "要点を簡潔に話す。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-025",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「秋に米を○○する。」",
+      "choices": [
+        "収穫",
+        "しゅかく",
+        "しゅうがく",
+        "しゅうこく"
+      ],
+      "answer": 0,
+      "meaning": "作物を取り入れること。",
+      "example": "秋に米を収穫する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-026",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「写真を○○して見る。」",
+      "choices": [
+        "がくだい",
+        "かくたい",
+        "かくだん",
+        "拡大"
+      ],
+      "answer": 3,
+      "meaning": "大きく広げること。",
+      "example": "写真を拡大して見る。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-027",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「○○に連絡する。」",
+      "choices": [
+        "じんぞく",
+        "じんせき",
+        "迅速",
+        "しんそく"
+      ],
+      "answer": 2,
+      "meaning": "物事が非常に速いこと。",
+      "example": "迅速に連絡する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-028",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「約束を○○する。」",
+      "choices": [
+        "りょこう",
+        "履行",
+        "りごう",
+        "りぎょう"
+      ],
+      "answer": 1,
+      "meaning": "約束や義務を実行すること。",
+      "example": "約束を履行する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-029",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「安全を○○する。」",
+      "choices": [
+        "優先",
+        "ゆせん",
+        "ゆうぜん",
+        "ゆうしん"
+      ],
+      "answer": 0,
+      "meaning": "ほかより先に扱うこと。",
+      "example": "安全を優先する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-sentence-030",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "sentence",
+      "question": "漢検3級：文に合う語を選ぶ「未来の町を○○する。」",
+      "choices": [
+        "そうそう",
+        "しょうぞう",
+        "そうどう",
+        "創造"
+      ],
+      "answer": 3,
+      "meaning": "新しいものを作り出すこと。",
+      "example": "未来の町を創造する。 漢検3級の文脈問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "文脈",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-001",
       "grade": 6,
       "kanken": 3,
       "difficulty": 4,
       "type": "homophone",
-      "question": "尊敬",
+      "question": "漢検3級：「ひ」に合う漢字。○○を安全に使う。",
       "choices": [
-        "尊敬",
-        "感例",
-        "官例",
-        "完例"
+        "火",
+        "日",
+        "非",
+        "灯"
       ],
       "answer": 0,
-      "meaning": "すぐれた人をうやまうこと。",
-      "example": "努力する人を尊敬する。",
+      "meaning": "熱く明るく燃えるもの。",
+      "example": "火を安全に使う。 漢検3級の同音異義語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "homophone"
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-opposite-1",
+      "id": "kanken3-homophone-002",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「はな」に合う漢字。○○を花びんに入れる。",
+      "choices": [
+        "鼻",
+        "華",
+        "端",
+        "花"
+      ],
+      "answer": 3,
+      "meaning": "草や木に咲く部分。",
+      "example": "花を花びんに入れる。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-003",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「き」に合う漢字。○○の下で休む。",
+      "choices": [
+        "機",
+        "期",
+        "木",
+        "気"
+      ],
+      "answer": 2,
+      "meaning": "幹や枝を持つ植物。",
+      "example": "木の下で休む。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-004",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「め」に合う漢字。○○を大切にする。",
+      "choices": [
+        "眼",
+        "目",
+        "芽",
+        "女"
+      ],
+      "answer": 1,
+      "meaning": "ものを見る体の部分。",
+      "example": "目を大切にする。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-005",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「あし」に合う漢字。○○で地面をける。",
+      "choices": [
+        "足",
+        "脚",
+        "葦",
+        "悪し"
+      ],
+      "answer": 0,
+      "meaning": "歩くときに使う体の部分。",
+      "example": "足で地面をける。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-006",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「かわ」に合う漢字。○○で魚を見る。",
+      "choices": [
+        "皮",
+        "河",
+        "側",
+        "川"
+      ],
+      "answer": 3,
+      "meaning": "水が流れるところ。",
+      "example": "川で魚を見る。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-007",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「いし」に合う漢字。○○を拾う。",
+      "choices": [
+        "医師",
+        "意志",
+        "石",
+        "意思"
+      ],
+      "answer": 2,
+      "meaning": "かたい岩の小さなかたまり。",
+      "example": "石を拾う。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-008",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「せんせい」に合う漢字。○○にあいさつする。",
+      "choices": [
+        "専制",
+        "先生",
+        "先制",
+        "宣誓"
+      ],
+      "answer": 1,
+      "meaning": "学習を教える人。",
+      "example": "先生にあいさつする。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-009",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「こう」に合う漢字。○○門の前に立つ。",
+      "choices": [
+        "校",
+        "交",
+        "高",
+        "考"
+      ],
+      "answer": 0,
+      "meaning": "学校を表す漢字。",
+      "example": "校門の前に立つ。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-010",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「ほん」に合う漢字。○○を読む。",
+      "choices": [
+        "元",
+        "奔",
+        "品",
+        "本"
+      ],
+      "answer": 3,
+      "meaning": "文字や絵をまとめた読み物。",
+      "example": "本を読む。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-011",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「あか」に合う漢字。○○の色えんぴつを使う。",
+      "choices": [
+        "明",
+        "朱",
+        "赤",
+        "垢"
+      ],
+      "answer": 2,
+      "meaning": "赤い色。",
+      "example": "赤の色えんぴつを使う。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-012",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「しろ」に合う漢字。○○い紙を配る。",
+      "choices": [
+        "皿",
+        "白",
+        "城",
+        "代"
+      ],
+      "answer": 1,
+      "meaning": "白い色。",
+      "example": "白い紙を配る。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-013",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「な」に合う漢字。○○札をつける。",
+      "choices": [
+        "名",
+        "菜",
+        "奈",
+        "無"
+      ],
+      "answer": 0,
+      "meaning": "名前を表す漢字。",
+      "example": "名札をつける。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-014",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「こ」に合う漢字。○○犬を見る。",
+      "choices": [
+        "小",
+        "個",
+        "粉",
+        "子"
+      ],
+      "answer": 3,
+      "meaning": "子どもを表す漢字。",
+      "example": "子犬を見る。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-015",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「そら」に合う漢字。○○を見上げる。",
+      "choices": [
+        "空き",
+        "殻",
+        "空",
+        "宙"
+      ],
+      "answer": 2,
+      "meaning": "地上の上に広がるところ。",
+      "example": "空を見上げる。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-016",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「きろく」に合う漢字。大会の結果を○○する。",
+      "choices": [
+        "帰録",
+        "記録",
+        "紀録",
+        "起録"
+      ],
+      "answer": 1,
+      "meaning": "事実を書き残すこと。",
+      "example": "大会の結果を記録する。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-017",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「せいこう」に合う漢字。実験が○○した。",
+      "choices": [
+        "成功",
+        "成効",
+        "正功",
+        "精工"
+      ],
+      "answer": 0,
+      "meaning": "物事がうまくいくこと。",
+      "example": "実験が成功した。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-018",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「こうか」に合う漢字。練習の○○が出た。",
+      "choices": [
+        "校果",
+        "高価",
+        "硬化",
+        "効果"
+      ],
+      "answer": 3,
+      "meaning": "よい働きや結果。",
+      "example": "練習の効果が出た。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-019",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「かんそう」に合う漢字。本の○○を書く。",
+      "choices": [
+        "完走",
+        "歓送",
+        "感想",
+        "乾燥"
+      ],
+      "answer": 2,
+      "meaning": "見聞きした後の思い。",
+      "example": "本の感想を書く。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-020",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「しょうめい」に合う漢字。理由を○○する。",
+      "choices": [
+        "声明",
+        "証明",
+        "照明",
+        "正銘"
+      ],
+      "answer": 1,
+      "meaning": "本当であると明らかにすること。",
+      "example": "理由を証明する。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-021",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「かいとう」に合う漢字。質問に○○する。",
+      "choices": [
+        "回答",
+        "解答",
+        "怪盗",
+        "解凍"
+      ],
+      "answer": 0,
+      "meaning": "問いに答えること。",
+      "example": "質問に回答する。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-022",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「しゅうかく」に合う漢字。秋に米を○○する。",
+      "choices": [
+        "収獲",
+        "集穫",
+        "習格",
+        "収穫"
+      ],
+      "answer": 3,
+      "meaning": "作物を取り入れること。",
+      "example": "秋に米を収穫する。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-023",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「せいみつ」に合う漢字。○○な地図を見る。",
+      "choices": [
+        "正密",
+        "製密",
+        "精密",
+        "清密"
+      ],
+      "answer": 2,
+      "meaning": "細かく正確なこと。",
+      "example": "精密な地図を見る。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-024",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「けんとう」に合う漢字。計画を○○する。",
+      "choices": [
+        "献灯",
+        "検討",
+        "見当",
+        "健闘"
+      ],
+      "answer": 1,
+      "meaning": "よく調べて考えること。",
+      "example": "計画を検討する。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-025",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「じゅよう」に合う漢字。水の○○が高まる。",
+      "choices": [
+        "需要",
+        "授業",
+        "受容",
+        "樹葉"
+      ],
+      "answer": 0,
+      "meaning": "求められる量。",
+      "example": "水の需要が高まる。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-026",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「いし」に合う漢字。自分の○○を伝える。",
+      "choices": [
+        "医師",
+        "石",
+        "遺志",
+        "意思"
+      ],
+      "answer": 3,
+      "meaning": "何かをしようとする考え。",
+      "example": "自分の意思を伝える。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-027",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「きかん」に合う漢字。募集○○を確認する。",
+      "choices": [
+        "帰還",
+        "器官",
+        "期間",
+        "機関"
+      ],
+      "answer": 2,
+      "meaning": "ある時から時までの間。",
+      "example": "募集期間を確認する。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-028",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「たいしょう」に合う漢字。調査の○○を決める。",
+      "choices": [
+        "対称",
+        "対象",
+        "対照",
+        "大賞"
+      ],
+      "answer": 1,
+      "meaning": "目標や相手となるもの。",
+      "example": "調査の対象を決める。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-029",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「ほしょう」に合う漢字。品質を○○する。",
+      "choices": [
+        "保証",
+        "保障",
+        "補償",
+        "歩哨"
+      ],
+      "answer": 0,
+      "meaning": "確かだと請け合うこと。",
+      "example": "品質を保証する。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-homophone-030",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "漢検3級：「かてい」に合う漢字。成長の○○を記録する。",
+      "choices": [
+        "家庭",
+        "仮定",
+        "課程",
+        "過程"
+      ],
+      "answer": 3,
+      "meaning": "物事が進む道すじ。",
+      "example": "成長の過程を記録する。 漢検3級の同音異義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "同音異義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-001",
       "grade": 6,
       "kanken": 3,
       "difficulty": 4,
       "type": "opposite",
-      "question": "尊敬",
+      "question": "漢検3級：「上」の対義語",
       "choices": [
-        "反対語を選ぶ",
-        "類義語を選ぶ",
-        "読みを選ぶ",
-        "部首を選ぶ"
+        "下",
+        "右",
+        "左",
+        "中"
       ],
       "answer": 0,
-      "meaning": "すぐれた人をうやまうこと。",
-      "example": "努力する人を尊敬する。",
+      "meaning": "高い方の位置。",
+      "example": "上の棚を見る。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "下"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-002",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「下」の対義語",
+      "choices": [
+        "左",
+        "右",
+        "外",
+        "上"
+      ],
+      "answer": 3,
+      "meaning": "低い方の位置。",
+      "example": "下の段に置く。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "上"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-003",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「右」の対義語",
+      "choices": [
+        "下",
+        "中",
+        "左",
+        "上"
+      ],
+      "answer": 2,
+      "meaning": "片側の方向。",
+      "example": "右の手を上げる。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "左"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-004",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「左」の対義語",
+      "choices": [
+        "中",
+        "右",
+        "上",
+        "下"
+      ],
+      "answer": 1,
+      "meaning": "片側の方向。",
+      "example": "左の道へ進む。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "右"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-005",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「大きい」の対義語",
+      "choices": [
+        "小さい",
+        "多い",
+        "白い",
+        "早い"
+      ],
+      "answer": 0,
+      "meaning": "形や量が大きいこと。",
+      "example": "大きい箱を運ぶ。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "小さい"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-006",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「多い」の対義語",
+      "choices": [
+        "大きい",
+        "白い",
+        "丸い",
+        "少ない"
+      ],
+      "answer": 3,
+      "meaning": "数や量がたくさんあること。",
+      "example": "人が多い。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "少ない"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-007",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「早い」の対義語",
+      "choices": [
+        "白い",
+        "近い",
+        "遅い",
+        "高い"
+      ],
+      "answer": 2,
+      "meaning": "時刻や動きが前であること。",
+      "example": "朝早い時間に出る。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "遅い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-008",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「白い」の対義語",
+      "choices": [
+        "丸い",
+        "黒い",
+        "赤い",
+        "青い"
+      ],
+      "answer": 1,
+      "meaning": "白の色であること。",
+      "example": "白い雲を見る。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "黒い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-009",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「入口」の対義語",
+      "choices": [
+        "出口",
+        "門口",
+        "窓口",
+        "校門"
+      ],
+      "answer": 0,
+      "meaning": "入るための場所。",
+      "example": "入口から入る。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "出口"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-010",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「前」の対義語",
+      "choices": [
+        "右",
+        "左",
+        "中",
+        "後"
+      ],
+      "answer": 3,
+      "meaning": "進む方向に近い側。",
+      "example": "前を見る。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "後"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-011",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「赤い」の対義語",
+      "choices": [
+        "早い",
+        "近い",
+        "白い",
+        "大きい"
+      ],
+      "answer": 2,
+      "meaning": "赤の色であること。",
+      "example": "赤い実を見つける。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "白い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-012",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「高い」の対義語",
+      "choices": [
+        "多い",
+        "低い",
+        "長い",
+        "丸い"
+      ],
+      "answer": 1,
+      "meaning": "位置が上であること。",
+      "example": "高い木を見る。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "低い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-013",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「近い」の対義語",
+      "choices": [
+        "遠い",
+        "早い",
+        "白い",
+        "大きい"
+      ],
+      "answer": 0,
+      "meaning": "距離が短いこと。",
+      "example": "家が近い。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "遠い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-014",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「長い」の対義語",
+      "choices": [
+        "赤い",
+        "多い",
+        "高い",
+        "短い"
+      ],
+      "answer": 3,
+      "meaning": "長さがあること。",
+      "example": "長い川を見る。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "短い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-015",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「入る」の対義語",
+      "choices": [
+        "読む",
+        "書く",
+        "出る",
+        "見る"
+      ],
+      "answer": 2,
+      "meaning": "中へ進むこと。",
+      "example": "教室に入る。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "出る"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-016",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「拡大」の対義語",
+      "choices": [
+        "改善",
+        "縮小",
+        "増加",
+        "上昇"
+      ],
+      "answer": 1,
+      "meaning": "大きく広げること。",
+      "example": "写真を拡大する。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "縮小"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-017",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「増加」の対義語",
+      "choices": [
+        "減少",
+        "拡大",
+        "前進",
+        "成功"
+      ],
+      "answer": 0,
+      "meaning": "数や量が増えること。",
+      "example": "人口が増加する。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "減少"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-018",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「上昇」の対義語",
+      "choices": [
+        "改善",
+        "完成",
+        "出発",
+        "下降"
+      ],
+      "answer": 3,
+      "meaning": "上へあがること。",
+      "example": "気温が上昇する。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "下降"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-019",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「安全」の対義語",
+      "choices": [
+        "平和",
+        "自由",
+        "危険",
+        "簡単"
+      ],
+      "answer": 2,
+      "meaning": "危なくないこと。",
+      "example": "安全を確認する。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "危険"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-020",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「成功」の対義語",
+      "choices": [
+        "進歩",
+        "失敗",
+        "成長",
+        "完成"
+      ],
+      "answer": 1,
+      "meaning": "うまくいくこと。",
+      "example": "実験が成功する。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "失敗"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-021",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「必要」の対義語",
+      "choices": [
+        "不要",
+        "重要",
+        "有名",
+        "不足"
+      ],
+      "answer": 0,
+      "meaning": "なくてはならないこと。",
+      "example": "準備が必要だ。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "不要"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-022",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「強い」の対義語",
+      "choices": [
+        "高い",
+        "近い",
+        "広い",
+        "弱い"
+      ],
+      "answer": 3,
+      "meaning": "力があること。",
+      "example": "強い風が吹く。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "弱い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-023",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「明るい」の対義語",
+      "choices": [
+        "遠い",
+        "早い",
+        "暗い",
+        "軽い"
+      ],
+      "answer": 2,
+      "meaning": "光が多いこと。",
+      "example": "明るい部屋で読む。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "暗い"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-024",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「出発」の対義語",
+      "choices": [
+        "旅行",
+        "到着",
+        "集合",
+        "予定"
+      ],
+      "answer": 1,
+      "meaning": "目的地へ向かって出ること。",
+      "example": "朝に出発する。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "到着"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-025",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「賛成」の対義語",
+      "choices": [
+        "反対",
+        "完成",
+        "安全",
+        "発表"
+      ],
+      "answer": 0,
+      "meaning": "よいと認めること。",
+      "example": "提案に賛成する。 漢検3級の対義語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [
         "反対"
       ],
       "tags": [
-        "opposite"
+        "対義語",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-synonym-1",
+      "id": "kanken3-opposite-026",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「開始」の対義語",
+      "choices": [
+        "準備",
+        "連続",
+        "発見",
+        "終了"
+      ],
+      "answer": 3,
+      "meaning": "始めること。",
+      "example": "試合を開始する。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "終了"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-027",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「簡単」の対義語",
+      "choices": [
+        "静か",
+        "新鮮",
+        "複雑",
+        "安全"
+      ],
+      "answer": 2,
+      "meaning": "分かりやすくやさしいこと。",
+      "example": "簡単な問題を解く。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "複雑"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-028",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「有利」の対義語",
+      "choices": [
+        "権利",
+        "不利",
+        "便利",
+        "利益"
+      ],
+      "answer": 1,
+      "meaning": "都合がよいこと。",
+      "example": "有利な条件で進む。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "不利"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-029",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「肯定」の対義語",
+      "choices": [
+        "否定",
+        "安定",
+        "決定",
+        "予定"
+      ],
+      "answer": 0,
+      "meaning": "その通りだと認めること。",
+      "example": "意見を肯定する。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "否定"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-opposite-030",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "opposite",
+      "question": "漢検3級：「緊張」の対義語",
+      "choices": [
+        "集中",
+        "感動",
+        "継続",
+        "弛緩"
+      ],
+      "answer": 3,
+      "meaning": "心や体が張りつめること。",
+      "example": "発表前に緊張する。 漢検3級の対義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "弛緩"
+      ],
+      "tags": [
+        "対義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-001",
       "grade": 6,
       "kanken": 3,
       "difficulty": 4,
       "type": "synonym",
-      "question": "尊敬",
+      "question": "漢検3級：「大きい」と意味が近い言葉",
       "choices": [
-        "似た意味の語",
-        "反対の語",
-        "送りがな",
-        "画数"
+        "サイズが大きい",
+        "小さい",
+        "暗い",
+        "遠い"
       ],
       "answer": 0,
-      "meaning": "すぐれた人をうやまうこと。",
-      "example": "努力する人を尊敬する。",
+      "meaning": "形や量が大きいこと。",
+      "example": "大きい声で読む。 漢検3級の類義語問題で確認する。",
       "mnemonic": "",
       "synonyms": [
-        "類義"
+        "サイズが大きい"
       ],
       "antonyms": [],
       "tags": [
-        "synonym"
+        "類義語",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-yojijukugo-1",
+      "id": "kanken3-synonym-002",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「小さい」と意味が近い言葉",
+      "choices": [
+        "大きい",
+        "高い",
+        "新しい",
+        "サイズが小さい"
+      ],
+      "answer": 3,
+      "meaning": "形や量が小さいこと。",
+      "example": "小さい石を拾う。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "サイズが小さい"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-003",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「上」と意味が近い言葉",
+      "choices": [
+        "左の方",
+        "後ろ",
+        "高い方",
+        "低い方"
+      ],
+      "answer": 2,
+      "meaning": "位置が高い方。",
+      "example": "上を見る。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "高い方"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-004",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「下」と意味が近い言葉",
+      "choices": [
+        "前",
+        "低い方",
+        "高い方",
+        "右の方"
+      ],
+      "answer": 1,
+      "meaning": "位置が低い方。",
+      "example": "下に本を置く。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "低い方"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-005",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「入口」と意味が近い言葉",
+      "choices": [
+        "入る所",
+        "出る所",
+        "高い所",
+        "読む物"
+      ],
+      "answer": 0,
+      "meaning": "中へ入るための場所。",
+      "example": "入口で待つ。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "入る所"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-006",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「出口」と意味が近い言葉",
+      "choices": [
+        "入る所",
+        "流れる所",
+        "書く物",
+        "出る所"
+      ],
+      "answer": 3,
+      "meaning": "外へ出るための場所。",
+      "example": "出口へ進む。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "出る所"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-007",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「早い」と意味が近い言葉",
+      "choices": [
+        "暗い",
+        "細い",
+        "時間が前",
+        "遅い"
+      ],
+      "answer": 2,
+      "meaning": "時刻や動きが前であること。",
+      "example": "早い時間に着く。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "時間が前"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-008",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「白い」と意味が近い言葉",
+      "choices": [
+        "近い",
+        "白の色",
+        "黒い",
+        "多い"
+      ],
+      "answer": 1,
+      "meaning": "雪のような色。",
+      "example": "白い紙に書く。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "白の色"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-009",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「見る」と意味が近い言葉",
+      "choices": [
+        "目で確かめる",
+        "聞く",
+        "走る",
+        "食べる"
+      ],
+      "answer": 0,
+      "meaning": "目で物をとらえること。",
+      "example": "空を見る。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "目で確かめる"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-010",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「読む」と意味が近い言葉",
+      "choices": [
+        "書く",
+        "走る",
+        "洗う",
+        "文字を声や心でたどる"
+      ],
+      "answer": 3,
+      "meaning": "文字の意味を取ること。",
+      "example": "本を読む。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "文字を声や心でたどる"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-011",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「赤い」と意味が近い言葉",
+      "choices": [
+        "大きい",
+        "早い",
+        "赤の色",
+        "白い"
+      ],
+      "answer": 2,
+      "meaning": "赤の色であること。",
+      "example": "赤い花が咲く。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "赤の色"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-012",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「少ない」と意味が近い言葉",
+      "choices": [
+        "丸い",
+        "数が少し",
+        "多い",
+        "高い"
+      ],
+      "answer": 1,
+      "meaning": "数や量が少しであること。",
+      "example": "水が少ない。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "数が少し"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-013",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「高い」と意味が近い言葉",
+      "choices": [
+        "上にある",
+        "低い",
+        "白い",
+        "近い"
+      ],
+      "answer": 0,
+      "meaning": "位置や値段が上であること。",
+      "example": "高い山を見る。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "上にある"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-014",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「近い」と意味が近い言葉",
+      "choices": [
+        "遠い",
+        "大きい",
+        "暗い",
+        "距離が短い"
+      ],
+      "answer": 3,
+      "meaning": "距離が短いこと。",
+      "example": "学校が近い。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "距離が短い"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-015",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「長い」と意味が近い言葉",
+      "choices": [
+        "多い",
+        "黒い",
+        "端から端まで遠い",
+        "短い"
+      ],
+      "answer": 2,
+      "meaning": "長さがあること。",
+      "example": "長い道を歩く。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "端から端まで遠い"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-016",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「迅速」と意味が近い言葉",
+      "choices": [
+        "簡単",
+        "素早い",
+        "遅い",
+        "危険"
+      ],
+      "answer": 1,
+      "meaning": "物事が非常に速いこと。",
+      "example": "迅速な対応で助かった。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "素早い"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-017",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「精密」と意味が近い言葉",
+      "choices": [
+        "正確",
+        "大まか",
+        "不安",
+        "短い"
+      ],
+      "answer": 0,
+      "meaning": "細かく正しいこと。",
+      "example": "精密な作業を行う。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "正確"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-018",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「簡潔」と意味が近い言葉",
+      "choices": [
+        "長く複雑",
+        "危ない",
+        "古い",
+        "分かりやすく短い"
+      ],
+      "answer": 3,
+      "meaning": "短くまとまっていること。",
+      "example": "簡潔な説明を心がける。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "分かりやすく短い"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-019",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「協力」と意味が近い言葉",
+      "choices": [
+        "休む",
+        "忘れる",
+        "力を合わせる",
+        "争う"
+      ],
+      "answer": 2,
+      "meaning": "力を合わせること。",
+      "example": "みんなで協力する。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "力を合わせる"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-020",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「観察」と意味が近い言葉",
+      "choices": [
+        "物を売る",
+        "よく見て調べる",
+        "急いで走る",
+        "音を出す"
+      ],
+      "answer": 1,
+      "meaning": "よく見て調べること。",
+      "example": "花のつくりを観察する。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "よく見て調べる"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-021",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「努力」と意味が近い言葉",
+      "choices": [
+        "はげむこと",
+        "あきらめること",
+        "遊ぶこと",
+        "眠ること"
+      ],
+      "answer": 0,
+      "meaning": "目標に向けて力を尽くすこと。",
+      "example": "努力を続ける。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "はげむこと"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-022",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「責任」と意味が近い言葉",
+      "choices": [
+        "自由な遊び",
+        "短い休み",
+        "楽な仕事",
+        "果たすべきつとめ"
+      ],
+      "answer": 3,
+      "meaning": "自分が引き受けるつとめ。",
+      "example": "責任を持って係をする。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "果たすべきつとめ"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-023",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「快適」と意味が近い言葉",
+      "choices": [
+        "危険",
+        "暗い",
+        "気持ちよい",
+        "不便"
+      ],
+      "answer": 2,
+      "meaning": "気持ちよく過ごせること。",
+      "example": "快適な教室で学ぶ。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "気持ちよい"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-024",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「許可」と意味が近い言葉",
+      "choices": [
+        "走ること",
+        "認めること",
+        "禁止すること",
+        "迷うこと"
+      ],
+      "answer": 1,
+      "meaning": "してよいと認めること。",
+      "example": "使用の許可を得る。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "認めること"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-025",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「尊敬」と意味が近い言葉",
+      "choices": [
+        "うやまうこと",
+        "ばかにすること",
+        "急ぐこと",
+        "広げること"
+      ],
+      "answer": 0,
+      "meaning": "相手をすぐれていると思うこと。",
+      "example": "努力家を尊敬する。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "うやまうこと"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-026",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「継続」と意味が近い言葉",
+      "choices": [
+        "やめること",
+        "曲げること",
+        "隠すこと",
+        "続けること"
+      ],
+      "answer": 3,
+      "meaning": "同じことを続けること。",
+      "example": "練習を継続する。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "続けること"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-027",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「妥協」と意味が近い言葉",
+      "choices": [
+        "忘れること",
+        "比べること",
+        "ゆずり合うこと",
+        "押し通すこと"
+      ],
+      "answer": 2,
+      "meaning": "互いにゆずって決めること。",
+      "example": "話し合いで妥協する。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "ゆずり合うこと"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-028",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「謙虚」と意味が近い言葉",
+      "choices": [
+        "あわただしい",
+        "控えめで素直",
+        "自慢する",
+        "乱暴な"
+      ],
+      "answer": 1,
+      "meaning": "控えめで素直なこと。",
+      "example": "謙虚に学ぶ。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "控えめで素直"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-029",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「顕著」と意味が近い言葉",
+      "choices": [
+        "はっきり目立つ",
+        "ほとんどない",
+        "とても暗い",
+        "すぐ終わる"
+      ],
+      "answer": 0,
+      "meaning": "はっきり目立つこと。",
+      "example": "変化が顕著だ。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "はっきり目立つ"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-synonym-030",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 4,
+      "type": "synonym",
+      "question": "漢検3級：「緩和」と意味が近い言葉",
+      "choices": [
+        "強める",
+        "閉じる",
+        "忘れる",
+        "やわらげる"
+      ],
+      "answer": 3,
+      "meaning": "きびしさをやわらげること。",
+      "example": "混雑を緩和する。 漢検3級の類義語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [
+        "やわらげる"
+      ],
+      "antonyms": [],
+      "tags": [
+        "類義語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-001",
       "grade": 6,
       "kanken": 3,
       "difficulty": 5,
       "type": "yojijukugo",
-      "question": "尊敬",
+      "question": "漢検3級：四字熟語「一日一字」の意味",
       "choices": [
-        "一日一善",
-        "一石二鳥",
-        "十人十色",
-        "七転八起"
+        "一日に一つの字を学ぶこと。",
+        "一日に一回休むこと。",
+        "一字を消すこと。",
+        "一日中遊ぶこと。"
       ],
-      "answer": 2,
-      "meaning": "すぐれた人をうやまうこと。",
-      "example": "努力する人を尊敬する。",
+      "answer": 0,
+      "meaning": "一日に一つの字を学ぶこと。",
+      "example": "一日一字を目標に漢字を覚える。 漢検3級の四字熟語問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "yojijukugo"
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-radical-1",
+      "id": "kanken3-yojijukugo-002",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「一人一人」の意味",
+      "choices": [
+        "一人だけで走ること。",
+        "同じ字を書くこと。",
+        "日にちを数えること。",
+        "それぞれの人を大切に見ること。"
+      ],
+      "answer": 3,
+      "meaning": "それぞれの人を大切に見ること。",
+      "example": "一人一人の考えを聞く。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-003",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「上下左右」の意味",
+      "choices": [
+        "同じ場所に立つこと。",
+        "色を分けること。",
+        "上・下・左・右の方向。",
+        "前だけを見ること。"
+      ],
+      "answer": 2,
+      "meaning": "上・下・左・右の方向。",
+      "example": "地図で上下左右を確かめる。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-004",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「山川草木」の意味",
+      "choices": [
+        "数を数えること。",
+        "山や川、草や木など自然のもの。",
+        "町の建物だけを表すこと。",
+        "人の名前を並べること。"
+      ],
+      "answer": 1,
+      "meaning": "山や川、草や木など自然のもの。",
+      "example": "山川草木を大切にする。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-005",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「日月火水」の意味",
+      "choices": [
+        "曜日名にも使う基本の漢字。",
+        "動物の名前だけを集めた語。",
+        "体の部分を表す語。",
+        "数だけを並べた語。"
+      ],
+      "answer": 0,
+      "meaning": "曜日名にも使う基本の漢字。",
+      "example": "日月火水の漢字を読む。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-006",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「木金土日」の意味",
+      "choices": [
+        "学校の部屋の名前。",
+        "春の花の名前。",
+        "体の動きを表す語。",
+        "曜日名にも使う基本の漢字。"
+      ],
+      "answer": 3,
+      "meaning": "曜日名にも使う基本の漢字。",
+      "example": "木金土日の字を練習する。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-007",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「一二三四」の意味",
+      "choices": [
+        "四つの季節のこと。",
+        "四人の名前のこと。",
+        "一から四までの数。",
+        "四つの方向のこと。"
+      ],
+      "answer": 2,
+      "meaning": "一から四までの数。",
+      "example": "一二三四を順に書く。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-008",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「五六七八」の意味",
+      "choices": [
+        "学校の教科名。",
+        "五から八までの数。",
+        "八つの花の名前。",
+        "朝のあいさつ。"
+      ],
+      "answer": 1,
+      "meaning": "五から八までの数。",
+      "example": "五六七八を正しく読む。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-009",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「九十一百」の意味",
+      "choices": [
+        "数を表す基本の漢字。",
+        "色を表す漢字。",
+        "動物を表す漢字。",
+        "道具を表す漢字。"
+      ],
+      "answer": 0,
+      "meaning": "数を表す基本の漢字。",
+      "example": "九十一百の読みを覚える。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-010",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「大小上下」の意味",
+      "choices": [
+        "雨の強さだけを表すこと。",
+        "学校の名前のこと。",
+        "本の数え方のこと。",
+        "大きさと上下の方向。"
+      ],
+      "answer": 3,
+      "meaning": "大きさと上下の方向。",
+      "example": "大小上下を使って位置を説明する。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-011",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「左右前後」の意味",
+      "choices": [
+        "動物の名前の語。",
+        "一週間の曜日。",
+        "左右と前後の方向。",
+        "色の名前を並べた語。"
+      ],
+      "answer": 2,
+      "meaning": "左右と前後の方向。",
+      "example": "左右前後を確かめて歩く。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-012",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「山上山下」の意味",
+      "choices": [
+        "人の名前のこと。",
+        "山の上と下を表す言い方。",
+        "海の深さを表すこと。",
+        "本の読み方のこと。"
+      ],
+      "answer": 1,
+      "meaning": "山の上と下を表す言い方。",
+      "example": "山上山下の気温を比べる。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-013",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「人口大小」の意味",
+      "choices": [
+        "人口の多さを比べる言い方。",
+        "花の色だけを表すこと。",
+        "学校の時間割のこと。",
+        "川の名前のこと。"
+      ],
+      "answer": 0,
+      "meaning": "人口の多さを比べる言い方。",
+      "example": "町の人口大小を表で見る。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-014",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「赤白青黒」の意味",
+      "choices": [
+        "数を表す漢字だけの並び。",
+        "方向を表す言葉。",
+        "動物の名前の並び。",
+        "色を表す漢字の並び。"
+      ],
+      "answer": 3,
+      "meaning": "色を表す漢字の並び。",
+      "example": "赤白青黒のカードを分ける。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-015",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「手足口目」の意味",
+      "choices": [
+        "町の名前のこと。",
+        "数を表す漢字。",
+        "体の部分を表す漢字。",
+        "季節を表す言葉。"
+      ],
+      "answer": 2,
+      "meaning": "体の部分を表す漢字。",
+      "example": "手足口目の漢字を練習する。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-016",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「一期一会」の意味",
+      "choices": [
+        "一人で静かに学ぶこと。",
+        "一生に一度の出会いを大切にすること。",
+        "同じことを何度も行うこと。",
+        "一日で全部終えること。"
+      ],
+      "answer": 1,
+      "meaning": "一生に一度の出会いを大切にすること。",
+      "example": "一期一会の気持ちで友だちを迎える。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-017",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「一石二鳥」の意味",
+      "choices": [
+        "一つの行動で二つの利益を得ること。",
+        "石を二つ集めること。",
+        "鳥を大切に育てること。",
+        "二人で一つを分けること。"
+      ],
+      "answer": 0,
+      "meaning": "一つの行動で二つの利益を得ること。",
+      "example": "通学中に英語を聞けば一石二鳥だ。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-018",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「十人十色」の意味",
+      "choices": [
+        "十人が同じ色を選ぶこと。",
+        "十日間続けて学ぶこと。",
+        "色を十種類覚えること。",
+        "人によって考えや好みが違うこと。"
+      ],
+      "answer": 3,
+      "meaning": "人によって考えや好みが違うこと。",
+      "example": "好きな本は十人十色だ。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-019",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「七転八起」の意味",
+      "choices": [
+        "八人で転ぶこと。",
+        "早く起きること。",
+        "何度失敗しても立ち上がること。",
+        "七回だけ練習すること。"
+      ],
+      "answer": 2,
+      "meaning": "何度失敗しても立ち上がること。",
+      "example": "七転八起の気持ちで挑戦する。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-020",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「温故知新」の意味",
+      "choices": [
+        "故郷へ帰ること。",
+        "古いことを学び新しい知識を得ること。",
+        "温かいものを食べること。",
+        "新しいものだけを覚えること。"
+      ],
+      "answer": 1,
+      "meaning": "古いことを学び新しい知識を得ること。",
+      "example": "歴史を学ぶのは温故知新につながる。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-021",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「試行錯誤」の意味",
+      "choices": [
+        "試しながら失敗を直して進めること。",
+        "考えずに決めること。",
+        "何もしないで待つこと。",
+        "同じ答えを書くこと。"
+      ],
+      "answer": 0,
+      "meaning": "試しながら失敗を直して進めること。",
+      "example": "実験は試行錯誤しながら進める。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-022",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「切磋琢磨」の意味",
+      "choices": [
+        "石を切って磨く作業だけを指すこと。",
+        "一人で休むこと。",
+        "相手を避けること。",
+        "互いに励まし合い高め合うこと。"
+      ],
+      "answer": 3,
+      "meaning": "互いに励まし合い高め合うこと。",
+      "example": "仲間と切磋琢磨して力を伸ばす。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-023",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「臨機応変」の意味",
+      "choices": [
+        "機械を直すこと。",
+        "返事をしないこと。",
+        "その場に応じてうまく対応すること。",
+        "いつも同じやり方をすること。"
+      ],
+      "answer": 2,
+      "meaning": "その場に応じてうまく対応すること。",
+      "example": "急な雨にも臨機応変に対応する。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-024",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「自業自得」の意味",
+      "choices": [
+        "何もしないこと。",
+        "自分の行いの結果を自分で受けること。",
+        "仕事を人に任せること。",
+        "得を人に分けること。"
+      ],
+      "answer": 1,
+      "meaning": "自分の行いの結果を自分で受けること。",
+      "example": "練習しなかった結果なら自業自得だ。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-025",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「誠心誠意」の意味",
+      "choices": [
+        "まごころをこめて行うこと。",
+        "急いで終わらせること。",
+        "心を閉ざすこと。",
+        "声を小さくすること。"
+      ],
+      "answer": 0,
+      "meaning": "まごころをこめて行うこと。",
+      "example": "誠心誠意、相手に謝る。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-026",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「春夏秋冬」の意味",
+      "choices": [
+        "一日の時間を表すこと。",
+        "学校の四教科のこと。",
+        "四つの方角のこと。",
+        "一年の四つの季節。"
+      ],
+      "answer": 3,
+      "meaning": "一年の四つの季節。",
+      "example": "春夏秋冬の変化を楽しむ。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-027",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「朝昼夕夜」の意味",
+      "choices": [
+        "四人の友だちのこと。",
+        "四種類の色のこと。",
+        "一日の時間の区切り。",
+        "四つの方向のこと。"
+      ],
+      "answer": 2,
+      "meaning": "一日の時間の区切り。",
+      "example": "朝昼夕夜で気温が変わる。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-028",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「安全第一」の意味",
+      "choices": [
+        "数字を順に書くこと。",
+        "何よりも安全を大切にすること。",
+        "一番速く走ること。",
+        "一日だけ休むこと。"
+      ],
+      "answer": 1,
+      "meaning": "何よりも安全を大切にすること。",
+      "example": "校外学習では安全第一で行動する。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-029",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「整理整頓」の意味",
+      "choices": [
+        "物を整えてきちんと置くこと。",
+        "物を散らかすこと。",
+        "急いで走ること。",
+        "音を合わせること。"
+      ],
+      "answer": 0,
+      "meaning": "物を整えてきちんと置くこと。",
+      "example": "机の中を整理整頓する。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-yojijukugo-030",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "yojijukugo",
+      "question": "漢検3級：四字熟語「不言実行」の意味",
+      "choices": [
+        "大声で話すこと。",
+        "何もしないこと。",
+        "実験をやめること。",
+        "多くを語らず実際に行動すること。"
+      ],
+      "answer": 3,
+      "meaning": "多くを語らず実際に行動すること。",
+      "example": "不言実行で係の仕事を進める。 漢検3級の四字熟語問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "四字熟語",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-001",
       "grade": 6,
       "kanken": 3,
       "difficulty": 3,
       "type": "radical",
-      "question": "尊敬",
+      "question": "漢検3級：「山」の部首",
       "choices": [
-        "部首",
-        "音読み",
-        "訓読み",
-        "例文"
+        "やま",
+        "さんずい",
+        "くち",
+        "き"
       ],
       "answer": 0,
-      "meaning": "すぐれた人をうやまうこと。",
-      "example": "努力する人を尊敬する。",
+      "meaning": "山に関係する部首。",
+      "example": "山の部首はやま。 漢検3級の部首問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "radical"
+        "部首",
+        "漢検3級",
+        "小学6年"
       ]
     },
     {
-      "id": "k3-correction-1",
+      "id": "kanken3-radical-002",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「川」の部首",
+      "choices": [
+        "さんずい",
+        "やま",
+        "くち",
+        "かわ"
+      ],
+      "answer": 3,
+      "meaning": "川を表す部首。",
+      "example": "川の部首はかわ。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-003",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「木」の部首",
+      "choices": [
+        "ひ",
+        "みず",
+        "き",
+        "ほん"
+      ],
+      "answer": 2,
+      "meaning": "木を表す部首。",
+      "example": "木の部首はき。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-004",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「火」の部首",
+      "choices": [
+        "やま",
+        "ひ",
+        "みず",
+        "き"
+      ],
+      "answer": 1,
+      "meaning": "火を表す部首。",
+      "example": "火の部首はひ。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-005",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「水」の部首",
+      "choices": [
+        "みず",
+        "ひ",
+        "き",
+        "くち"
+      ],
+      "answer": 0,
+      "meaning": "水を表す部首。",
+      "example": "水の部首はみず。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-006",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「口」の部首",
+      "choices": [
+        "め",
+        "みみ",
+        "ひ",
+        "くち"
+      ],
+      "answer": 3,
+      "meaning": "口に関係する部首。",
+      "example": "口の部首はくち。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-007",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「目」の部首",
+      "choices": [
+        "みみ",
+        "ひ",
+        "め",
+        "くち"
+      ],
+      "answer": 2,
+      "meaning": "目に関係する部首。",
+      "example": "目の部首はめ。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-008",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「耳」の部首",
+      "choices": [
+        "て",
+        "みみ",
+        "め",
+        "くち"
+      ],
+      "answer": 1,
+      "meaning": "耳に関係する部首。",
+      "example": "耳の部首はみみ。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-009",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「手」の部首",
+      "choices": [
+        "て",
+        "あし",
+        "みみ",
+        "め"
+      ],
+      "answer": 0,
+      "meaning": "手に関係する部首。",
+      "example": "手の部首はて。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-010",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「足」の部首",
+      "choices": [
+        "て",
+        "くち",
+        "め",
+        "あし"
+      ],
+      "answer": 3,
+      "meaning": "足に関係する部首。",
+      "example": "足の部首はあし。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-011",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「日」の部首",
+      "choices": [
+        "め",
+        "くち",
+        "ひ",
+        "つき"
+      ],
+      "answer": 2,
+      "meaning": "日を表す部首。",
+      "example": "日の部首はひ。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-012",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「月」の部首",
+      "choices": [
+        "き",
+        "つき",
+        "ひ",
+        "みず"
+      ],
+      "answer": 1,
+      "meaning": "月を表す部首。",
+      "example": "月の部首はつき。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-013",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「石」の部首",
+      "choices": [
+        "いし",
+        "やま",
+        "くち",
+        "ひ"
+      ],
+      "answer": 0,
+      "meaning": "石に関係する部首。",
+      "example": "石の部首はいし。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-014",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「田」の部首",
+      "choices": [
+        "くち",
+        "め",
+        "ひ",
+        "た"
+      ],
+      "answer": 3,
+      "meaning": "田を表す部首。",
+      "example": "田の部首はた。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-015",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「雨」の部首",
+      "choices": [
+        "つき",
+        "ひ",
+        "あめ",
+        "みず"
+      ],
+      "answer": 2,
+      "meaning": "雨に関係する部首。",
+      "example": "雨の部首はあめ。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-016",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「湖」の部首",
+      "choices": [
+        "てへん",
+        "さんずい",
+        "くちへん",
+        "つちへん"
+      ],
+      "answer": 1,
+      "meaning": "水に関係する部首を持つ漢字。",
+      "example": "湖の部首はさんずい。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-017",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「晴」の部首",
+      "choices": [
+        "ひへん",
+        "つきへん",
+        "めへん",
+        "にんべん"
+      ],
+      "answer": 0,
+      "meaning": "太陽や日と関係する部首。",
+      "example": "晴の部首はひへん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-018",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「語」の部首",
+      "choices": [
+        "にんべん",
+        "さんずい",
+        "くさかんむり",
+        "ごんべん"
+      ],
+      "answer": 3,
+      "meaning": "言葉に関係する部首。",
+      "example": "語の部首はごんべん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-019",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「花」の部首",
+      "choices": [
+        "うかんむり",
+        "きへん",
+        "くさかんむり",
+        "さんずい"
+      ],
+      "answer": 2,
+      "meaning": "草花に関係する部首。",
+      "example": "花の部首はくさかんむり。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-020",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「休」の部首",
+      "choices": [
+        "りっしんべん",
+        "にんべん",
+        "きへん",
+        "てへん"
+      ],
+      "answer": 1,
+      "meaning": "人に関係する部首。",
+      "example": "休の部首はにんべん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-021",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「校」の部首",
+      "choices": [
+        "きへん",
+        "ごんべん",
+        "さんずい",
+        "こざとへん"
+      ],
+      "answer": 0,
+      "meaning": "木に関係する部首。",
+      "example": "校の部首はきへん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-022",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「持」の部首",
+      "choices": [
+        "つちへん",
+        "にんべん",
+        "こころ",
+        "てへん"
+      ],
+      "answer": 3,
+      "meaning": "手の動きに関係する部首。",
+      "example": "持の部首はてへん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-023",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「地」の部首",
+      "choices": [
+        "てへん",
+        "いとへん",
+        "つちへん",
+        "さんずい"
+      ],
+      "answer": 2,
+      "meaning": "土や土地に関係する部首。",
+      "example": "地の部首はつちへん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-024",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「線」の部首",
+      "choices": [
+        "ひへん",
+        "いとへん",
+        "さんずい",
+        "ごんべん"
+      ],
+      "answer": 1,
+      "meaning": "糸に関係する部首。",
+      "example": "線の部首はいとへん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-025",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「情」の部首",
+      "choices": [
+        "りっしんべん",
+        "にんべん",
+        "さんずい",
+        "きへん"
+      ],
+      "answer": 0,
+      "meaning": "心の動きに関係する部首。",
+      "example": "情の部首はりっしんべん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-026",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「銅」の部首",
+      "choices": [
+        "さんずい",
+        "くちへん",
+        "いとへん",
+        "かねへん"
+      ],
+      "answer": 3,
+      "meaning": "金属に関係する部首。",
+      "example": "銅の部首はかねへん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-027",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「橋」の部首",
+      "choices": [
+        "てへん",
+        "のぎへん",
+        "きへん",
+        "さんずい"
+      ],
+      "answer": 2,
+      "meaning": "木に関係する部首。",
+      "example": "橋の部首はきへん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-028",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「税」の部首",
+      "choices": [
+        "さんずい",
+        "のぎへん",
+        "かねへん",
+        "ごんべん"
+      ],
+      "answer": 1,
+      "meaning": "稲や作物に関係する部首。",
+      "example": "税の部首はのぎへん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-029",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「検」の部首",
+      "choices": [
+        "きへん",
+        "ごんべん",
+        "さんずい",
+        "てへん"
+      ],
+      "answer": 0,
+      "meaning": "木に関係する部首。",
+      "example": "検の部首はきへん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-radical-030",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 3,
+      "type": "radical",
+      "question": "漢検3級：「許」の部首",
+      "choices": [
+        "てへん",
+        "きへん",
+        "さんずい",
+        "ごんべん"
+      ],
+      "answer": 3,
+      "meaning": "言葉に関係する部首。",
+      "example": "許の部首はごんべん。 漢検3級の部首問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "部首",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-001",
       "grade": 6,
       "kanken": 3,
       "difficulty": 5,
       "type": "correction",
-      "question": "尊敬",
+      "question": "漢検3級：「むじゅん」の正しい表記",
       "choices": [
-        "尊敬",
-        "誤字をふくむ語",
-        "送りがななし",
-        "読みちがい"
+        "矛順",
+        "予盾",
+        "矛盾ん",
+        "矛盾"
       ],
-      "answer": 0,
-      "meaning": "すぐれた人をうやまうこと。",
-      "example": "努力する人を尊敬する。",
+      "answer": 3,
+      "meaning": "二つのことが食い違うこと。",
+      "example": "説明に矛盾がある。 漢検3級の誤字訂正問題で確認する。",
       "mnemonic": "",
       "synonyms": [],
       "antonyms": [],
       "tags": [
-        "correction"
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-002",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「けんきょ」の正しい表記",
+      "choices": [
+        "謙虚ょ",
+        "嫌虚",
+        "謙虚",
+        "謙拠"
+      ],
+      "answer": 2,
+      "meaning": "控えめで素直なこと。",
+      "example": "謙虚な態度で学ぶ。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-003",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「けんちょ」の正しい表記",
+      "choices": [
+        "現著",
+        "顕著",
+        "顕著ょ",
+        "顕署"
+      ],
+      "answer": 1,
+      "meaning": "はっきり目立つこと。",
+      "example": "成果が顕著に表れる。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-004",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「かんき」の正しい表記",
+      "choices": [
+        "喚起",
+        "換気",
+        "喚記",
+        "喚起き"
+      ],
+      "answer": 0,
+      "meaning": "呼び起こすこと。",
+      "example": "注意を喚起する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-005",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「あいまい」の正しい表記",
+      "choices": [
+        "曖昧い",
+        "愛昧",
+        "曖味",
+        "曖昧"
+      ],
+      "answer": 3,
+      "meaning": "はっきりしないこと。",
+      "example": "曖昧な返事を避ける。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-006",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「かんゆう」の正しい表記",
+      "choices": [
+        "歓誘",
+        "勧誘う",
+        "勧誘",
+        "勧友"
+      ],
+      "answer": 2,
+      "meaning": "人にすすめて誘うこと。",
+      "example": "入会を勧誘する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-007",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「きせき」の正しい表記",
+      "choices": [
+        "軌跡き",
+        "軌跡",
+        "奇跡",
+        "軌積"
+      ],
+      "answer": 1,
+      "meaning": "動いたあとに残る道すじ。",
+      "example": "星の軌跡を観察する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-008",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「かんわ」の正しい表記",
+      "choices": [
+        "緩和",
+        "緩話",
+        "寛和",
+        "緩和わ"
+      ],
+      "answer": 0,
+      "meaning": "きびしさをやわらげること。",
+      "example": "混雑を緩和する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-009",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「だんがい」の正しい表記",
+      "choices": [
+        "段階",
+        "弾刻",
+        "弾劾い",
+        "弾劾"
+      ],
+      "answer": 3,
+      "meaning": "責任を問いただすこと。",
+      "example": "不正を弾劾する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-010",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「しい」の正しい表記",
+      "choices": [
+        "恣意い",
+        "姿意",
+        "恣意",
+        "思意"
+      ],
+      "answer": 2,
+      "meaning": "自分勝手な考え。",
+      "example": "恣意的な判断を避ける。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-011",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「けいぞく」の正しい表記",
+      "choices": [
+        "継読",
+        "継続",
+        "継続く",
+        "計続"
+      ],
+      "answer": 1,
+      "meaning": "物事を続けること。",
+      "example": "努力を継続する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-012",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「さいばん」の正しい表記",
+      "choices": [
+        "裁判",
+        "栽判",
+        "裁伴",
+        "裁判ん"
+      ],
+      "answer": 0,
+      "meaning": "法律に基づいて判断すること。",
+      "example": "裁判の仕組みを学ぶ。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-013",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「けいこう」の正しい表記",
+      "choices": [
+        "健康",
+        "傾行",
+        "傾向う",
+        "傾向"
+      ],
+      "answer": 3,
+      "meaning": "物事がある方向へ向かう様子。",
+      "example": "出題の傾向を調べる。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-014",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「ちゅうしょう」の正しい表記",
+      "choices": [
+        "中象",
+        "抽象う",
+        "抽象",
+        "抽像"
+      ],
+      "answer": 2,
+      "meaning": "具体的でなく考えとしてまとめること。",
+      "example": "抽象的な言葉を説明する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-015",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「きんちょう」の正しい表記",
+      "choices": [
+        "近張",
+        "緊張",
+        "緊長",
+        "緊張う"
+      ],
+      "answer": 1,
+      "meaning": "心や体が張りつめること。",
+      "example": "発表前に緊張する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-016",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「けっぱく」の正しい表記",
+      "choices": [
+        "潔白",
+        "結白",
+        "潔泊",
+        "潔白く"
+      ],
+      "answer": 0,
+      "meaning": "心や行いが清く正しいこと。",
+      "example": "潔白を証明する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-017",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「ぎょうし」の正しい表記",
+      "choices": [
+        "疑視",
+        "凝思",
+        "凝視し",
+        "凝視"
+      ],
+      "answer": 3,
+      "meaning": "じっと見つめること。",
+      "example": "資料を凝視する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-018",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「けんやく」の正しい表記",
+      "choices": [
+        "倹約く",
+        "検約",
+        "倹約",
+        "契約"
+      ],
+      "answer": 2,
+      "meaning": "むだを省いて使うこと。",
+      "example": "電気を倹約する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-019",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「じょうほ」の正しい表記",
+      "choices": [
+        "譲捕",
+        "譲歩",
+        "上歩",
+        "譲歩う"
+      ],
+      "answer": 1,
+      "meaning": "自分の考えを少しゆずること。",
+      "example": "話し合いで譲歩する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-020",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「だきょう」の正しい表記",
+      "choices": [
+        "妥協",
+        "妥協う",
+        "打協",
+        "妥強"
+      ],
+      "answer": 0,
+      "meaning": "互いにゆずって一致点を見つけること。",
+      "example": "意見を調整して妥協する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-021",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「そんけい」の正しい表記",
+      "choices": [
+        "尊径",
+        "損敬",
+        "尊啓",
+        "尊敬"
+      ],
+      "answer": 3,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-022",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「とうろん」の正しい表記",
+      "choices": [
+        "討論ん",
+        "封論",
+        "討論",
+        "討倫"
+      ],
+      "answer": 2,
+      "meaning": "意見を出し合って話し合うこと。",
+      "example": "課題について討論する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-023",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「きけん」の正しい表記",
+      "choices": [
+        "危険う",
+        "危険",
+        "危検",
+        "危険ん"
+      ],
+      "answer": 1,
+      "meaning": "あぶないこと。",
+      "example": "危険な場所に近づかない。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-024",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「かんけつ」の正しい表記",
+      "choices": [
+        "簡潔",
+        "簡決",
+        "間潔",
+        "簡潔つ"
+      ],
+      "answer": 0,
+      "meaning": "短く分かりやすくまとまること。",
+      "example": "要点を簡潔に話す。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-025",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「しゅうかく」の正しい表記",
+      "choices": [
+        "収獲",
+        "集穫",
+        "集獲",
+        "収穫"
+      ],
+      "answer": 3,
+      "meaning": "作物を取り入れること。",
+      "example": "秋に米を収穫する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-026",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「かくだい」の正しい表記",
+      "choices": [
+        "拡題",
+        "拡大い",
+        "拡大",
+        "拡太"
+      ],
+      "answer": 2,
+      "meaning": "大きく広げること。",
+      "example": "写真を拡大して見る。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-027",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「じんそく」の正しい表記",
+      "choices": [
+        "進速",
+        "迅速",
+        "迅足",
+        "迅速く"
+      ],
+      "answer": 1,
+      "meaning": "物事が非常に速いこと。",
+      "example": "迅速に連絡する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-028",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「りこう」の正しい表記",
+      "choices": [
+        "履行",
+        "理行",
+        "裏行",
+        "離行"
+      ],
+      "answer": 0,
+      "meaning": "約束や義務を実行すること。",
+      "example": "約束を履行する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-029",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「ゆうせん」の正しい表記",
+      "choices": [
+        "優線",
+        "優先ん",
+        "憂先",
+        "優先"
+      ],
+      "answer": 3,
+      "meaning": "ほかより先に扱うこと。",
+      "example": "安全を優先する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
+      ]
+    },
+    {
+      "id": "kanken3-correction-030",
+      "grade": 6,
+      "kanken": 3,
+      "difficulty": 5,
+      "type": "correction",
+      "question": "漢検3級：「そうぞう」の正しい表記",
+      "choices": [
+        "創像",
+        "創造う",
+        "創造",
+        "想像"
+      ],
+      "answer": 2,
+      "meaning": "新しいものを作り出すこと。",
+      "example": "未来の町を創造する。 漢検3級の誤字訂正問題で確認する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "誤字訂正",
+        "漢検3級",
+        "小学6年"
       ]
     }
   ],
