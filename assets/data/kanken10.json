@@ -1,0 +1,391 @@
+{
+  "grade": 1,
+  "label": "漢検10級",
+  "questions": [
+    {
+      "id": "k10-reading-1",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "山",
+      "choices": [
+        "やま",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "高くもり上がった土地。",
+      "example": "山にのぼる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k10-writing-1",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "やま",
+      "choices": [
+        "山",
+        "山う",
+        "同",
+        "山学"
+      ],
+      "answer": 0,
+      "meaning": "高くもり上がった土地。",
+      "example": "山にのぼる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k10-reading-2",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "川",
+      "choices": [
+        "かわ",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "水が流れるところ。",
+      "example": "川で魚を見る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k10-writing-2",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "かわ",
+      "choices": [
+        "川",
+        "川う",
+        "同",
+        "川学"
+      ],
+      "answer": 0,
+      "meaning": "水が流れるところ。",
+      "example": "川で魚を見る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k10-reading-3",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "林",
+      "choices": [
+        "はやし",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "木が集まっている場所。",
+      "example": "林の中を歩く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k10-writing-3",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "はやし",
+      "choices": [
+        "林",
+        "林う",
+        "同",
+        "林学"
+      ],
+      "answer": 0,
+      "meaning": "木が集まっている場所。",
+      "example": "林の中を歩く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k10-reading-4",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 1,
+      "type": "reading",
+      "question": "正しい",
+      "choices": [
+        "ただしい",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "まちがいがないこと。",
+      "example": "正しい答えを書く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k10-writing-4",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 1,
+      "type": "writing",
+      "question": "ただしい",
+      "choices": [
+        "正しい",
+        "正しいう",
+        "同しい",
+        "正学"
+      ],
+      "answer": 0,
+      "meaning": "まちがいがないこと。",
+      "example": "正しい答えを書く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k10-compound-1",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "山",
+      "choices": [
+        "山",
+        "山力",
+        "大山",
+        "山語"
+      ],
+      "answer": 0,
+      "meaning": "高くもり上がった土地。",
+      "example": "山にのぼる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "compound"
+      ]
+    },
+    {
+      "id": "k10-sentence-1",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "山",
+      "choices": [
+        "山にのぼる。",
+        "やまを読む。",
+        "音だけを聞く。",
+        "答えを消す。"
+      ],
+      "answer": 0,
+      "meaning": "高くもり上がった土地。",
+      "example": "山にのぼる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "sentence"
+      ]
+    },
+    {
+      "id": "k10-homophone-1",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "山",
+      "choices": [
+        "山",
+        "感例",
+        "官例",
+        "完例"
+      ],
+      "answer": 0,
+      "meaning": "高くもり上がった土地。",
+      "example": "山にのぼる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "homophone"
+      ]
+    },
+    {
+      "id": "k10-opposite-1",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "山",
+      "choices": [
+        "反対語を選ぶ",
+        "類義語を選ぶ",
+        "読みを選ぶ",
+        "部首を選ぶ"
+      ],
+      "answer": 0,
+      "meaning": "高くもり上がった土地。",
+      "example": "山にのぼる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "反対"
+      ],
+      "tags": [
+        "opposite"
+      ]
+    },
+    {
+      "id": "k10-synonym-1",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "山",
+      "choices": [
+        "似た意味の語",
+        "反対の語",
+        "送りがな",
+        "画数"
+      ],
+      "answer": 0,
+      "meaning": "高くもり上がった土地。",
+      "example": "山にのぼる。",
+      "mnemonic": "",
+      "synonyms": [
+        "類義"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym"
+      ]
+    },
+    {
+      "id": "k10-yojijukugo-1",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "山",
+      "choices": [
+        "一日一善",
+        "一石二鳥",
+        "十人十色",
+        "七転八起"
+      ],
+      "answer": 1,
+      "meaning": "高くもり上がった土地。",
+      "example": "山にのぼる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "yojijukugo"
+      ]
+    },
+    {
+      "id": "k10-radical-1",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "山",
+      "choices": [
+        "部首",
+        "音読み",
+        "訓読み",
+        "例文"
+      ],
+      "answer": 0,
+      "meaning": "高くもり上がった土地。",
+      "example": "山にのぼる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "radical"
+      ]
+    },
+    {
+      "id": "k10-correction-1",
+      "grade": 1,
+      "kanken": 10,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "山",
+      "choices": [
+        "山",
+        "誤字をふくむ語",
+        "送りがななし",
+        "読みちがい"
+      ],
+      "answer": 0,
+      "meaning": "高くもり上がった土地。",
+      "example": "山にのぼる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "correction"
+      ]
+    }
+  ],
+  "mathQuestions": []
+}

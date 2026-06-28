@@ -1,0 +1,391 @@
+{
+  "grade": 6,
+  "label": "漢検5級",
+  "questions": [
+    {
+      "id": "k5-reading-1",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "尊敬",
+      "choices": [
+        "そんけい",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k5-writing-1",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "そんけい",
+      "choices": [
+        "尊敬",
+        "尊敬う",
+        "同敬",
+        "尊学"
+      ],
+      "answer": 0,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k5-reading-2",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "討論",
+      "choices": [
+        "とうろん",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "意見を出し合って話し合うこと。",
+      "example": "課題について討論する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k5-writing-2",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "とうろん",
+      "choices": [
+        "討論",
+        "討論う",
+        "同論",
+        "討学"
+      ],
+      "answer": 0,
+      "meaning": "意見を出し合って話し合うこと。",
+      "example": "課題について討論する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k5-reading-3",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "危険",
+      "choices": [
+        "きけん",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "あぶないこと。",
+      "example": "危険な場所に近づかない。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k5-writing-3",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "きけん",
+      "choices": [
+        "危険",
+        "危険う",
+        "同険",
+        "危学"
+      ],
+      "answer": 0,
+      "meaning": "あぶないこと。",
+      "example": "危険な場所に近づかない。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k5-reading-4",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "簡潔",
+      "choices": [
+        "かんけつ",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "短くまとまっていること。",
+      "example": "簡潔に説明する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k5-writing-4",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "かんけつ",
+      "choices": [
+        "簡潔",
+        "簡潔う",
+        "同潔",
+        "簡学"
+      ],
+      "answer": 0,
+      "meaning": "短くまとまっていること。",
+      "example": "簡潔に説明する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k5-compound-1",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "尊敬",
+      "choices": [
+        "尊敬",
+        "尊敬力",
+        "大尊敬",
+        "尊敬語"
+      ],
+      "answer": 0,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "compound"
+      ]
+    },
+    {
+      "id": "k5-sentence-1",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "尊敬",
+      "choices": [
+        "努力する人を尊敬する。",
+        "そんけいを読む。",
+        "音だけを聞く。",
+        "答えを消す。"
+      ],
+      "answer": 0,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "sentence"
+      ]
+    },
+    {
+      "id": "k5-homophone-1",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "尊敬",
+      "choices": [
+        "尊敬",
+        "感例",
+        "官例",
+        "完例"
+      ],
+      "answer": 0,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "homophone"
+      ]
+    },
+    {
+      "id": "k5-opposite-1",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "尊敬",
+      "choices": [
+        "反対語を選ぶ",
+        "類義語を選ぶ",
+        "読みを選ぶ",
+        "部首を選ぶ"
+      ],
+      "answer": 0,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "反対"
+      ],
+      "tags": [
+        "opposite"
+      ]
+    },
+    {
+      "id": "k5-synonym-1",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "尊敬",
+      "choices": [
+        "似た意味の語",
+        "反対の語",
+        "送りがな",
+        "画数"
+      ],
+      "answer": 0,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。",
+      "mnemonic": "",
+      "synonyms": [
+        "類義"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym"
+      ]
+    },
+    {
+      "id": "k5-yojijukugo-1",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "尊敬",
+      "choices": [
+        "一日一善",
+        "一石二鳥",
+        "十人十色",
+        "七転八起"
+      ],
+      "answer": 2,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "yojijukugo"
+      ]
+    },
+    {
+      "id": "k5-radical-1",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "尊敬",
+      "choices": [
+        "部首",
+        "音読み",
+        "訓読み",
+        "例文"
+      ],
+      "answer": 0,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "radical"
+      ]
+    },
+    {
+      "id": "k5-correction-1",
+      "grade": 6,
+      "kanken": 5,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "尊敬",
+      "choices": [
+        "尊敬",
+        "誤字をふくむ語",
+        "送りがななし",
+        "読みちがい"
+      ],
+      "answer": 0,
+      "meaning": "すぐれた人をうやまうこと。",
+      "example": "努力する人を尊敬する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "correction"
+      ]
+    }
+  ],
+  "mathQuestions": []
+}

@@ -1,0 +1,536 @@
+{
+  "grade": 4,
+  "label": "小学4年",
+  "questions": [
+    {
+      "id": "g4-reading-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "reading",
+      "question": "慣例",
+      "choices": [
+        "かんれい",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "g4-writing-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "writing",
+      "question": "かんれい",
+      "choices": [
+        "慣例",
+        "慣例う",
+        "同例",
+        "慣学"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "g4-reading-2",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "reading",
+      "question": "観察",
+      "choices": [
+        "かんさつ",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "物事をよく見て調べること。",
+      "example": "昆虫を観察する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "g4-writing-2",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "writing",
+      "question": "かんさつ",
+      "choices": [
+        "観察",
+        "観察う",
+        "同察",
+        "観学"
+      ],
+      "answer": 0,
+      "meaning": "物事をよく見て調べること。",
+      "example": "昆虫を観察する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "g4-reading-3",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "reading",
+      "question": "協力",
+      "choices": [
+        "きょうりょく",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "力を合わせること。",
+      "example": "友だちと協力する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "g4-writing-3",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "writing",
+      "question": "きょうりょく",
+      "choices": [
+        "協力",
+        "協力う",
+        "同力",
+        "協学"
+      ],
+      "answer": 0,
+      "meaning": "力を合わせること。",
+      "example": "友だちと協力する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "g4-reading-4",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "reading",
+      "question": "必要",
+      "choices": [
+        "ひつよう",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "なくてはならないこと。",
+      "example": "練習が必要だ。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "g4-writing-4",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "writing",
+      "question": "ひつよう",
+      "choices": [
+        "必要",
+        "必要う",
+        "同要",
+        "必学"
+      ],
+      "answer": 0,
+      "meaning": "なくてはならないこと。",
+      "example": "練習が必要だ。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "g4-compound-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "慣例",
+      "choices": [
+        "慣例",
+        "慣例力",
+        "大慣例",
+        "慣例語"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "compound"
+      ]
+    },
+    {
+      "id": "g4-sentence-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "慣例",
+      "choices": [
+        "式は慣例にしたがって進む。",
+        "かんれいを読む。",
+        "音だけを聞く。",
+        "答えを消す。"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "sentence"
+      ]
+    },
+    {
+      "id": "g4-homophone-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "慣例",
+      "choices": [
+        "慣例",
+        "感例",
+        "官例",
+        "完例"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "homophone"
+      ]
+    },
+    {
+      "id": "g4-opposite-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "慣例",
+      "choices": [
+        "反対語を選ぶ",
+        "類義語を選ぶ",
+        "読みを選ぶ",
+        "部首を選ぶ"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "反対"
+      ],
+      "tags": [
+        "opposite"
+      ]
+    },
+    {
+      "id": "g4-synonym-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "慣例",
+      "choices": [
+        "似た意味の語",
+        "反対の語",
+        "送りがな",
+        "画数"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [
+        "類義"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym"
+      ]
+    },
+    {
+      "id": "g4-yojijukugo-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "慣例",
+      "choices": [
+        "一日一善",
+        "一石二鳥",
+        "十人十色",
+        "七転八起"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "yojijukugo"
+      ]
+    },
+    {
+      "id": "g4-radical-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "慣例",
+      "choices": [
+        "部首",
+        "音読み",
+        "訓読み",
+        "例文"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "radical"
+      ]
+    },
+    {
+      "id": "g4-correction-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "慣例",
+      "choices": [
+        "慣例",
+        "誤字をふくむ語",
+        "送りがななし",
+        "読みちがい"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "correction"
+      ]
+    }
+  ],
+  "mathQuestions": [
+    {
+      "id": "math-4-1",
+      "grade": 4,
+      "expression": "14 + 1",
+      "answer": 15,
+      "options": [
+        15,
+        16,
+        14,
+        18
+      ],
+      "operation": "addition",
+      "explanation": "14 + 1 = 15",
+      "tags": [
+        "math",
+        "grade:4"
+      ]
+    },
+    {
+      "id": "math-4-2",
+      "grade": 4,
+      "expression": "15 + 2",
+      "answer": 17,
+      "options": [
+        17,
+        18,
+        16,
+        20
+      ],
+      "operation": "addition",
+      "explanation": "15 + 2 = 17",
+      "tags": [
+        "math",
+        "grade:4"
+      ]
+    },
+    {
+      "id": "math-4-3",
+      "grade": 4,
+      "expression": "16 + 3",
+      "answer": 19,
+      "options": [
+        19,
+        20,
+        18,
+        22
+      ],
+      "operation": "addition",
+      "explanation": "16 + 3 = 19",
+      "tags": [
+        "math",
+        "grade:4"
+      ]
+    },
+    {
+      "id": "math-4-4",
+      "grade": 4,
+      "expression": "17 + 4",
+      "answer": 21,
+      "options": [
+        21,
+        22,
+        20,
+        24
+      ],
+      "operation": "addition",
+      "explanation": "17 + 4 = 21",
+      "tags": [
+        "math",
+        "grade:4"
+      ]
+    },
+    {
+      "id": "math-4-5",
+      "grade": 4,
+      "expression": "18 + 5",
+      "answer": 23,
+      "options": [
+        23,
+        24,
+        22,
+        26
+      ],
+      "operation": "addition",
+      "explanation": "18 + 5 = 23",
+      "tags": [
+        "math",
+        "grade:4"
+      ]
+    },
+    {
+      "id": "math-4-6",
+      "grade": 4,
+      "expression": "19 + 6",
+      "answer": 25,
+      "options": [
+        25,
+        26,
+        24,
+        28
+      ],
+      "operation": "addition",
+      "explanation": "19 + 6 = 25",
+      "tags": [
+        "math",
+        "grade:4"
+      ]
+    },
+    {
+      "id": "math-4-7",
+      "grade": 4,
+      "expression": "20 + 7",
+      "answer": 27,
+      "options": [
+        27,
+        28,
+        26,
+        30
+      ],
+      "operation": "addition",
+      "explanation": "20 + 7 = 27",
+      "tags": [
+        "math",
+        "grade:4"
+      ]
+    },
+    {
+      "id": "math-4-8",
+      "grade": 4,
+      "expression": "21 + 8",
+      "answer": 29,
+      "options": [
+        29,
+        30,
+        28,
+        32
+      ],
+      "operation": "addition",
+      "explanation": "21 + 8 = 29",
+      "tags": [
+        "math",
+        "grade:4"
+      ]
+    }
+  ]
+}

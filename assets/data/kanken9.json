@@ -1,0 +1,391 @@
+{
+  "grade": 2,
+  "label": "漢検9級",
+  "questions": [
+    {
+      "id": "k9-reading-1",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "計算",
+      "choices": [
+        "けいさん",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "数を使って答えを出すこと。",
+      "example": "計算をたしかめる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k9-writing-1",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "けいさん",
+      "choices": [
+        "計算",
+        "計算う",
+        "同算",
+        "計学"
+      ],
+      "answer": 0,
+      "meaning": "数を使って答えを出すこと。",
+      "example": "計算をたしかめる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k9-reading-2",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "曜日",
+      "choices": [
+        "ようび",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "一週間の日の名前。",
+      "example": "月曜日に学校へ行く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k9-writing-2",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "ようび",
+      "choices": [
+        "曜日",
+        "曜日う",
+        "同日",
+        "曜学"
+      ],
+      "answer": 0,
+      "meaning": "一週間の日の名前。",
+      "example": "月曜日に学校へ行く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k9-reading-3",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "親切",
+      "choices": [
+        "しんせつ",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "人にやさしくすること。",
+      "example": "親切に道を教える。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k9-writing-3",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "しんせつ",
+      "choices": [
+        "親切",
+        "親切う",
+        "同切",
+        "親学"
+      ],
+      "answer": 0,
+      "meaning": "人にやさしくすること。",
+      "example": "親切に道を教える。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k9-reading-4",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "強い",
+      "choices": [
+        "つよい",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "力や気持ちがしっかりしていること。",
+      "example": "強い風がふく。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k9-writing-4",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "writing",
+      "question": "つよい",
+      "choices": [
+        "強い",
+        "強いう",
+        "同い",
+        "強学"
+      ],
+      "answer": 0,
+      "meaning": "力や気持ちがしっかりしていること。",
+      "example": "強い風がふく。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k9-compound-1",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "計算",
+      "choices": [
+        "計算",
+        "計算力",
+        "大計算",
+        "計算語"
+      ],
+      "answer": 0,
+      "meaning": "数を使って答えを出すこと。",
+      "example": "計算をたしかめる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "compound"
+      ]
+    },
+    {
+      "id": "k9-sentence-1",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "計算",
+      "choices": [
+        "計算をたしかめる。",
+        "けいさんを読む。",
+        "音だけを聞く。",
+        "答えを消す。"
+      ],
+      "answer": 0,
+      "meaning": "数を使って答えを出すこと。",
+      "example": "計算をたしかめる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "sentence"
+      ]
+    },
+    {
+      "id": "k9-homophone-1",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "計算",
+      "choices": [
+        "計算",
+        "感例",
+        "官例",
+        "完例"
+      ],
+      "answer": 0,
+      "meaning": "数を使って答えを出すこと。",
+      "example": "計算をたしかめる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "homophone"
+      ]
+    },
+    {
+      "id": "k9-opposite-1",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "計算",
+      "choices": [
+        "反対語を選ぶ",
+        "類義語を選ぶ",
+        "読みを選ぶ",
+        "部首を選ぶ"
+      ],
+      "answer": 0,
+      "meaning": "数を使って答えを出すこと。",
+      "example": "計算をたしかめる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "反対"
+      ],
+      "tags": [
+        "opposite"
+      ]
+    },
+    {
+      "id": "k9-synonym-1",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "計算",
+      "choices": [
+        "似た意味の語",
+        "反対の語",
+        "送りがな",
+        "画数"
+      ],
+      "answer": 0,
+      "meaning": "数を使って答えを出すこと。",
+      "example": "計算をたしかめる。",
+      "mnemonic": "",
+      "synonyms": [
+        "類義"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym"
+      ]
+    },
+    {
+      "id": "k9-yojijukugo-1",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "計算",
+      "choices": [
+        "一日一善",
+        "一石二鳥",
+        "十人十色",
+        "七転八起"
+      ],
+      "answer": 2,
+      "meaning": "数を使って答えを出すこと。",
+      "example": "計算をたしかめる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "yojijukugo"
+      ]
+    },
+    {
+      "id": "k9-radical-1",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "計算",
+      "choices": [
+        "部首",
+        "音読み",
+        "訓読み",
+        "例文"
+      ],
+      "answer": 0,
+      "meaning": "数を使って答えを出すこと。",
+      "example": "計算をたしかめる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "radical"
+      ]
+    },
+    {
+      "id": "k9-correction-1",
+      "grade": 2,
+      "kanken": 9,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "計算",
+      "choices": [
+        "計算",
+        "誤字をふくむ語",
+        "送りがななし",
+        "読みちがい"
+      ],
+      "answer": 0,
+      "meaning": "数を使って答えを出すこと。",
+      "example": "計算をたしかめる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "correction"
+      ]
+    }
+  ],
+  "mathQuestions": []
+}

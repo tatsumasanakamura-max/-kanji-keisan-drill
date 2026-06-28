@@ -4,10 +4,161 @@ enum QuestionSubject {
   math,
 }
 
+enum QuestionType {
+  reading('reading'),
+  writing('writing'),
+  compound('compound'),
+  sentence('sentence'),
+  homophone('homophone'),
+  opposite('opposite'),
+  synonym('synonym'),
+  yojijukugo('yojijukugo'),
+  radical('radical'),
+  correction('correction');
+
+  const QuestionType(this.code);
+
+  final String code;
+
+  static QuestionType fromCode(String code) {
+    return QuestionType.values.firstWhere(
+      (type) => type.code == code,
+      orElse: () => QuestionType.reading,
+    );
+  }
+}
+
+enum StudyMode {
+  normal('通常学習'),
+  weakness('苦手克服'),
+  reviewToday('今日の復習'),
+  test10('10問テスト'),
+  mock50('50問模試'),
+  random100('ランダム100問');
+
+  const StudyMode(this.label);
+
+  final String label;
+}
+
+enum StudyCourseType {
+  grade,
+  kanken,
+}
+
+class StudyCourse {
+  const StudyCourse.grade(this.value) : type = StudyCourseType.grade;
+  const StudyCourse.kanken(this.value) : type = StudyCourseType.kanken;
+
+  final StudyCourseType type;
+  final int value;
+
+  String get assetPath {
+    return switch (type) {
+      StudyCourseType.grade => 'assets/data/grade$value.json',
+      StudyCourseType.kanken => 'assets/data/kanken$value.json',
+    };
+  }
+
+  String get cacheKey {
+    return switch (type) {
+      StudyCourseType.grade => 'grade$value',
+      StudyCourseType.kanken => 'kanken$value',
+    };
+  }
+
+  String get label {
+    return switch (type) {
+      StudyCourseType.grade => '小学$value年',
+      StudyCourseType.kanken => '漢検$value級',
+    };
+  }
+}
+
+class DrillQuestion {
+  DrillQuestion({
+    required this.id,
+    required this.grade,
+    required this.kanken,
+    required this.difficulty,
+    required this.type,
+    required this.question,
+    required this.choices,
+    required this.answer,
+    required this.meaning,
+    required this.example,
+    required this.tags,
+    this.mnemonic = '',
+    this.synonyms = const <String>[],
+    this.antonyms = const <String>[],
+  });
+
+  final String id;
+  final int grade;
+  final int kanken;
+  final int difficulty;
+  final QuestionType type;
+  final String question;
+  final List<String> choices;
+  final int answer;
+  final String meaning;
+  final String example;
+  final List<String> tags;
+  final String mnemonic;
+  final List<String> synonyms;
+  final List<String> antonyms;
+
+  String get answerLabel => choices[answer];
+
+  factory DrillQuestion.fromJson(Map<String, dynamic> json) {
+    final choices = (json['choices'] as List<dynamic>).cast<String>();
+    final answer = json['answer'] as int;
+    if (answer < 0 || answer >= choices.length) {
+      throw ArgumentError('answer index is out of range: ${json['id']}');
+    }
+    return DrillQuestion(
+      id: json['id'] as String,
+      grade: json['grade'] as int,
+      kanken: json['kanken'] as int,
+      difficulty: json['difficulty'] as int,
+      type: QuestionType.fromCode(json['type'] as String),
+      question: json['question'] as String,
+      choices: choices,
+      answer: answer,
+      meaning: json['meaning'] as String? ?? '',
+      example: json['example'] as String? ?? '',
+      tags: (json['tags'] as List<dynamic>? ?? <dynamic>[]).cast<String>(),
+      mnemonic: json['mnemonic'] as String? ?? '',
+      synonyms:
+          (json['synonyms'] as List<dynamic>? ?? <dynamic>[]).cast<String>(),
+      antonyms:
+          (json['antonyms'] as List<dynamic>? ?? <dynamic>[]).cast<String>(),
+    );
+  }
+
+  Map<String, dynamic> toJson() => <String, dynamic>{
+        'id': id,
+        'grade': grade,
+        'kanken': kanken,
+        'difficulty': difficulty,
+        'type': type.code,
+        'question': question,
+        'choices': choices,
+        'answer': answer,
+        'meaning': meaning,
+        'example': example,
+        'mnemonic': mnemonic,
+        'synonyms': synonyms,
+        'antonyms': antonyms,
+        'tags': tags,
+      };
+}
+
 class GradeQuestionSet {
   GradeQuestionSet({
     required this.grade,
     required this.label,
+    required this.drillQuestions,
     required this.kanjiReadingQuestions,
     required this.kanjiWritingPrompts,
     required this.mathQuestions,
@@ -15,26 +166,31 @@ class GradeQuestionSet {
 
   final int grade;
   final String label;
+  final List<DrillQuestion> drillQuestions;
   final List<KanjiReadingQuestion> kanjiReadingQuestions;
   final List<KanjiWritingPrompt> kanjiWritingPrompts;
   final List<MathQuestion> mathQuestions;
 
   factory GradeQuestionSet.fromJson(Map<String, dynamic> json) {
+    final questions = (json['questions'] as List<dynamic>? ?? <dynamic>[])
+        .map((dynamic value) =>
+            DrillQuestion.fromJson(value as Map<String, dynamic>))
+        .toList();
     return GradeQuestionSet(
-      grade: json['grade'] as int,
-      label: json['label'] as String,
-      kanjiReadingQuestions:
-          (json['kanjiReadingQuestions'] as List<dynamic>? ?? <dynamic>[])
-              .map((dynamic value) =>
-                  KanjiReadingQuestion.fromJson(value as Map<String, dynamic>))
-              .toList(),
-      kanjiWritingPrompts:
-          (json['kanjiWritingPrompts'] as List<dynamic>? ?? <dynamic>[])
-              .map((dynamic value) =>
-                  KanjiWritingPrompt.fromJson(value as Map<String, dynamic>))
-              .toList(),
+      grade: json['grade'] as int? ?? 0,
+      label: json['label'] as String? ?? '',
+      drillQuestions: questions,
+      kanjiReadingQuestions: questions
+          .where((question) => question.type == QuestionType.reading)
+          .map(KanjiReadingQuestion.fromDrillQuestion)
+          .toList(),
+      kanjiWritingPrompts: questions
+          .where((question) => question.type == QuestionType.writing)
+          .map(KanjiWritingPrompt.fromDrillQuestion)
+          .toList(),
       mathQuestions: (json['mathQuestions'] as List<dynamic>? ?? <dynamic>[])
-          .map((dynamic value) => MathQuestion.fromJson(value as Map<String, dynamic>))
+          .map((dynamic value) =>
+              MathQuestion.fromJson(value as Map<String, dynamic>))
           .toList(),
     );
   }
@@ -51,6 +207,7 @@ class KanjiReadingQuestion {
     required this.answerIndex,
     required this.explanation,
     required this.tags,
+    required this.source,
   });
 
   final String id;
@@ -62,32 +219,22 @@ class KanjiReadingQuestion {
   final int answerIndex;
   final String explanation;
   final List<String> tags;
+  final DrillQuestion source;
 
-  factory KanjiReadingQuestion.fromJson(Map<String, dynamic> json) {
+  factory KanjiReadingQuestion.fromDrillQuestion(DrillQuestion question) {
     return KanjiReadingQuestion(
-      id: json['id'] as String,
-      grade: json['grade'] as int,
-      kanji: json['kanji'] as String,
-      reading: json['reading'] as String,
-      meaning: json['meaning'] as String,
-      options: (json['options'] as List<dynamic>).cast<String>(),
-      answerIndex: json['answerIndex'] as int,
-      explanation: json['explanation'] as String,
-      tags: (json['tags'] as List<dynamic>).cast<String>(),
+      id: question.id,
+      grade: question.grade,
+      kanji: question.question,
+      reading: question.answerLabel,
+      meaning: question.meaning,
+      options: question.choices,
+      answerIndex: question.answer,
+      explanation: question.example,
+      tags: question.tags,
+      source: question,
     );
   }
-
-  Map<String, dynamic> toJson() => <String, dynamic>{
-        'id': id,
-        'grade': grade,
-        'kanji': kanji,
-        'reading': reading,
-        'meaning': meaning,
-        'options': options,
-        'answerIndex': answerIndex,
-        'explanation': explanation,
-        'tags': tags,
-      };
 }
 
 class KanjiWritingPrompt {
@@ -111,29 +258,25 @@ class KanjiWritingPrompt {
   final String strokeOrderNotes;
   final List<String> tags;
 
-  factory KanjiWritingPrompt.fromJson(Map<String, dynamic> json) {
+  factory KanjiWritingPrompt.fromDrillQuestion(DrillQuestion question) {
     return KanjiWritingPrompt(
-      id: json['id'] as String,
-      grade: json['grade'] as int,
-      kanji: json['kanji'] as String,
-      reading: json['reading'] as String,
-      strokeCount: json['strokeCount'] as int,
-      hint: json['hint'] as String,
-      strokeOrderNotes: json['strokeOrderNotes'] as String,
-      tags: (json['tags'] as List<dynamic>).cast<String>(),
+      id: question.id,
+      grade: question.grade,
+      kanji: question.answerLabel,
+      reading: question.question,
+      strokeCount: int.tryParse(
+            question.tags
+                .firstWhere((tag) => tag.startsWith('strokes:'),
+                    orElse: () => 'strokes:0')
+                .split(':')
+                .last,
+          ) ??
+          0,
+      hint: question.meaning,
+      strokeOrderNotes: question.example,
+      tags: question.tags,
     );
   }
-
-  Map<String, dynamic> toJson() => <String, dynamic>{
-        'id': id,
-        'grade': grade,
-        'kanji': kanji,
-        'reading': reading,
-        'strokeCount': strokeCount,
-        'hint': hint,
-        'strokeOrderNotes': strokeOrderNotes,
-        'tags': tags,
-      };
 }
 
 class MathQuestion {
@@ -171,15 +314,4 @@ class MathQuestion {
       tags: (json['tags'] as List<dynamic>).cast<String>(),
     );
   }
-
-  Map<String, dynamic> toJson() => <String, dynamic>{
-        'id': id,
-        'grade': grade,
-        'expression': expression,
-        'answer': answer,
-        'options': options,
-        'operation': operation,
-        'explanation': explanation,
-        'tags': tags,
-      };
 }

@@ -1,0 +1,391 @@
+{
+  "grade": 3,
+  "label": "漢検8級",
+  "questions": [
+    {
+      "id": "k8-reading-1",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 3,
+      "type": "reading",
+      "question": "感想",
+      "choices": [
+        "かんそう",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "見たり聞いたりしたあとの思い。",
+      "example": "本の感想を書く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k8-writing-1",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 3,
+      "type": "writing",
+      "question": "かんそう",
+      "choices": [
+        "感想",
+        "感想う",
+        "同想",
+        "感学"
+      ],
+      "answer": 0,
+      "meaning": "見たり聞いたりしたあとの思い。",
+      "example": "本の感想を書く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k8-reading-2",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 3,
+      "type": "reading",
+      "question": "研究",
+      "choices": [
+        "けんきゅう",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "くわしく調べること。",
+      "example": "植物を研究する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k8-writing-2",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 3,
+      "type": "writing",
+      "question": "けんきゅう",
+      "choices": [
+        "研究",
+        "研究う",
+        "同究",
+        "研学"
+      ],
+      "answer": 0,
+      "meaning": "くわしく調べること。",
+      "example": "植物を研究する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k8-reading-3",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 3,
+      "type": "reading",
+      "question": "速達",
+      "choices": [
+        "そくたつ",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "早く届ける郵便。",
+      "example": "速達で手紙を送る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k8-writing-3",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 3,
+      "type": "writing",
+      "question": "そくたつ",
+      "choices": [
+        "速達",
+        "速達う",
+        "同達",
+        "速学"
+      ],
+      "answer": 0,
+      "meaning": "早く届ける郵便。",
+      "example": "速達で手紙を送る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k8-reading-4",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 3,
+      "type": "reading",
+      "question": "悲しい",
+      "choices": [
+        "かなしい",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "心がいたむような気持ち。",
+      "example": "悲しい知らせを聞く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k8-writing-4",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 3,
+      "type": "writing",
+      "question": "かなしい",
+      "choices": [
+        "悲しい",
+        "悲しいう",
+        "同しい",
+        "悲学"
+      ],
+      "answer": 0,
+      "meaning": "心がいたむような気持ち。",
+      "example": "悲しい知らせを聞く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k8-compound-1",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "感想",
+      "choices": [
+        "感想",
+        "感想力",
+        "大感想",
+        "感想語"
+      ],
+      "answer": 0,
+      "meaning": "見たり聞いたりしたあとの思い。",
+      "example": "本の感想を書く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "compound"
+      ]
+    },
+    {
+      "id": "k8-sentence-1",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "感想",
+      "choices": [
+        "本の感想を書く。",
+        "かんそうを読む。",
+        "音だけを聞く。",
+        "答えを消す。"
+      ],
+      "answer": 0,
+      "meaning": "見たり聞いたりしたあとの思い。",
+      "example": "本の感想を書く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "sentence"
+      ]
+    },
+    {
+      "id": "k8-homophone-1",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "感想",
+      "choices": [
+        "感想",
+        "感例",
+        "官例",
+        "完例"
+      ],
+      "answer": 0,
+      "meaning": "見たり聞いたりしたあとの思い。",
+      "example": "本の感想を書く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "homophone"
+      ]
+    },
+    {
+      "id": "k8-opposite-1",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "感想",
+      "choices": [
+        "反対語を選ぶ",
+        "類義語を選ぶ",
+        "読みを選ぶ",
+        "部首を選ぶ"
+      ],
+      "answer": 0,
+      "meaning": "見たり聞いたりしたあとの思い。",
+      "example": "本の感想を書く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "反対"
+      ],
+      "tags": [
+        "opposite"
+      ]
+    },
+    {
+      "id": "k8-synonym-1",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "感想",
+      "choices": [
+        "似た意味の語",
+        "反対の語",
+        "送りがな",
+        "画数"
+      ],
+      "answer": 0,
+      "meaning": "見たり聞いたりしたあとの思い。",
+      "example": "本の感想を書く。",
+      "mnemonic": "",
+      "synonyms": [
+        "類義"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym"
+      ]
+    },
+    {
+      "id": "k8-yojijukugo-1",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "感想",
+      "choices": [
+        "一日一善",
+        "一石二鳥",
+        "十人十色",
+        "七転八起"
+      ],
+      "answer": 3,
+      "meaning": "見たり聞いたりしたあとの思い。",
+      "example": "本の感想を書く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "yojijukugo"
+      ]
+    },
+    {
+      "id": "k8-radical-1",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "感想",
+      "choices": [
+        "部首",
+        "音読み",
+        "訓読み",
+        "例文"
+      ],
+      "answer": 0,
+      "meaning": "見たり聞いたりしたあとの思い。",
+      "example": "本の感想を書く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "radical"
+      ]
+    },
+    {
+      "id": "k8-correction-1",
+      "grade": 3,
+      "kanken": 8,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "感想",
+      "choices": [
+        "感想",
+        "誤字をふくむ語",
+        "送りがななし",
+        "読みちがい"
+      ],
+      "answer": 0,
+      "meaning": "見たり聞いたりしたあとの思い。",
+      "example": "本の感想を書く。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "correction"
+      ]
+    }
+  ],
+  "mathQuestions": []
+}

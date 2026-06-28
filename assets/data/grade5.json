@@ -1,0 +1,536 @@
+{
+  "grade": 5,
+  "label": "小学5年",
+  "questions": [
+    {
+      "id": "g5-reading-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "精密",
+      "choices": [
+        "せいみつ",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "g5-writing-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "せいみつ",
+      "choices": [
+        "精密",
+        "精密う",
+        "同密",
+        "精学"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "g5-reading-2",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "責任",
+      "choices": [
+        "せきにん",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "自分が引き受けるべきつとめ。",
+      "example": "係の責任を果たす。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "g5-writing-2",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "せきにん",
+      "choices": [
+        "責任",
+        "責任う",
+        "同任",
+        "責学"
+      ],
+      "answer": 0,
+      "meaning": "自分が引き受けるべきつとめ。",
+      "example": "係の責任を果たす。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "g5-reading-3",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "快適",
+      "choices": [
+        "かいてき",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "気持ちよく過ごせること。",
+      "example": "快適な部屋で勉強する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "g5-writing-3",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "かいてき",
+      "choices": [
+        "快適",
+        "快適う",
+        "同適",
+        "快学"
+      ],
+      "answer": 0,
+      "meaning": "気持ちよく過ごせること。",
+      "example": "快適な部屋で勉強する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "g5-reading-4",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "許可",
+      "choices": [
+        "きょか",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "してよいと認めること。",
+      "example": "先生の許可をもらう。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "g5-writing-4",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "きょか",
+      "choices": [
+        "許可",
+        "許可う",
+        "同可",
+        "許学"
+      ],
+      "answer": 0,
+      "meaning": "してよいと認めること。",
+      "example": "先生の許可をもらう。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "g5-compound-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "精密",
+      "choices": [
+        "精密",
+        "精密力",
+        "大精密",
+        "精密語"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "compound"
+      ]
+    },
+    {
+      "id": "g5-sentence-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "精密",
+      "choices": [
+        "精密な機械を作る。",
+        "せいみつを読む。",
+        "音だけを聞く。",
+        "答えを消す。"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "sentence"
+      ]
+    },
+    {
+      "id": "g5-homophone-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "精密",
+      "choices": [
+        "精密",
+        "感例",
+        "官例",
+        "完例"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "homophone"
+      ]
+    },
+    {
+      "id": "g5-opposite-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "精密",
+      "choices": [
+        "反対語を選ぶ",
+        "類義語を選ぶ",
+        "読みを選ぶ",
+        "部首を選ぶ"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "反対"
+      ],
+      "tags": [
+        "opposite"
+      ]
+    },
+    {
+      "id": "g5-synonym-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "精密",
+      "choices": [
+        "似た意味の語",
+        "反対の語",
+        "送りがな",
+        "画数"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [
+        "類義"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym"
+      ]
+    },
+    {
+      "id": "g5-yojijukugo-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "精密",
+      "choices": [
+        "一日一善",
+        "一石二鳥",
+        "十人十色",
+        "七転八起"
+      ],
+      "answer": 1,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "yojijukugo"
+      ]
+    },
+    {
+      "id": "g5-radical-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "精密",
+      "choices": [
+        "部首",
+        "音読み",
+        "訓読み",
+        "例文"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "radical"
+      ]
+    },
+    {
+      "id": "g5-correction-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "精密",
+      "choices": [
+        "精密",
+        "誤字をふくむ語",
+        "送りがななし",
+        "読みちがい"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "correction"
+      ]
+    }
+  ],
+  "mathQuestions": [
+    {
+      "id": "math-5-1",
+      "grade": 5,
+      "expression": "17 + 1",
+      "answer": 18,
+      "options": [
+        18,
+        19,
+        17,
+        21
+      ],
+      "operation": "addition",
+      "explanation": "17 + 1 = 18",
+      "tags": [
+        "math",
+        "grade:5"
+      ]
+    },
+    {
+      "id": "math-5-2",
+      "grade": 5,
+      "expression": "18 + 2",
+      "answer": 20,
+      "options": [
+        20,
+        21,
+        19,
+        23
+      ],
+      "operation": "addition",
+      "explanation": "18 + 2 = 20",
+      "tags": [
+        "math",
+        "grade:5"
+      ]
+    },
+    {
+      "id": "math-5-3",
+      "grade": 5,
+      "expression": "19 + 3",
+      "answer": 22,
+      "options": [
+        22,
+        23,
+        21,
+        25
+      ],
+      "operation": "addition",
+      "explanation": "19 + 3 = 22",
+      "tags": [
+        "math",
+        "grade:5"
+      ]
+    },
+    {
+      "id": "math-5-4",
+      "grade": 5,
+      "expression": "20 + 4",
+      "answer": 24,
+      "options": [
+        24,
+        25,
+        23,
+        27
+      ],
+      "operation": "addition",
+      "explanation": "20 + 4 = 24",
+      "tags": [
+        "math",
+        "grade:5"
+      ]
+    },
+    {
+      "id": "math-5-5",
+      "grade": 5,
+      "expression": "21 + 5",
+      "answer": 26,
+      "options": [
+        26,
+        27,
+        25,
+        29
+      ],
+      "operation": "addition",
+      "explanation": "21 + 5 = 26",
+      "tags": [
+        "math",
+        "grade:5"
+      ]
+    },
+    {
+      "id": "math-5-6",
+      "grade": 5,
+      "expression": "22 + 6",
+      "answer": 28,
+      "options": [
+        28,
+        29,
+        27,
+        31
+      ],
+      "operation": "addition",
+      "explanation": "22 + 6 = 28",
+      "tags": [
+        "math",
+        "grade:5"
+      ]
+    },
+    {
+      "id": "math-5-7",
+      "grade": 5,
+      "expression": "23 + 7",
+      "answer": 30,
+      "options": [
+        30,
+        31,
+        29,
+        33
+      ],
+      "operation": "addition",
+      "explanation": "23 + 7 = 30",
+      "tags": [
+        "math",
+        "grade:5"
+      ]
+    },
+    {
+      "id": "math-5-8",
+      "grade": 5,
+      "expression": "24 + 8",
+      "answer": 32,
+      "options": [
+        32,
+        33,
+        31,
+        35
+      ],
+      "operation": "addition",
+      "explanation": "24 + 8 = 32",
+      "tags": [
+        "math",
+        "grade:5"
+      ]
+    }
+  ]
+}

@@ -23,52 +23,63 @@ class QuestionRepository {
   List<DailyChallenge>? _dailyChallenges;
   List<GachaReward>? _gachaRewards;
   List<EncyclopediaEntry>? _encyclopedia;
-  final Map<int, GradeQuestionSet> _gradeCache = <int, GradeQuestionSet>{};
+  final Map<String, GradeQuestionSet> _courseCache =
+      <String, GradeQuestionSet>{};
 
   Future<void> load() async {
     if (_dailyChallenges != null) {
       return;
     }
-    final Map<String, dynamic> json = await _loadJsonMap('assets/data/common_data.json');
-    _dailyChallenges = _readList(json, 'daily_challenges', DailyChallenge.fromJson);
+    final json = await _loadJsonMap('assets/data/common_data.json');
+    _dailyChallenges =
+        _readList(json, 'daily_challenges', DailyChallenge.fromJson);
     _gachaRewards = _readList(json, 'gacha_rewards', GachaReward.fromJson);
     _encyclopedia = _readList(json, 'encyclopedia', EncyclopediaEntry.fromJson);
   }
 
-  Future<GradeQuestionSet> loadGrade(int grade) async {
-    final cached = _gradeCache[grade];
+  Future<GradeQuestionSet> loadGrade(int grade) {
+    return loadCourse(StudyCourse.grade(grade));
+  }
+
+  Future<GradeQuestionSet> loadKanken(int level) {
+    return loadCourse(StudyCourse.kanken(level));
+  }
+
+  Future<GradeQuestionSet> loadCourse(StudyCourse course) async {
+    final cached = _courseCache[course.cacheKey];
     if (cached != null) {
       return cached;
     }
 
-    final Map<String, dynamic> json =
-        await _loadJsonMap('assets/data/grades/grade_$grade.json');
+    final json = await _loadJsonMap(course.assetPath);
     final set = GradeQuestionSet.fromJson(json);
-    _validateGradeSet(set);
-    _gradeCache[grade] = set;
+    _validateQuestionSet(set, course);
+    _courseCache[course.cacheKey] = set;
     return set;
   }
 
-  List<DailyChallenge> dailyChallenges() => _dailyChallenges ?? <DailyChallenge>[];
+  List<DailyChallenge> dailyChallenges() =>
+      _dailyChallenges ?? <DailyChallenge>[];
 
   List<GachaReward> gachaRewards() => _gachaRewards ?? <GachaReward>[];
 
-  List<EncyclopediaEntry> encyclopedia() => _encyclopedia ?? <EncyclopediaEntry>[];
+  List<EncyclopediaEntry> encyclopedia() =>
+      _encyclopedia ?? <EncyclopediaEntry>[];
 
   Future<Map<String, dynamic>> _loadJsonMap(String assetPath) async {
     try {
-      final String raw = await rootBundle.loadString(assetPath);
-      final dynamic decoded = jsonDecode(raw);
+      final raw = await rootBundle.loadString(assetPath);
+      final decoded = jsonDecode(raw);
       if (decoded is! Map<String, dynamic>) {
-        throw QuestionRepositoryException(
-          'データ形式が正しくありません: $assetPath',
-        );
+        throw QuestionRepositoryException('データ形式が正しくありません: $assetPath');
       }
       return decoded;
     } on FlutterError catch (error) {
-      throw QuestionRepositoryException('データを読み込めませんでした: $assetPath\n${error.message}');
+      throw QuestionRepositoryException(
+          'データを読み込めませんでした: $assetPath\n${error.message}');
     } on FormatException catch (error) {
-      throw QuestionRepositoryException('JSONの読み込みに失敗しました: $assetPath\n${error.message}');
+      throw QuestionRepositoryException(
+          'JSONの読み込みに失敗しました: $assetPath\n${error.message}');
     }
   }
 
@@ -79,24 +90,27 @@ class QuestionRepository {
   ) {
     final rawList = json[key];
     if (rawList is! List<dynamic>) {
-      throw QuestionRepositoryException('必須データが見つかりません: $key');
+      throw QuestionRepositoryException('必要なデータが見つかりません: $key');
     }
     return rawList
         .map((dynamic value) => fromJson(value as Map<String, dynamic>))
         .toList();
   }
 
-  void _validateGradeSet(GradeQuestionSet set) {
-    if (set.grade < 1 || set.grade > 9) {
-      throw QuestionRepositoryException('学年データの値が不正です: ${set.grade}');
-    }
+  void _validateQuestionSet(GradeQuestionSet set, StudyCourse course) {
     if (set.label.trim().isEmpty) {
-      throw QuestionRepositoryException('学年ラベルが空です: grade_${set.grade}');
+      throw QuestionRepositoryException('コース名が空です: ${course.assetPath}');
     }
-    if (set.kanjiReadingQuestions.isEmpty &&
-        set.kanjiWritingPrompts.isEmpty &&
-        set.mathQuestions.isEmpty) {
-      throw QuestionRepositoryException('問題が空です: grade_${set.grade}');
+    if (set.drillQuestions.isEmpty && set.mathQuestions.isEmpty) {
+      throw QuestionRepositoryException('問題が空です: ${course.assetPath}');
+    }
+    for (final question in set.drillQuestions) {
+      if (question.difficulty < 1 || question.difficulty > 5) {
+        throw QuestionRepositoryException('難易度は1から5で指定してください: ${question.id}');
+      }
+      if (question.choices.length < 2) {
+        throw QuestionRepositoryException('選択肢が不足しています: ${question.id}');
+      }
     }
   }
 }

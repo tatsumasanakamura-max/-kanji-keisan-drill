@@ -1,0 +1,391 @@
+{
+  "grade": 5,
+  "label": "漢検6級",
+  "questions": [
+    {
+      "id": "k6-reading-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "精密",
+      "choices": [
+        "せいみつ",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k6-writing-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "せいみつ",
+      "choices": [
+        "精密",
+        "精密う",
+        "同密",
+        "精学"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k6-reading-2",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "責任",
+      "choices": [
+        "せきにん",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "自分が引き受けるべきつとめ。",
+      "example": "係の責任を果たす。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k6-writing-2",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "せきにん",
+      "choices": [
+        "責任",
+        "責任う",
+        "同任",
+        "責学"
+      ],
+      "answer": 0,
+      "meaning": "自分が引き受けるべきつとめ。",
+      "example": "係の責任を果たす。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k6-reading-3",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "快適",
+      "choices": [
+        "かいてき",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "気持ちよく過ごせること。",
+      "example": "快適な部屋で勉強する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k6-writing-3",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "かいてき",
+      "choices": [
+        "快適",
+        "快適う",
+        "同適",
+        "快学"
+      ],
+      "answer": 0,
+      "meaning": "気持ちよく過ごせること。",
+      "example": "快適な部屋で勉強する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k6-reading-4",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "reading",
+      "question": "許可",
+      "choices": [
+        "きょか",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "してよいと認めること。",
+      "example": "先生の許可をもらう。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k6-writing-4",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 5,
+      "type": "writing",
+      "question": "きょか",
+      "choices": [
+        "許可",
+        "許可う",
+        "同可",
+        "許学"
+      ],
+      "answer": 0,
+      "meaning": "してよいと認めること。",
+      "example": "先生の許可をもらう。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k6-compound-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "精密",
+      "choices": [
+        "精密",
+        "精密力",
+        "大精密",
+        "精密語"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "compound"
+      ]
+    },
+    {
+      "id": "k6-sentence-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "精密",
+      "choices": [
+        "精密な機械を作る。",
+        "せいみつを読む。",
+        "音だけを聞く。",
+        "答えを消す。"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "sentence"
+      ]
+    },
+    {
+      "id": "k6-homophone-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "精密",
+      "choices": [
+        "精密",
+        "感例",
+        "官例",
+        "完例"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "homophone"
+      ]
+    },
+    {
+      "id": "k6-opposite-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "精密",
+      "choices": [
+        "反対語を選ぶ",
+        "類義語を選ぶ",
+        "読みを選ぶ",
+        "部首を選ぶ"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "反対"
+      ],
+      "tags": [
+        "opposite"
+      ]
+    },
+    {
+      "id": "k6-synonym-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "精密",
+      "choices": [
+        "似た意味の語",
+        "反対の語",
+        "送りがな",
+        "画数"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [
+        "類義"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym"
+      ]
+    },
+    {
+      "id": "k6-yojijukugo-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "精密",
+      "choices": [
+        "一日一善",
+        "一石二鳥",
+        "十人十色",
+        "七転八起"
+      ],
+      "answer": 1,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "yojijukugo"
+      ]
+    },
+    {
+      "id": "k6-radical-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "精密",
+      "choices": [
+        "部首",
+        "音読み",
+        "訓読み",
+        "例文"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "radical"
+      ]
+    },
+    {
+      "id": "k6-correction-1",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "精密",
+      "choices": [
+        "精密",
+        "誤字をふくむ語",
+        "送りがななし",
+        "読みちがい"
+      ],
+      "answer": 0,
+      "meaning": "細かいところまで正確なこと。",
+      "example": "精密な機械を作る。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "correction"
+      ]
+    }
+  ],
+  "mathQuestions": []
+}

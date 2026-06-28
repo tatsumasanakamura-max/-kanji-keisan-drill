@@ -1,0 +1,391 @@
+{
+  "grade": 4,
+  "label": "漢検7級",
+  "questions": [
+    {
+      "id": "k7-reading-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "reading",
+      "question": "慣例",
+      "choices": [
+        "かんれい",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k7-writing-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "writing",
+      "question": "かんれい",
+      "choices": [
+        "慣例",
+        "慣例う",
+        "同例",
+        "慣学"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k7-reading-2",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "reading",
+      "question": "観察",
+      "choices": [
+        "かんさつ",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "物事をよく見て調べること。",
+      "example": "昆虫を観察する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k7-writing-2",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "writing",
+      "question": "かんさつ",
+      "choices": [
+        "観察",
+        "観察う",
+        "同察",
+        "観学"
+      ],
+      "answer": 0,
+      "meaning": "物事をよく見て調べること。",
+      "example": "昆虫を観察する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k7-reading-3",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "reading",
+      "question": "協力",
+      "choices": [
+        "きょうりょく",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "力を合わせること。",
+      "example": "友だちと協力する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k7-writing-3",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "writing",
+      "question": "きょうりょく",
+      "choices": [
+        "協力",
+        "協力う",
+        "同力",
+        "協学"
+      ],
+      "answer": 0,
+      "meaning": "力を合わせること。",
+      "example": "友だちと協力する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k7-reading-4",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "reading",
+      "question": "必要",
+      "choices": [
+        "ひつよう",
+        "かんれつ",
+        "かんりょう",
+        "けんれい"
+      ],
+      "answer": 0,
+      "meaning": "なくてはならないこと。",
+      "example": "練習が必要だ。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "reading"
+      ]
+    },
+    {
+      "id": "k7-writing-4",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "writing",
+      "question": "ひつよう",
+      "choices": [
+        "必要",
+        "必要う",
+        "同要",
+        "必学"
+      ],
+      "answer": 0,
+      "meaning": "なくてはならないこと。",
+      "example": "練習が必要だ。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "kanji",
+        "writing",
+        "strokes:0"
+      ]
+    },
+    {
+      "id": "k7-compound-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "慣例",
+      "choices": [
+        "慣例",
+        "慣例力",
+        "大慣例",
+        "慣例語"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "compound"
+      ]
+    },
+    {
+      "id": "k7-sentence-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "sentence",
+      "question": "慣例",
+      "choices": [
+        "式は慣例にしたがって進む。",
+        "かんれいを読む。",
+        "音だけを聞く。",
+        "答えを消す。"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "sentence"
+      ]
+    },
+    {
+      "id": "k7-homophone-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "慣例",
+      "choices": [
+        "慣例",
+        "感例",
+        "官例",
+        "完例"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "homophone"
+      ]
+    },
+    {
+      "id": "k7-opposite-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "慣例",
+      "choices": [
+        "反対語を選ぶ",
+        "類義語を選ぶ",
+        "読みを選ぶ",
+        "部首を選ぶ"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "反対"
+      ],
+      "tags": [
+        "opposite"
+      ]
+    },
+    {
+      "id": "k7-synonym-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "慣例",
+      "choices": [
+        "似た意味の語",
+        "反対の語",
+        "送りがな",
+        "画数"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [
+        "類義"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym"
+      ]
+    },
+    {
+      "id": "k7-yojijukugo-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "yojijukugo",
+      "question": "慣例",
+      "choices": [
+        "一日一善",
+        "一石二鳥",
+        "十人十色",
+        "七転八起"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "yojijukugo"
+      ]
+    },
+    {
+      "id": "k7-radical-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 2,
+      "type": "radical",
+      "question": "慣例",
+      "choices": [
+        "部首",
+        "音読み",
+        "訓読み",
+        "例文"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "radical"
+      ]
+    },
+    {
+      "id": "k7-correction-1",
+      "grade": 4,
+      "kanken": 7,
+      "difficulty": 4,
+      "type": "correction",
+      "question": "慣例",
+      "choices": [
+        "慣例",
+        "誤字をふくむ語",
+        "送りがななし",
+        "読みちがい"
+      ],
+      "answer": 0,
+      "meaning": "以前からのならわし。",
+      "example": "式は慣例にしたがって進む。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "correction"
+      ]
+    }
+  ],
+  "mathQuestions": []
+}
