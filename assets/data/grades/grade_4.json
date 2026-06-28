@@ -1,0 +1,950 @@
+{
+  "grade": 4,
+  "label": "小学4年生",
+  "kanjiReadingQuestions": [
+    {
+      "id": "kr-4-001",
+      "grade": 4,
+      "kanji": "努力",
+      "reading": "どりょく",
+      "meaning": "grade4-vocab-1",
+      "options": [
+        "どりょく",
+        "きょうりょく",
+        "まつり",
+        "ずけい"
+      ],
+      "answerIndex": 0,
+      "explanation": "努力は「どりょく」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-002",
+      "grade": 4,
+      "kanji": "紹介",
+      "reading": "しょうかい",
+      "meaning": "grade4-vocab-2",
+      "options": [
+        "りょこう",
+        "りょうり",
+        "あんしん",
+        "しょうかい"
+      ],
+      "answerIndex": 3,
+      "explanation": "紹介は「しょうかい」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-003",
+      "grade": 4,
+      "kanji": "便利",
+      "reading": "べんり",
+      "meaning": "grade4-vocab-3",
+      "options": [
+        "しゃしん",
+        "ちゅうい",
+        "べんり",
+        "りゆう"
+      ],
+      "answerIndex": 2,
+      "explanation": "便利は「べんり」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-004",
+      "grade": 4,
+      "kanji": "協力",
+      "reading": "きょうりょく",
+      "meaning": "grade4-vocab-4",
+      "options": [
+        "かいりょう",
+        "きょうりょく",
+        "まつり",
+        "ずけい"
+      ],
+      "answerIndex": 1,
+      "explanation": "協力は「きょうりょく」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-005",
+      "grade": 4,
+      "kanji": "旅行",
+      "reading": "りょこう",
+      "meaning": "grade4-vocab-5",
+      "options": [
+        "りょこう",
+        "りょうり",
+        "あんしん",
+        "みらい"
+      ],
+      "answerIndex": 0,
+      "explanation": "旅行は「りょこう」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-006",
+      "grade": 4,
+      "kanji": "理由",
+      "reading": "りゆう",
+      "meaning": "grade4-vocab-6",
+      "options": [
+        "しゃしん",
+        "ちゅうい",
+        "ちしき",
+        "りゆう"
+      ],
+      "answerIndex": 3,
+      "explanation": "理由は「りゆう」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-007",
+      "grade": 4,
+      "kanji": "祭り",
+      "reading": "まつり",
+      "meaning": "grade4-vocab-7",
+      "options": [
+        "かいりょう",
+        "でんごん",
+        "まつり",
+        "ずけい"
+      ],
+      "answerIndex": 2,
+      "explanation": "祭りは「まつり」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-008",
+      "grade": 4,
+      "kanji": "料理",
+      "reading": "りょうり",
+      "meaning": "grade4-vocab-8",
+      "options": [
+        "ひょうじょう",
+        "りょうり",
+        "あんしん",
+        "みらい"
+      ],
+      "answerIndex": 1,
+      "explanation": "料理は「りょうり」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-009",
+      "grade": 4,
+      "kanji": "写真",
+      "reading": "しゃしん",
+      "meaning": "grade4-vocab-9",
+      "options": [
+        "しゃしん",
+        "ちゅうい",
+        "ちしき",
+        "はっぴょう"
+      ],
+      "answerIndex": 0,
+      "explanation": "写真は「しゃしん」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-010",
+      "grade": 4,
+      "kanji": "図形",
+      "reading": "ずけい",
+      "meaning": "grade4-vocab-10",
+      "options": [
+        "かいりょう",
+        "でんごん",
+        "れんしゅう",
+        "ずけい"
+      ],
+      "answerIndex": 3,
+      "explanation": "図形は「ずけい」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-011",
+      "grade": 4,
+      "kanji": "安心",
+      "reading": "あんしん",
+      "meaning": "grade4-vocab-11",
+      "options": [
+        "ひょうじょう",
+        "けしき",
+        "あんしん",
+        "みらい"
+      ],
+      "answerIndex": 2,
+      "explanation": "安心は「あんしん」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-012",
+      "grade": 4,
+      "kanji": "注意",
+      "reading": "ちゅうい",
+      "meaning": "grade4-vocab-12",
+      "options": [
+        "どりょく",
+        "ちゅうい",
+        "ちしき",
+        "はっぴょう"
+      ],
+      "answerIndex": 1,
+      "explanation": "注意は「ちゅうい」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-013",
+      "grade": 4,
+      "kanji": "改良",
+      "reading": "かいりょう",
+      "meaning": "grade4-vocab-13",
+      "options": [
+        "かいりょう",
+        "でんごん",
+        "れんしゅう",
+        "しょうかい"
+      ],
+      "answerIndex": 0,
+      "explanation": "改良は「かいりょう」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-014",
+      "grade": 4,
+      "kanji": "未来",
+      "reading": "みらい",
+      "meaning": "grade4-vocab-14",
+      "options": [
+        "ひょうじょう",
+        "けしき",
+        "べんり",
+        "みらい"
+      ],
+      "answerIndex": 3,
+      "explanation": "未来は「みらい」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-015",
+      "grade": 4,
+      "kanji": "知識",
+      "reading": "ちしき",
+      "meaning": "grade4-vocab-15",
+      "options": [
+        "どりょく",
+        "きょうりょく",
+        "ちしき",
+        "はっぴょう"
+      ],
+      "answerIndex": 2,
+      "explanation": "知識は「ちしき」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-016",
+      "grade": 4,
+      "kanji": "伝言",
+      "reading": "でんごん",
+      "meaning": "grade4-vocab-16",
+      "options": [
+        "りょこう",
+        "でんごん",
+        "れんしゅう",
+        "しょうかい"
+      ],
+      "answerIndex": 1,
+      "explanation": "伝言は「でんごん」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-017",
+      "grade": 4,
+      "kanji": "表情",
+      "reading": "ひょうじょう",
+      "meaning": "grade4-vocab-17",
+      "options": [
+        "ひょうじょう",
+        "けしき",
+        "べんり",
+        "りゆう"
+      ],
+      "answerIndex": 0,
+      "explanation": "表情は「ひょうじょう」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-018",
+      "grade": 4,
+      "kanji": "発表",
+      "reading": "はっぴょう",
+      "meaning": "grade4-vocab-18",
+      "options": [
+        "どりょく",
+        "きょうりょく",
+        "まつり",
+        "はっぴょう"
+      ],
+      "answerIndex": 3,
+      "explanation": "発表は「はっぴょう」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-019",
+      "grade": 4,
+      "kanji": "練習",
+      "reading": "れんしゅう",
+      "meaning": "grade4-vocab-19",
+      "options": [
+        "りょこう",
+        "りょうり",
+        "れんしゅう",
+        "しょうかい"
+      ],
+      "answerIndex": 2,
+      "explanation": "練習は「れんしゅう」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kr-4-020",
+      "grade": 4,
+      "kanji": "景色",
+      "reading": "けしき",
+      "meaning": "grade4-vocab-20",
+      "options": [
+        "しゃしん",
+        "けしき",
+        "べんり",
+        "りゆう"
+      ],
+      "answerIndex": 1,
+      "explanation": "景色は「けしき」と読みます。",
+      "tags": [
+        "elementary"
+      ]
+    }
+  ],
+  "kanjiWritingPrompts": [
+    {
+      "id": "kw-4-001",
+      "grade": 4,
+      "kanji": "努力",
+      "reading": "どりょく",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-002",
+      "grade": 4,
+      "kanji": "紹介",
+      "reading": "しょうかい",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-003",
+      "grade": 4,
+      "kanji": "便利",
+      "reading": "べんり",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-004",
+      "grade": 4,
+      "kanji": "協力",
+      "reading": "きょうりょく",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-005",
+      "grade": 4,
+      "kanji": "旅行",
+      "reading": "りょこう",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-006",
+      "grade": 4,
+      "kanji": "理由",
+      "reading": "りゆう",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-007",
+      "grade": 4,
+      "kanji": "祭り",
+      "reading": "まつり",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-008",
+      "grade": 4,
+      "kanji": "料理",
+      "reading": "りょうり",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-009",
+      "grade": 4,
+      "kanji": "写真",
+      "reading": "しゃしん",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-010",
+      "grade": 4,
+      "kanji": "図形",
+      "reading": "ずけい",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-011",
+      "grade": 4,
+      "kanji": "安心",
+      "reading": "あんしん",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-012",
+      "grade": 4,
+      "kanji": "注意",
+      "reading": "ちゅうい",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-013",
+      "grade": 4,
+      "kanji": "改良",
+      "reading": "かいりょう",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-014",
+      "grade": 4,
+      "kanji": "未来",
+      "reading": "みらい",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-015",
+      "grade": 4,
+      "kanji": "知識",
+      "reading": "ちしき",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-016",
+      "grade": 4,
+      "kanji": "伝言",
+      "reading": "でんごん",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-017",
+      "grade": 4,
+      "kanji": "表情",
+      "reading": "ひょうじょう",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-018",
+      "grade": 4,
+      "kanji": "発表",
+      "reading": "はっぴょう",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-019",
+      "grade": 4,
+      "kanji": "練習",
+      "reading": "れんしゅう",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "kw-4-020",
+      "grade": 4,
+      "kanji": "景色",
+      "reading": "けしき",
+      "strokeCount": 11,
+      "hint": "形のバランスを見ながら、ゆっくり書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "elementary"
+      ]
+    }
+  ],
+  "mathQuestions": [
+    {
+      "id": "md-4-001",
+      "grade": 4,
+      "expression": "23 + 14",
+      "answer": 37,
+      "options": [
+        37,
+        32,
+        34,
+        40
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 37 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-002",
+      "grade": 4,
+      "expression": "48 - 19",
+      "answer": 29,
+      "options": [
+        26,
+        32,
+        34,
+        29
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 29 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-003",
+      "grade": 4,
+      "expression": "36 + 27",
+      "answer": 63,
+      "options": [
+        63,
+        68,
+        70,
+        66
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 63 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-004",
+      "grade": 4,
+      "expression": "52 - 18",
+      "answer": 34,
+      "options": [
+        39,
+        34,
+        43,
+        41
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 34 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-005",
+      "grade": 4,
+      "expression": "15 × 3",
+      "answer": 45,
+      "options": [
+        54,
+        52,
+        45,
+        40
+      ],
+      "operation": "multiplication",
+      "explanation": "答えは 45 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-006",
+      "grade": 4,
+      "expression": "64 ÷ 8",
+      "answer": 8,
+      "options": [
+        3,
+        5,
+        17,
+        8
+      ],
+      "operation": "division",
+      "explanation": "答えは 8 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-007",
+      "grade": 4,
+      "expression": "29 + 11",
+      "answer": 40,
+      "options": [
+        40,
+        43,
+        37,
+        35
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 40 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-008",
+      "grade": 4,
+      "expression": "72 - 26",
+      "answer": 46,
+      "options": [
+        43,
+        51,
+        46,
+        49
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 46 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-009",
+      "grade": 4,
+      "expression": "7 × 6",
+      "answer": 42,
+      "options": [
+        42,
+        47,
+        45,
+        49
+      ],
+      "operation": "multiplication",
+      "explanation": "答えは 42 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-010",
+      "grade": 4,
+      "expression": "81 ÷ 9",
+      "answer": 9,
+      "options": [
+        14,
+        18,
+        16,
+        9
+      ],
+      "operation": "division",
+      "explanation": "答えは 9 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-011",
+      "grade": 4,
+      "expression": "34 + 25",
+      "answer": 59,
+      "options": [
+        68,
+        54,
+        59,
+        66
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 59 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-012",
+      "grade": 4,
+      "expression": "90 - 45",
+      "answer": 45,
+      "options": [
+        42,
+        45,
+        54,
+        40
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 45 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-013",
+      "grade": 4,
+      "expression": "12 × 4",
+      "answer": 48,
+      "options": [
+        48,
+        43,
+        45,
+        51
+      ],
+      "operation": "multiplication",
+      "explanation": "答えは 48 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-014",
+      "grade": 4,
+      "expression": "56 ÷ 7",
+      "answer": 8,
+      "options": [
+        5,
+        11,
+        13,
+        8
+      ],
+      "operation": "division",
+      "explanation": "答えは 8 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-015",
+      "grade": 4,
+      "expression": "31 + 28",
+      "answer": 59,
+      "options": [
+        59,
+        64,
+        66,
+        62
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 59 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-016",
+      "grade": 4,
+      "expression": "75 - 17",
+      "answer": 58,
+      "options": [
+        63,
+        58,
+        67,
+        65
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 58 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-017",
+      "grade": 4,
+      "expression": "9 × 5",
+      "answer": 45,
+      "options": [
+        54,
+        52,
+        45,
+        40
+      ],
+      "operation": "multiplication",
+      "explanation": "答えは 45 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-018",
+      "grade": 4,
+      "expression": "63 ÷ 9",
+      "answer": 7,
+      "options": [
+        2,
+        4,
+        16,
+        7
+      ],
+      "operation": "division",
+      "explanation": "答えは 7 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-019",
+      "grade": 4,
+      "expression": "44 + 16",
+      "answer": 60,
+      "options": [
+        60,
+        63,
+        57,
+        55
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 60 です。",
+      "tags": [
+        "elementary"
+      ]
+    },
+    {
+      "id": "md-4-020",
+      "grade": 4,
+      "expression": "88 - 29",
+      "answer": 59,
+      "options": [
+        56,
+        64,
+        59,
+        62
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 59 です。",
+      "tags": [
+        "elementary"
+      ]
+    }
+  ]
+}

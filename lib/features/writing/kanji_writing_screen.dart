@@ -2,7 +2,9 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:go_router/go_router.dart';
 
+import '../../core/data/question_repository.dart';
 import '../../core/models/question_models.dart';
 import '../../core/state/game_controller.dart';
 import '../../core/state/game_scope.dart';
@@ -28,221 +30,349 @@ class KanjiWritingScreen extends StatefulWidget {
 }
 
 class _KanjiWritingScreenState extends State<KanjiWritingScreen> {
+  final math.Random _random = math.Random();
   final List<WritingStroke> _strokes = <WritingStroke>[];
   WritingStroke? _activeStroke;
-  int _index = 0;
+  Future<GradeQuestionSet>? _loadFuture;
+  int? _loadedGrade;
+  final List<int> _order = <int>[];
+  int _cursor = 0;
+  int? _lastQuestionIndex;
   bool _submitted = false;
   bool _isDrawing = false;
+  bool _busy = false;
   _WritingTool _tool = _WritingTool.pen;
   double _penWidth = 6;
   QuizResult? _feedback;
 
-  List<KanjiWritingPrompt> get _items => GameScope.of(context).writingPrompts;
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _syncGradeData();
+  }
+
+  void _syncGradeData() {
+    final controller = GameScope.of(context);
+    final grade = controller.profile.selectedGrade;
+    if (_loadedGrade == grade && _loadFuture != null) {
+      return;
+    }
+    _loadedGrade = grade;
+    _loadFuture = controller.loadGradeQuestions(grade);
+    _cursor = 0;
+    _lastQuestionIndex = null;
+    _submitted = false;
+    _isDrawing = false;
+    _busy = false;
+    _tool = _WritingTool.pen;
+    _penWidth = 6;
+    _feedback = null;
+    _strokes.clear();
+    _activeStroke = null;
+    _order.clear();
+  }
+
+  void _buildOrder(int itemCount) {
+    _order
+      ..clear()
+      ..addAll(List<int>.generate(itemCount, (index) => index));
+    _order.shuffle(_random);
+    if (_lastQuestionIndex != null &&
+        itemCount > 1 &&
+        _order.first == _lastQuestionIndex) {
+      final swapIndex = 1 + _random.nextInt(itemCount - 1);
+      final first = _order.first;
+      _order[0] = _order[swapIndex];
+      _order[swapIndex] = first;
+    }
+  }
+
+  Future<void> _submitPrompt(
+    GameController controller,
+    KanjiWritingPrompt prompt,
+  ) async {
+    if (_submitted || _busy) {
+      return;
+    }
+    setState(() {
+      _busy = true;
+    });
+    HapticFeedback.mediumImpact();
+    final result = await controller.completeWritingPractice(prompt);
+    if (!mounted) {
+      return;
+    }
+    setState(() {
+      _submitted = true;
+      _busy = false;
+      _feedback = result;
+      _isDrawing = false;
+    });
+  }
+
+  void _nextPrompt(int itemCount) {
+    if (itemCount == 0) {
+      return;
+    }
+    setState(() {
+      _lastQuestionIndex = _order[_cursor];
+      _cursor += 1;
+      if (_cursor >= _order.length) {
+        _buildOrder(itemCount);
+        _cursor = 0;
+      }
+      _strokes.clear();
+      _activeStroke = null;
+      _isDrawing = false;
+      _submitted = false;
+      _busy = false;
+      _feedback = null;
+      _tool = _WritingTool.pen;
+      _penWidth = 6;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     final controller = GameScope.of(context);
-    final items = _items;
-    final prompt = items.isEmpty ? null : items[_index % items.length];
 
     return AppScaffold(
       title: '漢字書き練習',
-      child: prompt == null
-          ? const Center(child: Text('書き練習の問題が読み込まれていません。'))
-          : Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                _PromptPanel(
-                  prompt: prompt,
-                  strokeCount: prompt.strokeCount,
-                  submitted: _submitted,
-                  feedback: _feedback,
-                ),
-                const SizedBox(height: 12),
-                Expanded(
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(28),
-                    child: DecoratedBox(
-                      decoration: BoxDecoration(
-                        color: const Color(0xFFFFFCF7),
-                        border: Border.all(color: const Color(0xFFE5E7EB)),
-                        borderRadius: BorderRadius.circular(28),
-                      ),
-                      child: Listener(
-                        behavior: HitTestBehavior.opaque,
-                        onPointerDown: (event) =>
-                            _handlePointerDown(event.localPosition),
-                        onPointerMove: (event) {
-                          if (event.buttons == 0) {
-                            return;
-                          }
-                          _handlePointerMove(event.localPosition);
-                        },
-                        onPointerUp: (_) => _finishStroke(),
-                        onPointerCancel: (_) => _finishStroke(),
-                        child: Stack(
-                          fit: StackFit.expand,
-                          children: [
-                            CustomPaint(
-                              painter: _WritingBoardPainter(
-                                strokes: _strokes,
-                                activeStroke: _activeStroke,
-                                prompt: prompt,
-                              ),
+      child: FutureBuilder<GradeQuestionSet>(
+        future: _loadFuture,
+        builder: (context, snapshot) {
+          if (snapshot.hasError) {
+            return _ErrorState(
+              message: _errorMessageFor(snapshot.error),
+              onRetry: () {
+                setState(() {
+                  _loadedGrade = null;
+                });
+                _syncGradeData();
+              },
+              onGradeSelect: () => context.go('/grade'),
+            );
+          }
+
+          if (!snapshot.hasData) {
+            return const Center(child: CircularProgressIndicator());
+          }
+
+          final data = snapshot.data!;
+          final items = data.kanjiWritingPrompts;
+          if (items.isEmpty) {
+            return _ErrorState(
+              message:
+                  '${data.label} の漢字書き練習がありません。別の学年を選ぶか、データを確認してください。',
+              onRetry: () {
+                setState(() {
+                  _loadedGrade = null;
+                });
+                _syncGradeData();
+              },
+              onGradeSelect: () => context.go('/grade'),
+            );
+          }
+
+          if (_order.isEmpty || _order.length != items.length) {
+            _buildOrder(items.length);
+          }
+          if (_cursor >= _order.length) {
+            _cursor = 0;
+          }
+
+          final prompt = items[_order[_cursor]];
+
+          return ListView(
+            children: [
+              _PromptPanel(
+                prompt: prompt,
+                strokeCount: prompt.strokeCount,
+                submitted: _submitted,
+                feedback: _feedback,
+                gradeLabel: controller.gradeLabelFor(controller.profile.selectedGrade),
+                questionNumber: _cursor + 1,
+                totalCount: items.length,
+              ),
+              const SizedBox(height: 12),
+              SizedBox(
+                height: 540,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(28),
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      color: const Color(0xFFFFFCF7),
+                      border: Border.all(color: const Color(0xFFE5E7EB)),
+                      borderRadius: BorderRadius.circular(28),
+                    ),
+                    child: Listener(
+                      behavior: HitTestBehavior.opaque,
+                      onPointerDown: (event) =>
+                          _handlePointerDown(event.localPosition),
+                      onPointerMove: (event) {
+                        if (event.buttons == 0) {
+                          return;
+                        }
+                        _handlePointerMove(event.localPosition);
+                      },
+                      onPointerUp: (_) => _finishStroke(),
+                      onPointerCancel: (_) => _finishStroke(),
+                      child: Stack(
+                        fit: StackFit.expand,
+                        children: [
+                          CustomPaint(
+                            painter: _WritingBoardPainter(
+                              strokes: _strokes,
+                              activeStroke: _activeStroke,
+                              prompt: prompt,
                             ),
-                            if (!_submitted)
-                              Positioned.fill(
-                                child: IgnorePointer(
-                                  child: Align(
-                                    alignment: Alignment.bottomRight,
-                                    child: Padding(
-                                      padding: const EdgeInsets.all(16),
-                                      child: DecoratedBox(
-                                        decoration: BoxDecoration(
-                                          color: Colors.white.withOpacity(0.72),
-                                          borderRadius:
-                                              BorderRadius.circular(18),
+                          ),
+                          if (!_submitted)
+                            Positioned.fill(
+                              child: IgnorePointer(
+                                child: Align(
+                                  alignment: Alignment.bottomRight,
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(16),
+                                    child: DecoratedBox(
+                                      decoration: BoxDecoration(
+                                        color: Colors.white.withOpacity(0.78),
+                                        borderRadius: BorderRadius.circular(18),
+                                      ),
+                                      child: const Padding(
+                                        padding: EdgeInsets.symmetric(
+                                          horizontal: 14,
+                                          vertical: 10,
                                         ),
-                                        child: const Padding(
-                                          padding: EdgeInsets.symmetric(
-                                              horizontal: 12, vertical: 8),
-                                          child: Text('指でもタッチペンでも書けます'),
-                                        ),
+                                        child: Text('指でなぞって書いてみよう'),
                                       ),
                                     ),
                                   ),
                                 ),
                               ),
-                            if (_submitted)
-                              Positioned.fill(
-                                child: Container(
-                                  color: Colors.white.withOpacity(0.14),
-                                  alignment: Alignment.center,
-                                  child: DecoratedBox(
-                                    decoration: BoxDecoration(
-                                      color: Colors.white.withOpacity(0.9),
-                                      borderRadius: BorderRadius.circular(24),
-                                      boxShadow: const [
-                                        BoxShadow(
-                                          color: Color(0x1A000000),
-                                          blurRadius: 24,
-                                          offset: Offset(0, 12),
+                            ),
+                          if (_submitted)
+                            Positioned.fill(
+                              child: Container(
+                                color: Colors.white.withOpacity(0.14),
+                                alignment: Alignment.center,
+                                child: DecoratedBox(
+                                  decoration: BoxDecoration(
+                                    color: Colors.white.withOpacity(0.96),
+                                    borderRadius: BorderRadius.circular(24),
+                                    border: Border.all(
+                                      color: Colors.green.shade700,
+                                      width: 3,
+                                    ),
+                                    boxShadow: const [
+                                      BoxShadow(
+                                        color: Color(0x22000000),
+                                        blurRadius: 24,
+                                        offset: Offset(0, 12),
+                                      ),
+                                    ],
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 20,
+                                      vertical: 16,
+                                    ),
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.min,
+                                      children: [
+                                        Icon(
+                                          Icons.check_circle,
+                                          color: Colors.green.shade700,
+                                          size: 52,
+                                        ),
+                                        const SizedBox(height: 8),
+                                        Text(
+                                          'できた！',
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .titleLarge
+                                              ?.copyWith(
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                        ),
+                                        const SizedBox(height: 4),
+                                        Text(
+                                          '+${_feedback?.pointsEarned ?? 15} pt  +${_feedback?.experienceEarned ?? 15} EXP  コンボ ${_feedback?.combo ?? controller.profile.combo}',
                                         ),
                                       ],
                                     ),
-                                    child: Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                          horizontal: 20, vertical: 16),
-                                      child: Column(
-                                        mainAxisSize: MainAxisSize.min,
-                                        children: [
-                                          Icon(
-                                            Icons.check_circle,
-                                            color: Theme.of(context)
-                                                .colorScheme
-                                                .primary,
-                                            size: 48,
-                                          ),
-                                          const SizedBox(height: 8),
-                                          Text(
-                                            'できた！',
-                                            style: Theme.of(context)
-                                                .textTheme
-                                                .titleLarge
-                                                ?.copyWith(
-                                                  fontWeight: FontWeight.bold,
-                                                ),
-                                          ),
-                                          const SizedBox(height: 4),
-                                          Text(
-                                            '+${_feedback?.pointsEarned ?? 15} pt  '
-                                            '+${_feedback?.experienceEarned ?? 15} 経験値  '
-                                            'コンボ ${_feedback?.combo ?? controller.profile.combo}',
-                                          ),
-                                        ],
-                                      ),
-                                    ),
                                   ),
                                 ),
                               ),
-                          ],
-                        ),
+                            ),
+                        ],
                       ),
                     ),
                   ),
                 ),
-                const SizedBox(height: 12),
-                _ToolBar(
-                  tool: _tool,
-                  penWidth: _penWidth,
-                  canUndo: _strokes.isNotEmpty || _activeStroke != null,
-                  onToolChanged: (tool) {
-                    setState(() {
-                      _tool = tool;
-                    });
-                  },
-                  onPenWidthChanged: (width) {
-                    setState(() {
-                      _penWidth = width;
-                    });
-                  },
-                  onUndo: _undoLastStroke,
-                  onEraserTap: () {
-                    setState(() {
-                      _tool = _tool == _WritingTool.eraser
-                          ? _WritingTool.pen
-                          : _WritingTool.eraser;
-                    });
-                  },
-                  onClear: _clearCanvas,
-                ),
-                const SizedBox(height: 12),
-                Row(
-                  children: [
-                    Expanded(
-                      child: SizedBox(
-                        height: 60,
-                        child: FilledButton.icon(
-                          onPressed: _submitted
-                              ? null
-                              : () async {
-                                  HapticFeedback.mediumImpact();
-                                  final result = await controller
-                                      .completeWritingPractice(prompt);
-                                  if (!mounted) {
-                                    return;
-                                  }
-                                  setState(() {
-                                    _submitted = true;
-                                    _feedback = result;
-                                    _isDrawing = false;
-                                  });
-                                },
-                          icon: const Icon(Icons.verified),
-                          label: const Text('できた'),
-                        ),
+              ),
+              const SizedBox(height: 12),
+              _ToolBar(
+                tool: _tool,
+                penWidth: _penWidth,
+                canUndo: _strokes.isNotEmpty || _activeStroke != null,
+                onToolChanged: (tool) {
+                  setState(() {
+                    _tool = tool;
+                  });
+                },
+                onPenWidthChanged: (width) {
+                  setState(() {
+                    _penWidth = width;
+                  });
+                },
+                onUndo: _undoLastStroke,
+                onEraserTap: () {
+                  setState(() {
+                    _tool = _tool == _WritingTool.eraser
+                        ? _WritingTool.pen
+                        : _WritingTool.eraser;
+                  });
+                },
+                onClear: _clearCanvas,
+              ),
+              const SizedBox(height: 12),
+              Row(
+                children: [
+                  Expanded(
+                    child: SizedBox(
+                      height: 60,
+                      child: FilledButton.icon(
+                        onPressed: _submitted
+                            ? null
+                            : () => _submitPrompt(controller, prompt),
+                        icon: const Icon(Icons.verified),
+                        label: const Text('できた'),
                       ),
                     ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: SizedBox(
-                        height: 60,
-                        child: OutlinedButton.icon(
-                          onPressed: _submitted
-                              ? () {
-                                  HapticFeedback.selectionClick();
-                                  _nextPrompt();
-                                }
-                              : null,
-                          icon: const Icon(Icons.navigate_next),
-                          label: const Text('次の問題'),
-                        ),
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: SizedBox(
+                      height: 60,
+                      child: OutlinedButton.icon(
+                        onPressed: _submitted
+                            ? () {
+                                HapticFeedback.selectionClick();
+                                _nextPrompt(items.length);
+                              }
+                            : null,
+                        icon: const Icon(Icons.navigate_next),
+                        label: const Text('次の問題へ'),
                       ),
                     ),
-                  ],
-                ),
-              ],
-            ),
+                  ),
+                ],
+              ),
+            ],
+          );
+        },
+      ),
     );
   }
 
@@ -336,21 +466,11 @@ class _KanjiWritingScreenState extends State<KanjiWritingScreen> {
     }
   }
 
-  void _nextPrompt() {
-    final items = _items;
-    if (items.isEmpty) {
-      return;
+  String _errorMessageFor(Object? error) {
+    if (error is QuestionRepositoryException) {
+      return error.message;
     }
-    setState(() {
-      _index = (_index + 1) % items.length;
-      _strokes.clear();
-      _activeStroke = null;
-      _isDrawing = false;
-      _submitted = false;
-      _feedback = null;
-      _tool = _WritingTool.pen;
-      _penWidth = 6;
-    });
+    return '問題データを読み込めませんでした。学年選択画面で別の学年を選ぶか、データを確認してください。';
   }
 }
 
@@ -360,12 +480,18 @@ class _PromptPanel extends StatelessWidget {
     required this.strokeCount,
     required this.submitted,
     required this.feedback,
+    required this.gradeLabel,
+    required this.questionNumber,
+    required this.totalCount,
   });
 
   final KanjiWritingPrompt prompt;
   final int strokeCount;
   final bool submitted;
   final QuizResult? feedback;
+  final String gradeLabel;
+  final int questionNumber;
+  final int totalCount;
 
   @override
   Widget build(BuildContext context) {
@@ -376,13 +502,17 @@ class _PromptPanel extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              '書き練習',
-              style: Theme.of(context)
-                  .textTheme
-                  .titleMedium
-                  ?.copyWith(fontWeight: FontWeight.bold),
+              gradeLabel,
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
             ),
-            const SizedBox(height: 8),
+            const SizedBox(height: 6),
+            Text(
+              '問題 $questionNumber / $totalCount',
+              style: Theme.of(context).textTheme.titleMedium,
+            ),
+            const SizedBox(height: 12),
             Center(
               child: FittedBox(
                 fit: BoxFit.scaleDown,
@@ -401,7 +531,7 @@ class _PromptPanel extends StatelessWidget {
               runSpacing: 8,
               alignment: WrapAlignment.center,
               children: [
-                _InfoChip(label: '読み', value: prompt.reading),
+                _InfoChip(label: 'よみ', value: prompt.reading),
                 _InfoChip(label: '画数', value: '$strokeCount'),
                 _InfoChip(label: '学年', value: prompt.grade.toString()),
                 _InfoChip(label: 'ヒント', value: prompt.hint),
@@ -420,7 +550,7 @@ class _PromptPanel extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16),
                 ),
                 child: Text(
-                  '報酬: +${feedback!.pointsEarned} pt, +${feedback!.experienceEarned} 経験値',
+                  'ボーナス: +${feedback!.pointsEarned} pt, +${feedback!.experienceEarned} EXP',
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.titleMedium,
                 ),
@@ -510,7 +640,7 @@ class _ToolBar extends StatelessWidget {
                 ButtonSegment(
                   value: _WritingTool.pen,
                   icon: Icon(Icons.edit),
-                  label: Text('ペン'),
+                  label: Text('えんぴつ'),
                 ),
                 ButtonSegment(
                   value: _WritingTool.eraser,
@@ -529,7 +659,7 @@ class _ToolBar extends StatelessWidget {
               spacing: 8,
               children: [
                 ChoiceChip(
-                  label: const Text('細め'),
+                  label: const Text('細い'),
                   selected: penWidth == 4,
                   onSelected: (_) => onPenWidthChanged(4),
                 ),
@@ -539,7 +669,7 @@ class _ToolBar extends StatelessWidget {
                   onSelected: (_) => onPenWidthChanged(6),
                 ),
                 ChoiceChip(
-                  label: const Text('太め'),
+                  label: const Text('太い'),
                   selected: penWidth == 9,
                   onSelected: (_) => onPenWidthChanged(9),
                 ),
@@ -550,7 +680,7 @@ class _ToolBar extends StatelessWidget {
               child: OutlinedButton.icon(
                 onPressed: canUndo ? onUndo : null,
                 icon: const Icon(Icons.undo),
-                label: const Text('1つ戻る'),
+                label: const Text('1つ戻す'),
               ),
             ),
             SizedBox(
@@ -558,7 +688,7 @@ class _ToolBar extends StatelessWidget {
               child: OutlinedButton.icon(
                 onPressed: onClear,
                 icon: const Icon(Icons.delete_outline),
-                label: const Text('全消去'),
+                label: const Text('全部けす'),
               ),
             ),
             SizedBox(
@@ -566,7 +696,7 @@ class _ToolBar extends StatelessWidget {
               child: TextButton.icon(
                 onPressed: onEraserTap,
                 icon: const Icon(Icons.auto_fix_off),
-                label: const Text('消しゴム切替'),
+                label: const Text('消しゴム切り替え'),
               ),
             ),
           ],
@@ -689,13 +819,79 @@ class _WritingBoardPainter extends CustomPainter {
       canvas.drawLine(stroke.points[i], stroke.points[i + 1], paint);
     }
     if (stroke.points.length == 1) {
-      canvas.drawCircle(stroke.points.first, stroke.width / 2,
-          paint..style = PaintingStyle.fill);
+      canvas.drawCircle(
+        stroke.points.first,
+        stroke.width / 2,
+        paint..style = PaintingStyle.fill,
+      );
     }
   }
 
   @override
   bool shouldRepaint(covariant _WritingBoardPainter oldDelegate) {
     return true;
+  }
+}
+
+class _ErrorState extends StatelessWidget {
+  const _ErrorState({
+    required this.message,
+    required this.onRetry,
+    required this.onGradeSelect,
+  });
+
+  final String message;
+  final VoidCallback onRetry;
+  final VoidCallback onGradeSelect;
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: ConstrainedBox(
+        constraints: const BoxConstraints(maxWidth: 520),
+        child: Card(
+          child: Padding(
+            padding: const EdgeInsets.all(20),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Icon(Icons.warning_amber_rounded,
+                    size: 56, color: Colors.orange.shade700),
+                const SizedBox(height: 12),
+                Text(
+                  '問題データを読み込めませんでした',
+                  textAlign: TextAlign.center,
+                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                ),
+                const SizedBox(height: 12),
+                Text(
+                  message,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 16),
+                SizedBox(
+                  height: 56,
+                  child: FilledButton(
+                    onPressed: onRetry,
+                    child: const Text('もう一度読む'),
+                  ),
+                ),
+                const SizedBox(height: 10),
+                SizedBox(
+                  height: 56,
+                  child: OutlinedButton(
+                    onPressed: onGradeSelect,
+                    child: const Text('学年選択へ'),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }

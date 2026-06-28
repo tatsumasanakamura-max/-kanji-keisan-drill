@@ -4,6 +4,42 @@ enum QuestionSubject {
   math,
 }
 
+class GradeQuestionSet {
+  GradeQuestionSet({
+    required this.grade,
+    required this.label,
+    required this.kanjiReadingQuestions,
+    required this.kanjiWritingPrompts,
+    required this.mathQuestions,
+  });
+
+  final int grade;
+  final String label;
+  final List<KanjiReadingQuestion> kanjiReadingQuestions;
+  final List<KanjiWritingPrompt> kanjiWritingPrompts;
+  final List<MathQuestion> mathQuestions;
+
+  factory GradeQuestionSet.fromJson(Map<String, dynamic> json) {
+    return GradeQuestionSet(
+      grade: json['grade'] as int,
+      label: json['label'] as String,
+      kanjiReadingQuestions:
+          (json['kanjiReadingQuestions'] as List<dynamic>? ?? <dynamic>[])
+              .map((dynamic value) =>
+                  KanjiReadingQuestion.fromJson(value as Map<String, dynamic>))
+              .toList(),
+      kanjiWritingPrompts:
+          (json['kanjiWritingPrompts'] as List<dynamic>? ?? <dynamic>[])
+              .map((dynamic value) =>
+                  KanjiWritingPrompt.fromJson(value as Map<String, dynamic>))
+              .toList(),
+      mathQuestions: (json['mathQuestions'] as List<dynamic>? ?? <dynamic>[])
+          .map((dynamic value) => MathQuestion.fromJson(value as Map<String, dynamic>))
+          .toList(),
+    );
+  }
+}
+
 class KanjiReadingQuestion {
   KanjiReadingQuestion({
     required this.id,

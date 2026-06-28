@@ -104,3 +104,15 @@ flutter build windows
 - Added `web/404.html` so GitHub Pages can fall back to the Flutter app on direct route access
 - Updated `web/index.html` title and description to the app name
 - Documented the Pages URL in `README.md`
+
+## Grade-Specific Question Bank Session
+
+- Split the shared question bank into `assets/data/grades/grade_1.json` through `grade_9.json`
+- Added `assets/data/common_data.json` for the shared daily challenge, gacha, and encyclopedia content
+- Updated the repository to load questions by `selectedGrade`
+- Switched the reading, writing, and math screens to grade-specific random question order
+- Added stronger result highlighting for reading answers and larger touch targets for the math input flow
+- Updated the writing screen to reuse the new grade-specific bank and preserve the reward flow
+- Added the new asset directory to `pubspec.yaml`
+- Added a generator script at `tools/generate_questions.mjs` so the split can be recreated from the legacy sample file
+- Updated README and setup notes with the new file layout and iPad Safari check list

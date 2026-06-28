@@ -1,0 +1,950 @@
+{
+  "grade": 1,
+  "label": "小学1年生",
+  "kanjiReadingQuestions": [
+    {
+      "id": "kr-1-001",
+      "grade": 1,
+      "kanji": "日",
+      "reading": "ひ",
+      "meaning": "grade1-vocab-1",
+      "options": [
+        "ひ",
+        "みず",
+        "つち",
+        "た"
+      ],
+      "answerIndex": 0,
+      "explanation": "日は「ひ」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-002",
+      "grade": 1,
+      "kanji": "月",
+      "reading": "つき",
+      "meaning": "grade1-vocab-2",
+      "options": [
+        "き",
+        "やま",
+        "ひと",
+        "つき"
+      ],
+      "answerIndex": 3,
+      "explanation": "月は「つき」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-003",
+      "grade": 1,
+      "kanji": "火",
+      "reading": "ひ",
+      "meaning": "grade1-vocab-3",
+      "options": [
+        "かわ",
+        "くち",
+        "ひ",
+        "きん"
+      ],
+      "answerIndex": 2,
+      "explanation": "火は「ひ」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-004",
+      "grade": 1,
+      "kanji": "水",
+      "reading": "みず",
+      "meaning": "grade1-vocab-4",
+      "options": [
+        "て",
+        "みず",
+        "つち",
+        "た"
+      ],
+      "answerIndex": 1,
+      "explanation": "水は「みず」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-005",
+      "grade": 1,
+      "kanji": "木",
+      "reading": "き",
+      "meaning": "grade1-vocab-5",
+      "options": [
+        "き",
+        "やま",
+        "ひと",
+        "あし"
+      ],
+      "answerIndex": 0,
+      "explanation": "木は「き」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-006",
+      "grade": 1,
+      "kanji": "金",
+      "reading": "きん",
+      "meaning": "grade1-vocab-6",
+      "options": [
+        "かわ",
+        "くち",
+        "こ",
+        "きん"
+      ],
+      "answerIndex": 3,
+      "explanation": "金は「きん」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-007",
+      "grade": 1,
+      "kanji": "土",
+      "reading": "つち",
+      "meaning": "grade1-vocab-7",
+      "options": [
+        "て",
+        "おんな",
+        "つち",
+        "た"
+      ],
+      "answerIndex": 2,
+      "explanation": "土は「つち」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-008",
+      "grade": 1,
+      "kanji": "山",
+      "reading": "やま",
+      "meaning": "grade1-vocab-8",
+      "options": [
+        "おとこ",
+        "やま",
+        "ひと",
+        "あし"
+      ],
+      "answerIndex": 1,
+      "explanation": "山は「やま」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-009",
+      "grade": 1,
+      "kanji": "川",
+      "reading": "かわ",
+      "meaning": "grade1-vocab-9",
+      "options": [
+        "かわ",
+        "くち",
+        "こ",
+        "そら"
+      ],
+      "answerIndex": 0,
+      "explanation": "川は「かわ」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-010",
+      "grade": 1,
+      "kanji": "田",
+      "reading": "た",
+      "meaning": "grade1-vocab-10",
+      "options": [
+        "て",
+        "おんな",
+        "あめ",
+        "た"
+      ],
+      "answerIndex": 3,
+      "explanation": "田は「た」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-011",
+      "grade": 1,
+      "kanji": "人",
+      "reading": "ひと",
+      "meaning": "grade1-vocab-11",
+      "options": [
+        "おとこ",
+        "はな",
+        "ひと",
+        "あし"
+      ],
+      "answerIndex": 2,
+      "explanation": "人は「ひと」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-012",
+      "grade": 1,
+      "kanji": "口",
+      "reading": "くち",
+      "meaning": "grade1-vocab-12",
+      "options": [
+        "ひ",
+        "くち",
+        "こ",
+        "そら"
+      ],
+      "answerIndex": 1,
+      "explanation": "口は「くち」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-013",
+      "grade": 1,
+      "kanji": "手",
+      "reading": "て",
+      "meaning": "grade1-vocab-13",
+      "options": [
+        "て",
+        "おんな",
+        "あめ",
+        "つき"
+      ],
+      "answerIndex": 0,
+      "explanation": "手は「て」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-014",
+      "grade": 1,
+      "kanji": "足",
+      "reading": "あし",
+      "meaning": "grade1-vocab-14",
+      "options": [
+        "おとこ",
+        "はな",
+        "ひ",
+        "あし"
+      ],
+      "answerIndex": 3,
+      "explanation": "足は「あし」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-015",
+      "grade": 1,
+      "kanji": "子",
+      "reading": "こ",
+      "meaning": "grade1-vocab-15",
+      "options": [
+        "ひ",
+        "みず",
+        "こ",
+        "そら"
+      ],
+      "answerIndex": 2,
+      "explanation": "子は「こ」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-016",
+      "grade": 1,
+      "kanji": "女",
+      "reading": "おんな",
+      "meaning": "grade1-vocab-16",
+      "options": [
+        "き",
+        "おんな",
+        "あめ",
+        "つき"
+      ],
+      "answerIndex": 1,
+      "explanation": "女は「おんな」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-017",
+      "grade": 1,
+      "kanji": "男",
+      "reading": "おとこ",
+      "meaning": "grade1-vocab-17",
+      "options": [
+        "おとこ",
+        "はな",
+        "ひ",
+        "きん"
+      ],
+      "answerIndex": 0,
+      "explanation": "男は「おとこ」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-018",
+      "grade": 1,
+      "kanji": "空",
+      "reading": "そら",
+      "meaning": "grade1-vocab-18",
+      "options": [
+        "ひ",
+        "みず",
+        "つち",
+        "そら"
+      ],
+      "answerIndex": 3,
+      "explanation": "空は「そら」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-019",
+      "grade": 1,
+      "kanji": "雨",
+      "reading": "あめ",
+      "meaning": "grade1-vocab-19",
+      "options": [
+        "き",
+        "やま",
+        "あめ",
+        "つき"
+      ],
+      "answerIndex": 2,
+      "explanation": "雨は「あめ」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kr-1-020",
+      "grade": 1,
+      "kanji": "花",
+      "reading": "はな",
+      "meaning": "grade1-vocab-20",
+      "options": [
+        "かわ",
+        "はな",
+        "ひ",
+        "きん"
+      ],
+      "answerIndex": 1,
+      "explanation": "花は「はな」と読みます。",
+      "tags": [
+        "basic"
+      ]
+    }
+  ],
+  "kanjiWritingPrompts": [
+    {
+      "id": "kw-1-001",
+      "grade": 1,
+      "kanji": "日",
+      "reading": "ひ",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-002",
+      "grade": 1,
+      "kanji": "月",
+      "reading": "つき",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-003",
+      "grade": 1,
+      "kanji": "火",
+      "reading": "ひ",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-004",
+      "grade": 1,
+      "kanji": "水",
+      "reading": "みず",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-005",
+      "grade": 1,
+      "kanji": "木",
+      "reading": "き",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-006",
+      "grade": 1,
+      "kanji": "金",
+      "reading": "きん",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-007",
+      "grade": 1,
+      "kanji": "土",
+      "reading": "つち",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-008",
+      "grade": 1,
+      "kanji": "山",
+      "reading": "やま",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-009",
+      "grade": 1,
+      "kanji": "川",
+      "reading": "かわ",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-010",
+      "grade": 1,
+      "kanji": "田",
+      "reading": "た",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-011",
+      "grade": 1,
+      "kanji": "人",
+      "reading": "ひと",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-012",
+      "grade": 1,
+      "kanji": "口",
+      "reading": "くち",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-013",
+      "grade": 1,
+      "kanji": "手",
+      "reading": "て",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-014",
+      "grade": 1,
+      "kanji": "足",
+      "reading": "あし",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-015",
+      "grade": 1,
+      "kanji": "子",
+      "reading": "こ",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-016",
+      "grade": 1,
+      "kanji": "女",
+      "reading": "おんな",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-017",
+      "grade": 1,
+      "kanji": "男",
+      "reading": "おとこ",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-018",
+      "grade": 1,
+      "kanji": "空",
+      "reading": "そら",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-019",
+      "grade": 1,
+      "kanji": "雨",
+      "reading": "あめ",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "kw-1-020",
+      "grade": 1,
+      "kanji": "花",
+      "reading": "はな",
+      "strokeCount": 5,
+      "hint": "大きく、まっすぐ、ていねいに書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "basic"
+      ]
+    }
+  ],
+  "mathQuestions": [
+    {
+      "id": "md-1-001",
+      "grade": 1,
+      "expression": "3 + 2",
+      "answer": 5,
+      "options": [
+        5,
+        3,
+        4,
+        6
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 5 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-002",
+      "grade": 1,
+      "expression": "4 + 1",
+      "answer": 5,
+      "options": [
+        4,
+        6,
+        7,
+        5
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 5 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-003",
+      "grade": 1,
+      "expression": "6 - 1",
+      "answer": 5,
+      "options": [
+        5,
+        7,
+        8,
+        6
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 5 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-004",
+      "grade": 1,
+      "expression": "2 + 3",
+      "answer": 5,
+      "options": [
+        7,
+        5,
+        9,
+        8
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 5 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-005",
+      "grade": 1,
+      "expression": "7 - 2",
+      "answer": 5,
+      "options": [
+        9,
+        8,
+        5,
+        3
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 5 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-006",
+      "grade": 1,
+      "expression": "5 + 4",
+      "answer": 9,
+      "options": [
+        7,
+        8,
+        13,
+        9
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 9 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-007",
+      "grade": 1,
+      "expression": "8 - 3",
+      "answer": 5,
+      "options": [
+        5,
+        6,
+        4,
+        3
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 5 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-008",
+      "grade": 1,
+      "expression": "9 - 4",
+      "answer": 5,
+      "options": [
+        4,
+        7,
+        5,
+        6
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 5 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-009",
+      "grade": 1,
+      "expression": "1 + 8",
+      "answer": 9,
+      "options": [
+        9,
+        11,
+        10,
+        12
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 9 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-010",
+      "grade": 1,
+      "expression": "10 - 6",
+      "answer": 4,
+      "options": [
+        6,
+        8,
+        7,
+        4
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 4 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-011",
+      "grade": 1,
+      "expression": "2 + 7",
+      "answer": 9,
+      "options": [
+        13,
+        7,
+        9,
+        12
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 9 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-012",
+      "grade": 1,
+      "expression": "4 + 3",
+      "answer": 7,
+      "options": [
+        6,
+        7,
+        11,
+        5
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 7 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-013",
+      "grade": 1,
+      "expression": "9 - 1",
+      "answer": 8,
+      "options": [
+        8,
+        6,
+        7,
+        9
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 8 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-014",
+      "grade": 1,
+      "expression": "6 + 2",
+      "answer": 8,
+      "options": [
+        7,
+        9,
+        10,
+        8
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 8 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-015",
+      "grade": 1,
+      "expression": "5 - 2",
+      "answer": 3,
+      "options": [
+        3,
+        5,
+        6,
+        4
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 3 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-016",
+      "grade": 1,
+      "expression": "3 + 6",
+      "answer": 9,
+      "options": [
+        11,
+        9,
+        13,
+        12
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 9 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-017",
+      "grade": 1,
+      "expression": "7 - 5",
+      "answer": 2,
+      "options": [
+        6,
+        5,
+        2,
+        0
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 2 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-018",
+      "grade": 1,
+      "expression": "8 - 6",
+      "answer": 2,
+      "options": [
+        0,
+        1,
+        6,
+        2
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 2 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-019",
+      "grade": 1,
+      "expression": "4 + 5",
+      "answer": 9,
+      "options": [
+        9,
+        10,
+        8,
+        7
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 9 です。",
+      "tags": [
+        "basic"
+      ]
+    },
+    {
+      "id": "md-1-020",
+      "grade": 1,
+      "expression": "10 - 7",
+      "answer": 3,
+      "options": [
+        2,
+        5,
+        3,
+        4
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 3 です。",
+      "tags": [
+        "basic"
+      ]
+    }
+  ]
+}

@@ -36,14 +36,18 @@ class GameController extends ChangeNotifier {
   ProgressState get progressState => _progressState;
   bool get isInitialized => _initialized;
 
-  List<KanjiReadingQuestion> get readingQuestions =>
-      QuestionRepository.instance.kanjiReading(grade: _profile.selectedGrade);
+  Future<GradeQuestionSet> loadGradeQuestions(int grade) {
+    return QuestionRepository.instance.loadGrade(grade);
+  }
 
-  List<MathQuestion> get mathQuestions =>
-      QuestionRepository.instance.mathQuestions(grade: _profile.selectedGrade);
+  String gradeLabelFor(int grade) {
+    if (grade <= 6) {
+      return '小学 $grade 年生';
+    }
+    return '中学 ${grade - 6} 年生';
+  }
 
-  List<KanjiWritingPrompt> get writingPrompts =>
-      QuestionRepository.instance.kanjiWriting(grade: _profile.selectedGrade);
+  String get selectedGradeLabel => gradeLabelFor(_profile.selectedGrade);
 
   List<DailyChallenge> get dailyChallenges {
     if (_progressState.dailyChallenges.isNotEmpty) {
@@ -110,8 +114,12 @@ class GameController extends ChangeNotifier {
     );
   }
 
-  Future<QuizResult> answerMath(MathQuestion question, int selectedIndex) {
-    final correct = selectedIndex == question.options.indexOf(question.answer);
+  Future<QuizResult> answerMath(MathQuestion question, String responseText) {
+    final parsedAnswer = _parseMathAnswer(responseText);
+    if (parsedAnswer == null) {
+      throw FormatException('invalid math answer');
+    }
+    final correct = _numbersMatch(parsedAnswer, question.answer);
     return _applyAnswer(
       subject: 'math_drill',
       questionId: question.id,
@@ -352,5 +360,30 @@ class GameController extends ChangeNotifier {
     await AppStorage.instance.saveProfile(_profile);
     await AppStorage.instance.saveProgressState(_progressState);
     notifyListeners();
+  }
+
+  num? _parseMathAnswer(String responseText) {
+    final normalized = responseText.trim();
+    if (normalized.isEmpty) {
+      return null;
+    }
+    if (normalized.contains('/')) {
+      final parts = normalized.split('/');
+      if (parts.length != 2) {
+        return null;
+      }
+      final numerator = num.tryParse(parts[0].trim());
+      final denominator = num.tryParse(parts[1].trim());
+      if (numerator == null || denominator == null || denominator == 0) {
+        return null;
+      }
+      return numerator / denominator;
+    }
+    return num.tryParse(normalized);
+  }
+
+  bool _numbersMatch(num a, num b) {
+    final diff = (a.toDouble() - b.toDouble()).abs();
+    return diff < 0.000001;
   }
 }

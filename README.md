@@ -108,3 +108,29 @@ GitHub Actions 側では `flutter build web --base-href "/-kanji-keisan-drill/"`
 - Expanded `assets/data/sample_questions.json` to 20 questions per grade for kanji reading, kanji writing, and math
 - Fixed the math model to accept integer and decimal answers
 - Verified the expanded dataset in Chrome using `flutter run -d chrome`
+
+## 学年別JSON / ランダム出題 / ハイライト強化
+
+- 問題データを学年別JSONに分離しました
+- 新しい配置は `assets/data/grades/grade_1.json` から `grade_9.json` です
+- 学年対応は `小1〜小6 = grade_1〜grade_6`、`中1〜中3 = grade_7〜grade_9` です
+- 共通データは `assets/data/common_data.json` に分けました
+- アプリ本体は学年別JSONを読み込み、学年に応じた問題だけを出題します
+- 漢字読み、漢字書き、計算ドリルはそれぞれ学年内でランダム出題します
+- 1周したら再シャッフルし、同じ問題が連続しにくいようにしました
+- 漢字読みは選択直後に正誤を大きく表示し、不正解時は正解選択肢も緑で示します
+- 計算ドリルは大きい入力欄と送信ボタンに変更し、回答後は次の問題ボタンを大きく表示します
+- 漢字書きは学年別JSONからランダム出題し、できたボタン後に次へ進めます
+- iPad Safari向けに、ボタン、余白、結果表示を大きめに調整しました
+
+## iPad Safari 確認項目
+
+- 小1で `grade_1.json` だけが参照される
+- 小5で `grade_5.json` だけが参照される
+- 中3で `grade_9.json` だけが参照される
+- 漢字読み、漢字書き、計算ドリルの問題順が毎回ランダムになる
+- 回答時の正解・不正解ハイライトが明確に見える
+- 不正解時に正解も分かる
+- ポイント、経験値、コンボ、苦手リスト、成績画面が引き続き更新される
+- `flutter build web` が成功する
+- GitHub Pages 公開版でも動作する

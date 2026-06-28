@@ -1,0 +1,950 @@
+{
+  "grade": 8,
+  "label": "中学2年生",
+  "kanjiReadingQuestions": [
+    {
+      "id": "kr-8-001",
+      "grade": 8,
+      "kanji": "経済",
+      "reading": "けいざい",
+      "meaning": "grade8-vocab-1",
+      "options": [
+        "けいざい",
+        "きょうきゅう",
+        "しえん",
+        "ひりつ"
+      ],
+      "answerIndex": 0,
+      "explanation": "経済は「けいざい」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-002",
+      "grade": 8,
+      "kanji": "政策",
+      "reading": "せいさく",
+      "meaning": "grade8-vocab-2",
+      "options": [
+        "けんり",
+        "こうぞう",
+        "へんか",
+        "せいさく"
+      ],
+      "answerIndex": 3,
+      "explanation": "政策は「せいさく」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-003",
+      "grade": 8,
+      "kanji": "需要",
+      "reading": "じゅよう",
+      "meaning": "grade8-vocab-3",
+      "options": [
+        "にんしょう",
+        "じぞく",
+        "じゅよう",
+        "ぎむ"
+      ],
+      "answerIndex": 2,
+      "explanation": "需要は「じゅよう」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-004",
+      "grade": 8,
+      "kanji": "供給",
+      "reading": "きょうきゅう",
+      "meaning": "grade8-vocab-4",
+      "options": [
+        "ちゅうしょう",
+        "きょうきゅう",
+        "しえん",
+        "ひりつ"
+      ],
+      "answerIndex": 1,
+      "explanation": "供給は「きょうきゅう」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-005",
+      "grade": 8,
+      "kanji": "権利",
+      "reading": "けんり",
+      "meaning": "grade8-vocab-5",
+      "options": [
+        "けんり",
+        "こうぞう",
+        "へんか",
+        "ぐたい"
+      ],
+      "answerIndex": 0,
+      "explanation": "権利は「けんり」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-006",
+      "grade": 8,
+      "kanji": "義務",
+      "reading": "ぎむ",
+      "meaning": "grade8-vocab-6",
+      "options": [
+        "にんしょう",
+        "じぞく",
+        "ろんてん",
+        "ぎむ"
+      ],
+      "answerIndex": 3,
+      "explanation": "義務は「ぎむ」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-007",
+      "grade": 8,
+      "kanji": "支援",
+      "reading": "しえん",
+      "meaning": "grade8-vocab-7",
+      "options": [
+        "ちゅうしょう",
+        "かんけい",
+        "しえん",
+        "ひりつ"
+      ],
+      "answerIndex": 2,
+      "explanation": "支援は「しえん」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-008",
+      "grade": 8,
+      "kanji": "構造",
+      "reading": "こうぞう",
+      "meaning": "grade8-vocab-8",
+      "options": [
+        "こうりゅう",
+        "こうぞう",
+        "へんか",
+        "ぐたい"
+      ],
+      "answerIndex": 1,
+      "explanation": "構造は「こうぞう」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-009",
+      "grade": 8,
+      "kanji": "認証",
+      "reading": "にんしょう",
+      "meaning": "grade8-vocab-9",
+      "options": [
+        "にんしょう",
+        "じぞく",
+        "ろんてん",
+        "こうか"
+      ],
+      "answerIndex": 0,
+      "explanation": "認証は「にんしょう」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-010",
+      "grade": 8,
+      "kanji": "比率",
+      "reading": "ひりつ",
+      "meaning": "grade8-vocab-10",
+      "options": [
+        "ちゅうしょう",
+        "かんけい",
+        "かくにん",
+        "ひりつ"
+      ],
+      "answerIndex": 3,
+      "explanation": "比率は「ひりつ」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-011",
+      "grade": 8,
+      "kanji": "変化",
+      "reading": "へんか",
+      "meaning": "grade8-vocab-11",
+      "options": [
+        "こうりゅう",
+        "じっけん",
+        "へんか",
+        "ぐたい"
+      ],
+      "answerIndex": 2,
+      "explanation": "変化は「へんか」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-012",
+      "grade": 8,
+      "kanji": "持続",
+      "reading": "じぞく",
+      "meaning": "grade8-vocab-12",
+      "options": [
+        "けいざい",
+        "じぞく",
+        "ろんてん",
+        "こうか"
+      ],
+      "answerIndex": 1,
+      "explanation": "持続は「じぞく」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-013",
+      "grade": 8,
+      "kanji": "抽象",
+      "reading": "ちゅうしょう",
+      "meaning": "grade8-vocab-13",
+      "options": [
+        "ちゅうしょう",
+        "かんけい",
+        "かくにん",
+        "せいさく"
+      ],
+      "answerIndex": 0,
+      "explanation": "抽象は「ちゅうしょう」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-014",
+      "grade": 8,
+      "kanji": "具体",
+      "reading": "ぐたい",
+      "meaning": "grade8-vocab-14",
+      "options": [
+        "こうりゅう",
+        "じっけん",
+        "じゅよう",
+        "ぐたい"
+      ],
+      "answerIndex": 3,
+      "explanation": "具体は「ぐたい」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-015",
+      "grade": 8,
+      "kanji": "論点",
+      "reading": "ろんてん",
+      "meaning": "grade8-vocab-15",
+      "options": [
+        "けいざい",
+        "きょうきゅう",
+        "ろんてん",
+        "こうか"
+      ],
+      "answerIndex": 2,
+      "explanation": "論点は「ろんてん」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-016",
+      "grade": 8,
+      "kanji": "関係",
+      "reading": "かんけい",
+      "meaning": "grade8-vocab-16",
+      "options": [
+        "けんり",
+        "かんけい",
+        "かくにん",
+        "せいさく"
+      ],
+      "answerIndex": 1,
+      "explanation": "関係は「かんけい」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-017",
+      "grade": 8,
+      "kanji": "交流",
+      "reading": "こうりゅう",
+      "meaning": "grade8-vocab-17",
+      "options": [
+        "こうりゅう",
+        "じっけん",
+        "じゅよう",
+        "ぎむ"
+      ],
+      "answerIndex": 0,
+      "explanation": "交流は「こうりゅう」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-018",
+      "grade": 8,
+      "kanji": "効果",
+      "reading": "こうか",
+      "meaning": "grade8-vocab-18",
+      "options": [
+        "けいざい",
+        "きょうきゅう",
+        "しえん",
+        "こうか"
+      ],
+      "answerIndex": 3,
+      "explanation": "効果は「こうか」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-019",
+      "grade": 8,
+      "kanji": "確認",
+      "reading": "かくにん",
+      "meaning": "grade8-vocab-19",
+      "options": [
+        "けんり",
+        "こうぞう",
+        "かくにん",
+        "せいさく"
+      ],
+      "answerIndex": 2,
+      "explanation": "確認は「かくにん」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kr-8-020",
+      "grade": 8,
+      "kanji": "実験",
+      "reading": "じっけん",
+      "meaning": "grade8-vocab-20",
+      "options": [
+        "にんしょう",
+        "じっけん",
+        "じゅよう",
+        "ぎむ"
+      ],
+      "answerIndex": 1,
+      "explanation": "実験は「じっけん」と読みます。",
+      "tags": [
+        "middle-school"
+      ]
+    }
+  ],
+  "kanjiWritingPrompts": [
+    {
+      "id": "kw-8-001",
+      "grade": 8,
+      "kanji": "経済",
+      "reading": "けいざい",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-002",
+      "grade": 8,
+      "kanji": "政策",
+      "reading": "せいさく",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-003",
+      "grade": 8,
+      "kanji": "需要",
+      "reading": "じゅよう",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-004",
+      "grade": 8,
+      "kanji": "供給",
+      "reading": "きょうきゅう",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-005",
+      "grade": 8,
+      "kanji": "権利",
+      "reading": "けんり",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-006",
+      "grade": 8,
+      "kanji": "義務",
+      "reading": "ぎむ",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-007",
+      "grade": 8,
+      "kanji": "支援",
+      "reading": "しえん",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-008",
+      "grade": 8,
+      "kanji": "構造",
+      "reading": "こうぞう",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-009",
+      "grade": 8,
+      "kanji": "認証",
+      "reading": "にんしょう",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-010",
+      "grade": 8,
+      "kanji": "比率",
+      "reading": "ひりつ",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-011",
+      "grade": 8,
+      "kanji": "変化",
+      "reading": "へんか",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-012",
+      "grade": 8,
+      "kanji": "持続",
+      "reading": "じぞく",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-013",
+      "grade": 8,
+      "kanji": "抽象",
+      "reading": "ちゅうしょう",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-014",
+      "grade": 8,
+      "kanji": "具体",
+      "reading": "ぐたい",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-015",
+      "grade": 8,
+      "kanji": "論点",
+      "reading": "ろんてん",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-016",
+      "grade": 8,
+      "kanji": "関係",
+      "reading": "かんけい",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-017",
+      "grade": 8,
+      "kanji": "交流",
+      "reading": "こうりゅう",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-018",
+      "grade": 8,
+      "kanji": "効果",
+      "reading": "こうか",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-019",
+      "grade": 8,
+      "kanji": "確認",
+      "reading": "かくにん",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "kw-8-020",
+      "grade": 8,
+      "kanji": "実験",
+      "reading": "じっけん",
+      "strokeCount": 11,
+      "hint": "画の位置と長さをそろえて、くずれないように書こう。",
+      "strokeOrderNotes": "上から下、左から右を意識して練習しよう。",
+      "tags": [
+        "middle-school"
+      ]
+    }
+  ],
+  "mathQuestions": [
+    {
+      "id": "md-8-001",
+      "grade": 8,
+      "expression": "x + 15 = 42",
+      "answer": 27,
+      "options": [
+        27,
+        19,
+        21,
+        33
+      ],
+      "operation": "equation",
+      "explanation": "答えは 27 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-002",
+      "grade": 8,
+      "expression": "3x = 21",
+      "answer": 7,
+      "options": [
+        1,
+        13,
+        15,
+        7
+      ],
+      "operation": "equation",
+      "explanation": "答えは 7 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-003",
+      "grade": 8,
+      "expression": "2x + 5 = 19",
+      "answer": 7,
+      "options": [
+        7,
+        15,
+        17,
+        13
+      ],
+      "operation": "equation",
+      "explanation": "答えは 7 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-004",
+      "grade": 8,
+      "expression": "x - 8 = 13",
+      "answer": 21,
+      "options": [
+        29,
+        21,
+        33,
+        31
+      ],
+      "operation": "equation",
+      "explanation": "答えは 21 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-005",
+      "grade": 8,
+      "expression": "4x = 36",
+      "answer": 9,
+      "options": [
+        21,
+        19,
+        9,
+        1
+      ],
+      "operation": "equation",
+      "explanation": "答えは 9 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-006",
+      "grade": 8,
+      "expression": "y / 5 = 6",
+      "answer": 30,
+      "options": [
+        22,
+        24,
+        42,
+        30
+      ],
+      "operation": "equation",
+      "explanation": "答えは 30 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-007",
+      "grade": 8,
+      "expression": "12 + x = 50",
+      "answer": 38,
+      "options": [
+        38,
+        44,
+        32,
+        30
+      ],
+      "operation": "equation",
+      "explanation": "答えは 38 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-008",
+      "grade": 8,
+      "expression": "2(x + 3) = 18",
+      "answer": 6,
+      "options": [
+        0,
+        14,
+        6,
+        12
+      ],
+      "operation": "equation",
+      "explanation": "答えは 6 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-009",
+      "grade": 8,
+      "expression": "x / 4 = 9",
+      "answer": 36,
+      "options": [
+        36,
+        44,
+        42,
+        46
+      ],
+      "operation": "equation",
+      "explanation": "答えは 36 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-010",
+      "grade": 8,
+      "expression": "5x - 10 = 20",
+      "answer": 6,
+      "options": [
+        14,
+        18,
+        16,
+        6
+      ],
+      "operation": "equation",
+      "explanation": "答えは 6 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-011",
+      "grade": 8,
+      "expression": "30% of 90",
+      "answer": 27,
+      "options": [
+        39,
+        19,
+        27,
+        37
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 27 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-012",
+      "grade": 8,
+      "expression": "1.2 × 5",
+      "answer": 6,
+      "options": [
+        0,
+        6,
+        18,
+        -2
+      ],
+      "operation": "multiplication",
+      "explanation": "答えは 6 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-013",
+      "grade": 8,
+      "expression": "7.5 - 2.8",
+      "answer": 4.7,
+      "options": [
+        4.7,
+        -3.3,
+        -1.2999999999999998,
+        10.7
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 4.7 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-014",
+      "grade": 8,
+      "expression": "(8 + 4) × 3",
+      "answer": 36,
+      "options": [
+        30,
+        42,
+        44,
+        36
+      ],
+      "operation": "multiplication",
+      "explanation": "答えは 36 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-015",
+      "grade": 8,
+      "expression": "64 ÷ 8 + 2",
+      "answer": 10,
+      "options": [
+        10,
+        18,
+        20,
+        16
+      ],
+      "operation": "division",
+      "explanation": "答えは 10 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-016",
+      "grade": 8,
+      "expression": "0.8 + 0.6",
+      "answer": 1.4,
+      "options": [
+        9.4,
+        1.4,
+        13.4,
+        11.4
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 1.4 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-017",
+      "grade": 8,
+      "expression": "3/8 + 1/8",
+      "answer": 0.5,
+      "options": [
+        12.5,
+        10.5,
+        0.5,
+        -7.5
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 0.5 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-018",
+      "grade": 8,
+      "expression": "9.6 ÷ 3",
+      "answer": 3.2,
+      "options": [
+        -4.8,
+        -2.8,
+        15.2,
+        3.2
+      ],
+      "operation": "division",
+      "explanation": "答えは 3.2 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-019",
+      "grade": 8,
+      "expression": "15 - 4.5",
+      "answer": 10.5,
+      "options": [
+        10.5,
+        16.5,
+        4.5,
+        2.5
+      ],
+      "operation": "mixed",
+      "explanation": "答えは 10.5 です。",
+      "tags": [
+        "middle-school"
+      ]
+    },
+    {
+      "id": "md-8-020",
+      "grade": 8,
+      "expression": "2.4 × 2",
+      "answer": 4.8,
+      "options": [
+        -1.2000000000000002,
+        12.8,
+        4.8,
+        10.8
+      ],
+      "operation": "multiplication",
+      "explanation": "答えは 4.8 です。",
+      "tags": [
+        "middle-school"
+      ]
+    }
+  ]
+}

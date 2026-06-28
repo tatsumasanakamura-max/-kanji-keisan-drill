@@ -1,0 +1,63 @@
+{
+  "daily_challenges": [
+    {
+      "id": "dc-001",
+      "title": "今日の5問チャレンジ",
+      "description": "漢字読み3問と計算2問を正解しよう。",
+      "target": 5,
+      "rewardPoints": 20,
+      "rewardExp": 30,
+      "tags": [
+        "mixed"
+      ]
+    },
+    {
+      "id": "dc-002",
+      "title": "書き練習集中",
+      "description": "漢字書き練習を3回クリアしよう。",
+      "target": 3,
+      "rewardPoints": 25,
+      "rewardExp": 35,
+      "tags": [
+        "writing"
+      ]
+    }
+  ],
+  "gacha_rewards": [
+    {
+      "id": "gr-001",
+      "name": "日めくりメダル",
+      "rarity": "common",
+      "description": "ちいさな努力の証です。",
+      "pointsCost": 10
+    },
+    {
+      "id": "gr-002",
+      "name": "学習バッジ",
+      "rarity": "rare",
+      "description": "連続正解で手に入るかも。",
+      "pointsCost": 30
+    },
+    {
+      "id": "gr-003",
+      "name": "かがやき宝石",
+      "rarity": "superRare",
+      "description": "高得点でねらえます。",
+      "pointsCost": 100
+    }
+  ],
+  "encyclopedia": [
+    {
+      "id": "enc-001",
+      "title": "コンボ",
+      "body": "連続正解でコンボがつながると、もらえるポイントが少し増えます。",
+      "category": "system"
+    },
+    {
+      "id": "enc-002",
+      "title": "経験値",
+      "body": "学習を進めると経験値がたまり、レベルが上がります。",
+      "category": "system"
+    }
+  ]
+}
