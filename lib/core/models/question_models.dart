@@ -88,6 +88,11 @@ class DrillQuestion {
     required this.meaning,
     required this.example,
     required this.tags,
+    this.prompt = '',
+    this.sentence = '',
+    this.target = '',
+    this.answerText = '',
+    this.reading = '',
     this.mnemonic = '',
     this.synonyms = const <String>[],
     this.antonyms = const <String>[],
@@ -104,11 +109,36 @@ class DrillQuestion {
   final String meaning;
   final String example;
   final List<String> tags;
+  final String prompt;
+  final String sentence;
+  final String target;
+  final String answerText;
+  final String reading;
   final String mnemonic;
   final List<String> synonyms;
   final List<String> antonyms;
 
   String get answerLabel => choices[answer];
+  String get displayPrompt {
+    if (prompt.trim().isNotEmpty) {
+      return prompt;
+    }
+    return switch (type) {
+      QuestionType.reading => '線を引いた言葉の読みを選びなさい。',
+      QuestionType.writing => '線を引いた言葉を漢字で書きなさい。',
+      QuestionType.compound => '文に合うように、□に入る漢字を選びなさい。',
+      QuestionType.sentence => '文の意味に合う言葉を選びなさい。',
+      QuestionType.homophone => '文の意味に合う漢字を選びなさい。',
+      QuestionType.opposite => '線を引いた言葉と反対の意味の言葉を選びなさい。',
+      QuestionType.synonym => '線を引いた言葉と意味が近い言葉を選びなさい。',
+      QuestionType.yojijukugo => '文に合う四字熟語を選びなさい。',
+      QuestionType.radical => '線を引いた漢字の部首を選びなさい。',
+      QuestionType.correction => '正しい表記を選びなさい。',
+    };
+  }
+
+  String get displaySentence =>
+      sentence.trim().isNotEmpty ? sentence : question;
 
   factory DrillQuestion.fromJson(Map<String, dynamic> json) {
     final choices = (json['choices'] as List<dynamic>).cast<String>();
@@ -128,6 +158,11 @@ class DrillQuestion {
       meaning: json['meaning'] as String? ?? '',
       example: json['example'] as String? ?? '',
       tags: (json['tags'] as List<dynamic>? ?? <dynamic>[]).cast<String>(),
+      prompt: json['prompt'] as String? ?? '',
+      sentence: json['sentence'] as String? ?? '',
+      target: json['target'] as String? ?? '',
+      answerText: json['answer_text'] as String? ?? '',
+      reading: json['reading'] as String? ?? '',
       mnemonic: json['mnemonic'] as String? ?? '',
       synonyms:
           (json['synonyms'] as List<dynamic>? ?? <dynamic>[]).cast<String>(),
@@ -143,6 +178,11 @@ class DrillQuestion {
         'difficulty': difficulty,
         'type': type.code,
         'question': question,
+        if (prompt.isNotEmpty) 'prompt': prompt,
+        if (sentence.isNotEmpty) 'sentence': sentence,
+        if (target.isNotEmpty) 'target': target,
+        if (answerText.isNotEmpty) 'answer_text': answerText,
+        if (reading.isNotEmpty) 'reading': reading,
         'choices': choices,
         'answer': answer,
         'meaning': meaning,
@@ -225,7 +265,11 @@ class KanjiReadingQuestion {
     return KanjiReadingQuestion(
       id: question.id,
       grade: question.grade,
-      kanji: question.question,
+      kanji: question.answerText.isNotEmpty
+          ? question.answerText
+          : question.target.isNotEmpty
+              ? question.target
+              : question.question,
       reading: question.answerLabel,
       meaning: question.meaning,
       options: question.choices,
@@ -247,6 +291,9 @@ class KanjiWritingPrompt {
     required this.hint,
     required this.strokeOrderNotes,
     required this.tags,
+    required this.prompt,
+    required this.sentence,
+    required this.target,
   });
 
   final String id;
@@ -257,13 +304,18 @@ class KanjiWritingPrompt {
   final String hint;
   final String strokeOrderNotes;
   final List<String> tags;
+  final String prompt;
+  final String sentence;
+  final String target;
 
   factory KanjiWritingPrompt.fromDrillQuestion(DrillQuestion question) {
     return KanjiWritingPrompt(
       id: question.id,
       grade: question.grade,
-      kanji: question.answerLabel,
-      reading: question.question,
+      kanji: question.answerText.isNotEmpty
+          ? question.answerText
+          : question.answerLabel,
+      reading: question.target.isNotEmpty ? question.target : question.question,
       strokeCount: int.tryParse(
             question.tags
                 .firstWhere((tag) => tag.startsWith('strokes:'),
@@ -275,6 +327,9 @@ class KanjiWritingPrompt {
       hint: question.meaning,
       strokeOrderNotes: question.example,
       tags: question.tags,
+      prompt: question.displayPrompt,
+      sentence: question.displaySentence,
+      target: question.target,
     );
   }
 }

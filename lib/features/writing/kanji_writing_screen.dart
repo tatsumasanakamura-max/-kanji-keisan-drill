@@ -9,6 +9,7 @@ import '../../core/models/question_models.dart';
 import '../../core/state/game_controller.dart';
 import '../../core/state/game_scope.dart';
 import '../shared/app_scaffold.dart';
+import '../shared/context_question_text.dart';
 
 enum _WritingTool { pen, eraser }
 
@@ -513,6 +514,14 @@ class _PromptPanel extends StatelessWidget {
               style: Theme.of(context).textTheme.titleMedium,
             ),
             const SizedBox(height: 12),
+            if (prompt.target.isNotEmpty && prompt.sentence.isNotEmpty) ...[
+              ContextQuestionText(
+                prompt: prompt.prompt,
+                sentence: prompt.sentence,
+                target: prompt.target,
+              ),
+              const SizedBox(height: 12),
+            ],
             Center(
               child: FittedBox(
                 fit: BoxFit.scaleDown,

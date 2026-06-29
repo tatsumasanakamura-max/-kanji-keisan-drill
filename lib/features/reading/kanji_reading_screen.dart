@@ -6,6 +6,7 @@ import '../../core/models/question_models.dart';
 import '../../core/state/game_controller.dart';
 import '../../core/state/game_scope.dart';
 import '../shared/app_scaffold.dart';
+import '../shared/context_question_text.dart';
 
 class KanjiReadingScreen extends StatefulWidget {
   const KanjiReadingScreen({super.key});
@@ -271,12 +272,13 @@ class _QuestionCard extends StatelessWidget {
           children: [
             _TypeChip(type: question.type),
             const SizedBox(height: 12),
-            Text(
-              question.question,
-              style: Theme.of(context)
-                  .textTheme
-                  .displaySmall
-                  ?.copyWith(fontWeight: FontWeight.bold),
+            ContextQuestionText(
+              prompt: question.displayPrompt,
+              sentence: question.displaySentence,
+              target: question.target,
+              reading: question.type == QuestionType.homophone
+                  ? question.reading
+                  : null,
             ),
             const SizedBox(height: 12),
             _ResultBanner(text: summaryText, correct: feedback?.correct),

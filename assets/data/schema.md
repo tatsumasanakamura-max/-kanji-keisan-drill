@@ -17,8 +17,13 @@ Kanji question format:
   "difficulty": 1,
   "type": "reading",
   "question": "",
+  "prompt": "",
+  "sentence": "",
+  "target": "",
   "choices": [],
   "answer": 0,
+  "answer_text": "",
+  "reading": "",
   "meaning": "",
   "example": "",
   "mnemonic": "",
@@ -30,3 +35,14 @@ Kanji question format:
 
 `type` is enum-managed in Dart by `QuestionType`.
 
+For new `reading`, `writing`, `compound`, `sentence`, `homophone`, `opposite`,
+and `synonym` questions, use context-question fields:
+
+- `prompt`: fixed instruction for the question type.
+- `sentence`: natural sentence shown to the learner.
+- `target`: exact text inside `sentence` to bold and underline.
+- `question`: duplicate `sentence` for backward compatibility.
+- `answer_text`: required for `writing` and `compound`.
+- `reading`: required for `homophone`.
+
+Legacy data with only `question` is still valid for backward compatibility.
