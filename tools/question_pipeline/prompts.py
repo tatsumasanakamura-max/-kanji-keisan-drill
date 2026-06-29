@@ -13,7 +13,7 @@ SCHEMA_TEXT = """Each question must keep the existing base fields:
   "kanken": integer,
   "difficulty": integer from 1 to 5,
   "type": one of CATEGORY_LIST,
-  "question": "string",
+  "question": "string, duplicate of sentence for backward compatibility",
   "prompt": "string",
   "sentence": "string",
   "target": "string",
@@ -32,56 +32,85 @@ SCHEMA_TEXT = """Each question must keep the existing base fields:
 
 TYPE_RULES = {
     "reading": [
-        "Purpose: answer the reading of the underlined kanji word in a sentence.",
-        "question and sentence must both be the natural sentence body only.",
-        "target must be the exact kanji word inside sentence.",
-        "choices must be readings.",
+        "Answer the reading of the underlined kanji word in a natural sentence.",
+        "target must exactly match the kanji word inside sentence.",
+        "choices must be plausible readings, but only one is correct.",
     ],
     "writing": [
-        "Purpose: convert the underlined hiragana word in a sentence to kanji.",
-        "target must be the exact hiragana word inside sentence.",
-        "answer_text must be the correct kanji form.",
-        "choices must be kanji words.",
+        "Convert the underlined hiragana word in context to kanji.",
+        "target must exactly match the hiragana word inside sentence.",
+        "answer_text is the correct kanji word.",
+        "choices are kanji words; avoid obviously fake compounds.",
     ],
     "compound": [
-        "Purpose: complete the compound word in context.",
-        "sentence must contain a word with □.",
-        "target must include □, such as 山□.",
-        "answer_text must be the completed compound.",
+        "Complete a compound word from context.",
+        "sentence contains a word with the placeholder □.",
+        "target contains □, such as 山□ or □業.",
+        "answer_text is the completed compound.",
         "choices must be single real kanji characters.",
     ],
     "sentence": [
-        "Purpose: choose the word that fits the sentence meaning.",
-        "sentence must contain target placeholder such as ○○.",
-        "choices must have the same writing level; do not mix kanji and hiragana.",
-        "The completed sentence must be natural Japanese.",
+        "Choose the word that fits the sentence meaning.",
+        "sentence contains the placeholder target such as ○○.",
+        "choices must have the same part of speech and writing level.",
+        "Do not mix kanji and hiragana writing levels in choices.",
     ],
     "homophone": [
-        "Purpose: choose the correct kanji from context for the same reading.",
-        "reading must be present.",
-        "sentence must contain target placeholder such as ○.",
-        "choices must be real kanji with the same reading.",
+        "Choose the correct kanji/word with the same reading from context.",
+        "reading is required.",
+        "choices must share the same reading.",
+        "Do not make this merely a compound-completion question.",
+        "The sentence context must make only one homophone correct.",
     ],
     "opposite": [
-        "Purpose: choose the antonym of the underlined word in the sentence.",
-        "target must be the exact word inside sentence.",
+        "Choose the antonym of the underlined target word.",
+        "target must appear naturally inside sentence.",
         "choices must have the same part of speech.",
-        "Use natural antonyms.",
+        "Avoid explanatory phrases such as 'the opposite result'.",
     ],
     "synonym": [
-        "Purpose: choose a word with a similar meaning to the underlined word.",
-        "target must be the exact word inside sentence.",
+        "Choose a genuine near-synonym of the underlined target word.",
+        "target must appear naturally inside sentence.",
         "choices must have the same part of speech.",
-        "Use real words only. Do not use explanatory phrases like サイズが大きい.",
+        "Avoid loose associations and explanatory phrases.",
     ],
 }
+
+
+UNIQUENESS_RULES = """
+The sentence alone must make exactly one choice correct.
+
+Reject or revise any item where multiple choices can naturally fit the same
+sentence. For example, do not allow a context where agriculture, commerce,
+industry, and fishing could all fit. Do not allow a context where elementary
+school, junior high school, and high school could all fit.
+
+Short AI-like sentences are not acceptable when they do not determine a unique
+answer. Use two or three natural textbook-style sentences if needed.
+
+Bad: He succeeded in □業.
+Good: He opened a stationery shop in front of the station and was trusted by
+local families for many years. He succeeded in □業.
+
+Bad: I go to □学校 every morning.
+Good: Wearing a randoseru and walking with friends, she goes to □学校 every
+morning.
+
+Bad: The new □科 teacher.
+Good: Today we observed how plants grow and used lab tools to investigate them.
+The new □科 teacher taught the lesson.
+""".strip()
 
 
 def generate_prompt(target: str, grade: int, kanken: int, question_type: str, count: int, existing_ids: list[str]) -> str:
     fixed_prompt = FIXED_PROMPTS.get(question_type, "")
     context_rules = TYPE_RULES.get(question_type, [])
     return f"""
-You are generating high-quality Japanese kanji drill questions for elementary learners.
+You are a veteran editor with over 20 years of experience creating Japanese
+elementary language arts, kanji drill, and kanji proficiency test materials.
+The questions you create will be used by Japanese elementary school students at
+school and for home study. Aim for the quality of textbook publishers and major
+commercial elementary learning materials.
 
 Target course: {target}
 Grade: {grade}
@@ -89,32 +118,38 @@ Kanken level: {kanken}
 Category/type: {question_type}
 Count: {count}
 
-Hard requirements:
-- ダミー問題禁止
-- プレースホルダー禁止
-- 実際に学習効果がある問題
-- 漢検・学校教材レベルの品質
-- 自然な日本語の文章を読んで文脈から判断する問題
-- 誤答は実際に迷う内容
-- 小学生向けの文
-- JSONのみ
-- Markdown禁止
-- 説明禁止
-- Existing IDs must not be reused.
-- The answer field is the zero-based index of the correct item in choices.
-- Use natural Japanese text. Do not output mojibake.
-- Keep the existing assets/data JSON structure compatible.
+Before output, internally perform this editorial flow:
+1. Create the question as a professional teaching editor.
+2. Review it yourself for textbook quality.
+3. Revise sentence, choices, meaning, and example as needed.
+4. Output only items that are adoptable as JSON.
 
-Context schema requirements for reading/writing/compound/sentence/homophone/opposite/synonym:
-- Include prompt, sentence, target.
-- prompt must be the fixed prompt for the type.
-- sentence must be natural Japanese.
+Hard requirements:
+- No dummy questions.
+- No placeholders except the intentional target marker such as □ or ○.
+- No AI-like short sentences.
+- No conversational style.
+- Natural Japanese suitable for fifth-grade elementary students.
+- The sentence alone must determine one correct answer.
+- Wrong choices should be plausible but clearly wrong from context.
+- JSON only. No Markdown. No comments. No explanatory text outside JSON.
+- Existing IDs must not be reused.
+- answer is the zero-based index of the correct choice.
+- Use natural Japanese text. Do not output mojibake.
+
+Context schema requirements:
+- Include prompt, sentence, target for context question types.
+- prompt must exactly equal the fixed prompt for the type.
+- sentence may use two or three natural sentences when needed.
 - target must exactly appear inside sentence.
 - question must duplicate sentence for backward compatibility.
 - meaning must explain the correct answer word.
 - example must be the completed natural sentence.
 - choices must be real words or real kanji only.
 - Keep part of speech and writing level consistent across choices.
+
+Uniqueness requirements:
+{UNIQUENESS_RULES}
 
 Fixed prompt for this type:
 {fixed_prompt}
@@ -136,36 +171,82 @@ Return exactly:
 
 def review_prompt(payload: dict[str, Any]) -> str:
     return f"""
-You are an expert Japanese elementary education material reviewer.
-Review the submitted kanji questions as educational content.
+You are an educational review committee member for Japanese elementary language
+arts and kanji learning materials. Review whether the submitted kanji questions
+are adoptable for fifth-grade home-learning and school material.
 
-Evaluate each question and the set overall on a 100 point scale.
-Focus especially on:
-- sentence が自然か
-- target が sentence に含まれているか
-- choices が同じ品詞か
-- choices の表記レベルが統一されているか
-- choices の難易度が適切か
-- 誤答が実際に迷う内容か
-- 学年・漢検級に適合しているか
-- meaning が正解語の意味になっているか
-- example が完成した自然な例文になっているか
+Make a clear adoption judgment for each item:
+- accept: can be used as-is.
+- revise: can be used after revision.
+- reject: invalid as a question or should be regenerated.
+
+For every item, check:
+- Does the sentence alone determine exactly one answer?
+- Could any wrong choice also fit naturally?
+- Is the Japanese natural and human-written?
+- Is it suitable for elementary students?
+- Does it feel like textbook or commercial drill quality?
+- Are choices educational and not too unnatural?
+- Are meaning and example consistent with the correct answer?
+
+Type-specific high-priority checks:
+- reading: readings should be plausible; wrong readings should not be bizarre.
+- writing: wrong kanji compounds should not be fake or grotesquely unnatural.
+- compound: multiple compounds must not fit the same context.
+- sentence: choices must share part of speech and writing level.
+- homophone: choices must share the same reading and be selected by context.
+- opposite: avoid explanatory AI-like wording; use natural antonyms.
+- synonym: choices must be genuine near-synonyms, not loose associations.
 
 Return JSON only. No Markdown. No explanation outside JSON.
 Schema:
 {{
+  "summary": {{
+    "total": integer,
+    "accept": integer,
+    "revise": integer,
+    "reject": integer,
+    "average_score": number,
+    "main_issues": ["string"]
+  }},
   "overall_score": integer,
-  "summary": "string",
   "items": [
     {{
       "id": "string",
+      "adoption": "accept | revise | reject",
       "score": integer,
-      "needs_improvement": boolean,
       "issues": ["string"],
-      "improvement_suggestions": ["string"]
+      "suggestion": "string",
+      "adoption_detail": {{
+        "reason": "string",
+        "suggestion": "string"
+      }},
+      "unique_answer": boolean,
+      "unique_answer_reason": "string",
+      "naturalness_check": {{
+        "natural_japanese": integer,
+        "human_written_quality": integer,
+        "ai_like_score": integer
+      }},
+      "educational_quality": {{
+        "textbook_quality": integer,
+        "learning_effect": integer,
+        "grade_fit": integer,
+        "choice_quality": integer,
+        "meaning_example_consistency": integer
+      }},
+      "needs_improvement": boolean
     }}
   ]
 }}
+
+Scoring guide:
+- 90 or above: accept.
+- 80-89: revise lightly.
+- 70-79: revise substantially.
+- 69 or below: reject/regenerate.
+- unique_answer=false always requires revise or reject.
+- ai_like_score is bad when high; 40 or above needs revision.
 
 Questions:
 {payload}
@@ -174,22 +255,43 @@ Questions:
 
 def improve_prompt(questions: list[dict[str, Any]], review: dict[str, Any]) -> str:
     return f"""
-You improve only the submitted kanji questions based on the review.
+You are improving kanji questions according to an educational committee review.
+
+Improve every item where:
+- adoption is revise or reject.
+- unique_answer is false.
+- score is below 80.
+- textbook_quality is below 80.
+- natural_japanese is below 80.
+- ai_like_score is 40 or above.
+- meaning_example_consistency is below 80.
+
+Do not merely swap one word. When uniqueness or quality is weak, revise the
+whole sentence context, target, choices, answer, answer_text, meaning, example,
+difficulty, and tags as needed.
 
 Rules:
 - Keep IDs unchanged.
+- Keep the same type unless the item is structurally impossible.
 - Keep the existing base schema.
-- For reading/writing/compound/sentence/homophone/opposite/synonym, include prompt, sentence, target.
+- Include prompt, sentence, target for context question types.
 - prompt must be the fixed prompt for the question type.
-- sentence must be natural Japanese.
+- sentence must be natural Japanese and may use two or three sentences.
 - target must exactly appear inside sentence.
 - question must duplicate sentence for backward compatibility.
-- Improve choices, meaning, example, difficulty, and distractors where needed.
-- Keep choices to real words or real kanji only.
+- choices must be real words or real kanji only.
 - Keep part of speech and writing level consistent.
-- Do not add Markdown.
-- Do not add explanations outside JSON.
-- Return only JSON in this shape: {{"questions":[...]}}
+- Homophone must use same-reading choices and context-based selection.
+- Synonym must use genuine near-synonyms.
+- Opposite must use natural antonyms in natural context.
+- Return all original questions, including unchanged accept items.
+- JSON only. No Markdown. No comments.
+
+Uniqueness requirements:
+{UNIQUENESS_RULES}
+
+Return only:
+{{"questions":[...]}}
 
 Questions:
 {questions}

@@ -35,6 +35,7 @@ class GameController extends ChangeNotifier {
   bool _initialized = false;
   int _currentDifficulty = 1;
   StudyMode _studyMode = StudyMode.normal;
+  final Set<String> _answeredQuestionIdsThisSession = <String>{};
 
   AppProfile get profile => _profile;
   ProgressState get progressState => _progressState;
@@ -61,6 +62,7 @@ class GameController extends ChangeNotifier {
       questions: questions,
       history: _progressState.weakItems,
       currentDifficulty: _currentDifficulty,
+      excludedQuestionIds: _answeredQuestionIdsThisSession,
       mode: _studyMode,
     );
   }
@@ -115,21 +117,25 @@ class GameController extends ChangeNotifier {
       results: <ResultSummary>[],
     );
     _currentDifficulty = 1;
+    _answeredQuestionIdsThisSession.clear();
     await _persist();
   }
 
   Future<void> setGrade(int grade) async {
     _profile = _profile.copyWith(selectedGrade: grade, useKankenMode: false);
+    _answeredQuestionIdsThisSession.clear();
     await _persistProfile();
   }
 
   Future<void> setKanken(int level) async {
     _profile = _profile.copyWith(selectedKanken: level, useKankenMode: true);
+    _answeredQuestionIdsThisSession.clear();
     await _persistProfile();
   }
 
   Future<void> setStudyMode(StudyMode mode) async {
     _studyMode = mode;
+    _answeredQuestionIdsThisSession.clear();
     notifyListeners();
   }
 
@@ -192,6 +198,7 @@ class GameController extends ChangeNotifier {
   Future<QuizResult> completeWritingPractice(KanjiWritingPrompt prompt) {
     return _applySuccess(
       subject: 'kanji_writing',
+      questionId: prompt.id,
       rewardPoints: 15,
       rewardExperience: 15,
       dailyTags: <String>[...prompt.tags, 'writing'],
@@ -254,6 +261,7 @@ class GameController extends ChangeNotifier {
       answerMillis: answerMillis,
       now: now,
     );
+    _answeredQuestionIdsThisSession.add(questionId);
     _adjustDifficulty(correct);
     _appendResult(
       subject: subject,
@@ -280,6 +288,7 @@ class GameController extends ChangeNotifier {
 
   Future<QuizResult> _applySuccess({
     required String subject,
+    String? questionId,
     required int rewardPoints,
     required int rewardExperience,
     required List<String> dailyTags,
@@ -303,6 +312,9 @@ class GameController extends ChangeNotifier {
     );
     _profile = _applyLevelUp(_profile);
     _incrementDailyProgress(dailyTags);
+    if (questionId != null) {
+      _answeredQuestionIdsThisSession.add(questionId);
+    }
     _appendResult(
       subject: subject,
       correct: true,

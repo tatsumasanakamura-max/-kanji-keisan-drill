@@ -3,444 +3,425 @@
   "label": "小学5年",
   "questions": [
     {
-      "id": "grade5-reading-021",
+      "id": "grade5-reading-rv001",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "reading",
+      "question": "校外学習で市役所を訪ね、税金が道路や図書館に使われていることを学んだ。先生は、みんなの生活を支える公共の仕事について説明した。",
+      "prompt": "線を引いた言葉の読みを選びなさい。",
+      "sentence": "校外学習で市役所を訪ね、税金が道路や図書館に使われていることを学んだ。先生は、みんなの生活を支える公共の仕事について説明した。",
+      "target": "公共",
+      "choices": [
+        "こうきょう",
+        "こうこう",
+        "きょうこう",
+        "こうぎょう"
+      ],
+      "answer": 0,
+      "meaning": "社会全体に関係すること。",
+      "example": "みんなの生活を支える公共の仕事について学んだ。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "reading",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "reading": "こうきょう"
+    },
+    {
+      "id": "grade5-reading-rv002",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "reading",
+      "question": "理科の実験では、水の量と温度を同じにして植物の成長を比べた。条件を正確にそろえたので、結果の違いが分かりやすくなった。",
       "prompt": "線を引いた言葉の読みを選びなさい。",
-      "question": "山の頂上に着くと、きれいな景色が広がっていた。",
-      "sentence": "山の頂上に着くと、きれいな景色が広がっていた。",
-      "target": "頂上",
+      "sentence": "理科の実験では、水の量と温度を同じにして植物の成長を比べた。条件を正確にそろえたので、結果の違いが分かりやすくなった。",
+      "target": "正確",
       "choices": [
-        "ちょうじょう",
-        "いただき",
-        "てんじょう",
-        "いただきうえ"
-      ],
-      "answer": 1,
-      "answer_text": "いただき",
-      "meaning": "山や建物などの一番高いところ。",
-      "example": "山の頂上からの眺めは最高だった。",
-      "mnemonic": "山の一番高いところを『いただき』と覚えよう。",
-      "synonyms": [
-        "山頂",
-        "頂点"
-      ],
-      "antonyms": [
-        "ふもと",
-        "麓"
-      ],
-      "tags": [
-        "自然",
-        "場所"
-      ]
-    },
-    {
-      "id": "grade5-reading-022",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 4,
-      "type": "reading",
-      "prompt": "線を引いた言葉の読みを選びなさい。",
-      "question": "図書館で本を借りるときは、カードを使います。",
-      "sentence": "図書館で本を借りるときは、カードを使います。",
-      "target": "図書館",
-      "choices": [
-        "としょかん",
-        "ずしょかん",
-        "としょけん",
-        "としょこう"
+        "せいかく",
+        "しょうかく",
+        "せいけい",
+        "せっかく"
       ],
       "answer": 0,
-      "answer_text": "としょかん",
-      "meaning": "本を借りたり読んだりできる公共の施設。",
-      "example": "毎週土曜日に図書館で本を借ります。",
-      "mnemonic": "図書館は本がたくさんある場所。",
-      "synonyms": [
-        "書庫"
-      ],
-      "antonyms": [
-        "書店"
-      ],
+      "meaning": "間違いがなく正しいこと。",
+      "example": "条件を正確にそろえて実験した。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
-        "場所",
-        "施設"
-      ]
+        "reading",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "reading": "せいかく"
     },
     {
-      "id": "grade5-reading-023",
+      "id": "grade5-reading-rv003",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "reading",
+      "question": "社会科新聞を作るため、図書館で地域の歴史を調べた。必要な資料を検索すると、昔の駅前の写真が見つかった。",
       "prompt": "線を引いた言葉の読みを選びなさい。",
-      "question": "彼は毎朝、新聞を読んで最新のニュースを知る。",
-      "sentence": "彼は毎朝、新聞を読んで最新のニュースを知る。",
-      "target": "新聞",
+      "sentence": "社会科新聞を作るため、図書館で地域の歴史を調べた。必要な資料を検索すると、昔の駅前の写真が見つかった。",
+      "target": "検索",
       "choices": [
-        "しんぶん",
-        "しんぽん",
-        "しんぷん",
-        "しんもん"
+        "けんさく",
+        "けんそく",
+        "けんとう",
+        "けんさつ"
       ],
       "answer": 0,
-      "answer_text": "しんぶん",
-      "meaning": "日々の出来事や情報を伝える紙の媒体。",
-      "example": "朝ごはんを食べながら新聞を読む。",
-      "mnemonic": "新しい情報を伝える紙だから『しんぶん』。",
-      "synonyms": [
-        "ニュースペーパー"
-      ],
-      "antonyms": [
-        "雑誌"
-      ],
+      "meaning": "必要な情報を探し出すこと。",
+      "example": "必要な資料を検索して写真を見つけた。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
-        "情報",
-        "メディア"
-      ]
+        "reading",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "reading": "けんさく"
     },
     {
-      "id": "grade5-reading-024",
+      "id": "grade5-reading-rv004",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 4,
+      "difficulty": 2,
       "type": "reading",
+      "question": "台風が近づいたため、学校では早めに下校することになった。先生は通学路の安全を確認してから、児童を順番に帰した。",
       "prompt": "線を引いた言葉の読みを選びなさい。",
-      "question": "夏休みに友達と川で泳いだ思い出は楽しい。",
-      "sentence": "夏休みに友達と川で泳いだ思い出は楽しい。",
-      "target": "思い出",
+      "sentence": "台風が近づいたため、学校では早めに下校することになった。先生は通学路の安全を確認してから、児童を順番に帰した。",
+      "target": "確認",
       "choices": [
-        "おもいで",
-        "おもいでん",
-        "おもいでい",
-        "おもいでき"
+        "かくにん",
+        "かくじん",
+        "かんにん",
+        "けんにん"
       ],
       "answer": 0,
-      "answer_text": "おもいで",
-      "meaning": "過去の出来事を心に残していること。",
-      "example": "子どものころの思い出は宝物だ。",
-      "mnemonic": "心に残ることだから『おもいで』。",
-      "synonyms": [
-        "記憶",
-        "回想"
-      ],
-      "antonyms": [
-        "忘却"
-      ],
+      "meaning": "確かめてはっきりさせること。",
+      "example": "先生は通学路の安全を確認した。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
-        "感情",
-        "時間"
-      ]
+        "reading",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "reading": "かくにん"
     },
     {
-      "id": "grade5-reading-025",
+      "id": "grade5-reading-rv005",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "reading",
+      "question": "博物館では、古い道具を傷つけないよう温度や明るさにも気を配っている。大切な資料を保存する仕事について、学芸員の人から話を聞いた。",
       "prompt": "線を引いた言葉の読みを選びなさい。",
-      "question": "教室の窓から外を見ると、青い空が広がっていた。",
-      "sentence": "教室の窓から外を見ると、青い空が広がっていた。",
-      "target": "窓",
+      "sentence": "博物館では、古い道具を傷つけないよう温度や明るさにも気を配っている。大切な資料を保存する仕事について、学芸員の人から話を聞いた。",
+      "target": "保存",
       "choices": [
-        "まど",
-        "そう",
-        "まどぐち",
-        "そうじ"
+        "ほぞん",
+        "ほうぞん",
+        "ほそん",
+        "ほせん"
       ],
       "answer": 0,
-      "answer_text": "まど",
-      "meaning": "部屋の壁にある外が見える開口部。",
-      "example": "寒いので窓を閉めました。",
-      "mnemonic": "外を見るための開口部だから『まど』。",
-      "synonyms": [
-        "窓口（意味違い）"
-      ],
-      "antonyms": [
-        "壁"
-      ],
+      "meaning": "物をなくしたり壊したりしないよう保つこと。",
+      "example": "博物館では大切な資料を保存している。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
-        "場所",
-        "建物"
-      ]
+        "reading",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "reading": "ほぞん"
     },
     {
-      "id": "grade5-writing-011",
+      "id": "grade5-writing-rv001",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "writing",
-      "question": "庭にたくさんのはなを植えました。",
+      "question": "工場見学では、部品をせいかくに組み立てる作業を見た。少しでもずれると機械が動かないため、何度も確かめていた。",
       "prompt": "線を引いた言葉を漢字で書きなさい。",
-      "sentence": "庭にたくさんのはなを植えました。",
-      "target": "はな",
+      "sentence": "工場見学では、部品をせいかくに組み立てる作業を見た。少しでもずれると機械が動かないため、何度も確かめていた。",
+      "target": "せいかく",
       "choices": [
-        "花",
-        "鼻",
-        "華",
-        "葉"
+        "正確",
+        "性格",
+        "精格",
+        "成格"
       ],
       "answer": 0,
-      "answer_text": "花",
-      "meaning": "花は植物の花の部分を指します。",
-      "example": "庭にたくさんの花を植えました。",
-      "mnemonic": "花は草かんむりに化けると書き、植物の美しい部分を表す。",
-      "synonyms": [
-        "花びら"
-      ],
-      "antonyms": [
-        "葉"
-      ],
+      "meaning": "間違いがなく正しいこと。",
+      "example": "部品を正確に組み立てる。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
         "writing",
-        "grade5",
-        "kanken6"
-      ]
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "正確",
+      "reading": "せいかく"
     },
     {
-      "id": "grade5-writing-012",
+      "id": "grade5-writing-rv002",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 4,
+      "difficulty": 2,
       "type": "writing",
-      "question": "先生がきょうしつで話をしました。",
+      "question": "運動会の係を決めるため、班ごとにそうだんした。仕事が一人にかたよらないよう、みんなで意見を出し合った。",
       "prompt": "線を引いた言葉を漢字で書きなさい。",
-      "sentence": "先生がきょうしつで話をしました。",
-      "target": "きょうしつ",
+      "sentence": "運動会の係を決めるため、班ごとにそうだんした。仕事が一人にかたよらないよう、みんなで意見を出し合った。",
+      "target": "そうだん",
       "choices": [
-        "教室",
-        "強室",
-        "共室",
-        "響室"
+        "相談",
+        "相段",
+        "想談",
+        "総談"
       ],
       "answer": 0,
-      "answer_text": "教室",
-      "meaning": "教室は授業を行う部屋のことです。",
-      "example": "先生が教室で話をしました。",
-      "mnemonic": "教は教える、室は部屋を意味し、学ぶ場所を表す。",
-      "synonyms": [
-        "授業室"
-      ],
-      "antonyms": [
-        "廊下"
-      ],
+      "meaning": "話し合って決めたり考えたりすること。",
+      "example": "運動会の係をみんなで相談した。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
         "writing",
-        "grade5",
-        "kanken6"
-      ]
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "相談",
+      "reading": "そうだん"
     },
     {
-      "id": "grade5-writing-013",
+      "id": "grade5-writing-rv003",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "writing",
-      "question": "友だちといっしょに遊びました。",
+      "question": "社会科の授業で、道路ができた後の町の変化を調べた。店や人の流れにどのようなえいきょうがあったか、資料にまとめた。",
       "prompt": "線を引いた言葉を漢字で書きなさい。",
-      "sentence": "友だちといっしょに遊びました。",
-      "target": "いっしょ",
+      "sentence": "社会科の授業で、道路ができた後の町の変化を調べた。店や人の流れにどのようなえいきょうがあったか、資料にまとめた。",
+      "target": "えいきょう",
       "choices": [
-        "一緒",
-        "一生",
-        "一助",
-        "一所"
+        "影響",
+        "栄強",
+        "映教",
+        "英響"
       ],
       "answer": 0,
-      "answer_text": "一緒",
-      "meaning": "一緒は同じ場所や時間にいることを意味します。",
-      "example": "友だちと一緒に遊びました。",
-      "mnemonic": "一は数字の1、緒はつながりを表し、一緒は一つにまとまること。",
-      "synonyms": [
-        "共に"
-      ],
-      "antonyms": [
-        "別々"
-      ],
+      "meaning": "ある物事が別の物事に変化を与えること。",
+      "example": "道路が町に与えた影響を調べた。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
         "writing",
-        "grade5",
-        "kanken6"
-      ]
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "影響",
+      "reading": "えいきょう"
     },
     {
-      "id": "grade5-writing-014",
+      "id": "grade5-writing-rv004",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 4,
+      "difficulty": 2,
       "type": "writing",
-      "question": "山の上からきれいなけしきを見ました。",
+      "question": "読書感想文を書く前に、物語のないようを短く整理した。出来事だけでなく、登場人物の気持ちの変化も書き出した。",
       "prompt": "線を引いた言葉を漢字で書きなさい。",
-      "sentence": "山の上からきれいなけしきを見ました。",
-      "target": "けしき",
+      "sentence": "読書感想文を書く前に、物語のないようを短く整理した。出来事だけでなく、登場人物の気持ちの変化も書き出した。",
+      "target": "ないよう",
       "choices": [
-        "景色",
-        "形色",
-        "警色",
-        "経色"
+        "内容",
+        "内用",
+        "内様",
+        "納容"
       ],
       "answer": 0,
-      "answer_text": "景色",
-      "meaning": "景色は見える風景や光景を意味します。",
-      "example": "山の上からきれいな景色を見ました。",
-      "mnemonic": "景は光や影を表し、色は色彩で風景を示す。",
-      "synonyms": [
-        "風景"
-      ],
-      "antonyms": [
-        "暗闇"
-      ],
+      "meaning": "中に書かれていることや表されていること。",
+      "example": "物語の内容を短く整理した。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
         "writing",
-        "grade5",
-        "kanken6"
-      ]
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "内容",
+      "reading": "ないよう"
     },
     {
-      "id": "grade5-writing-015",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 4,
-      "type": "writing",
-      "question": "毎日、じゅぎょうの準備をしています。",
-      "prompt": "線を引いた言葉を漢字で書きなさい。",
-      "sentence": "毎日、じゅぎょうの準備をしています。",
-      "target": "じゅぎょう",
-      "choices": [
-        "授業",
-        "受業",
-        "樹業",
-        "塾業"
-      ],
-      "answer": 0,
-      "answer_text": "授業",
-      "meaning": "授業は学校で行う学習の時間を意味します。",
-      "example": "毎日、授業の準備をしています。",
-      "mnemonic": "授は手渡す、業は仕事や学びを表し、学びの時間。",
-      "synonyms": [
-        "授ける時間"
-      ],
-      "antonyms": [
-        "休み時間"
-      ],
-      "tags": [
-        "writing",
-        "grade5",
-        "kanken6"
-      ]
-    },
-    {
-      "id": "grade5-compound-011",
+      "id": "grade5-writing-rv005",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
+      "type": "writing",
+      "question": "理科室では、薬品を使う前に先生のしじをよく聞いた。安全のため、勝手に道具を動かしてはいけない。",
+      "prompt": "線を引いた言葉を漢字で書きなさい。",
+      "sentence": "理科室では、薬品を使う前に先生のしじをよく聞いた。安全のため、勝手に道具を動かしてはいけない。",
+      "target": "しじ",
+      "choices": [
+        "指示",
+        "支持",
+        "紙事",
+        "志事"
+      ],
+      "answer": 0,
+      "meaning": "何をするかを具体的に伝えること。",
+      "example": "先生の指示を聞いて実験を始めた。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "writing",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "指示",
+      "reading": "しじ"
+    },
+    {
+      "id": "grade5-compound-rv001",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
       "type": "compound",
-      "question": "山□に登ると、きれいな景色が見えます。",
+      "question": "遠足では舗装された道路を離れ、木々の間を進んだ。足元の石に気をつけながら山□を歩いた。",
       "prompt": "文に合うように、□に入る漢字を選びなさい。",
-      "sentence": "山□に登ると、きれいな景色が見えます。",
+      "sentence": "遠足では舗装された道路を離れ、木々の間を進んだ。足元の石に気をつけながら山□を歩いた。",
       "target": "山□",
       "choices": [
+        "道",
         "川",
-        "林",
-        "谷",
-        "海"
-      ],
-      "answer": 1,
-      "answer_text": "山林",
-      "reading": "さんりん",
-      "meaning": "山にある木や森のこと。",
-      "example": "山林は自然が豊かで、動物もたくさん住んでいます。",
-      "mnemonic": "山の中に林があるイメージで覚えましょう。",
-      "synonyms": [
-        "森林"
-      ],
-      "antonyms": [
-        "市街地"
-      ],
-      "tags": [
-        "compound",
-        "grade5",
-        "kanken6"
-      ]
-    },
-    {
-      "id": "grade5-compound-012",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 3,
-      "type": "compound",
-      "question": "図書□で本を借りました。",
-      "prompt": "文に合うように、□に入る漢字を選びなさい。",
-      "sentence": "図書□で本を借りました。",
-      "target": "図書□",
-      "choices": [
-        "館",
-        "室",
-        "庁",
-        "店"
+        "海",
+        "田"
       ],
       "answer": 0,
-      "answer_text": "図書館",
-      "reading": "としょかん",
-      "meaning": "本を集めて貸し出す場所。",
-      "example": "図書館で勉強すると静かで集中できます。",
-      "mnemonic": "図書（本）を集める館（やかた）という意味。",
-      "synonyms": [
-        "書庫"
-      ],
-      "antonyms": [
-        "書店"
-      ],
+      "meaning": "山の中にある道。",
+      "example": "足元に気をつけながら山道を歩いた。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
         "compound",
-        "grade5",
-        "kanken6"
-      ]
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "山道",
+      "reading": "やまみち"
     },
     {
-      "id": "grade5-compound-013",
+      "id": "grade5-compound-rv002",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 4,
+      "difficulty": 2,
       "type": "compound",
-      "question": "新しい□学の先生が来ました。",
+      "question": "今日は植物の育ち方を観察し、実験器具を使って調べた。新しい□科の先生が、葉の働きについて説明してくれた。",
       "prompt": "文に合うように、□に入る漢字を選びなさい。",
-      "sentence": "新しい□学の先生が来ました。",
-      "target": "□学",
+      "sentence": "今日は植物の育ち方を観察し、実験器具を使って調べた。新しい□科の先生が、葉の働きについて説明してくれた。",
+      "target": "□科",
       "choices": [
-        "英",
-        "数",
         "理",
-        "社"
+        "算",
+        "社",
+        "国"
       ],
-      "answer": 2,
-      "answer_text": "理学",
-      "reading": "りがく",
-      "meaning": "自然の仕組みや現象を研究する学問。",
-      "example": "理学の授業で実験をしました。",
-      "mnemonic": "理（ことわり）を学ぶ学問という意味。",
-      "synonyms": [
-        "科学"
-      ],
-      "antonyms": [
-        "文学"
-      ],
+      "answer": 0,
+      "meaning": "自然や生き物、実験などを学ぶ教科。",
+      "example": "新しい理科の先生が授業をしてくれた。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
         "compound",
-        "grade5",
-        "kanken6"
-      ]
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "理科",
+      "reading": "りか"
     },
     {
-      "id": "grade5-compound-014",
+      "id": "grade5-compound-rv003",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "compound",
-      "question": "毎朝、□学校まで歩いて行きます。",
+      "question": "駅前で文房具店を開き、地域の人に長く親しまれている。祖父は□業の仕事で町のくらしを支えてきた。",
       "prompt": "文に合うように、□に入る漢字を選びなさい。",
-      "sentence": "毎朝、□学校まで歩いて行きます。",
+      "sentence": "駅前で文房具店を開き、地域の人に長く親しまれている。祖父は□業の仕事で町のくらしを支えてきた。",
+      "target": "□業",
+      "choices": [
+        "商",
+        "農",
+        "工",
+        "漁"
+      ],
+      "answer": 0,
+      "meaning": "品物を売り買いする仕事。",
+      "example": "祖父は商業の仕事で町のくらしを支えてきた。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "compound",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "商業",
+      "reading": "しょうぎょう"
+    },
+    {
+      "id": "grade5-compound-rv004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "compound",
+      "question": "ランドセルを背負い、友達と一緒に毎朝歩いて通っている。妹は来年、□学校に入学する。",
+      "prompt": "文に合うように、□に入る漢字を選びなさい。",
+      "sentence": "ランドセルを背負い、友達と一緒に毎朝歩いて通っている。妹は来年、□学校に入学する。",
       "target": "□学校",
       "choices": [
         "小",
@@ -449,732 +430,712 @@
         "大"
       ],
       "answer": 0,
+      "meaning": "子どもが六年間通う学校。",
+      "example": "妹は来年、小学校に入学する。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "compound",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
       "answer_text": "小学校",
-      "reading": "しょうがっこう",
-      "meaning": "子どもが通う初等教育の学校。",
-      "example": "毎朝、小学校まで歩いて行きます。",
-      "mnemonic": "小学校は子どもが通う学校のこと。",
-      "synonyms": [
-        "小学校"
-      ],
-      "antonyms": [
-        "中学校"
-      ],
-      "tags": [
-        "compound",
-        "grade5",
-        "kanken6"
-      ]
+      "reading": "しょうがっこう"
     },
     {
-      "id": "grade5-compound-015",
+      "id": "grade5-compound-rv005",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 4,
+      "difficulty": 3,
       "type": "compound",
-      "question": "彼は□業で成功しました。",
+      "question": "朝、父は社会の出来事を知るために紙面を広げた。家族で□聞の記事について話し合った。",
       "prompt": "文に合うように、□に入る漢字を選びなさい。",
-      "sentence": "彼は□業で成功しました。",
-      "target": "□業",
+      "sentence": "朝、父は社会の出来事を知るために紙面を広げた。家族で□聞の記事について話し合った。",
+      "target": "□聞",
       "choices": [
-        "農",
-        "漁",
-        "工",
-        "商"
+        "新",
+        "古",
+        "近",
+        "遠"
       ],
-      "answer": 3,
-      "answer_text": "商業",
-      "reading": "しょうぎょう",
-      "meaning": "物を売ったり買ったりする仕事。",
-      "example": "商業は町の経済を支えています。",
-      "mnemonic": "物を売り買いする「商」と仕事の「業」。",
-      "synonyms": [
-        "販売業"
-      ],
-      "antonyms": [
-        "農業"
-      ],
+      "answer": 0,
+      "meaning": "毎日の出来事や社会の動きを伝える印刷物。",
+      "example": "家族で新聞の記事について話し合った。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
         "compound",
-        "grade5",
-        "kanken6"
-      ]
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "新聞",
+      "reading": "しんぶん"
     },
     {
-      "id": "grade5-sentence-011",
+      "id": "grade5-sentence-rv001",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "sentence",
-      "question": "この川は雨が降ると○○が速くなります。",
+      "question": "体育館で学年全体の練習をするため、担任の先生に事前に申し出た。使う時間と人数を伝え、先生の○○を得てから準備を始めた。",
       "prompt": "文の意味に合う言葉を選びなさい。",
-      "sentence": "この川は雨が降ると○○が速くなります。",
+      "sentence": "体育館で学年全体の練習をするため、担任の先生に事前に申し出た。使う時間と人数を伝え、先生の○○を得てから準備を始めた。",
       "target": "○○",
       "choices": [
-        "流れ",
-        "風",
-        "波",
-        "音"
+        "許可",
+        "記録",
+        "予定",
+        "反対"
       ],
       "answer": 0,
-      "answer_text": "流れ",
-      "meaning": "川の水が動く速さのことです。",
-      "example": "この川は雨が降ると流れが速くなります。",
-      "mnemonic": "川の水が流れる速さを考えよう。",
-      "synonyms": [
-        "水の動き"
-      ],
-      "antonyms": [
-        "止まり"
-      ],
+      "meaning": "してもよいと認めること。",
+      "example": "先生の許可を得てから準備を始めた。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
-        "自然",
-        "水",
-        "速度"
-      ]
+        "sentence",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "許可",
+      "reading": "きょか"
     },
     {
-      "id": "grade5-sentence-012",
+      "id": "grade5-sentence-rv002",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "sentence",
-      "question": "夏休みには毎日○○をして体を鍛えます。",
+      "question": "台風が近づき、午後から風が強くなる予報が出ていた。校長先生は安全を考えて、下校時刻を早める○○をした。",
       "prompt": "文の意味に合う言葉を選びなさい。",
-      "sentence": "夏休みには毎日○○をして体を鍛えます。",
+      "sentence": "台風が近づき、午後から風が強くなる予報が出ていた。校長先生は安全を考えて、下校時刻を早める○○をした。",
       "target": "○○",
       "choices": [
-        "運動",
-        "勉強",
-        "読書",
-        "料理"
+        "判断",
+        "観察",
+        "計算",
+        "練習"
       ],
       "answer": 0,
-      "answer_text": "運動",
-      "meaning": "体を動かして健康にすること。",
-      "example": "夏休みには毎日運動をして体を鍛えます。",
-      "mnemonic": "体を鍛えるために動こう。",
-      "synonyms": [
-        "トレーニング"
-      ],
-      "antonyms": [
-        "休憩"
-      ],
+      "meaning": "状況を見て、どうするかを決めること。",
+      "example": "校長先生は下校時刻を早める判断をした。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
-        "健康",
-        "生活",
-        "体力"
-      ]
+        "sentence",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "判断",
+      "reading": "はんだん"
     },
     {
-      "id": "grade5-sentence-013",
+      "id": "grade5-sentence-rv003",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 4,
+      "difficulty": 2,
       "type": "sentence",
-      "question": "この本はとても○○で、読んでいて楽しいです。",
+      "question": "発表会の前日、係の児童は椅子を並べ、資料を人数分そろえた。当日あわてないよう、早めに○○を終えた。",
       "prompt": "文の意味に合う言葉を選びなさい。",
-      "sentence": "この本はとても○○で、読んでいて楽しいです。",
+      "sentence": "発表会の前日、係の児童は椅子を並べ、資料を人数分そろえた。当日あわてないよう、早めに○○を終えた。",
       "target": "○○",
       "choices": [
-        "面白い",
-        "難しい",
-        "長い",
-        "重い"
+        "準備",
+        "結果",
+        "原因",
+        "反省"
       ],
       "answer": 0,
-      "answer_text": "面白い",
-      "meaning": "興味を引いて楽しいこと。",
-      "example": "この本はとても面白いので、何度も読みました。",
-      "mnemonic": "楽しい気持ちになる言葉を選ぼう。",
-      "synonyms": [
-        "楽しい"
-      ],
-      "antonyms": [
-        "つまらない"
-      ],
+      "meaning": "物事を始める前に必要なものを整えること。",
+      "example": "発表会の準備を早めに終えた。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
-        "読書",
-        "感情",
-        "表現"
-      ]
+        "sentence",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "準備",
+      "reading": "じゅんび"
     },
     {
-      "id": "grade5-sentence-014",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 4,
-      "type": "sentence",
-      "question": "学校の帰り道で友だちと○○して遊びました。",
-      "prompt": "文の意味に合う言葉を選びなさい。",
-      "sentence": "学校の帰り道で友だちと○○して遊びました。",
-      "target": "○○",
-      "choices": [
-        "かくれんぼ",
-        "勉強",
-        "掃除",
-        "料理"
-      ],
-      "answer": 0,
-      "answer_text": "かくれんぼ",
-      "meaning": "隠れて相手に見つからないようにする遊び。",
-      "example": "学校の帰り道で友だちとかくれんぼをして遊びました。",
-      "mnemonic": "隠れる遊びの言葉を思い出そう。",
-      "synonyms": [
-        "鬼ごっこ"
-      ],
-      "antonyms": [
-        "勉強"
-      ],
-      "tags": [
-        "遊び",
-        "友だち",
-        "学校"
-      ]
-    },
-    {
-      "id": "grade5-sentence-015",
+      "id": "grade5-sentence-rv004",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "sentence",
-      "question": "毎朝、○○を飲んでから学校に行きます。",
+      "question": "班で調べたことを模造紙にまとめ、分かったことを順番に説明した。最後に代表の児童が、調査の○○を先生に伝えた。",
       "prompt": "文の意味に合う言葉を選びなさい。",
-      "sentence": "毎朝、○○を飲んでから学校に行きます。",
+      "sentence": "班で調べたことを模造紙にまとめ、分かったことを順番に説明した。最後に代表の児童が、調査の○○を先生に伝えた。",
       "target": "○○",
       "choices": [
-        "牛乳",
-        "水",
-        "ジュース",
-        "お茶"
+        "結果",
+        "理由",
+        "予定",
+        "希望"
       ],
       "answer": 0,
-      "answer_text": "牛乳",
-      "meaning": "健康に良い朝の飲み物としてよく飲まれます。",
-      "example": "毎朝、牛乳を飲んでから学校に行きます。",
-      "mnemonic": "朝に飲む体に良い飲み物を選ぼう。",
-      "synonyms": [
-        "ミルク"
-      ],
-      "antonyms": [
-        "ジュース"
-      ],
+      "meaning": "物事を行ったあとに分かったこと。",
+      "example": "調査の結果を先生に伝えた。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
-        "生活習慣",
-        "健康",
-        "飲み物"
-      ]
+        "sentence",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "結果",
+      "reading": "けっか"
     },
     {
-      "id": "grade5-homophone-011",
+      "id": "grade5-sentence-rv005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "sentence",
+      "question": "試合に負けたあと、チームでうまくいかなかった場面を話し合った。次に生かすため、一人一人が自分の行動を○○した。",
+      "prompt": "文の意味に合う言葉を選びなさい。",
+      "sentence": "試合に負けたあと、チームでうまくいかなかった場面を話し合った。次に生かすため、一人一人が自分の行動を○○した。",
+      "target": "○○",
+      "choices": [
+        "反省",
+        "成功",
+        "安心",
+        "出発"
+      ],
+      "answer": 0,
+      "meaning": "自分の行動を振り返り、よくなかった点を考えること。",
+      "example": "一人一人が自分の行動を反省した。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "sentence",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "反省",
+      "reading": "はんせい"
+    },
+    {
+      "id": "grade5-homophone-rv001",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "homophone",
-      "question": "山の○に登るのは楽しい。",
+      "question": "工場見学で、大きな機械が金属の部品を次々に作る様子を見た。製品を作る仕事について学ぶため、○場の中を案内してもらった。",
       "prompt": "文の意味に合う漢字を選びなさい。",
-      "sentence": "山の○に登るのは楽しい。",
-      "target": "○",
+      "sentence": "工場見学で、大きな機械が金属の部品を次々に作る様子を見た。製品を作る仕事について学ぶため、○場の中を案内してもらった。",
+      "target": "○場",
       "choices": [
-        "頂",
-        "頂上",
-        "頂点",
-        "頂戴"
-      ],
-      "answer": 1,
-      "answer_text": "頂上",
-      "reading": "ちょうじょう",
-      "meaning": "山や建物の一番高いところ。",
-      "example": "山の頂上に登るのは楽しい。",
-      "mnemonic": "山の一番高い場所は「頂上」。",
-      "synonyms": [
-        "山頂"
-      ],
-      "antonyms": [
-        "ふもと"
-      ],
-      "tags": [
-        "homophone",
-        "grade5",
-        "kanken6"
-      ]
-    },
-    {
-      "id": "grade5-homophone-012",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 4,
-      "type": "homophone",
-      "question": "彼は毎日○を走っている。",
-      "prompt": "文の意味に合う漢字を選びなさい。",
-      "sentence": "彼は毎日○を走っている。",
-      "target": "○",
-      "choices": [
-        "道",
-        "導",
-        "蹈",
-        "銅"
+        "工",
+        "校",
+        "港",
+        "公"
       ],
       "answer": 0,
-      "answer_text": "道",
-      "reading": "みち",
-      "meaning": "人や車が通るための通路。",
-      "example": "彼は毎日道を走っている。",
-      "mnemonic": "走る場所は「道」。",
-      "synonyms": [
-        "道路"
-      ],
-      "antonyms": [
-        "壁"
-      ],
+      "meaning": "物を作ったり加工したりする場所。",
+      "example": "製品を作る仕事について学ぶため、工場の中を案内してもらった。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
         "homophone",
-        "grade5",
-        "kanken6"
-      ]
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "工場",
+      "reading": "こう"
     },
     {
-      "id": "grade5-homophone-013",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 4,
-      "type": "homophone",
-      "question": "紙に○を書いて提出してください。",
-      "prompt": "文の意味に合う漢字を選びなさい。",
-      "sentence": "紙に○を書いて提出してください。",
-      "target": "○",
-      "choices": [
-        "題",
-        "台",
-        "代",
-        "戴"
-      ],
-      "answer": 0,
-      "answer_text": "題",
-      "reading": "だい",
-      "meaning": "文章や問題のテーマやタイトル。",
-      "example": "紙に題を書いて提出してください。",
-      "mnemonic": "文章のテーマは「題」。",
-      "synonyms": [
-        "テーマ"
-      ],
-      "antonyms": [
-        "答え"
-      ],
-      "tags": [
-        "homophone",
-        "grade5",
-        "kanken6"
-      ]
-    },
-    {
-      "id": "grade5-homophone-014",
+      "id": "grade5-homophone-rv002",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "homophone",
-      "question": "魚を○で捕まえた。",
+      "question": "図書館で地域の歴史を調べるため、古い新聞や写真を探した。必要な資料を○索すると、昔の町並みの記事が見つかった。",
       "prompt": "文の意味に合う漢字を選びなさい。",
-      "sentence": "魚を○で捕まえた。",
-      "target": "○",
+      "sentence": "図書館で地域の歴史を調べるため、古い新聞や写真を探した。必要な資料を○索すると、昔の町並みの記事が見つかった。",
+      "target": "○索",
       "choices": [
-        "網",
-        "綱",
-        "菅",
-        "罔"
+        "検",
+        "券",
+        "険",
+        "権"
       ],
       "answer": 0,
-      "answer_text": "網",
-      "reading": "あみ",
-      "meaning": "魚などを捕まえるための網。",
-      "example": "魚を網で捕まえた。",
-      "mnemonic": "魚を捕まえるのは「網」。",
-      "synonyms": [
-        "ネット"
-      ],
-      "antonyms": [
-        "針"
-      ],
+      "meaning": "必要な情報を探し出すこと。",
+      "example": "必要な資料を検索すると、昔の町並みの記事が見つかった。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
         "homophone",
-        "grade5",
-        "kanken6"
-      ]
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "検索",
+      "reading": "けん"
     },
     {
-      "id": "grade5-homophone-015",
+      "id": "grade5-homophone-rv003",
       "grade": 5,
       "kanken": 6,
-      "difficulty": 5,
+      "difficulty": 4,
       "type": "homophone",
-      "question": "彼は○を使って計算した。",
+      "question": "市役所の人が町の人口や交通の様子を説明してくれた。地域をよくするための○政について、社会科の授業で学んだ。",
       "prompt": "文の意味に合う漢字を選びなさい。",
-      "sentence": "彼は○を使って計算した。",
-      "target": "○",
+      "sentence": "市役所の人が町の人口や交通の様子を説明してくれた。地域をよくするための○政について、社会科の授業で学んだ。",
+      "target": "○政",
       "choices": [
-        "算",
-        "酸",
-        "散",
-        "参"
+        "市",
+        "詩",
+        "氏",
+        "師"
       ],
       "answer": 0,
-      "answer_text": "算",
-      "reading": "さん",
-      "meaning": "計算や数を扱うこと。",
-      "example": "彼は算を使って計算した。",
-      "mnemonic": "計算は「算」。",
-      "synonyms": [
-        "計算"
-      ],
-      "antonyms": [
-        "無計算"
-      ],
+      "meaning": "市が行う政治や仕事。",
+      "example": "地域をよくするための市政について学んだ。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
       "tags": [
         "homophone",
-        "grade5",
-        "kanken6"
-      ]
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "市政",
+      "reading": "し"
     },
     {
-      "id": "grade5-opposite-011",
+      "id": "grade5-homophone-rv004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "homophone",
+      "question": "実験では水の量と温度を同じにし、結果を正しく比べた。条件を○確にそろえることが大切だと分かった。",
+      "prompt": "文の意味に合う漢字を選びなさい。",
+      "sentence": "実験では水の量と温度を同じにし、結果を正しく比べた。条件を○確にそろえることが大切だと分かった。",
+      "target": "○確",
+      "choices": [
+        "正",
+        "生",
+        "成",
+        "性"
+      ],
+      "answer": 0,
+      "meaning": "間違いがなく正しいこと。",
+      "example": "条件を正確にそろえることが大切だと分かった。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "homophone",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "正確",
+      "reading": "せい"
+    },
+    {
+      "id": "grade5-homophone-rv005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 4,
+      "type": "homophone",
+      "question": "博物館では、古い道具を傷つけないよう温度や湿度にも気をつけている。大切な資料を○理する仕事について説明を聞いた。",
+      "prompt": "文の意味に合う漢字を選びなさい。",
+      "sentence": "博物館では、古い道具を傷つけないよう温度や湿度にも気をつけている。大切な資料を○理する仕事について説明を聞いた。",
+      "target": "○理",
+      "choices": [
+        "管",
+        "館",
+        "感",
+        "簡"
+      ],
+      "answer": 0,
+      "meaning": "物事をよい状態に保つよう扱うこと。",
+      "example": "大切な資料を管理する仕事について説明を聞いた。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [],
+      "tags": [
+        "homophone",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "管理",
+      "reading": "かん"
+    },
+    {
+      "id": "grade5-opposite-rv001",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "opposite",
+      "question": "町に新しい住宅が建ち、住む人の数が年々増加している。もし仕事が少なくなれば、人口は反対に変化するかもしれない。",
       "prompt": "線を引いた言葉と反対の意味の言葉を選びなさい。",
-      "question": "彼はいつも明るい気持ちで学校に行きます。",
-      "sentence": "彼はいつも明るい気持ちで学校に行きます。",
-      "target": "明るい",
+      "sentence": "町に新しい住宅が建ち、住む人の数が年々増加している。もし仕事が少なくなれば、人口は反対に変化するかもしれない。",
+      "target": "増加",
       "choices": [
-        "暗い",
-        "楽しい",
-        "元気な",
-        "優しい"
+        "減少",
+        "上昇",
+        "発展",
+        "成長"
       ],
       "answer": 0,
-      "answer_text": "暗い",
-      "reading": "あかるい",
-      "meaning": "明るいの反対は暗い。光が少なくて暗い様子。",
-      "example": "夜は明るい場所から暗い場所に移動しました。",
-      "mnemonic": "明るいは光が多い、暗いは光が少ない。",
-      "synonyms": [
-        "輝く",
-        "晴れやか"
-      ],
+      "meaning": "数や量が減ること。",
+      "example": "住む人の数が減少する。",
+      "mnemonic": "",
+      "synonyms": [],
       "antonyms": [
-        "暗い"
+        "減少"
       ],
       "tags": [
-        "反対語",
-        "気持ち",
-        "日常"
-      ]
+        "opposite",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "減少",
+      "reading": "げんしょう"
     },
     {
-      "id": "grade5-opposite-012",
+      "id": "grade5-opposite-rv002",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "opposite",
+      "question": "登山では安全な道を選び、無理をしない計画を立てた。崖の近くを走る行動は、安全とは反対にとても危ない。",
+      "prompt": "線を引いた言葉と反対の意味の言葉を選びなさい。",
+      "sentence": "登山では安全な道を選び、無理をしない計画を立てた。崖の近くを走る行動は、安全とは反対にとても危ない。",
+      "target": "安全",
+      "choices": [
+        "危険",
+        "安心",
+        "平和",
+        "確実"
+      ],
+      "answer": 0,
+      "meaning": "危ないこと。",
+      "example": "崖の近くを走る行動は危険だ。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "危険"
+      ],
+      "tags": [
+        "opposite",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "危険",
+      "reading": "きけん"
+    },
+    {
+      "id": "grade5-opposite-rv003",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "opposite",
+      "question": "列車は朝八時に駅を出発した。夕方には目的地の駅に着き、長い旅が終わった。",
       "prompt": "線を引いた言葉と反対の意味の言葉を選びなさい。",
-      "question": "夏は暑いので、冷たいジュースがよく売れます。",
-      "sentence": "夏は暑いので、冷たいジュースがよく売れます。",
-      "target": "暑い",
+      "sentence": "列車は朝八時に駅を出発した。夕方には目的地の駅に着き、長い旅が終わった。",
+      "target": "出発",
       "choices": [
-        "寒い",
-        "涼しい",
-        "熱い",
-        "暖かい"
+        "到着",
+        "移動",
+        "通過",
+        "発車"
       ],
       "answer": 0,
-      "answer_text": "寒い",
-      "reading": "あつい",
-      "meaning": "暑いの反対は寒い。気温が低くて冷たい様子。",
-      "example": "冬は寒いので、暖かい服を着ます。",
-      "mnemonic": "暑いは熱い空気、寒いは冷たい空気。",
-      "synonyms": [
-        "熱い"
-      ],
+      "meaning": "目的地などに着くこと。",
+      "example": "夕方には目的地の駅に到着した。",
+      "mnemonic": "",
+      "synonyms": [],
       "antonyms": [
-        "寒い"
+        "到着"
       ],
       "tags": [
-        "反対語",
-        "季節",
-        "気温"
-      ]
+        "opposite",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "到着",
+      "reading": "とうちゃく"
     },
     {
-      "id": "grade5-opposite-013",
+      "id": "grade5-opposite-rv004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "opposite",
+      "question": "実験は計画どおりに進み、班の発表は成功した。準備が足りなければ、同じ発表はうまくいかなかったかもしれない。",
+      "prompt": "線を引いた言葉と反対の意味の言葉を選びなさい。",
+      "sentence": "実験は計画どおりに進み、班の発表は成功した。準備が足りなければ、同じ発表はうまくいかなかったかもしれない。",
+      "target": "成功",
+      "choices": [
+        "失敗",
+        "完成",
+        "達成",
+        "合格"
+      ],
+      "answer": 0,
+      "meaning": "うまくいかないこと。",
+      "example": "準備が足りなければ失敗していたかもしれない。",
+      "mnemonic": "",
+      "synonyms": [],
+      "antonyms": [
+        "失敗"
+      ],
+      "tags": [
+        "opposite",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "失敗",
+      "reading": "しっぱい"
+    },
+    {
+      "id": "grade5-opposite-rv005",
       "grade": 5,
       "kanken": 6,
       "difficulty": 4,
       "type": "opposite",
+      "question": "博物館では、調査が終わった資料を来月から公開する予定だ。まだ調べている資料は、しばらく一般には見せないことになっている。",
       "prompt": "線を引いた言葉と反対の意味の言葉を選びなさい。",
-      "question": "彼は速く走ることが得意です。",
-      "sentence": "彼は速く走ることが得意です。",
-      "target": "速く",
+      "sentence": "博物館では、調査が終わった資料を来月から公開する予定だ。まだ調べている資料は、しばらく一般には見せないことになっている。",
+      "target": "公開",
       "choices": [
-        "遅く",
-        "強く",
-        "高く",
-        "早く"
+        "非公開",
+        "展示",
+        "発表",
+        "説明"
       ],
       "answer": 0,
-      "answer_text": "遅く",
-      "reading": "はやく",
-      "meaning": "速いの反対は遅い。時間がかかる様子。",
-      "example": "電車が速く走ると、目的地に早く着きます。",
-      "mnemonic": "速いは時間が短い、遅いは時間が長い。",
-      "synonyms": [
-        "早い"
-      ],
+      "meaning": "一般には見せないこと。",
+      "example": "まだ調べている資料は非公開になっている。",
+      "mnemonic": "",
+      "synonyms": [],
       "antonyms": [
-        "遅い"
+        "非公開"
       ],
       "tags": [
-        "反対語",
-        "動作",
-        "時間"
-      ]
+        "opposite",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "非公開",
+      "reading": "ひこうかい"
     },
     {
-      "id": "grade5-opposite-014",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 3,
-      "type": "opposite",
-      "prompt": "線を引いた言葉と反対の意味の言葉を選びなさい。",
-      "question": "この問題は簡単なので、すぐに答えられます。",
-      "sentence": "この問題は簡単なので、すぐに答えられます。",
-      "target": "簡単",
-      "choices": [
-        "難しい",
-        "速い",
-        "軽い",
-        "短い"
-      ],
-      "answer": 0,
-      "answer_text": "難しい",
-      "reading": "かんたん",
-      "meaning": "簡単の反対は難しい。理解や実行がむずかしいこと。",
-      "example": "漢字の問題は難しいけど、勉強すればできるようになります。",
-      "mnemonic": "簡単はやさしい、難しいはむずかしい。",
-      "synonyms": [
-        "やさしい"
-      ],
-      "antonyms": [
-        "難しい"
-      ],
-      "tags": [
-        "反対語",
-        "学習",
-        "問題"
-      ]
-    },
-    {
-      "id": "grade5-opposite-015",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 4,
-      "type": "opposite",
-      "prompt": "線を引いた言葉と反対の意味の言葉を選びなさい。",
-      "question": "彼女は静かな場所で本を読むのが好きです。",
-      "sentence": "彼女は静かな場所で本を読むのが好きです。",
-      "target": "静かな",
-      "choices": [
-        "うるさい",
-        "暗い",
-        "明るい",
-        "賑やかな"
-      ],
-      "answer": 0,
-      "answer_text": "うるさい",
-      "reading": "しずかな",
-      "meaning": "静かなの反対はうるさい。音や声が大きくて騒がしい様子。",
-      "example": "学校の図書館は静かで、勉強に集中できます。",
-      "mnemonic": "静かは音が少ない、うるさいは音が多い。",
-      "synonyms": [
-        "おだやかな"
-      ],
-      "antonyms": [
-        "うるさい"
-      ],
-      "tags": [
-        "反対語",
-        "環境",
-        "気持ち"
-      ]
-    },
-    {
-      "id": "grade5-synonym-011",
+      "id": "grade5-synonym-rv001",
       "grade": 5,
       "kanken": 6,
       "difficulty": 3,
       "type": "synonym",
+      "question": "駅前の清掃活動で、児童は最後までごみを拾い続けた。その努力が実り、通りは見違えるほどきれいになった。",
       "prompt": "線を引いた言葉と意味が近い言葉を選びなさい。",
-      "question": "公園で遊んでいる子どもたちはとても【元気】です。",
-      "sentence": "公園で遊んでいる子どもたちはとても【元気】です。",
-      "target": "元気",
-      "choices": [
-        "健康",
-        "疲れ",
-        "病気",
-        "静か"
-      ],
-      "answer": 0,
-      "answer_text": "健康",
-      "meaning": "体や心の調子がよく、活発な様子。",
-      "example": "公園で遊んでいる子どもたちはとても元気です。",
-      "mnemonic": "「元」はもと、「気」は気持ち。もとの気持ちが良い状態。",
-      "synonyms": [
-        "健康",
-        "活発"
-      ],
-      "antonyms": [
-        "疲れ",
-        "病気"
-      ],
-      "tags": [
-        "日常生活",
-        "形容詞"
-      ]
-    },
-    {
-      "id": "grade5-synonym-012",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 3,
-      "type": "synonym",
-      "prompt": "線を引いた言葉と意味が近い言葉を選びなさい。",
-      "question": "先生は私たちに【注意】して、事故を防ぎました。",
-      "sentence": "先生は私たちに【注意】して、事故を防ぎました。",
-      "target": "注意",
-      "choices": [
-        "警告",
-        "無視",
-        "放置",
-        "安心"
-      ],
-      "answer": 0,
-      "answer_text": "警告",
-      "meaning": "危険や問題に気づかせるために知らせること。",
-      "example": "先生は私たちに注意して、事故を防ぎました。",
-      "mnemonic": "「注」は注ぐ、「意」は心。心を注ぐこと。",
-      "synonyms": [
-        "警告",
-        "忠告"
-      ],
-      "antonyms": [
-        "無視",
-        "放置"
-      ],
-      "tags": [
-        "学校生活",
-        "動詞"
-      ]
-    },
-    {
-      "id": "grade5-synonym-013",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 4,
-      "type": "synonym",
-      "prompt": "線を引いた言葉と意味が近い言葉を選びなさい。",
-      "question": "彼は問題を【解決】するために一生懸命考えました。",
-      "sentence": "彼は問題を【解決】するために一生懸命考えました。",
-      "target": "解決",
-      "choices": [
-        "解決",
-        "処理",
-        "解答",
-        "解消"
-      ],
-      "answer": 0,
-      "answer_text": "解決",
-      "meaning": "問題や困難をうまく終わらせること。",
-      "example": "彼は問題を解決するために一生懸命考えました。",
-      "mnemonic": "「解」はほどく、「決」は決める。問題をほどいて決める。",
-      "synonyms": [
-        "処理",
-        "解消"
-      ],
-      "antonyms": [
-        "放置",
-        "悪化"
-      ],
-      "tags": [
-        "問題解決",
-        "動詞"
-      ]
-    },
-    {
-      "id": "grade5-synonym-014",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 3,
-      "type": "synonym",
-      "prompt": "線を引いた言葉と意味が近い言葉を選びなさい。",
-      "question": "この本はとても【面白い】ので、何度も読みました。",
-      "sentence": "この本はとても【面白い】ので、何度も読みました。",
-      "target": "面白い",
-      "choices": [
-        "楽しい",
-        "難しい",
-        "退屈",
-        "悲しい"
-      ],
-      "answer": 0,
-      "answer_text": "楽しい",
-      "meaning": "興味をひかれて楽しく感じること。",
-      "example": "この本はとても面白いので、何度も読みました。",
-      "mnemonic": "「面」は顔、「白」は明るい。明るい顔になること。",
-      "synonyms": [
-        "楽しい",
-        "興味深い"
-      ],
-      "antonyms": [
-        "退屈",
-        "悲しい"
-      ],
-      "tags": [
-        "読書",
-        "形容詞"
-      ]
-    },
-    {
-      "id": "grade5-synonym-015",
-      "grade": 5,
-      "kanken": 6,
-      "difficulty": 4,
-      "type": "synonym",
-      "prompt": "線を引いた言葉と意味が近い言葉を選びなさい。",
-      "question": "彼女は毎日【努力】して、ピアノが上手になりました。",
-      "sentence": "彼女は毎日【努力】して、ピアノが上手になりました。",
+      "sentence": "駅前の清掃活動で、児童は最後までごみを拾い続けた。その努力が実り、通りは見違えるほどきれいになった。",
       "target": "努力",
       "choices": [
         "頑張り",
-        "怠け",
         "休憩",
-        "放棄"
+        "怠け",
+        "失敗"
       ],
       "answer": 0,
-      "answer_text": "頑張り",
-      "meaning": "目標に向かって一生懸命にがんばること。",
-      "example": "彼女は毎日努力して、ピアノが上手になりました。",
-      "mnemonic": "「努」はつとめる、「力」はちから。力をつくすこと。",
+      "meaning": "目標に向かって力を尽くすこと。",
+      "example": "児童の頑張りで通りがきれいになった。",
+      "mnemonic": "",
       "synonyms": [
-        "頑張り",
-        "精進"
+        "頑張り"
       ],
-      "antonyms": [
-        "怠け",
-        "放棄"
-      ],
+      "antonyms": [],
       "tags": [
-        "学習",
-        "動詞"
-      ]
+        "synonym",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "頑張り",
+      "reading": "がんばり"
+    },
+    {
+      "id": "grade5-synonym-rv002",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "実験では水の量を正確に量り、同じ条件で結果を比べた。正確な記録があったので、班の発表は分かりやすかった。",
+      "prompt": "線を引いた言葉と意味が近い言葉を選びなさい。",
+      "sentence": "実験では水の量を正確に量り、同じ条件で結果を比べた。正確な記録があったので、班の発表は分かりやすかった。",
+      "target": "正確",
+      "choices": [
+        "正しい",
+        "速い",
+        "新しい",
+        "細かい"
+      ],
+      "answer": 0,
+      "meaning": "間違いがなく正しいこと。",
+      "example": "正しい記録があったので発表は分かりやすかった。",
+      "mnemonic": "",
+      "synonyms": [
+        "正しい"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "正しい",
+      "reading": "ただしい"
+    },
+    {
+      "id": "grade5-synonym-rv003",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 2,
+      "type": "synonym",
+      "question": "台風が近づいたため、先生は安全を第一に考えて下校時刻を決めた。安全を守る行動が、全員の安心につながった。",
+      "prompt": "線を引いた言葉と意味が近い言葉を選びなさい。",
+      "sentence": "台風が近づいたため、先生は安全を第一に考えて下校時刻を決めた。安全を守る行動が、全員の安心につながった。",
+      "target": "安全",
+      "choices": [
+        "安心",
+        "危険",
+        "不安",
+        "急用"
+      ],
+      "answer": 0,
+      "meaning": "危険がなく心配が少ないこと。",
+      "example": "安心して帰れるように下校時刻を決めた。",
+      "mnemonic": "",
+      "synonyms": [
+        "安心"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "安心",
+      "reading": "あんしん"
+    },
+    {
+      "id": "grade5-synonym-rv004",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "社会科の発表では、調べた資料の中から重要な点を選んで説明した。重要な内容を先に話すと、聞く人に伝わりやすい。",
+      "prompt": "線を引いた言葉と意味が近い言葉を選びなさい。",
+      "sentence": "社会科の発表では、調べた資料の中から重要な点を選んで説明した。重要な内容を先に話すと、聞く人に伝わりやすい。",
+      "target": "重要",
+      "choices": [
+        "大切",
+        "簡単",
+        "静か",
+        "自由"
+      ],
+      "answer": 0,
+      "meaning": "特に必要で価値があること。",
+      "example": "大切な内容を先に話すと伝わりやすい。",
+      "mnemonic": "",
+      "synonyms": [
+        "大切"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "大切",
+      "reading": "たいせつ"
+    },
+    {
+      "id": "grade5-synonym-rv005",
+      "grade": 5,
+      "kanken": 6,
+      "difficulty": 3,
+      "type": "synonym",
+      "question": "委員会では、全員で役割を分けて準備を進めた。協力して作業したので、発表会の会場づくりが早く終わった。",
+      "prompt": "線を引いた言葉と意味が近い言葉を選びなさい。",
+      "sentence": "委員会では、全員で役割を分けて準備を進めた。協力して作業したので、発表会の会場づくりが早く終わった。",
+      "target": "協力",
+      "choices": [
+        "助け合い",
+        "競争",
+        "反対",
+        "見学"
+      ],
+      "answer": 0,
+      "meaning": "力を合わせて物事を進めること。",
+      "example": "助け合いながら会場づくりを進めた。",
+      "mnemonic": "",
+      "synonyms": [
+        "助け合い"
+      ],
+      "antonyms": [],
+      "tags": [
+        "synonym",
+        "grade:5",
+        "kanken:6",
+        "context",
+        "reviewed"
+      ],
+      "answer_text": "助け合い",
+      "reading": "たすけあい"
     }
   ],
   "mathQuestions": []

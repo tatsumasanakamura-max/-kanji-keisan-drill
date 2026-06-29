@@ -12,17 +12,23 @@ class QuestionPicker {
     required List<DrillQuestion> questions,
     required List<WeakItem> history,
     required int currentDifficulty,
+    Set<String> excludedQuestionIds = const <String>{},
     StudyMode mode = StudyMode.normal,
   }) {
     if (questions.isEmpty) {
       throw StateError('question list is empty');
     }
 
-    final candidates = questions
+    final availableQuestions = questions
+        .where((question) => !excludedQuestionIds.contains(question.id))
+        .toList();
+    final sourceQuestions =
+        availableQuestions.isEmpty ? questions : availableQuestions;
+    final candidates = sourceQuestions
         .where(
             (question) => (question.difficulty - currentDifficulty).abs() <= 1)
         .toList();
-    final pool = candidates.isEmpty ? questions : candidates;
+    final pool = candidates.isEmpty ? sourceQuestions : candidates;
     final historyById = {for (final item in history) item.questionId: item};
 
     if (mode == StudyMode.weakness) {

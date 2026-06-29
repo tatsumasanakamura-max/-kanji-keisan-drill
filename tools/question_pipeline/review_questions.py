@@ -10,6 +10,58 @@ from config import API_BASE, GENERATED_DIR, REPORTS_DIR, REVIEWS_DIR, REVIEW_MOD
 from prompts import review_prompt
 
 
+def normalize_review(review: dict[str, Any], total: int) -> dict[str, Any]:
+    items = review.get("items", [])
+    if not isinstance(items, list):
+        items = []
+        review["items"] = items
+
+    counts = {"accept": 0, "revise": 0, "reject": 0}
+    scores: list[int] = []
+    issue_counts: dict[str, int] = {}
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        adoption = str(item.get("adoption", "")).strip().lower()
+        if adoption not in counts:
+            score = int(item.get("score", 0) or 0)
+            unique = item.get("unique_answer")
+            if score >= 90 and unique is not False:
+                adoption = "accept"
+            elif score >= 70:
+                adoption = "revise"
+            else:
+                adoption = "reject"
+            item["adoption"] = adoption
+        counts[adoption] += 1
+        scores.append(int(item.get("score", 0) or 0))
+        if adoption != "accept":
+            item["needs_improvement"] = True
+        if item.get("unique_answer") is False:
+            item["needs_improvement"] = True
+        for issue in item.get("issues", []):
+            if isinstance(issue, str) and issue.strip():
+                issue_counts[issue] = issue_counts.get(issue, 0) + 1
+
+    average_score = round(sum(scores) / len(scores), 1) if scores else 0
+    main_issues = [
+        issue
+        for issue, _count in sorted(
+            issue_counts.items(), key=lambda pair: pair[1], reverse=True
+        )[:5]
+    ]
+    review["summary"] = {
+        "total": total,
+        "accept": counts["accept"],
+        "revise": counts["revise"],
+        "reject": counts["reject"],
+        "average_score": average_score,
+        "main_issues": main_issues,
+    }
+    review["overall_score"] = int(review.get("overall_score") or average_score)
+    return review
+
+
 def call_openai(prompt: str) -> dict[str, Any]:
     body = {
         "model": REVIEW_MODEL,
@@ -40,16 +92,20 @@ def call_openai(prompt: str) -> dict[str, Any]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Review generated questions with OpenAI.")
+    parser.add_argument("input_positional", nargs="?", type=Path)
     parser.add_argument("--input", type=Path)
     parser.add_argument("--output", type=Path)
+    parser.add_argument("--report", type=Path)
     args = parser.parse_args()
 
     ensure_directories()
-    input_path = args.input or latest_json(GENERATED_DIR)
+    input_path = args.input or args.input_positional or latest_json(GENERATED_DIR)
     if not input_path:
         raise SystemExit("No generated file found.")
     payload = read_json(input_path)
+    questions = payload.get("questions", []) if isinstance(payload, dict) else []
     review = call_openai(review_prompt(payload))
+    review = normalize_review(review, len(questions))
     review["input"] = str(input_path)
     if isinstance(payload, dict) and "target" in payload:
         review["target"] = payload["target"]
@@ -57,10 +113,16 @@ def main() -> int:
         review["format_version"] = payload["format_version"]
     stamp = timestamp()
     output_path = args.output or REVIEWS_DIR / f"{stamp}_review.json"
+    report_path = args.report or REPORTS_DIR / (
+        f"{input_path.stem}_review.json"
+        if input_path.name.startswith("grade") or input_path.parent.name == "data"
+        else f"{stamp}_review_report.json"
+    )
     write_json(output_path, review)
-    write_json(REPORTS_DIR / f"{stamp}_review_report.json", review)
+    write_json(report_path, review)
     print(f"review score: {review.get('overall_score', 'unknown')}/100")
     print(f"review: {output_path}")
+    print(f"report: {report_path}")
     return 0
 
 

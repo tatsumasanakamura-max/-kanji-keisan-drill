@@ -46,9 +46,13 @@ Type-specific fields:
 Quality rules:
 
 - `sentence` must be natural Japanese.
+- Short AI-like sentences are not acceptable.
+- Use 2 or 3 sentences when needed to make the answer unique.
 - `target` must exist in `sentence`.
 - `prompt` must be fixed by type.
 - `meaning` explains the correct answer.
 - `example` is the completed natural sentence.
 - Choices are real words or kanji only.
 - Distractors should be plausible and educational.
+- The sentence alone must make exactly one choice correct.
+- If several choices can naturally fit the same sentence, the item must be improved.

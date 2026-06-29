@@ -8,6 +8,61 @@ from config import GENERATED_DIR, IMPROVED_DIR, REPORTS_DIR, ensure_directories,
 from validate_questions import validate_payload
 
 
+def item_review_score(item: dict[str, Any]) -> int:
+    naturalness = item.get("naturalness_check", {})
+    educational = item.get("educational_quality", {})
+    if not isinstance(naturalness, dict):
+        naturalness = {}
+    if not isinstance(educational, dict):
+        educational = {}
+
+    natural = int(naturalness.get("natural_japanese", 0) or 0)
+    human = int(naturalness.get("human_written_quality", 0) or 0)
+    ai_like = int(naturalness.get("ai_like_score", 100) or 100)
+    natural_component = max(0, round(((natural + human + (100 - ai_like)) / 3) * 0.20))
+
+    unique_component = 25 if item.get("unique_answer") is True else 0
+    textbook_component = round(int(educational.get("textbook_quality", 0) or 0) * 0.20)
+    learning_component = round(int(educational.get("learning_effect", 0) or 0) * 0.15)
+    choice_component = round(int(educational.get("choice_quality", 0) or 0) * 0.10)
+    meaning_component = round(
+        int(educational.get("meaning_example_consistency", 0) or 0) * 0.10
+    )
+    return int(
+        natural_component
+        + unique_component
+        + textbook_component
+        + learning_component
+        + choice_component
+        + meaning_component
+    )
+
+
+def score_review(review_path: Path) -> dict[str, Any]:
+    review = read_json(review_path)
+    items = review.get("items", []) if isinstance(review, dict) else []
+    scores = [
+        item_review_score(item)
+        for item in items
+        if isinstance(item, dict)
+    ]
+    average = round(sum(scores) / len(scores), 1) if scores else 0
+    if average >= 90:
+        decision = "adopt"
+    elif average >= 80:
+        decision = "minor_revision"
+    elif average >= 70:
+        decision = "improve"
+    else:
+        decision = "regenerate"
+    return {
+        "review": str(review_path),
+        "educational_quality_score": average,
+        "decision": decision,
+        "item_scores": scores,
+    }
+
+
 def duplicate_errors(questions: list[dict[str, Any]]) -> list[str]:
     errors: list[str] = []
     ids: set[str] = set()
@@ -83,6 +138,7 @@ def score_file(input_path: Path) -> dict[str, Any]:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Score generated question quality.")
     parser.add_argument("--input", type=Path)
+    parser.add_argument("--review", type=Path)
     parser.add_argument("--report", type=Path)
     args = parser.parse_args()
 
@@ -93,6 +149,9 @@ def main() -> int:
         raise SystemExit("No input file found. Run generate_questions.py first or pass --input.")
 
     report = score_file(input_path)
+    if args.review:
+        report["ai_review_score"] = score_review(args.review)
+        report["score"] = min(report["score"], int(report["ai_review_score"]["educational_quality_score"]))
     report_path = args.report or REPORTS_DIR / f"{timestamp()}_quality_score.json"
     write_json(report_path, report)
     print(f"quality score: {report['score']}/100")
